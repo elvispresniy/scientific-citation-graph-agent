@@ -9,8 +9,8 @@ This repository contains source code for our paper. The code includes data proce
 
 Clone your project repository:
 ```bash
-git clone <repository-url>
-cd <repository-name>/code
+git clone https://github.com/elvispresniy/scientific-citation-graph-agent.git
+cd scientific-citation-graph-agent/code
 ```
 
 Install dependencies:
