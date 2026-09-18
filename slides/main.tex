@@ -1,0 +1,118 @@
+\documentclass[aspectratio=169]{beamer}
+
+% \graphicspath{{figs}}  % your figures here
+
+\usepackage{cmap}
+\usepackage{tikz}
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage{csquotes}
+\usepackage{amssymb,amsfonts,amsmath}
+
+\usecolortheme{beaver}
+\usefonttheme[onlymath]{serif}  % math fonts as in article
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[page number]
+\setbeamertemplate{blocks}[rounded=true,shadow=true]
+\setbeamersize{text margin left=0.5cm,text margin right=0.5cm}
+\setbeamerfont{author}{size=\normalsize}
+\setbeamerfont{institute}{size=\normalsize}
+\setbeamerfont{date}{size=\normalsize}
+
+\title{Scientific Literature Search Agent with Criteria-Based Relevance Evaluation}
+\author{
+    Name Surname\\
+    Consultant: Name Surname, PhD/DSc\\
+    Expert: Name Surname, PhD/DSc
+}
+\institute{
+    Course: My first scientific paper\\
+    Intelligent Systems Department, MIPT
+}
+\date{Date}
+
+\begin{document}
+
+\begin{frame}
+    \thispagestyle{empty}
+    \maketitle
+\end{frame}
+
+\begin{frame}{Title or a main part of it}
+    Couple of motivational sentences ...
+    \begin{block}{Goal}
+        Investigate ... 
+    \end{block}
+    \begin{block}{Problem}
+        Put the brief idea here ...
+    \end{block}
+    \begin{block}{Solution}
+        Your results appears twice, as a promise here and as a contribution later ...
+        \begin{enumerate}[1)]
+            \item Set ...
+            \item Put ...
+            \item Get ...
+        \end{enumerate}
+    \end{block}
+\end{frame}
+
+\begin{frame}{One-slide talk}
+    What the audience sees on the figure.
+    \begin{columns}
+    \begin{column}{0.5\textwidth}
+        \begin{enumerate}[1)]
+            \item Notation
+            \item Subjects
+        \end{enumerate}
+    \end{column}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}[h]
+                \centering
+                \includegraphics[width=0.8\textwidth]{example-image}
+                \caption{Caption}
+            \end{figure}    
+        \end{column}
+    \end{columns}
+    What are the consequences?
+\end{frame}
+
+\begin{frame}{Problem statement}
+    Given a dataset $\mathfrak{D} = \left\{ (\mathbf{x}_i, y_i) \right\}_{i=1}^{N}$ ...
+\end{frame}
+
+\begin{frame}{Solution}
+    We propose ...
+\end{frame}
+
+\begin{frame}{Experiments}
+    We consider a MNIST dataset ...
+    \begin{columns}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}[h]
+                \centering
+                \includegraphics[width=0.7\textwidth]{example-image-a}
+                \caption{Caption A}
+            \end{figure}    
+        \end{column}
+        \begin{column}{0.5\textwidth}
+            \begin{figure}[h]
+                \centering
+                \includegraphics[width=0.7\textwidth]{example-image-b}
+                \caption{Caption B}
+            \end{figure}    
+        \end{column}
+    \end{columns}
+    Results show ...
+\end{frame}
+
+\begin{frame}{Conclusion}
+    \begin{enumerate}[1)]
+        \item We consider a problem ...
+        \item We propose ...
+        \item Experiments show ...
+        \item Our method outperforms ...
+    \end{enumerate}
+\end{frame}
+
+\end{document} 
