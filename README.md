@@ -1,6 +1,6 @@
-# Структурные паттерны запросов для агентного поиска по графу научных цитирований
+# Генерация поисковых задач и агентная навигация по графу научных цитирований
 
-**English title:** Structural Query Patterns for Agentic Scientific Literature Search over Citation Graphs
+**English title:** Search Task Generation and Agentic Navigation over Scientific Citation Graphs
 
 | Роль | Участник |
 | :--- | :--- |
