@@ -1,0 +1,600 @@
+% Литература из LINKREVIEW.md. Группы и порядок совпадают с обзором.
+% Проверено 2026-10-08: arXiv API (40 препринтов), DOI (4 публикации),
+% отчёт Undermind и сайт Elicit. Год препринта — год первой публикации на arXiv;
+% он может отличаться от года конференционной версии. Ключи сохранены.
+
+% === 1. Ближайшие бенчмарки и датасеты ===
+
+@misc{pan2026scholarquest,
+  author        = {Tingyue Pan and Mingyue Cheng and Daoyu Wang and Yitong Zhou and Jie Ouyang and Qi Liu and Enhong Chen},
+  title         = {{ScholarQuest: A Taxonomy-Guided Benchmark for Agentic Academic Paper Search in Open Literature Environments}},
+  year          = {2026},
+  eprint        = {2606.20235},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IR},
+  doi           = {10.48550/arXiv.2606.20235},
+  url           = {https://arxiv.org/abs/2606.20235}
+}
+
+@misc{park2026agenthop,
+  author        = {Chanhee Park and Jeongho Yoon and Sungbin Han and Hyeonseok Moon and Heuiseok Lim},
+  title         = {{AgentHop: A Diagnostic Benchmark for Agentic Multi-Hop Scientific Question Answering}},
+  year          = {2026},
+  eprint        = {2609.34428},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2609.34428}
+}
+
+@misc{li2026paperpilot,
+  author        = {Jisen Li and Bingxuan Li and Nanyi Jiang and Xuying Ning and Xiyao Wang and Yifan Shen and Heng Wang and Yuqing Jian and Xiaoxia Wu and Ben Athiwaratkun and Pan Lu and Jiaxuan You and Bingxin Zhao},
+  title         = {{Multi-Turn Agentic Scientific Literature Search via Workflow Induction}},
+  year          = {2026},
+  howpublished  = {arXiv preprint arXiv:2607.00597},
+  eprint        = {2607.00597},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  doi           = {10.48550/arXiv.2607.00597},
+  url           = {https://arxiv.org/abs/2607.00597}
+}
+
+@misc{xiong2026autoresearchbench,
+  author        = {Lei Xiong and Kun Luo and Ziyi Xia and Wenbo Zhang and Jin-Ge Yao and Zheng Liu and Jingying Shao and Jianlyu Chen and Hongjin Qian and Xi Yang and Qian Yu and Hao Li and Chen Yue and Xiaan Du and Yuyang Wang and Yesheng Liu and Haiyu Xu and Zhicheng Dou},
+  title         = {{AutoResearchBench: Benchmarking AI Agents on Complex Scientific Literature Discovery}},
+  year          = {2026},
+  howpublished  = {arXiv preprint arXiv:2604.25256},
+  eprint        = {2604.25256},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  doi           = {10.48550/arXiv.2604.25256},
+  url           = {https://arxiv.org/abs/2604.25256}
+}
+
+@misc{shao2025scinet,
+  author        = {Chenyang Shao and Fengli Xu and Yong Li},
+  title         = {{SciNet: Evaluating AI Agents in Relation-Aware Scientific Literature Retrieval}},
+  year          = {2025},
+  howpublished  = {arXiv preprint arXiv:2601.03260},
+  eprint        = {2601.03260},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CE},
+  doi           = {10.48550/arXiv.2601.03260},
+  url           = {https://arxiv.org/abs/2601.03260}
+}
+
+@misc{he2025pasa,
+  author        = {Yichen He and Guanhua Huang and Peiyuan Feng and Yuan Lin and Yuchen Zhang and Hang Li and Weinan E},
+  title         = {{PaSa: An LLM Agent for Comprehensive Academic Paper Search}},
+  year          = {2025},
+  howpublished  = {arXiv preprint arXiv:2501.10120},
+  eprint        = {2501.10120},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IR},
+  doi           = {10.48550/arXiv.2501.10120},
+  url           = {https://arxiv.org/abs/2501.10120}
+}
+
+@misc{ajith2024litsearch,
+  author        = {Anirudh Ajith and Mengzhou Xia and Alexis Chevalier and Tanya Goyal and Danqi Chen and Tianyu Gao},
+  title         = {{LitSearch: A Retrieval Benchmark for Scientific Literature Search}},
+  year          = {2024},
+  howpublished  = {arXiv preprint arXiv:2407.18940},
+  eprint        = {2407.18940},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IR},
+  doi           = {10.48550/arXiv.2407.18940},
+  url           = {https://arxiv.org/abs/2407.18940}
+}
+
+@misc{shi2025spar,
+  author        = {Xiaofeng Shi and Yuduo Li and Qian Kou and Longbin Yu and Jinxin Xie and Hua Zhou},
+  title         = {{SPAR: Scholar Paper Retrieval with LLM-based Agents for Enhanced Academic Search}},
+  year          = {2025},
+  howpublished  = {arXiv preprint arXiv:2507.15245},
+  eprint        = {2507.15245},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IR},
+  doi           = {10.48550/arXiv.2507.15245},
+  url           = {https://arxiv.org/abs/2507.15245}
+}
+
+@misc{zhao2026brightpro,
+  author        = {Yilun Zhao and Jinbiao Wei and Tingyu Song and Siyue Zhang and Chen Zhao and Arman Cohan},
+  title         = {{Rethinking Reasoning-Intensive Retrieval: Evaluating and Advancing Retrievers in Agentic Search Systems}},
+  year          = {2026},
+  howpublished  = {arXiv preprint arXiv:2605.04018},
+  eprint        = {2605.04018},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  doi           = {10.48550/arXiv.2605.04018},
+  url           = {https://arxiv.org/abs/2605.04018}
+}
+
+
+% === 2. Поисковые системы и агенты для научной литературы ===
+
+@misc{hazra2026crase,
+  author        = {Rima Hazra and Sayan Layek and Somnath Banerjee and Soumen Chakrabarti and Animesh Mukherjee},
+  title         = {{Structurally-bounded Agentic Graph Exploration for Evidence-Grounded Scholarly DeepSearch}},
+  year          = {2026},
+  howpublished  = {arXiv preprint arXiv:2608.24809},
+  eprint        = {2608.24809},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  doi           = {10.48550/arXiv.2608.24809},
+  url           = {https://arxiv.org/abs/2608.24809}
+}
+
+@misc{skarlinski2024paperqa2,
+  author        = {Michael D. Skarlinski and Sam Cox and Jon M. Laurent and James D. Braza and Michaela Hinks and Michael J. Hammerling and Manvitha Ponnapati and Samuel G. Rodriques and Andrew D. White},
+  title         = {{Language agents achieve superhuman synthesis of scientific knowledge}},
+  year          = {2024},
+  howpublished  = {arXiv preprint arXiv:2409.13740},
+  eprint        = {2409.13740},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  doi           = {10.48550/arXiv.2409.13740},
+  url           = {https://arxiv.org/abs/2409.13740}
+}
+
+@misc{asai2024openscholar,
+  author        = {Akari Asai and Jacqueline He and Rulin Shao and Weijia Shi and Amanpreet Singh and Joseph Chee Chang and Kyle Lo and Luca Soldaini and Sergey Feldman and Mike D'arcy and David Wadden and Matt Latzke and Minyang Tian and Pan Ji and Shengyan Liu and Hao Tong and Bohao Wu and Yanyu Xiong and Luke Zettlemoyer and Graham Neubig and Dan Weld and Doug Downey and Wen-tau Yih and Pang Wei Koh and Hannaneh Hajishirzi},
+  title         = {{OpenScholar: Synthesizing Scientific Literature with Retrieval-augmented LMs}},
+  year          = {2024},
+  howpublished  = {arXiv preprint arXiv:2411.14199},
+  eprint        = {2411.14199},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  doi           = {10.48550/arXiv.2411.14199},
+  url           = {https://arxiv.org/abs/2411.14199}
+}
+
+@misc{agarwal2024litllm,
+  author        = {Shubham Agarwal and Gaurav Sahu and Abhay Puri and Issam H. Laradji and Krishnamurthy DJ Dvijotham and Jason Stanley and Laurent Charlin and Christopher Pal},
+  title         = {{LitLLM: A Toolkit for Scientific Literature Review}},
+  year          = {2024},
+  howpublished  = {arXiv preprint arXiv:2402.01788},
+  eprint        = {2402.01788},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  doi           = {10.48550/arXiv.2402.01788},
+  url           = {https://arxiv.org/abs/2402.01788}
+}
+
+@misc{hartke2024undermind,
+  author       = {Hartke, Thomas and Ramette, Joshua},
+  title        = {{Benchmarking the Undermind Search Assistant}},
+  year         = {2024},
+  howpublished = {Undermind.ai whitepaper},
+  url          = {https://www.undermind.ai/whitepaper.pdf}
+}
+
+@misc{elicit,
+  author       = {{Elicit}},
+  title        = {{Elicit}},
+  url          = {https://elicit.com},
+  note         = {Accessed: 2026-10-08}
+}
+
+@article{gusenbauer2020academic,
+  author    = {Gusenbauer, Michael and Haddaway, Neal R.},
+  title     = {{Which academic search systems are suitable for systematic reviews or meta-analyses? Evaluating retrieval qualities of Google Scholar, PubMed, and 26 other resources}},
+  journal   = {Research Synthesis Methods},
+  volume    = {11},
+  number    = {2},
+  pages     = {181--217},
+  year      = {2020},
+  publisher = {Wiley},
+  doi       = {10.1002/jrsm.1378}
+}
+
+@misc{kinney2023semanticscholar,
+  author        = {Rodney Kinney and Chloe Anastasiades and Russell Authur and Iz Beltagy and Jonathan Bragg and Alexandra Buraczynski and Isabel Cachola and Stefan Candra and Yoganand Chandrasekhar and Arman Cohan and Miles Crawford and Doug Downey and Jason Dunkelberger and Oren Etzioni and Rob Evans and Sergey Feldman and Joseph Gorney and David Graham and Fangzhou Hu and Regan Huff and Daniel King and Sebastian Kohlmeier and Bailey Kuehl and Michael Langan and Daniel Lin and Haokun Liu and Kyle Lo and Jaron Lochner and Kelsey MacMillan and Tyler Murray and Chris Newell and Smita Rao and Shaurya Rohatgi and Paul Sayre and Zejiang Shen and Amanpreet Singh and Luca Soldaini and Shivashankar Subramanian and Amber Tanaka and Alex D. Wade and Linda Wagner and Lucy Lu Wang and Chris Wilhelm and Caroline Wu and Jiangjiang Yang and Angele Zamarron and Madeleine Van Zuylen and Daniel S. Weld},
+  title         = {{The Semantic Scholar Open Data Platform}},
+  year          = {2023},
+  howpublished  = {arXiv preprint arXiv:2301.10140},
+  eprint        = {2301.10140},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.DL},
+  doi           = {10.48550/arXiv.2301.10140},
+  url           = {https://arxiv.org/abs/2301.10140}
+}
+
+
+% === 3. Терминологический разрыв и ограничения эмбеддингов ===
+
+@inproceedings{mysore2022multivector,
+  author    = {Mysore, Sheshera and Cohan, Arman and Hope, Tom},
+  title     = {{Multi-Vector Models with Textual Guidance for Fine-Grained Scientific Document Similarity}},
+  booktitle = {Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+  year      = {2022},
+  month     = jul,
+  address   = {Seattle, United States},
+  publisher = {Association for Computational Linguistics},
+  pages     = {4453--4470},
+  doi       = {10.18653/v1/2022.naacl-main.331},
+  url       = {https://aclanthology.org/2022.naacl-main.331/}
+}
+
+@article{furnas1987vocabulary,
+  author    = {Furnas, G. W. and Landauer, T. K. and Gomez, L. M. and Dumais, S. T.},
+  title     = {{The vocabulary problem in human-system communication}},
+  journal   = {Communications of the ACM},
+  volume    = {30},
+  number    = {11},
+  pages     = {964--971},
+  year      = {1987},
+  publisher = {Association for Computing Machinery},
+  doi       = {10.1145/32206.32212}
+}
+
+@article{swanson1986fishoil,
+  author    = {Swanson, Don R.},
+  title     = {{Fish Oil, Raynaud's Syndrome, and Undiscovered Public Knowledge}},
+  journal   = {Perspectives in Biology and Medicine},
+  volume    = {30},
+  number    = {1},
+  pages     = {7--18},
+  year      = {1986},
+  publisher = {Project MUSE},
+  doi       = {10.1353/pbm.1986.0087}
+}
+
+@misc{cohan2020specter,
+  author        = {Arman Cohan and Sergey Feldman and Iz Beltagy and Doug Downey and Daniel S. Weld},
+  title         = {{SPECTER: Document-level Representation Learning using Citation-informed Transformers}},
+  year          = {2020},
+  howpublished  = {arXiv preprint arXiv:2004.07180},
+  eprint        = {2004.07180},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  doi           = {10.48550/arXiv.2004.07180},
+  url           = {https://arxiv.org/abs/2004.07180}
+}
+
+@misc{singh2022scirepeval,
+  author        = {Amanpreet Singh and Mike D'Arcy and Arman Cohan and Doug Downey and Sergey Feldman},
+  title         = {{SciRepEval: A Multi-Format Benchmark for Scientific Document Representations}},
+  year          = {2022},
+  howpublished  = {arXiv preprint arXiv:2211.13308},
+  eprint        = {2211.13308},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  doi           = {10.48550/arXiv.2211.13308},
+  url           = {https://arxiv.org/abs/2211.13308}
+}
+
+@misc{thakur2021beir,
+  author        = {Nandan Thakur and Nils Reimers and Andreas R{\"u}cklé and Abhishek Srivastava and Iryna Gurevych},
+  title         = {{BEIR: A Heterogenous Benchmark for Zero-shot Evaluation of Information Retrieval Models}},
+  year          = {2021},
+  howpublished  = {arXiv preprint arXiv:2104.08663},
+  eprint        = {2104.08663},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IR},
+  doi           = {10.48550/arXiv.2104.08663},
+  url           = {https://arxiv.org/abs/2104.08663}
+}
+
+@misc{wang2023dorismae,
+  author        = {Jianyou Wang and Kaicheng Wang and Xiaoyue Wang and Prudhviraj Naidu and Leon Bergen and Ramamohan Paturi},
+  title         = {{DORIS-MAE: Scientific Document Retrieval using Multi-level Aspect-based Queries}},
+  year          = {2023},
+  howpublished  = {arXiv preprint arXiv:2310.04678},
+  eprint        = {2310.04678},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IR},
+  doi           = {10.48550/arXiv.2310.04678},
+  url           = {https://arxiv.org/abs/2310.04678}
+}
+
+@misc{su2024bright,
+  author        = {Hongjin Su and Howard Yen and Mengzhou Xia and Weijia Shi and Niklas Muennighoff and Han-yu Wang and Haisu Liu and Quan Shi and Zachary S. Siegel and Michael Tang and Ruoxi Sun and Jinsung Yoon and Sercan O. Arik and Danqi Chen and Tao Yu},
+  title         = {{BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval}},
+  year          = {2024},
+  howpublished  = {arXiv preprint arXiv:2407.12883},
+  eprint        = {2407.12883},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  doi           = {10.48550/arXiv.2407.12883},
+  url           = {https://arxiv.org/abs/2407.12883}
+}
+
+@misc{weller2025limit,
+  author        = {Orion Weller and Michael Boratko and Iftekhar Naim and Jinhyuk Lee},
+  title         = {{On the Theoretical Limitations of Embedding-Based Retrieval}},
+  year          = {2025},
+  howpublished  = {arXiv preprint arXiv:2508.21038},
+  eprint        = {2508.21038},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IR},
+  doi           = {10.48550/arXiv.2508.21038},
+  url           = {https://arxiv.org/abs/2508.21038}
+}
+
+@misc{kulikowski2026sameproblem,
+  author        = {Eryk Kulikowski},
+  title         = {{Same Problem, Different Field: Cross-Domain Solution Import via Domain-Stripped Computational Fingerprints}},
+  year          = {2026},
+  howpublished  = {arXiv preprint arXiv:2609.07595},
+  eprint        = {2609.07595},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.DL},
+  doi           = {10.48550/arXiv.2609.07595},
+  url           = {https://arxiv.org/abs/2609.07595}
+}
+
+@misc{gao2022hyde,
+  author        = {Luyu Gao and Xueguang Ma and Jimmy Lin and Jamie Callan},
+  title         = {{Precise Zero-Shot Dense Retrieval without Relevance Labels}},
+  year          = {2022},
+  howpublished  = {arXiv preprint arXiv:2212.10496},
+  eprint        = {2212.10496},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IR},
+  doi           = {10.48550/arXiv.2212.10496},
+  url           = {https://arxiv.org/abs/2212.10496}
+}
+
+@misc{penha2021queryvariation,
+  author        = {Gustavo Penha and Arthur C{\^a}mara and Claudia Hauff},
+  title         = {{Evaluating the Robustness of Retrieval Pipelines with Query Variation Generators}},
+  year          = {2021},
+  howpublished  = {arXiv preprint arXiv:2111.13057},
+  eprint        = {2111.13057},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IR},
+  doi           = {10.48550/arXiv.2111.13057},
+  url           = {https://arxiv.org/abs/2111.13057}
+}
+
+
+% === 4. Граф цитирований и контекст цитирования ===
+
+@inproceedings{wohlin2014snowballing,
+  author    = {Wohlin, Claes},
+  title     = {{Guidelines for snowballing in systematic literature studies and a replication in software engineering}},
+  booktitle = {Proceedings of the 18th International Conference on Evaluation and Assessment in Software Engineering},
+  series    = {EASE '14},
+  pages     = {1--10},
+  year      = {2014},
+  publisher = {ACM},
+  doi       = {10.1145/2601248.2601268}
+}
+
+@misc{garikaparthi2025mir,
+  author        = {Aniketh Garikaparthi and Manasi Patwardhan and Aditya Sanjiv Kanade and Aman Hassan and Lovekesh Vig and Arman Cohan},
+  title         = {{MIR: Methodology Inspiration Retrieval for Scientific Research Problems}},
+  year          = {2025},
+  howpublished  = {arXiv preprint arXiv:2506.00249},
+  eprint        = {2506.00249},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  doi           = {10.48550/arXiv.2506.00249},
+  url           = {https://arxiv.org/abs/2506.00249}
+}
+
+@misc{yang2026hybird,
+  author        = {Yang Yang and Boyun Xu and Hao Fu and Jindong Li and Zining Zhong and Bowen Tian and Jiemin Wu and Menglin Yang and Yutao Yue},
+  title         = {{HyBIRD: Hyperbolic Bridge Retrieval and Diagnosis for Methodology Inspiration Retrieval}},
+  year          = {2026},
+  howpublished  = {arXiv preprint arXiv:2606.28336},
+  eprint        = {2606.28336},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IR},
+  doi           = {10.48550/arXiv.2606.28336},
+  url           = {https://arxiv.org/abs/2606.28336}
+}
+
+@misc{press2024citeme,
+  author        = {Ori Press and Andreas Hochlehnert and Ameya Prabhu and Vishaal Udandarao and Ofir Press and Matthias Bethge},
+  title         = {{CiteME: Can Language Models Accurately Cite Scientific Claims?}},
+  year          = {2024},
+  howpublished  = {arXiv preprint arXiv:2407.12861},
+  eprint        = {2407.12861},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  doi           = {10.48550/arXiv.2407.12861},
+  url           = {https://arxiv.org/abs/2407.12861}
+}
+
+@misc{cohan2019scicite,
+  author        = {Arman Cohan and Waleed Ammar and Madeleine van Zuylen and Field Cady},
+  title         = {{Structural Scaffolds for Citation Intent Classification in Scientific Publications}},
+  year          = {2019},
+  howpublished  = {arXiv preprint arXiv:1904.01608},
+  eprint        = {1904.01608},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  doi           = {10.48550/arXiv.1904.01608},
+  url           = {https://arxiv.org/abs/1904.01608}
+}
+
+@misc{lauscher2021multicite,
+  author        = {Anne Lauscher and Brandon Ko and Bailey Kuehl and Sophie Johnson and David Jurgens and Arman Cohan and Kyle Lo},
+  title         = {{MultiCite: Modeling realistic citations requires moving beyond the single-sentence single-label setting}},
+  year          = {2021},
+  howpublished  = {arXiv preprint arXiv:2107.00414},
+  eprint        = {2107.00414},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  doi           = {10.48550/arXiv.2107.00414},
+  url           = {https://arxiv.org/abs/2107.00414}
+}
+
+@misc{priem2022openalex,
+  author        = {Jason Priem and Heather Piwowar and Richard Orr},
+  title         = {{OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts}},
+  year          = {2022},
+  howpublished  = {arXiv preprint arXiv:2205.01833},
+  eprint        = {2205.01833},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.DL},
+  doi           = {10.48550/arXiv.2205.01833},
+  url           = {https://arxiv.org/abs/2205.01833}
+}
+
+
+% === 5. Многошаговость, композиция и шорткаты ===
+
+@misc{min2019compositional,
+  author        = {Sewon Min and Eric Wallace and Sameer Singh and Matt Gardner and Hannaneh Hajishirzi and Luke Zettlemoyer},
+  title         = {{Compositional Questions Do Not Necessitate Multi-hop Reasoning}},
+  year          = {2019},
+  howpublished  = {arXiv preprint arXiv:1906.02900},
+  eprint        = {1906.02900},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  doi           = {10.48550/arXiv.1906.02900},
+  url           = {https://arxiv.org/abs/1906.02900}
+}
+
+@misc{trivedi2021musique,
+  author        = {Harsh Trivedi and Niranjan Balasubramanian and Tushar Khot and Ashish Sabharwal},
+  title         = {{MuSiQue: Multihop Questions via Single-hop Question Composition}},
+  year          = {2021},
+  howpublished  = {arXiv preprint arXiv:2108.00573},
+  eprint        = {2108.00573},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  doi           = {10.48550/arXiv.2108.00573},
+  url           = {https://arxiv.org/abs/2108.00573}
+}
+
+@misc{yang2018hotpotqa,
+  author        = {Zhilin Yang and Peng Qi and Saizheng Zhang and Yoshua Bengio and William W. Cohen and Ruslan Salakhutdinov and Christopher D. Manning},
+  title         = {{HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering}},
+  year          = {2018},
+  howpublished  = {arXiv preprint arXiv:1809.09600},
+  eprint        = {1809.09600},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  doi           = {10.48550/arXiv.1809.09600},
+  url           = {https://arxiv.org/abs/1809.09600}
+}
+
+@misc{tang2024multihoprag,
+  author        = {Yixuan Tang and Yi Yang},
+  title         = {{MultiHop-RAG: Benchmarking Retrieval-Augmented Generation for Multi-Hop Queries}},
+  year          = {2024},
+  howpublished  = {arXiv preprint arXiv:2401.15391},
+  eprint        = {2401.15391},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  doi           = {10.48550/arXiv.2401.15391},
+  url           = {https://arxiv.org/abs/2401.15391}
+}
+
+@misc{wei2025browsecomp,
+  author        = {Jason Wei and Zhiqing Sun and Spencer Papay and Scott McKinney and Jeffrey Han and Isa Fulford and Hyung Won Chung and Alex Tachard Passos and William Fedus and Amelia Glaese},
+  title         = {{BrowseComp: A Simple Yet Challenging Benchmark for Browsing Agents}},
+  year          = {2025},
+  howpublished  = {arXiv preprint arXiv:2504.12516},
+  eprint        = {2504.12516},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  doi           = {10.48550/arXiv.2504.12516},
+  url           = {https://arxiv.org/abs/2504.12516}
+}
+
+
+% === 6. Агентский харнесс и обучение ===
+
+@misc{yao2022react,
+  author        = {Shunyu Yao and Jeffrey Zhao and Dian Yu and Nan Du and Izhak Shafran and Karthik Narasimhan and Yuan Cao},
+  title         = {{ReAct: Synergizing Reasoning and Acting in Language Models}},
+  year          = {2022},
+  howpublished  = {arXiv preprint arXiv:2210.03629},
+  eprint        = {2210.03629},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  doi           = {10.48550/arXiv.2210.03629},
+  url           = {https://arxiv.org/abs/2210.03629}
+}
+
+@misc{jin2025searchr1,
+  author        = {Bowen Jin and Hansi Zeng and Zhenrui Yue and Jinsung Yoon and Sercan Arik and Dong Wang and Hamed Zamani and Jiawei Han},
+  title         = {{Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning}},
+  year          = {2025},
+  howpublished  = {arXiv preprint arXiv:2503.09516},
+  eprint        = {2503.09516},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  doi           = {10.48550/arXiv.2503.09516},
+  url           = {https://arxiv.org/abs/2503.09516}
+}
+
+
+% === 7. Соседние задачи ===
+
+@misc{zhang2026opennovelty,
+  author        = {Ming Zhang and Kexin Tan and Yueyuan Huang and Yujiong Shen and Chunchun Ma and Li Ju and Xinran Zhang and Yuhui Wang and Wenqing Jing and Jingyi Deng and Huayu Sha and Binze Hu and Jingqi Tong and Changhao Jiang and Yage Geng and Yuankai Ying and Yue Zhang and Zhangyue Yin and Zhiheng Xi and Shihan Dou and Tao Gui and Qi Zhang and Xuanjing Huang},
+  title         = {{OpenNovelty: An LLM-powered Agentic System for Verifiable Scholarly Novelty Assessment}},
+  year          = {2026},
+  howpublished  = {arXiv preprint arXiv:2601.01576},
+  eprint        = {2601.01576},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IR},
+  doi           = {10.48550/arXiv.2601.01576},
+  url           = {https://arxiv.org/abs/2601.01576}
+}
+
+@misc{wu2025paperask,
+  author        = {Yutao Wu and Xiao Liu and Yunhao Feng and Jiale Ding and Xingjun Ma},
+  title         = {{PaperAsk: A Benchmark for Reliability Evaluation of LLMs in Paper Search and Reading}},
+  year          = {2025},
+  howpublished  = {arXiv preprint arXiv:2510.22242},
+  eprint        = {2510.22242},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IR},
+  doi           = {10.48550/arXiv.2510.22242},
+  url           = {https://arxiv.org/abs/2510.22242}
+}
+
+@misc{loc2026prism,
+  author        = {Ngoc Phan Phuoc Loc and Toan Huynh La Viet and Thanh Tran Khanh and Duy A Nguyen and Tuan Anh Nguyen Pham and Thanh Nguyen and Nitesh V. Chawla and Wray Buntine and Kok-Seng Wong and Khoa D. Doan and Binh T. Nguyen},
+  title         = {{PRISM: A Multi-Dimensional Benchmark for Evaluating LLM Peer Reviewers}},
+  year          = {2026},
+  howpublished  = {arXiv preprint arXiv:2605.26730},
+  eprint        = {2605.26730},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  doi           = {10.48550/arXiv.2605.26730},
+  url           = {https://arxiv.org/abs/2605.26730}
+}
+
+@misc{yan2025noveltyrank,
+  author        = {Zhengxu Yan and Han Li and Yuming Feng},
+  title         = {{NoveltyRank: A Retrieval-Augmented Framework for Conceptual Novelty Estimation in AI Research}},
+  year          = {2025},
+  howpublished  = {arXiv preprint arXiv:2512.14738},
+  eprint        = {2512.14738},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  doi           = {10.48550/arXiv.2512.14738},
+  url           = {https://arxiv.org/abs/2512.14738}
+}
+
+@misc{hou2026memonoveltyagent,
+  author        = {Jiajun Hou and Hexuan Deng and Wenxiang Jiao and Xuebo Liu and Xiaopeng Ke and Derek F. Wong and Min Zhang},
+  title         = {{MemoNoveltyAgent: A Historical Research Memory-Aware Agent Workflow for Paper Novelty Assessment}},
+  year          = {2026},
+  howpublished  = {arXiv preprint arXiv:2603.20884},
+  eprint        = {2603.20884},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  doi           = {10.48550/arXiv.2603.20884},
+  url           = {https://arxiv.org/abs/2603.20884}
+}
+
+@misc{goyal2026scholarpeer,
+  author        = {Palash Goyal and Mihir Parmar and Yiwen Song and Hamid Palangi and Tomas Pfister and Jinsung Yoon},
+  title         = {{ScholarPeer: A Context-Aware Multi-Agent Framework for Automated Peer Review}},
+  year          = {2026},
+  howpublished  = {arXiv preprint arXiv:2601.22638},
+  eprint        = {2601.22638},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.MA},
+  doi           = {10.48550/arXiv.2601.22638},
+  url           = {https://arxiv.org/abs/2601.22638}
+}
