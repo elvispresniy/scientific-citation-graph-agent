@@ -1,0 +1,526 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Terminology pilot records v1",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/question"
+    },
+    {
+      "$ref": "#/$defs/paper"
+    },
+    {
+      "$ref": "#/$defs/annotation"
+    },
+    {
+      "$ref": "#/$defs/metric_result"
+    }
+  ],
+  "$defs": {
+    "question": {
+      "type": "object",
+      "properties": {
+        "record_type": {
+          "const": "question"
+        },
+        "schema_version": {
+          "const": "1.0"
+        },
+        "question_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "benchmark": {
+          "enum": [
+            "scholarquest",
+            "crase",
+            "paperpilot",
+            "autoresearchbench"
+          ]
+        },
+        "source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "context": {
+          "type": "object"
+        },
+        "gold_paper_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "source": {
+          "type": "object",
+          "properties": {
+            "url": {
+              "type": "string",
+              "minLength": 1
+            },
+            "source_sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            "row_number": {
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          "required": [
+            "url",
+            "source_sha256"
+          ],
+          "additionalProperties": false
+        },
+        "original_record": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "record_type",
+        "schema_version",
+        "question_id",
+        "benchmark",
+        "source_id",
+        "text",
+        "context",
+        "gold_paper_ids",
+        "source",
+        "original_record"
+      ],
+      "additionalProperties": false
+    },
+    "paper": {
+      "type": "object",
+      "properties": {
+        "record_type": {
+          "const": "paper"
+        },
+        "schema_version": {
+          "const": "1.0"
+        },
+        "paper_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "identifiers": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "abstract": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "metadata_status": {
+          "enum": [
+            "pending",
+            "partial",
+            "ready",
+            "unavailable"
+          ]
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "row_number": {
+                "type": "integer",
+                "minimum": 1
+              }
+            },
+            "required": [
+              "url",
+              "source_sha256"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0
+        },
+        "released_title": {
+          "type": "string"
+        },
+        "metadata_notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "record_type",
+        "schema_version",
+        "paper_id",
+        "identifiers",
+        "title",
+        "abstract",
+        "metadata_status",
+        "sources"
+      ],
+      "additionalProperties": false
+    },
+    "annotation": {
+      "type": "object",
+      "properties": {
+        "record_type": {
+          "const": "annotation"
+        },
+        "schema_version": {
+          "const": "1.0"
+        },
+        "annotation_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "question_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "paper_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "annotator_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "annotation_method": {
+          "enum": [
+            "manual",
+            "llm",
+            "automatic"
+          ]
+        },
+        "guideline_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "revision": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "status": {
+          "enum": [
+            "draft",
+            "complete"
+          ]
+        },
+        "query_spans": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "string",
+                "minLength": 1
+              },
+              "start": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "end": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "span_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "kind": {
+                "enum": [
+                  "term",
+                  "constraint",
+                  "number",
+                  "named_entity",
+                  "phrase"
+                ]
+              },
+              "importance": {
+                "enum": [
+                  "core",
+                  "supporting"
+                ]
+              }
+            },
+            "required": [
+              "text",
+              "start",
+              "end",
+              "span_id",
+              "kind",
+              "importance"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0
+        },
+        "alignments": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "query_span_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "match_type": {
+                "enum": [
+                  "exact",
+                  "inflection",
+                  "abbreviation",
+                  "synonym",
+                  "terminology_shift",
+                  "descriptive",
+                  "not_visible",
+                  "uncertain"
+                ]
+              },
+              "paper_spans": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "text": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "start": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "end": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "field": {
+                      "enum": [
+                        "title",
+                        "abstract"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "text",
+                    "start",
+                    "end",
+                    "field"
+                  ],
+                  "additionalProperties": false
+                },
+                "minItems": 0
+              },
+              "notes": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "query_span_id",
+              "match_type",
+              "paper_spans",
+              "notes"
+            ],
+            "additionalProperties": false,
+            "allOf": [
+              {
+                "if": {
+                  "properties": {
+                    "match_type": {
+                      "const": "not_visible"
+                    }
+                  }
+                },
+                "then": {
+                  "properties": {
+                    "paper_spans": {
+                      "maxItems": 0
+                    }
+                  }
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "match_type": {
+                      "enum": [
+                        "exact",
+                        "inflection",
+                        "abbreviation",
+                        "synonym",
+                        "terminology_shift",
+                        "descriptive"
+                      ]
+                    }
+                  }
+                },
+                "then": {
+                  "properties": {
+                    "paper_spans": {
+                      "minItems": 1
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "minItems": 0
+        },
+        "scientific_correspondence": {
+          "enum": [
+            "supported",
+            "partial",
+            "not_supported",
+            "uncertain"
+          ]
+        },
+        "needs_full_text": {
+          "type": "boolean"
+        },
+        "confidence": {
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        },
+        "input_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "required": [
+        "record_type",
+        "schema_version",
+        "annotation_id",
+        "question_id",
+        "paper_id",
+        "annotator_id",
+        "annotation_method",
+        "guideline_version",
+        "revision",
+        "status",
+        "query_spans",
+        "alignments",
+        "scientific_correspondence",
+        "needs_full_text",
+        "confidence",
+        "notes"
+      ],
+      "additionalProperties": false
+    },
+    "metric_result": {
+      "type": "object",
+      "properties": {
+        "record_type": {
+          "const": "metric_result"
+        },
+        "schema_version": {
+          "const": "1.0"
+        },
+        "run_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "question_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "paper_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "metric_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "metric_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "input_view": {
+          "enum": [
+            "question__title_abstract",
+            "question_context__title_abstract",
+            "annotated_concepts",
+            "terms__title",
+            "terms__abstract",
+            "terms__title_abstract",
+            "terms__full_text",
+            "terms__body_no_references",
+            "terms__references",
+            "question__title",
+            "question__abstract",
+            "question__full_text",
+            "question__body_no_references",
+            "question__references",
+            "terms__body_no_references_no_related_work",
+            "question__body_no_references_no_related_work"
+          ]
+        },
+        "input_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "preprocessing": {
+          "type": "object"
+        },
+        "score": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "status": {
+          "enum": [
+            "ok",
+            "missing_metadata",
+            "error"
+          ]
+        },
+        "details": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "record_type",
+        "schema_version",
+        "run_id",
+        "question_id",
+        "paper_id",
+        "metric_name",
+        "metric_version",
+        "input_view",
+        "input_sha256",
+        "preprocessing",
+        "score",
+        "status",
+        "details"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": "frozen_time_limited",
+  "counts": {
+    "ready": 10902,
+    "pending": 42502,
+    "unavailable": 138
+  },
+  "target_records": 53542,
+  "remaining": 42502,
+  "process_id": 45180,
+  "processed_this_run": 200,
+  "rate_limit_seconds": 3.2,
+  "free_disk_bytes": 15853330432,
+  "raw_sources": "temporary downloads deleted after extraction; source hashes retained",
+  "text_storage": "gzip JSON with bibliography-free body, stricter body and section audit",
+  "refresh_every_new_articles": 250,
+  "no_paid_token_calls": true,
+  "stopped_at_utc": "2026-10-12T18:52:06.259623+00:00",
+  "stop_reason": "User limited the experiment to an overnight-sized slice; no further downloads.",
+  "automatic_resume": false
+}

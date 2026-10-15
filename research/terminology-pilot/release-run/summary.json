@@ -1,0 +1,41 @@
+{
+  "run_id": "terminology-release-v1-2026-10-12",
+  "questions": 2101,
+  "remaining_questions": 2071,
+  "pairs": 65458,
+  "remaining_pairs": 64865,
+  "computed_at_utc": "2026-10-12T19:07:40.497830+00:00",
+  "unique_target_records": 53542,
+  "metadata_status_counts": {
+    "ready": 53339,
+    "unavailable": 1,
+    "partial": 202
+  },
+  "remaining_available_TA_pairs": 64580,
+  "remaining_common_body_pairs": 12759,
+  "algorithm": "query-only POS noun phrases -> unique original words -> unique-analysis WordNet noun normalization -> query word coverage; gap = 1 - coverage",
+  "normalization_config_sha256": "f4cd4257154ee92db5002e1ac701eae392172077ea77253af057a8eb09516866",
+  "automatic_terms_config_sha256": "6eb17577924074b66510a4cef78e7c7f5aa18fedb0516dec7473adde864611e4",
+  "source_inventory_sha256": "c336037c6129c381bb3701ceb73f8c86525a8549898a92a00e46215b922cda7d",
+  "query_file_sha256": "519c635d324c65cd1a5a5523991a2e9367fc69cf9bfd28d2cda11671b6a914c3",
+  "paper_file_sha256": "350f1b516461dbf4f92bb709e55fe71bd84814d12b0ec0423aba3da7c08c8a38",
+  "metric_file_sha256": "fbb8fff423e66126985ee48a153e43b4f60aa0c1000c61ed295ad565166bda52",
+  "query_terms_file_sha256": "539544f5b73f9119aeda1d98572df33e6d378dc34adc3bea6ed1a8f53063160a",
+  "question_metrics_file_sha256": "ab5fa5edbb8743e61c0630feb7e470c87c24939cda6a090e299057e26573e5ce",
+  "remaining_TA_word_coverage": 0.33830352562274973,
+  "remaining_TA_phrase_coverage": 0.1131283345541417,
+  "remaining_TA_word_gap": 0.6616964743772503,
+  "status": "completed_on_available_inputs",
+  "full_body_coverage": "Successfully collected texts only; missing full texts are null, not zero.",
+  "body_collection_status": "frozen_time_limited",
+  "body_inventory_counts": {
+    "ready": 10902,
+    "unavailable": 138,
+    "pending": 42502
+  },
+  "human_validated_metric_winner": false,
+  "paid_model_calls": 0,
+  "empty_vocabulary_questions": 0,
+  "reused_identical_input_views": 195904,
+  "recomputed_views": 470
+}

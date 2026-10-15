@@ -1,0 +1,32 @@
+{
+  "description": "Approved rounded results from the frozen 2026-10-12 run; no new metric computation.",
+  "source": "research/terminology-pilot/release-run/frozen-slice.json",
+  "source_metric_sha256": "fbb8fff423e66126985ee48a153e43b4f60aa0c1000c61ed295ad565166bda52",
+  "excluded_calibration_questions": 30,
+  "remaining_questions": 2071,
+  "remaining_pairs": 64865,
+  "views": [
+    {
+      "key": "title_abstract",
+      "title": "Заголовок и аннотация",
+      "available_pairs": 64580,
+      "rows": [
+        {"benchmark": "ScholarQuest", "label": "ScholarQuest", "pairs": 59851, "total_pairs": 59851, "coverage_percent": 46.3},
+        {"benchmark": "AutoResearchBench Deep", "label": "ARB Deep", "pairs": 535, "total_pairs": 535, "coverage_percent": 10.8},
+        {"benchmark": "AutoResearchBench Wide", "label": "ARB Wide", "pairs": 4121, "total_pairs": 4122, "coverage_percent": 30.2},
+        {"benchmark": "PaperPilot", "label": "PaperPilot", "pairs": 73, "total_pairs": 357, "coverage_percent": 38.9}
+      ]
+    },
+    {
+      "key": "body_clean",
+      "title": "Текст без библиографии и Related Work",
+      "available_pairs": 12759,
+      "rows": [
+        {"benchmark": "ScholarQuest", "label": "ScholarQuest", "pairs": 11766, "total_pairs": 59851, "coverage_percent": 76.0},
+        {"benchmark": "AutoResearchBench Deep", "label": "ARB Deep", "pairs": 93, "total_pairs": 535, "coverage_percent": 54.7},
+        {"benchmark": "AutoResearchBench Wide", "label": "ARB Wide", "pairs": 853, "total_pairs": 4122, "coverage_percent": 72.2},
+        {"benchmark": "PaperPilot", "label": "PaperPilot", "pairs": 47, "total_pairs": 357, "coverage_percent": 81.5}
+      ]
+    }
+  ]
+}

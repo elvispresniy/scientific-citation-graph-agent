@@ -1,0 +1,25 @@
+{
+  "tokenizer": "english-alphanumeric-v1",
+  "case": "lower",
+  "unicode": "NFKC",
+  "stemmer": "nltk Snowball English",
+  "lemma_normalizer": "WordNet noun _morphy; unique analysis only",
+  "wordnet_version": "3.0",
+  "wordnet_zip_sha256": "cbda5ea6eef7f36a97a43d4a75f85e07fccbb4f23657d27b4ccbc93e2646ab59",
+  "nltk_version": "3.9.4",
+  "stoplist_sha256": "28839c29b180c337ddf1b21df8def41278d7d9265c4d31ab1da7d9cd3c5c6fba",
+  "query_terms_sha256": "c94722645cf35127e43dfd16fb37dab349475ab072de5884834bea3096db34a7",
+  "alias_dictionary_sha256": "a4412673d41c101da780a8af4ad1587cf225ed0764134ccc448ed3d382b25927",
+  "idf_corpus_sha256": "b4eaa97a73efedaa6aeff3d5312c8a391d56dead0c5773537aae1d0cf6187b01",
+  "reference_boundaries_sha256": "8eabeb0c48eccde139635b1d5fba08515c66dd54304339c34c9dbfaaec0811cc",
+  "reference_split_version": "references-heading-and-appendix-recovery-v2",
+  "related_work_boundaries_sha256": "f6cb1be6df08a59e969ac22ee70c45ead11f1ec074bec60b93e4dfd015f17b93",
+  "related_work_split_version": "explicit-related-work-sections-v1",
+  "window_content_tokens": [
+    10,
+    30,
+    100
+  ],
+  "coverage_denominator": "distinct original query words, fixed across word coverage variants",
+  "fulltext_prefix": "prepend metadata title+abstract to extracted article; binary presence metrics unaffected by duplicates"
+}

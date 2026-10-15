@@ -1,0 +1,32 @@
+{
+  "status": "frozen",
+  "frozen_at_utc": "2026-10-12T18:52:06.259623+00:00",
+  "reason": "User requested a slice taking no longer than one night; existing collection stopped immediately. Historical driver runtime already exceeded one night; this is an available-data snapshot, not an exact timed overnight sample.",
+  "counts": {
+    "ready": 10902,
+    "pending": 42502,
+    "unavailable": 138
+  },
+  "automatic_resume": false,
+  "sampling": "Existing pilot plus deterministic hash-ordered collection until the stop; availability and extraction success affect inclusion. Not a representative or complete corpus sample.",
+  "metric_limitation": "Automatic noun phrases may include using and merge distinct terms. Original rule retained; semantic validity not established.",
+  "inputs": {
+    "questions.jsonl": "519c635d324c65cd1a5a5523991a2e9367fc69cf9bfd28d2cda11671b6a914c3",
+    "papers.jsonl": "350f1b516461dbf4f92bb709e55fe71bd84814d12b0ec0423aba3da7c08c8a38",
+    "fulltexts.jsonl": "8893754a530ec44096d7aad35cb898b7451bd6e761bcfd6bc71ea719085060a3",
+    "runner-code-lock.json": "9a4d644c0c44ba4e8f8ad474365087206ad471591733491f64eb0c265824c38a"
+  },
+  "measurement_completed_at_utc": "2026-10-12T19:08:25.685762+00:00",
+  "validation_status": "passed",
+  "remaining_common_body_pairs": 12759,
+  "measurement_script_sha256": "83b4b7854ee3c1296c139bc0d1eafe7632768583fd8535ff9b6de5bed5800618",
+  "outputs": {
+    "summary.json": "77a021db94ceadee76e81f583e908b2322b545377bbbbb6fafd59a29a3cee68c",
+    "report.md": "55eeb23415a79ec307c1708d7e1b61e1f2643849851932237ec8224915a1725f",
+    "question-results.md": "2e2c57371d80f628adb2a531bb848fd985fbdbda962fa75a449c99de44b78026",
+    "query-terms.jsonl": "539544f5b73f9119aeda1d98572df33e6d378dc34adc3bea6ed1a8f53063160a",
+    "pair-metrics.jsonl": "fbb8fff423e66126985ee48a153e43b4f60aa0c1000c61ed295ad565166bda52",
+    "question-metrics.jsonl": "ab5fa5edbb8743e61c0630feb7e470c87c24939cda6a090e299057e26573e5ce",
+    "validation-summary.json": "930c873db5d79df96c1527f3182abd124fd125bebc04ddc65f8b3a1796c54b0b"
+  }
+}

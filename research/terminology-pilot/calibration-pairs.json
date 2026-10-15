@@ -1,0 +1,127 @@
+{
+  "purpose": "Initial instruction calibration; remaining gold pairs stay pending, not excluded.",
+  "selection": "One target per question, minimum SHA256(seed|question_id|paper_id), without lexical scores or manual target substitution.",
+  "seed": "terminology-calibration-v1-2026-10-11",
+  "pairs": [
+    {
+      "question_id": "scholarquest:BQ_001749",
+      "paper_id": "arxiv:1512.00307"
+    },
+    {
+      "question_id": "scholarquest:BQ_000320",
+      "paper_id": "arxiv:1306.3980"
+    },
+    {
+      "question_id": "scholarquest:BQ_001805",
+      "paper_id": "arxiv:1709.08761"
+    },
+    {
+      "question_id": "scholarquest:BQ_002338",
+      "paper_id": "arxiv:1410.4241"
+    },
+    {
+      "question_id": "scholarquest:BQ_000906",
+      "paper_id": "arxiv:2111.13817"
+    },
+    {
+      "question_id": "scholarquest:BQ_001361",
+      "paper_id": "arxiv:1906.09535"
+    },
+    {
+      "question_id": "scholarquest:BQ_000598",
+      "paper_id": "arxiv:1910.05425"
+    },
+    {
+      "question_id": "scholarquest:BQ_001612",
+      "paper_id": "arxiv:1202.3713"
+    },
+    {
+      "question_id": "scholarquest:BQ_002222",
+      "paper_id": "arxiv:2406.00374"
+    },
+    {
+      "question_id": "scholarquest:BQ_000223",
+      "paper_id": "arxiv:2511.06967"
+    },
+    {
+      "question_id": "autoresearchbench:row_000412",
+      "paper_id": "arxiv:2009.11348"
+    },
+    {
+      "question_id": "autoresearchbench:row_000236",
+      "paper_id": "arxiv:2205.05878"
+    },
+    {
+      "question_id": "autoresearchbench:row_000222",
+      "paper_id": "arxiv:1908.04463"
+    },
+    {
+      "question_id": "autoresearchbench:row_000672",
+      "paper_id": "arxiv:0909.3080"
+    },
+    {
+      "question_id": "autoresearchbench:row_000794",
+      "paper_id": "arxiv:2308.08290"
+    },
+    {
+      "question_id": "autoresearchbench:row_000251",
+      "paper_id": "arxiv:2006.15408"
+    },
+    {
+      "question_id": "autoresearchbench:row_000415",
+      "paper_id": "arxiv:2006.02201"
+    },
+    {
+      "question_id": "autoresearchbench:row_000904",
+      "paper_id": "arxiv:1904.06560"
+    },
+    {
+      "question_id": "autoresearchbench:row_000878",
+      "paper_id": "arxiv:2310.05728"
+    },
+    {
+      "question_id": "autoresearchbench:row_000611",
+      "paper_id": "arxiv:2504.02882"
+    },
+    {
+      "question_id": "paperpilot:case_035",
+      "paper_id": "s2:6810af56467a5bc907cda0ad2414f56ed5aa182a"
+    },
+    {
+      "question_id": "paperpilot:case_039",
+      "paper_id": "s2:0ab3f7ecbdc5a33565a234215604a6ca9d155a33"
+    },
+    {
+      "question_id": "paperpilot:case_037",
+      "paper_id": "s2:741a7faf9dbefd418cda878c61c5b839ecc02977"
+    },
+    {
+      "question_id": "paperpilot:case_004",
+      "paper_id": "s2:b21670e8061a06ab97e7d6052c9345a326e84ff8"
+    },
+    {
+      "question_id": "paperpilot:case_042",
+      "paper_id": "s2:ac215cee04eb7a5c41b8973c335ad5e82a836b3a"
+    },
+    {
+      "question_id": "paperpilot:case_007",
+      "paper_id": "s2:6c943670dca38bfc7c8b477ae7c2d1fba1ad3691"
+    },
+    {
+      "question_id": "paperpilot:case_038",
+      "paper_id": "s2:3302081b8878de505b69900e22b8137c5d931be7"
+    },
+    {
+      "question_id": "paperpilot:case_001",
+      "paper_id": "s2:077f8329a7b6fa3b7c877a57b81eb6c18b5f87de"
+    },
+    {
+      "question_id": "paperpilot:case_019",
+      "paper_id": "s2:fdb0f24fdf31b703921e4044ea1f55d82074b56f"
+    },
+    {
+      "question_id": "paperpilot:case_036",
+      "paper_id": "s2:ab30672c8c5e4787f6a5985f26a8f281f0db2fb8"
+    }
+  ]
+}

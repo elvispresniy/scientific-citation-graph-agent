@@ -1,0 +1,1087 @@
+{
+  "version": "2.0",
+  "selection_method": "llm query-only extraction; explicit spans, not independent human gold",
+  "instruction": "Retain named methods, tasks, technical properties and scientific descriptive phrases. Omit request boilerplate, author affiliations, dates, locations in the paper, numeric identification clues and publication type. Mark explicitly excluded scientific subjects separately. Alternatives and examples remain mentioned vocabulary, not a conjunction of requirements.",
+  "questions": [
+    {
+      "question_id": "scholarquest:BQ_001749",
+      "terms": [
+        {
+          "text": "mesh generation",
+          "start": 19,
+          "end": 34,
+          "role": "mentioned"
+        },
+        {
+          "text": "Delaunay triangulation",
+          "start": 41,
+          "end": 63,
+          "role": "mentioned"
+        }
+      ]
+    },
+    {
+      "question_id": "scholarquest:BQ_000320",
+      "terms": [
+        {
+          "text": "Perceptron algorithm",
+          "start": 31,
+          "end": 51,
+          "role": "mentioned"
+        },
+        {
+          "text": "neural networks",
+          "start": 65,
+          "end": 80,
+          "role": "excluded"
+        }
+      ]
+    },
+    {
+      "question_id": "scholarquest:BQ_001805",
+      "terms": [
+        {
+          "text": "visual content-based indexing",
+          "start": 21,
+          "end": 50,
+          "role": "mentioned"
+        },
+        {
+          "text": "retrieval",
+          "start": 55,
+          "end": 64,
+          "role": "mentioned"
+        },
+        {
+          "text": "deep learning",
+          "start": 71,
+          "end": 84,
+          "role": "mentioned"
+        },
+        {
+          "text": "feature extraction",
+          "start": 89,
+          "end": 107,
+          "role": "mentioned"
+        }
+      ]
+    },
+    {
+      "question_id": "scholarquest:BQ_002338",
+      "terms": [
+        {
+          "text": "error-correcting codes",
+          "start": 22,
+          "end": 44,
+          "role": "mentioned"
+        },
+        {
+          "text": "binary symmetric channel",
+          "start": 54,
+          "end": 78,
+          "role": "mentioned"
+        }
+      ]
+    },
+    {
+      "question_id": "scholarquest:BQ_000906",
+      "terms": [
+        {
+          "text": "interpolation methods",
+          "start": 22,
+          "end": 43,
+          "role": "mentioned"
+        },
+        {
+          "text": "image processing",
+          "start": 62,
+          "end": 78,
+          "role": "mentioned"
+        }
+      ]
+    },
+    {
+      "question_id": "scholarquest:BQ_001361",
+      "terms": [
+        {
+          "text": "information extraction",
+          "start": 19,
+          "end": 41,
+          "role": "mentioned"
+        },
+        {
+          "text": "semi-supervised learning",
+          "start": 48,
+          "end": 72,
+          "role": "mentioned"
+        }
+      ]
+    },
+    {
+      "question_id": "scholarquest:BQ_000598",
+      "terms": [
+        {
+          "text": "online handwriting recognition",
+          "start": 22,
+          "end": 52,
+          "role": "mentioned"
+        },
+        {
+          "text": "IAM Online Handwriting Database",
+          "start": 60,
+          "end": 91,
+          "role": "mentioned"
+        }
+      ]
+    },
+    {
+      "question_id": "scholarquest:BQ_001612",
+      "terms": [
+        {
+          "text": "Bayesian networks",
+          "start": 27,
+          "end": 44,
+          "role": "mentioned"
+        },
+        {
+          "text": "hidden Markov models",
+          "start": 58,
+          "end": 78,
+          "role": "excluded"
+        }
+      ]
+    },
+    {
+      "question_id": "scholarquest:BQ_002222",
+      "terms": [
+        {
+          "text": "browser security measures",
+          "start": 22,
+          "end": 47,
+          "role": "mentioned"
+        },
+        {
+          "text": "Chrome",
+          "start": 66,
+          "end": 72,
+          "role": "mentioned"
+        }
+      ]
+    },
+    {
+      "question_id": "scholarquest:BQ_000223",
+      "terms": [
+        {
+          "text": "variational methods",
+          "start": 25,
+          "end": 44,
+          "role": "mentioned"
+        },
+        {
+          "text": "MCMC methods",
+          "start": 68,
+          "end": 80,
+          "role": "mentioned"
+        },
+        {
+          "text": "computational efficiency",
+          "start": 93,
+          "end": 117,
+          "role": "mentioned"
+        }
+      ]
+    },
+    {
+      "question_id": "autoresearchbench:row_000412",
+      "terms": [
+        {
+          "text": "convergence proof",
+          "start": 131,
+          "end": 148,
+          "role": "mentioned"
+        },
+        {
+          "text": "recursive error bound",
+          "start": 171,
+          "end": 192,
+          "role": "mentioned"
+        },
+        {
+          "text": "planning horizon parameter",
+          "start": 256,
+          "end": 282,
+          "role": "mentioned"
+        },
+        {
+          "text": "sample-count threshold",
+          "start": 381,
+          "end": 403,
+          "role": "mentioned"
+        },
+        {
+          "text": "branching factor",
+          "start": 532,
+          "end": 548,
+          "role": "mentioned"
+        },
+        {
+          "text": "system's dynamics",
+          "start": 556,
+          "end": 573,
+          "role": "mentioned"
+        }
+      ]
+    },
+    {
+      "question_id": "autoresearchbench:row_000236",
+      "terms": [
+        {
+          "text": "machine learning",
+          "start": 34,
+          "end": 50,
+          "role": "mentioned"
+        },
+        {
+          "text": "ordering-related optimization subproblems",
+          "start": 81,
+          "end": 122,
+          "role": "mentioned"
+        },
+        {
+          "text": "monotonic regression",
+          "start": 150,
+          "end": 170,
+          "role": "mentioned"
+        },
+        {
+          "text": "iterative pooling",
+          "start": 179,
+          "end": 196,
+          "role": "mentioned"
+        },
+        {
+          "text": "adjacent constraint violations",
+          "start": 200,
+          "end": 230,
+          "role": "mentioned"
+        },
+        {
+          "text": "deviation metrics",
+          "start": 278,
+          "end": 295,
+          "role": "mentioned"
+        },
+        {
+          "text": "theoretical baseline distribution",
+          "start": 303,
+          "end": 336,
+          "role": "mentioned"
+        },
+        {
+          "text": "stratified subgroups",
+          "start": 351,
+          "end": 371,
+          "role": "mentioned"
+        }
+      ]
+    },
+    {
+      "question_id": "autoresearchbench:row_000222",
+      "terms": [
+        {
+          "text": "polynomial-smoothed baseline method",
+          "start": 77,
+          "end": 112,
+          "role": "mentioned"
+        },
+        {
+          "text": "noise levels",
+          "start": 143,
+          "end": 155,
+          "role": "mentioned"
+        },
+        {
+          "text": "quadratic interaction term",
+          "start": 184,
+          "end": 210,
+          "role": "mentioned"
+        },
+        {
+          "text": "coefficient",
+          "start": 233,
+          "end": 244,
+          "role": "mentioned"
+        },
+        {
+          "text": "periodic activation functions",
+          "start": 282,
+          "end": 311,
+          "role": "mentioned"
+        },
+        {
+          "text": "shallower architecture",
+          "start": 318,
+          "end": 340,
+          "role": "mentioned"
+        },
+        {
+          "text": "higher-order spatial derivatives",
+          "start": 370,
+          "end": 402,
+          "role": "mentioned"
+        }
+      ]
+    },
+    {
+      "question_id": "autoresearchbench:row_000672",
+      "terms": [
+        {
+          "text": "Computational Social Science",
+          "start": 38,
+          "end": 66,
+          "role": "mentioned"
+        },
+        {
+          "text": "Cultural Analytics",
+          "start": 71,
+          "end": 89,
+          "role": "mentioned"
+        },
+        {
+          "text": "culture",
+          "start": 101,
+          "end": 108,
+          "role": "mentioned"
+        },
+        {
+          "text": "politics",
+          "start": 110,
+          "end": 118,
+          "role": "mentioned"
+        },
+        {
+          "text": "media ecosystems",
+          "start": 123,
+          "end": 139,
+          "role": "mentioned"
+        },
+        {
+          "text": "socio-semantic",
+          "start": 143,
+          "end": 157,
+          "role": "mentioned"
+        },
+        {
+          "text": "heterogeneous",
+          "start": 159,
+          "end": 172,
+          "role": "mentioned"
+        },
+        {
+          "text": "multilayer graphs",
+          "start": 177,
+          "end": 194,
+          "role": "mentioned"
+        },
+        {
+          "text": "meso-scale structure",
+          "start": 240,
+          "end": 260,
+          "role": "mentioned"
+        },
+        {
+          "text": "communities",
+          "start": 268,
+          "end": 279,
+          "role": "mentioned"
+        },
+        {
+          "text": "homophily",
+          "start": 281,
+          "end": 290,
+          "role": "mentioned"
+        },
+        {
+          "text": "diffusion cascades",
+          "start": 295,
+          "end": 313,
+          "role": "mentioned"
+        },
+        {
+          "text": "time-stamped digital traces",
+          "start": 326,
+          "end": 353,
+          "role": "mentioned"
+        },
+        {
+          "text": "observational methods",
+          "start": 394,
+          "end": 415,
+          "role": "mentioned"
+        },
+        {
+          "text": "null models",
+          "start": 428,
+          "end": 439,
+          "role": "mentioned"
+        },
+        {
+          "text": "shuffles",
+          "start": 441,
+          "end": 449,
+          "role": "mentioned"
+        },
+        {
+          "text": "randomization",
+          "start": 451,
+          "end": 464,
+          "role": "mentioned"
+        },
+        {
+          "text": "end-to-end predictive machine learning",
+          "start": 478,
+          "end": 516,
+          "role": "excluded"
+        }
+      ]
+    },
+    {
+      "question_id": "autoresearchbench:row_000794",
+      "terms": [
+        {
+          "text": "federated",
+          "start": 71,
+          "end": 80,
+          "role": "mentioned"
+        },
+        {
+          "text": "decentralized optimization",
+          "start": 84,
+          "end": 110,
+          "role": "mentioned"
+        },
+        {
+          "text": "augmented Lagrangian",
+          "start": 162,
+          "end": 182,
+          "role": "mentioned"
+        },
+        {
+          "text": "primal–dual",
+          "start": 184,
+          "end": 195,
+          "role": "mentioned"
+        },
+        {
+          "text": "gradient-tracking methods",
+          "start": 200,
+          "end": 225,
+          "role": "mentioned"
+        },
+        {
+          "text": "non-IID client data",
+          "start": 284,
+          "end": 303,
+          "role": "mentioned"
+        },
+        {
+          "text": "communication-constrained network topologies",
+          "start": 308,
+          "end": 352,
+          "role": "mentioned"
+        },
+        {
+          "text": "federated learning baselines",
+          "start": 388,
+          "end": 416,
+          "role": "mentioned"
+        },
+        {
+          "text": "FedAvg",
+          "start": 425,
+          "end": 431,
+          "role": "mentioned"
+        },
+        {
+          "text": "proximal methods",
+          "start": 433,
+          "end": 449,
+          "role": "mentioned"
+        },
+        {
+          "text": "FedProx",
+          "start": 457,
+          "end": 464,
+          "role": "mentioned"
+        },
+        {
+          "text": "ADMM-style approaches",
+          "start": 470,
+          "end": 491,
+          "role": "mentioned"
+        }
+      ]
+    },
+    {
+      "question_id": "autoresearchbench:row_000251",
+      "terms": [
+        {
+          "text": "instance-level",
+          "start": 114,
+          "end": 128,
+          "role": "mentioned"
+        },
+        {
+          "text": "aggregated forms",
+          "start": 133,
+          "end": 149,
+          "role": "mentioned"
+        },
+        {
+          "text": "harmonic-mean performance measure",
+          "start": 155,
+          "end": 188,
+          "role": "mentioned"
+        },
+        {
+          "text": "unit-cardinality restriction",
+          "start": 267,
+          "end": 295,
+          "role": "mentioned"
+        },
+        {
+          "text": "association set",
+          "start": 302,
+          "end": 317,
+          "role": "mentioned"
+        },
+        {
+          "text": "timing comparisons",
+          "start": 329,
+          "end": 347,
+          "role": "mentioned"
+        },
+        {
+          "text": "accelerator",
+          "start": 380,
+          "end": 391,
+          "role": "mentioned"
+        },
+        {
+          "text": "per-batch duration",
+          "start": 420,
+          "end": 438,
+          "role": "mentioned"
+        }
+      ]
+    },
+    {
+      "question_id": "autoresearchbench:row_000415",
+      "terms": [
+        {
+          "text": "propagation study",
+          "start": 21,
+          "end": 38,
+          "role": "mentioned"
+        },
+        {
+          "text": "narrow-beam directional antennas",
+          "start": 109,
+          "end": 141,
+          "role": "mentioned"
+        },
+        {
+          "text": "apertures",
+          "start": 166,
+          "end": 175,
+          "role": "mentioned"
+        },
+        {
+          "text": "dense urban paths",
+          "start": 192,
+          "end": 209,
+          "role": "mentioned"
+        },
+        {
+          "text": "multipath arrivals",
+          "start": 243,
+          "end": 261,
+          "role": "mentioned"
+        },
+        {
+          "text": "iterative centroid-based algorithm",
+          "start": 271,
+          "end": 305,
+          "role": "mentioned"
+        },
+        {
+          "text": "angular separation",
+          "start": 323,
+          "end": 341,
+          "role": "mentioned"
+        },
+        {
+          "text": "statistical tolerance",
+          "start": 382,
+          "end": 403,
+          "role": "mentioned"
+        },
+        {
+          "text": "spread units",
+          "start": 411,
+          "end": 423,
+          "role": "mentioned"
+        },
+        {
+          "text": "step size",
+          "start": 461,
+          "end": 470,
+          "role": "mentioned"
+        },
+        {
+          "text": "graphics accelerator",
+          "start": 582,
+          "end": 602,
+          "role": "mentioned"
+        },
+        {
+          "text": "latency per sample",
+          "start": 657,
+          "end": 675,
+          "role": "mentioned"
+        }
+      ]
+    },
+    {
+      "question_id": "autoresearchbench:row_000904",
+      "terms": [
+        {
+          "text": "quantum‑hardware",
+          "start": 46,
+          "end": 62,
+          "role": "mentioned"
+        },
+        {
+          "text": "hardware‑level qubit engineering",
+          "start": 88,
+          "end": 120,
+          "role": "mentioned"
+        },
+        {
+          "text": "superconducting",
+          "start": 132,
+          "end": 147,
+          "role": "mentioned"
+        },
+        {
+          "text": "qubit modalities",
+          "start": 180,
+          "end": 196,
+          "role": "mentioned"
+        },
+        {
+          "text": "Hamiltonian models",
+          "start": 205,
+          "end": 223,
+          "role": "mentioned"
+        },
+        {
+          "text": "circuit‑level physical derivations",
+          "start": 227,
+          "end": 261,
+          "role": "mentioned"
+        },
+        {
+          "text": "coherence",
+          "start": 366,
+          "end": 375,
+          "role": "mentioned"
+        },
+        {
+          "text": "device‑quality metrics",
+          "start": 379,
+          "end": 401,
+          "role": "mentioned"
+        },
+        {
+          "text": "device",
+          "start": 379,
+          "end": 385,
+          "role": "mentioned"
+        },
+        {
+          "text": "architecture innovations",
+          "start": 438,
+          "end": 462,
+          "role": "mentioned"
+        },
+        {
+          "text": "data‑driven methods",
+          "start": 274,
+          "end": 293,
+          "role": "excluded"
+        }
+      ]
+    },
+    {
+      "question_id": "autoresearchbench:row_000878",
+      "terms": [
+        {
+          "text": "theoretical computer science",
+          "start": 34,
+          "end": 62,
+          "role": "mentioned"
+        },
+        {
+          "text": "graph approximation problems",
+          "start": 78,
+          "end": 106,
+          "role": "mentioned"
+        },
+        {
+          "text": "sublinear",
+          "start": 110,
+          "end": 119,
+          "role": "mentioned"
+        },
+        {
+          "text": "streaming",
+          "start": 121,
+          "end": 130,
+          "role": "mentioned"
+        },
+        {
+          "text": "distributed (MPC) models",
+          "start": 135,
+          "end": 159,
+          "role": "mentioned"
+        },
+        {
+          "text": "communication‑complexity",
+          "start": 187,
+          "end": 211,
+          "role": "mentioned"
+        },
+        {
+          "text": "sketching‑based techniques",
+          "start": 215,
+          "end": 241,
+          "role": "mentioned"
+        },
+        {
+          "text": "theoretical guarantees",
+          "start": 295,
+          "end": 317,
+          "role": "mentioned"
+        },
+        {
+          "text": "approximation ratios",
+          "start": 326,
+          "end": 346,
+          "role": "mentioned"
+        },
+        {
+          "text": "space bounds",
+          "start": 348,
+          "end": 360,
+          "role": "mentioned"
+        },
+        {
+          "text": "pass",
+          "start": 366,
+          "end": 370,
+          "role": "mentioned"
+        },
+        {
+          "text": "round complexity",
+          "start": 374,
+          "end": 390,
+          "role": "mentioned"
+        },
+        {
+          "text": "empirical datasets",
+          "start": 403,
+          "end": 421,
+          "role": "excluded"
+        },
+        {
+          "text": "experimental evaluations",
+          "start": 425,
+          "end": 449,
+          "role": "excluded"
+        }
+      ]
+    },
+    {
+      "question_id": "autoresearchbench:row_000611",
+      "terms": [
+        {
+          "text": "machine learning",
+          "start": 13,
+          "end": 29,
+          "role": "mentioned"
+        },
+        {
+          "text": "NLP",
+          "start": 34,
+          "end": 37,
+          "role": "mentioned"
+        },
+        {
+          "text": "agentic large language models",
+          "start": 63,
+          "end": 92,
+          "role": "mentioned"
+        },
+        {
+          "text": "tool use",
+          "start": 97,
+          "end": 105,
+          "role": "mentioned"
+        },
+        {
+          "text": "structured reasoning",
+          "start": 110,
+          "end": 130,
+          "role": "mentioned"
+        },
+        {
+          "text": "multi-stage training",
+          "start": 228,
+          "end": 248,
+          "role": "mentioned"
+        },
+        {
+          "text": "supervised fine-tuning",
+          "start": 256,
+          "end": 278,
+          "role": "mentioned"
+        },
+        {
+          "text": "preference learning",
+          "start": 284,
+          "end": 303,
+          "role": "mentioned"
+        },
+        {
+          "text": "reinforcement learning",
+          "start": 307,
+          "end": 329,
+          "role": "mentioned"
+        },
+        {
+          "text": "tool-use baselines",
+          "start": 362,
+          "end": 380,
+          "role": "mentioned"
+        },
+        {
+          "text": "multi-step tool-invocation",
+          "start": 403,
+          "end": 429,
+          "role": "mentioned"
+        },
+        {
+          "text": "planning-focused benchmarks",
+          "start": 433,
+          "end": 460,
+          "role": "mentioned"
+        }
+      ]
+    },
+    {
+      "question_id": "paperpilot:case_035",
+      "terms": [
+        {
+          "text": "GraphSAGE",
+          "start": 31,
+          "end": 40,
+          "role": "mentioned"
+        },
+        {
+          "text": "scalable",
+          "start": 45,
+          "end": 53,
+          "role": "mentioned"
+        },
+        {
+          "text": "inductive graph representation learning",
+          "start": 57,
+          "end": 96,
+          "role": "mentioned"
+        }
+      ]
+    },
+    {
+      "question_id": "paperpilot:case_039",
+      "terms": [
+        {
+          "text": "deep RL",
+          "start": 15,
+          "end": 22,
+          "role": "mentioned"
+        },
+        {
+          "text": "DQN",
+          "start": 46,
+          "end": 49,
+          "role": "mentioned"
+        }
+      ]
+    },
+    {
+      "question_id": "paperpilot:case_037",
+      "terms": [
+        {
+          "text": "expressive power",
+          "start": 48,
+          "end": 64,
+          "role": "mentioned"
+        },
+        {
+          "text": "design choices",
+          "start": 69,
+          "end": 83,
+          "role": "mentioned"
+        },
+        {
+          "text": "GNNs",
+          "start": 87,
+          "end": 91,
+          "role": "mentioned"
+        }
+      ]
+    },
+    {
+      "question_id": "paperpilot:case_004",
+      "terms": [
+        {
+          "text": "pretraining methods",
+          "start": 22,
+          "end": 41,
+          "role": "mentioned"
+        },
+        {
+          "text": "NLP transfer tasks",
+          "start": 61,
+          "end": 79,
+          "role": "mentioned"
+        },
+        {
+          "text": "T5",
+          "start": 103,
+          "end": 105,
+          "role": "mentioned"
+        }
+      ]
+    },
+    {
+      "question_id": "paperpilot:case_042",
+      "terms": [
+        {
+          "text": "offline RL",
+          "start": 23,
+          "end": 33,
+          "role": "mentioned"
+        },
+        {
+          "text": "sequence modeling",
+          "start": 77,
+          "end": 94,
+          "role": "mentioned"
+        }
+      ]
+    },
+    {
+      "question_id": "paperpilot:case_007",
+      "terms": [
+        {
+          "text": "reasoning",
+          "start": 11,
+          "end": 20,
+          "role": "mentioned"
+        },
+        {
+          "text": "chain-of-thought prompting",
+          "start": 42,
+          "end": 68,
+          "role": "mentioned"
+        }
+      ]
+    },
+    {
+      "question_id": "paperpilot:case_038",
+      "terms": [
+        {
+          "text": "graph learning methods",
+          "start": 55,
+          "end": 77,
+          "role": "mentioned"
+        }
+      ]
+    },
+    {
+      "question_id": "paperpilot:case_001",
+      "terms": [
+        {
+          "text": "Transformer architecture",
+          "start": 48,
+          "end": 72,
+          "role": "mentioned"
+        },
+        {
+          "text": "large-scale language modeling",
+          "start": 102,
+          "end": 131,
+          "role": "mentioned"
+        }
+      ]
+    },
+    {
+      "question_id": "paperpilot:case_019",
+      "terms": [
+        {
+          "text": "retrieval-augmented generation",
+          "start": 32,
+          "end": 62,
+          "role": "mentioned"
+        },
+        {
+          "text": "retrieval pipelines",
+          "start": 75,
+          "end": 94,
+          "role": "mentioned"
+        },
+        {
+          "text": "LLMs",
+          "start": 99,
+          "end": 103,
+          "role": "mentioned"
+        }
+      ]
+    },
+    {
+      "question_id": "paperpilot:case_036",
+      "terms": [
+        {
+          "text": "graph attention",
+          "start": 11,
+          "end": 26,
+          "role": "mentioned"
+        },
+        {
+          "text": "attention-based GNN",
+          "start": 30,
+          "end": 49,
+          "role": "mentioned"
+        },
+        {
+          "text": "GAT",
+          "start": 69,
+          "end": 72,
+          "role": "mentioned"
+        }
+      ]
+    }
+  ]
+}

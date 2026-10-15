@@ -1,0 +1,35 @@
+{
+  "s2:340f48901f72278f6bf78a04ee5b01df208cc508": {
+    "url": "https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf",
+    "identity_evidence": "Author DeepMind hosted PDF; title Human-level control through deep reinforcement learning; Nature 2015. Verify extracted title before inclusion.",
+    "evidence_url": "https://research.google/blog/from-pixels-to-actions-human-level-control-through-deep-reinforcement-learning/"
+  },
+  "s2:4e561318668f0ae190217ffe82bf44c9c33b9c0d": {
+    "url": "https://arxiv.org/pdf/1910.03771",
+    "identity_evidence": "Author preprint HuggingFace’s Transformers: State-of-the-art Natural Language Processing; exact author list and abstract agree with ACL 2020 paper. Publisher PDF unavailable via this connection. Uses latest arXiv version, not necessarily publisher pagination.",
+    "evidence_url": "https://arxiv.org/abs/1910.03771",
+    "version_note": "Авторский препринт arXiv:1910.03771; версия и пагинация могут отличаться от публикации ACL 2020."
+  },
+  "s2:8ede7ddf99986d69562455bc8d69222fc3e27350": {
+    "url": "https://openreview.net/pdf/387fb2fcee8f74c53cf707a9856f40c458f33933.pdf",
+    "identity_evidence": "Exact title and authors Kapturowski et al.; ICLR 2019 publisher PDF verified in web search.",
+    "evidence_url": "https://openreview.net/pdf/387fb2fcee8f74c53cf707a9856f40c458f33933.pdf"
+  },
+  "s2:b31d41172d3f13c472ddcfe168b7c92916343ae5": {
+    "url": "https://www.biorxiv.org/content/10.1101/2023.11.13.566879v1.full.pdf",
+    "identity_evidence": "Exact title, H Zhou and R Sarkar, bioRxiv DOI 10.1101/2023.11.13.566879, dated 16 Nov 2023.",
+    "evidence_url": "https://doi.org/10.1101/2023.11.13.566879"
+  },
+  "arxiv:1603.09687": {
+    "url": "https://arxiv.org/pdf/1603.09687v3",
+    "identity_evidence": "Latest substantive version in official arXiv history; v4 was withdrawn due to errors. Used only for vocabulary measurement of the original benchmark target, not as scientific validation.",
+    "evidence_url": "https://arxiv.org/abs/1603.09687",
+    "version_note": "v3 до отзыва v4 из-за ошибок; исходный ID цели сохранён."
+  },
+  "arxiv:2405.15385": {
+    "url": "https://arxiv.org/pdf/2405.15385v1",
+    "identity_evidence": "Official arXiv history lists v1 as full paper; v2 is withdrawn after merging into another paper. Keep exact original benchmark target and use its available v1.",
+    "evidence_url": "https://arxiv.org/abs/2405.15385",
+    "version_note": "v1 до отзыва v2 после объединения с другой работой; исходная цель сохранена."
+  }
+}

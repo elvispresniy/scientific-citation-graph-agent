@@ -1,0 +1,94 @@
+{
+  "arxiv:0907.3241": {
+    "text_sha256": "3a8f87b82c9c3e1c56ce2128626eb6ed9cf861bc891ccf710d173518d8824362",
+    "reference_start": 52698,
+    "reference_end": 54947,
+    "method": "llm inspected boundary context and final reference entries; bibliography starts at numbered author entry after acknowledgments/conclusion; no appendix observed after it"
+  },
+  "arxiv:1003.1020": {
+    "text_sha256": "80e07dda8a082eb674bb8a04234dd5ac90afb4bb87e99b093a1b8d91f160fbd3",
+    "reference_start": 29881,
+    "reference_end": 33583,
+    "method": "llm inspected boundary context and final reference entries; bibliography starts at numbered author entry after acknowledgments/conclusion; no appendix observed after it"
+  },
+  "arxiv:1904.06560": {
+    "text_sha256": "d91e4d6195673961ebb477cdfa3cf20a7763c91ad17b60e19a62979107c8588f",
+    "reference_start": 249573,
+    "reference_end": 336556,
+    "method": "llm inspected boundary context and final reference entries; bibliography starts at numbered author entry after acknowledgments/conclusion; no appendix observed after it"
+  },
+  "arxiv:1505.02870": {
+    "text_sha256": "6198c061834b0117af12bd9a0dab38d5e6dab711a8343526184c09d95c525f29",
+    "reference_ranges": [
+      [
+        254131,
+        259060
+      ]
+    ],
+    "review_method": "llm inspection of extracted section boundaries, not independent human validation",
+    "note": "Reviewed extracted text around bibliography start and repeated page heading. Earlier Bibliography is a table-of-contents item; final BIBLIOGRAPHY is a running header. Remove entire actual bibliography, preserve all preceding appendices."
+  },
+  "arxiv:2006.15408": {
+    "text_sha256": "4ca2005d79e276bf6821272eba811287eda397724c265f33c6f480f80b320d03",
+    "reference_ranges": [
+      [
+        40606,
+        47033
+      ],
+      [
+        76205,
+        77669
+      ]
+    ],
+    "review_method": "llm inspection of extracted section boundaries, not independent human validation",
+    "note": "Reviewed both bibliographies and the supplementary-material boundary. Remove main and supplementary reference sections separately; preserve the supplementary article between them."
+  },
+  "arxiv:cond-mat/0009432": {
+    "text_sha256": "f4a7df2bcb3d63ddb8c93829cfd6d877df5796d676d08c27eaeb25c8af95709b",
+    "reference_ranges": [
+      [
+        20791,
+        27964
+      ]
+    ],
+    "review_method": "llm inspection of extracted section boundaries, not independent human validation",
+    "note": "Reviewed unheaded numbered reference list after conclusion; preserve acknowledgements, correspondence, and figure captions after it."
+  },
+  "s2:340f48901f72278f6bf78a04ee5b01df208cc508": {
+    "text_sha256": "e03a7c9cb58200e0485cca7f61f148845db4cbfcfb09981f9a911eaa39af3e36",
+    "reference_ranges": [
+      [
+        18357,
+        22703
+      ],
+      [
+        42335,
+        42806
+      ]
+    ],
+    "review_method": "llm inspection of extracted section boundaries, not independent human validation",
+    "note": "Reviewed Nature main references 1–30 and Methods references 31–33 without reference headings. Preserve acknowledgements, author contributions, Methods, algorithm text, and Extended Data captions."
+  },
+  "arxiv:2405.14835": {
+    "text_sha256": "ae9ddb86c14647ecfeeb7061c65facd98c1f3ceb9f9c0efc48d9e81d33acbee7",
+    "reference_ranges": [
+      [
+        142135,
+        160490
+      ]
+    ],
+    "review_method": "llm inspection of extracted section boundaries, not independent human validation",
+    "note": "Reviewed actual reference list after acknowledgements; Bibliography near start is table of contents. Preserve all appendices beginning with A Sampling Bounds."
+  },
+  "s2:ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693": {
+    "text_sha256": "9e093b4878ac0f5a27b7a407dcbf6ec3548f597a0284d09133038acd2ce79593",
+    "reference_ranges": [
+      [
+        121328,
+        164784
+      ]
+    ],
+    "review_method": "llm inspection of extracted section boundaries, not independent human validation",
+    "note": "Reviewed two-column PDF ordering: actual bibliography entries start before the printed References heading. Preserve preceding Appendix tables and GNNPapers paragraph; remove whole bibliography including early Chen–Do entries."
+  }
+}

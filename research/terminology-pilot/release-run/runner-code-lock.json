@@ -1,0 +1,13 @@
+{
+  "run_release_metadata.py": "86dfef32f84bbc0a1a91a34a41979c1246c89623bb67564b3b14059fb1a6320e",
+  "measure_release.py": "87319897a6fee31431526cd331907da2e7c69fe0785689f01064ba08497905dc",
+  "automatic_terms.py": "027ba973075e6223f9aa0cc2e2bea959735b8ca93f9f5ed26a5d3f2f75085d9a",
+  "section_text.py": "0cef2ccfd11fc9c8a0964bc7b58d7fc2a532fe921cc8b42dd1735a37174c0d2d",
+  "measure_terms.py": "36559d4dfef7d1d89059707a1d883d86c2c08dafe605ce93e808637bd7fa0e73",
+  "collect_release_bodies.py": "4e66e0206fd43d7d8290c04b80c9d601c613385c49f0acfc604851284f5009bf",
+  "validate_release.py": "0ebb4930df14c08067f1faf72e40f35a135089f5cbf13fd9b84523892773ab52",
+  "automatic-term-config.v1.json": "6eb17577924074b66510a4cef78e7c7f5aa18fedb0516dec7473adde864611e4",
+  "stopwords.v1.json": "02b08a8107d15e07da14f18b6a0488ce0e8b89860d961be15edc2ba7a6cba4ca",
+  "related-work-boundaries.v1.json": "c7507e5ea6b9cd190bc94beff115af9cf5b6221b79e8893189ce6b7b4ef9c3fb",
+  "reference-boundaries.v1.json": "30fe89a2ea421b7277720d67f4aeaa07d0812b6590b6184559fd43237d5ec66f"
+}

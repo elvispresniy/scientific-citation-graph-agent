@@ -1,0 +1,1386 @@
+{
+  "scholarquest:BQ_001749": {
+    "scientific_correspondence": "supported",
+    "needs_full_text": false,
+    "confidence": "high",
+    "notes": "Генерация треугольных сеток по Делоне прямо описана. Grid/mesh здесь обычные обозначения сетки, а не установленный междисциплинарный разрыв.",
+    "alignments": [
+      {
+        "match_type": "synonym",
+        "evidence": [
+          {
+            "field": "title",
+            "text": "grid-generation"
+          }
+        ],
+        "notes": "Mesh generation ↔ grid-generation: обычная вариативность обозначения построения сетки в этом контексте."
+      },
+      {
+        "match_type": "inflection",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "Delaunay triangulations"
+          }
+        ],
+        "notes": "Различается число существительного."
+      }
+    ]
+  },
+  "scholarquest:BQ_000320": {
+    "scientific_correspondence": "partial",
+    "needs_full_text": true,
+    "confidence": "medium",
+    "notes": "Статья посвящена spherical perceptron, но это не обязательно классический алгоритм обновления весов Perceptron. Исключение neural networks по аннотации установить нельзя.",
+    "alignments": [
+      {
+        "match_type": "uncertain",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "classical spherical perceptron problem"
+          }
+        ],
+        "notes": "Модель spherical perceptron связана с перцептроном, но постановка задачи не тождественна Perceptron algorithm."
+      },
+      {
+        "match_type": "uncertain",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "statistical physics and neural networks"
+          }
+        ],
+        "notes": "Упоминание neural networks относится к литературе; оно не подтверждает и не опровергает исключение этой темы из содержания самой работы."
+      }
+    ]
+  },
+  "scholarquest:BQ_001805": {
+    "scientific_correspondence": "partial",
+    "needs_full_text": true,
+    "confidence": "medium",
+    "notes": "Поиск похожих изображений и нейросетевое представление явно видны; отдельный компонент indexing в аннотации не описан.",
+    "alignments": [
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "fetching similar looking images given a reference image"
+          }
+        ],
+        "notes": "Описана retrieval-часть составного требования; indexing не подтверждён."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "a deep siamese network"
+          }
+        ],
+        "notes": "Конкретная разновидность deep learning, а не другое название всей области."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "the final image embedding is a joint representation of top as well as lower layer embedding's"
+          }
+        ],
+        "notes": "Описано построение признакового представления изображения; термин feature extraction не употреблён."
+      }
+    ]
+  },
+  "scholarquest:BQ_002338": {
+    "scientific_correspondence": "supported",
+    "needs_full_text": false,
+    "confidence": "high",
+    "notes": "Оба научных аспекта видны; статья теоретически анализирует ограничения декодирования, а не только экспериментально оценивает коды.",
+    "alignments": [
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "Random (dv,dc)-regular LDPC codes"
+          }
+        ],
+        "notes": "LDPC — конкретное семейство error-correcting codes. Это отношение частного к общему, не синоним и не терминологический разрыв."
+      },
+      {
+        "match_type": "exact",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "binary symmetric channel"
+          }
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  "scholarquest:BQ_000906": {
+    "scientific_correspondence": "supported",
+    "needs_full_text": false,
+    "confidence": "medium",
+    "notes": "Рассматривается интерполяция видеокадров; запрос допускает широкое понимание image processing, включающее обработку кадров.",
+    "alignments": [
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "Transformer-based video interpolation framework"
+          }
+        ],
+        "notes": "Конкретный метод интерполяции видеокадров."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "multi-scale frame synthesis scheme"
+          }
+        ],
+        "notes": "Синтез промежуточных кадров — частная задача обработки изображений; совпадение не буквальное."
+      }
+    ]
+  },
+  "scholarquest:BQ_001361": {
+    "scientific_correspondence": "partial",
+    "needs_full_text": true,
+    "confidence": "medium",
+    "notes": "Semi-supervised learning явно подтверждён. Sequence labeling может обслуживать information extraction, но без названий задач и наборов в аннотации это не установлено.",
+    "alignments": [
+      {
+        "match_type": "uncertain",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "sequence labeling"
+          }
+        ],
+        "notes": "Sequence labeling шире отдельных задач information extraction; нужны названия задач, например NER, в полном тексте."
+      },
+      {
+        "match_type": "exact",
+        "evidence": [
+          {
+            "field": "title",
+            "text": "Semi-Supervised Learning"
+          }
+        ],
+        "notes": "Регистронезависимое совпадение; исходный текст сохранён."
+      }
+    ]
+  },
+  "scholarquest:BQ_000598": {
+    "scientific_correspondence": "partial",
+    "needs_full_text": true,
+    "confidence": "high",
+    "notes": "Видны распознавание изображений рукописного текста и IAM database. Это не подтверждает online recognition по траекториям пера или использование именно IAM OnDB. Возможное несоответствие gold-цели требует проверки.",
+    "alignments": [
+      {
+        "match_type": "uncertain",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "handwritten recognition as a text-Image-to-text-Image translation problem"
+          }
+        ],
+        "notes": "Рукописное распознавание по изображениям не тождественно online handwriting recognition; слово online в описании метода отсутствует."
+      },
+      {
+        "match_type": "uncertain",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "IAM database"
+          }
+        ],
+        "notes": "Общее IAM database нельзя приравнивать к IAM Online Handwriting Database: это может быть другой ресурс IAM."
+      }
+    ]
+  },
+  "scholarquest:BQ_001612": {
+    "scientific_correspondence": "partial",
+    "needs_full_text": true,
+    "confidence": "high",
+    "notes": "Обучение структуры Bayesian networks подтверждено. Отсутствие HMM в аннотации недостаточно для проверки отрицательного ограничения по всей работе.",
+    "alignments": [
+      {
+        "match_type": "exact",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "Bayesian networks"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Hidden Markov models не упомянуты. Это не свидетельство их исключения из scope полного текста."
+      }
+    ]
+  },
+  "scholarquest:BQ_002222": {
+    "scientific_correspondence": "supported",
+    "needs_full_text": false,
+    "confidence": "high",
+    "notes": "Проверка безопасности расширений Chrome — конкретный вид browser security measures; это не пример разрыва терминологии.",
+    "alignments": [
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "keeping users safe by vetting submissions that display abusive or malicious behavior"
+          }
+        ],
+        "notes": "Описана конкретная мера безопасности: проверка расширений до распространения."
+      },
+      {
+        "match_type": "exact",
+        "evidence": [
+          {
+            "field": "title",
+            "text": "Chrome"
+          }
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  "scholarquest:BQ_000223": {
+    "scientific_correspondence": "supported",
+    "needs_full_text": false,
+    "confidence": "high",
+    "notes": "Сравнение вариационного приближения с MCMC по вычислительной производительности прямо заявлено.",
+    "alignments": [
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "Variational Bayes"
+          }
+        ],
+        "notes": "Конкретный вариационный подход; это специализация, а не синоним всех variational methods."
+      },
+      {
+        "match_type": "abbreviation",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "Markov Chain Monte Carlo"
+          }
+        ],
+        "notes": "Расшифровка MCMC; квалификатор traditional не конкретизирован."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "demonstrating superior computational performance"
+          }
+        ],
+        "notes": "Выражает преимущество предлагаемых подходов в сравнении с MCMC."
+      },
+      {
+        "match_type": "synonym",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "computational performance"
+          }
+        ],
+        "notes": "В контексте сравнительной вычислительной стоимости; время и ресурсы в аннотации не приведены."
+      }
+    ]
+  },
+  "autoresearchbench:row_000412": {
+    "scientific_correspondence": "uncertain",
+    "needs_full_text": true,
+    "confidence": "high",
+    "notes": "Большинство идентифицирующих условий относится к аффилиациям и промежуточным шагам доказательства; их нет в title + abstract. Нельзя трактовать это как установленный терминологический разрыв.",
+    "alignments": [
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Аффилиации отсутствуют в выбранном представлении."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Аффилиации отсутствуют в выбранном представлении."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "PAC guarantee видна, но наличие и содержание convergence proof не представлены."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В формуле есть H, но правило глубины рекурсии не дано."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "The number of episodes needed is shown to be of the order"
+          }
+        ],
+        "notes": "Показана асимптотическая потребность в эпизодах; конкретный промежуточный sample-count threshold не виден."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Числовая константа 10.5² не приведена."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "the upper bound on the number of possible successor states for a state-action pair"
+          }
+        ],
+        "notes": "Описательная связь с branching factor динамики; параметр обозначен C."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Четырёхзначная константа не приведена."
+      }
+    ]
+  },
+  "autoresearchbench:row_000236": {
+    "scientific_correspondence": "uncertain",
+    "needs_full_text": true,
+    "confidence": "high",
+    "notes": "Идентифицирующие ссылка, алгоритм цитируемой работы и численные ячейки таблиц не видны. Общая тема uncertainty-aware classification не подтверждает эти детали.",
+    "alignments": [
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Нужна библиография цитирующей статьи."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Условие относится к цитируемой работе."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Условие относится к цитируемой работе."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Условие относится к цитируемой работе."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "uncertain",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "higher conditional coverage"
+          }
+        ],
+        "notes": "Conditional coverage может измеряться по группам, но stratified subgroups явно не описаны."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Численные результаты таблиц отсутствуют."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Численные результаты таблиц отсутствуют."
+      }
+    ]
+  },
+  "autoresearchbench:row_000222": {
+    "scientific_correspondence": "uncertain",
+    "needs_full_text": true,
+    "confidence": "high",
+    "notes": "Тема PDE discovery и работа с шумом согласуются с вопросом, но идентифицирующие детали baseline, коэффициента, архитектуры и лаборатории не видны.",
+    "alignments": [
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Требуется приложение."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Baseline не назван."
+      },
+      {
+        "match_type": "uncertain",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "when data are noisy and limited"
+          }
+        ],
+        "notes": "Наличие шума подтверждено, но moderate levels и отказ baseline не установлены."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "uncertain",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "the required derivatives are calculated by automatic differentiation"
+          }
+        ],
+        "notes": "Производные упомянуты, но higher-order spatial derivatives и требование смены активации не указаны."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Аффилиации отсутствуют в выбранном представлении."
+      }
+    ]
+  },
+  "autoresearchbench:row_000672": {
+    "scientific_correspondence": "partial",
+    "needs_full_text": true,
+    "confidence": "high",
+    "notes": "Социально-семантический граф политической блогосферы и временное наблюдение видны. Масштаб данных, meso-scale анализ и null models не установлены. Типичный случай неполноты abstract, а не доказанный терминологический разрыв.",
+    "alignments": [
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Год известен из идентификатора, но не входит в title + abstract."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "semantic and social activity of a portion of the US political blogosphere"
+          }
+        ],
+        "notes": "Частный предмет computational social science; само название дисциплины не употреблено."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "US political blogosphere"
+          }
+        ],
+        "notes": "Политическая медиасреда — частный случай одного из альтернативных предметов запроса."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "title",
+            "text": "Socio-semantic"
+          }
+        ],
+        "notes": "Совпадает socio-semantic из одной альтернативы; graph в вопросе выражен как network. Это составное соответствие, не inflection всего фрагмента."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Топология сети упомянута, но уровень meso-scale не установлен."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "uncertain",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "information circulation"
+          }
+        ],
+        "notes": "Циркуляция информации не обязательно анализ diffusion cascades."
+      },
+      {
+        "match_type": "uncertain",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "monitored on a period of four months"
+          }
+        ],
+        "notes": "Временное наблюдение подтверждено; large traces и временные метки отдельных событий не установлены."
+      },
+      {
+        "match_type": "uncertain",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "We adopt an empirical standpoint"
+          }
+        ],
+        "notes": "Empirical не устанавливает использование простых null models."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Отсутствие predictive ML в аннотации не доказывает отрицательное ограничение."
+      }
+    ]
+  },
+  "autoresearchbench:row_000794": {
+    "scientific_correspondence": "partial",
+    "needs_full_text": true,
+    "confidence": "high",
+    "notes": "Primal-dual ADMM и децентрализованная связь явно видны. Non-deep-learning условие, точные baseline и временной интервал по title + abstract не подтверждены.",
+    "alignments": [
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Год не входит в title + abstract."
+      },
+      {
+        "match_type": "uncertain",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "decentralized federated learning"
+          }
+        ],
+        "notes": "Federated/decentralized optimization присутствует; non-deep-learning не подтверждено, приводятся MNIST/CIFAR эксперименты."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "we derive convergence rates"
+          }
+        ],
+        "notes": "Теоретическая обоснованность выражена доказуемыми скоростями сходимости."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "primal-dual optimization (ADMM)"
+          }
+        ],
+        "notes": "Прямо названа одна из альтернатив метода; типографика hyphen/dash отличается."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "decentralized heterogeneous data distributions"
+          }
+        ],
+        "notes": "Heterogeneous data distributions — описательное соответствие non-IID; конкретные клиентские распределения требуют проверки."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "each client communicates only with neighboring clients"
+          }
+        ],
+        "notes": "Конкретное ограничение топологии коммуникаций."
+      },
+      {
+        "match_type": "uncertain",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "compared to existing state-of-the-art (SOTA) optimizers in DFL"
+          }
+        ],
+        "notes": "Сравнение есть, но стандартный набор baseline из запроса не перечислен."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "title",
+            "text": "ADMM"
+          }
+        ],
+        "notes": "Совпадает название базового метода; это ещё не подтверждает сравнение с ADMM baseline."
+      }
+    ]
+  },
+  "autoresearchbench:row_000251": {
+    "scientific_correspondence": "uncertain",
+    "needs_full_text": true,
+    "confidence": "high",
+    "notes": "Все отличительные признаки относятся к footnotes и таблице времени; в abstract их нет. Нельзя присвоить нулевую смысловую близость только по отсутствию этих деталей.",
+    "alignments": [
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Требуется полный текст."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Требуется ссылка из footnote."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "F1 или harmonic mean не указаны."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Соотношение времени отсутствует."
+      }
+    ]
+  },
+  "autoresearchbench:row_000415": {
+    "scientific_correspondence": "uncertain",
+    "needs_full_text": true,
+    "confidence": "high",
+    "notes": "Тематика mmWave каналов связана с propagation, однако факты из цитируемой работы и параметры обучения/latency в abstract отсутствуют.",
+    "alignments": [
+      {
+        "match_type": "uncertain",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "millimeter-wave (mmWave)"
+          }
+        ],
+        "notes": "Радиоканальная тематика согласуется, но конкретная propagation study и ссылка не представлены."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      }
+    ]
+  },
+  "autoresearchbench:row_000904": {
+    "scientific_correspondence": "partial",
+    "needs_full_text": true,
+    "confidence": "high",
+    "notes": "Hardware qubit engineering подтверждено, но целевая работа — review. Она обсуждает foundational elements, что не равно требованию самой предлагать foundational innovations; нужны полный текст и уточнение строгости запроса.",
+    "alignments": [
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Год не входит в title + abstract."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "superconducting quantum circuits"
+          }
+        ],
+        "notes": "Конкретный вид quantum hardware."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "qubit design, noise properties, qubit control, and readout techniques"
+          }
+        ],
+        "notes": "Компоненты инженерии кубита."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "title",
+            "text": "Superconducting Qubits"
+          }
+        ],
+        "notes": "Прямо реализована одна из альтернатив физических модальностей."
+      },
+      {
+        "match_type": "uncertain",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "circuit quantum electrodynamics (cQED)"
+          }
+        ],
+        "notes": "Теоретическая физическая основа названа, но Hamiltonian/circuit derivations в тексте не показаны."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Отсутствие data-driven methods в аннотации не доказывает исключение."
+      },
+      {
+        "match_type": "uncertain",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "noise properties"
+          }
+        ],
+        "notes": "Noise — связанное свойство; оценка coherence/device-quality metrics не заявлена."
+      },
+      {
+        "match_type": "uncertain",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "we review several foundational elements"
+          }
+        ],
+        "notes": "Обзор основ не равнозначен предложению собственных фундаментальных инноваций."
+      }
+    ]
+  },
+  "autoresearchbench:row_000878": {
+    "scientific_correspondence": "partial",
+    "needs_full_text": true,
+    "confidence": "high",
+    "notes": "Научное ядро теоретической graph streaming задачи подтверждено. Год и отсутствие экспериментальной части в полном тексте не проверялись.",
+    "alignments": [
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Год не входит в title + abstract."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "semi-streaming algorithm"
+          }
+        ],
+        "notes": "Конкретная задача теоретической информатики; это отношение частного к общему."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "approximation of maximum bipartite matching"
+          }
+        ],
+        "notes": "Конкретная graph approximation problem."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "semi-streaming model"
+          }
+        ],
+        "notes": "Одна из альтернатив вычислительной модели."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "communication protocols for compressing (hidden) permutations"
+          }
+        ],
+        "notes": "Техника коммуникационных протоколов; не синоним всех communication-complexity/sketching методов."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "We prove that any semi-streaming algorithm"
+          }
+        ],
+        "notes": "Явно заявлен доказуемый lower bound."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "pass-approximation lower bound"
+          }
+        ],
+        "notes": "Приближение связано с ограничением числа проходов."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Конкретная space bound в аннотации не выписана; semi-streaming задаёт модель, а не явную оценку."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "passes"
+          }
+        ],
+        "notes": "Число проходов связано с приведённой формулой lower bound."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Эксперименты не упомянуты; их отсутствие в полном тексте не доказано."
+      }
+    ]
+  },
+  "autoresearchbench:row_000611": {
+    "scientific_correspondence": "partial",
+    "needs_full_text": true,
+    "confidence": "high",
+    "notes": "Tool-augmented LLM, DPO и сравнение с baseline видны. Полная последовательность SFT→DPO и конкретные multi-step benchmarks в abstract не установлены.",
+    "alignments": [
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "Tool-Augmented Larage Language Models"
+          }
+        ],
+        "notes": "Конкретная работа ML/NLP; опечатка Larage сохранена из источника."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Год не входит в title + abstract."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "Tool-Augmented Larage Language Models (TA-LLMs)"
+          }
+        ],
+        "notes": "Частный вид agentic LLM; термин не полностью взаимозаменяем с agentic."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "dialogue control"
+          }
+        ],
+        "notes": "Видны tool/dialogue control; structured reasoning в общем смысле не заявлено."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "Direct Preference Optimization"
+          }
+        ],
+        "notes": "Обучение через DPO выходит за пределы одного prompting; это соответствие подхода, не синоним фразы."
+      },
+      {
+        "match_type": "uncertain",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "While existing approaches rely mainly on Supervised Fine-Tuning with expert trajectories, we propose DiaTool-DPO"
+          }
+        ],
+        "notes": "SFT упомянут как существующий подход; полный multi-stage pipeline авторов здесь не описан."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "Direct Preference Optimization"
+          }
+        ],
+        "notes": "Подтверждена preference-learning часть альтернативы, но не сочетание с SFT."
+      },
+      {
+        "match_type": "uncertain",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "substantial improvements over baseline"
+          }
+        ],
+        "notes": "Сравнение есть; принадлежность baseline к стандартному набору tool-use методов не установлена."
+      },
+      {
+        "match_type": "uncertain",
+        "evidence": [
+          {
+            "field": "title",
+            "text": "Multi-Turn"
+          }
+        ],
+        "notes": "Multi-turn взаимодействие не гарантирует использование multi-step tool-invocation или planning benchmarks."
+      }
+    ]
+  },
+  "paperpilot:case_035": {
+    "scientific_correspondence": "partial",
+    "needs_full_text": true,
+    "confidence": "high",
+    "notes": "Graph representations и масштабируемость заявлены. GraphSAGE и inductive setting не видны. Дополнительно релиз называет Simplifying Graph Convolutional Networks, а S2 ID возвращает AdjMix: это проблема идентичности цели, не терминологии.",
+    "alignments": [
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "GraphSAGE не упомянут; сравнение с SGC/GCN не устанавливает конкуренцию именно с GraphSAGE."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "scalable to wider structure"
+          }
+        ],
+        "notes": "Заявлена масштабируемость модели графовых представлений; inductive setting не подтверждён."
+      }
+    ]
+  },
+  "paperpilot:case_039": {
+    "scientific_correspondence": "supported",
+    "needs_full_text": false,
+    "confidence": "high",
+    "notes": "Расширения DQN прямо заявлены; это ясный положительный пример, не терминологический разрыв.",
+    "alignments": [
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "several independent improvements to the DQN algorithm"
+          }
+        ],
+        "notes": "Последующее развитие базового алгоритма выражено содержательно, без слова follow-up."
+      },
+      {
+        "match_type": "abbreviation",
+        "evidence": [
+          {
+            "field": "title",
+            "text": "Deep Reinforcement Learning"
+          }
+        ],
+        "notes": "RL = reinforcement learning."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "six extensions to the DQN algorithm"
+          }
+        ],
+        "notes": "Содержательно подтверждает развитие DQN line."
+      }
+    ]
+  },
+  "paperpilot:case_037": {
+    "scientific_correspondence": "partial",
+    "needs_full_text": true,
+    "confidence": "high",
+    "notes": "Тип обзорной работы, GNN и обсуждение проектных решений видны; expressive power не заявлена. Название из релиза отличается от возвращённого по S2 ID; тождество работы нужно проверить.",
+    "alignments": [
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "a comprehensive review"
+          }
+        ],
+        "notes": "Прямо подтверждён один из альтернативных типов публикации."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "В title + abstract соответствие не найдено; это не оценка полного текста."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "embed a graph structure into the Transformer architecture"
+          }
+        ],
+        "notes": "Конкретное архитектурное решение; обзор всех design choices этим не подтверждён."
+      },
+      {
+        "match_type": "abbreviation",
+        "evidence": [
+          {
+            "field": "title",
+            "text": "Graph Neural Networks"
+          }
+        ],
+        "notes": "Расшифровка GNNs."
+      }
+    ]
+  },
+  "paperpilot:case_004": {
+    "scientific_correspondence": "partial",
+    "needs_full_text": true,
+    "confidence": "high",
+    "notes": "Конкуренция с T5 и NLP transfer подтверждены. Неопределённое same era требует отдельного критерия по датам, который нельзя извлечь из abstract.",
+    "alignments": [
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "our method pushes the Pareto-frontier by outperforming T5&GPT-like models"
+          }
+        ],
+        "notes": "Заявлено сравнение предлагаемого pre-training метода с T5."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "50 well-established supervised finetuning based NLP tasks"
+          }
+        ],
+        "notes": "Перенос через fine-tuning на NLP задачи."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Дата и допустимая длительность same era не заданы в title + abstract."
+      }
+    ]
+  },
+  "paperpilot:case_042": {
+    "scientific_correspondence": "supported",
+    "needs_full_text": false,
+    "confidence": "high",
+    "notes": "Offline RL и behavior-regularized actor-critic дают содержательно другой подход по сравнению с Decision Transformer из контекста. В релизе BRAC, по ID — BRAC+: существенная разница цели сохраняется отдельно.",
+    "alignments": [
+      {
+        "match_type": "exact",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "Offline RL"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "behavior regularized offline reinforcement learning"
+          }
+        ],
+        "notes": "Другой механизм: регуляризация policy/Q, а не sequence modeling. Вывод учитывает anchor Decision Transformer."
+      }
+    ]
+  },
+  "paperpilot:case_007": {
+    "scientific_correspondence": "partial",
+    "needs_full_text": true,
+    "confidence": "high",
+    "notes": "Развитие CoT в PoT описано прямо. Отношение later требует проверки даты вне title + abstract.",
+    "alignments": [
+      {
+        "match_type": "uncertain",
+        "evidence": [
+          {
+            "field": "title",
+            "text": "Numerical Reasoning Tasks"
+          }
+        ],
+        "notes": "Reasoning подтверждено; позже ли anchor — по этим полям не установить."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "Chain-of-thoughts prompting (CoT)"
+          },
+          {
+            "field": "abstract",
+            "text": "To disentangle computation from reasoning, we propose `Program of Thoughts' (PoT)"
+          }
+        ],
+        "notes": "Связь с CoT устанавливается соседними предложениями о Chain-of-thoughts prompting и вычислениях; PoT — новый метод, не синоним CoT."
+      }
+    ]
+  },
+  "paperpilot:case_038": {
+    "scientific_correspondence": "supported",
+    "needs_full_text": false,
+    "confidence": "high",
+    "notes": "Статья явно представляет набор graph benchmarks и evaluation tools. Слово modern не имеет отдельного датированного критерия в вопросе.",
+    "alignments": [
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "we introduce the TUDataset for graph classification and regression"
+          }
+        ],
+        "notes": "Работа представляет dataset, а не только использует чужой набор."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "kernel and graph neural network baseline implementations"
+          }
+        ],
+        "notes": "Конкретные методы graph learning, для которых предоставлены baseline/evaluation tools."
+      }
+    ]
+  },
+  "paperpilot:case_001": {
+    "scientific_correspondence": "partial",
+    "needs_full_text": true,
+    "confidence": "high",
+    "notes": "Language model pretraining и развитие BERT видны. Transformer architecture и прямое отношение к anchor Attention Is All You Need не установлены из abstract; нельзя восстанавливать их из памяти модели.",
+    "alignments": [
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "a replication study of BERT pretraining (Devlin et al., 2019)"
+          }
+        ],
+        "notes": "Видно продолжение BERT; прямое отношение к Transformer anchor этим не доказано."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Transformer не назван; знание архитектуры BERT из весов не заменяет текстовое свидетельство."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "Language model pretraining"
+          }
+        ],
+        "notes": "Language modeling виден; масштаб обосновывается лишь косвенно computationally expensive/data size, без размеров модели."
+      }
+    ]
+  },
+  "paperpilot:case_019": {
+    "scientific_correspondence": "not_supported",
+    "needs_full_text": true,
+    "confidence": "high",
+    "notes": "По S2 ID возвращена исследовательская работа о PMI metric/decoding, а релиз называет Document Grounded Generation: A Survey. Статья не представлена как survey, RAG/retrieval pipeline не заявлены. Сначала нужно проверить или исправить ID, а не оценивать терминологический разрыв.",
+    "alignments": [
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Авторское описание we propose a new metric указывает на исследовательский вклад; survey/review не заявлен."
+      },
+      {
+        "match_type": "uncertain",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "document-grounded dialogs"
+          }
+        ],
+        "notes": "Document grounding не обязательно retrieval-augmented generation: retrieval компонент не описан."
+      },
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Retrieval pipeline для LLM в abstract не описан."
+      }
+    ]
+  },
+  "paperpilot:case_036": {
+    "scientific_correspondence": "partial",
+    "needs_full_text": true,
+    "confidence": "high",
+    "notes": "GAT→GATv2 прямо описано; later по title + abstract не проверяется. Разница released title — добавленный префикс GATv2, а не доказанная подмена статьи.",
+    "alignments": [
+      {
+        "match_type": "not_visible",
+        "evidence": [],
+        "notes": "Отношение по времени требует даты вне выбранных полей."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "a dynamic graph attention variant"
+          }
+        ],
+        "notes": "Конкретный attention-based GNN."
+      },
+      {
+        "match_type": "descriptive",
+        "evidence": [
+          {
+            "field": "abstract",
+            "text": "a simple fix by modifying the order of operations and propose GATv2"
+          }
+        ],
+        "notes": "Прямое развитие GAT, а не только тематическая близость."
+      }
+    ]
+  }
+}

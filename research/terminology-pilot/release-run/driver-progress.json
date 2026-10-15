@@ -1,0 +1,8 @@
+{
+  "process_id": 10804,
+  "stage": "stopped_by_user_time_budget",
+  "metadata_complete": true,
+  "next_metadata_retry_seconds": null,
+  "stopped_at_utc": "2026-10-12T18:52:06.259623+00:00",
+  "automatic_resume": false
+}

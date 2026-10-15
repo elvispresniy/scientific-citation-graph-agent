@@ -1,0 +1,224 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-11",
+  "benchmarks": [
+    "scholarquest",
+    "crase",
+    "paperpilot",
+    "autoresearchbench"
+  ],
+  "excluded_benchmarks": [
+    "agenthop",
+    "pasa"
+  ],
+  "planned_total_questions": 40,
+  "selected_total_questions": 30,
+  "selected_total_pairs": 593,
+  "unique_target_papers": 589,
+  "selection": {
+    "method": "ascending sha256(seed|benchmark|source_id)",
+    "seed": "terminology-pilot-v1-2026-10-11",
+    "per_benchmark": 10,
+    "target_policy": "all released gold targets; no target subsampling",
+    "partition": "not assigned before instruction calibration"
+  },
+  "datasets": [
+    {
+      "benchmark": "scholarquest",
+      "planned_questions": 10,
+      "selected_questions": 10,
+      "selection_status": "selected",
+      "source_url": "https://github.com/pty12345/ScholarQuest/blob/main/datasets/ScholarQuest.jsonl",
+      "source_sha256": "9c6420260117d46538f26a6006c2133701ebe0b69a06ff8973817087294475e7",
+      "source_rows": 1111,
+      "eligible_rows": 1111,
+      "excluded_without_targets": 0,
+      "strata": null,
+      "question_ids": [
+        "scholarquest:BQ_001749",
+        "scholarquest:BQ_000320",
+        "scholarquest:BQ_001805",
+        "scholarquest:BQ_002338",
+        "scholarquest:BQ_000906",
+        "scholarquest:BQ_001361",
+        "scholarquest:BQ_000598",
+        "scholarquest:BQ_001612",
+        "scholarquest:BQ_002222",
+        "scholarquest:BQ_000223"
+      ],
+      "release_note": null
+    },
+    {
+      "benchmark": "autoresearchbench",
+      "planned_questions": 10,
+      "selected_questions": 10,
+      "selection_status": "selected",
+      "source_url": "https://huggingface.co/datasets/Lk123/AutoResearchBench",
+      "source_sha256": "61499014913a499b347eb2f7519394d972c5102309f9e02a1512ba9f96d24bbf",
+      "source_rows": 1000,
+      "eligible_rows": 940,
+      "excluded_without_targets": 60,
+      "strata": {
+        "deep": 5,
+        "wide": 5
+      },
+      "question_ids": [
+        "autoresearchbench:row_000412",
+        "autoresearchbench:row_000236",
+        "autoresearchbench:row_000222",
+        "autoresearchbench:row_000672",
+        "autoresearchbench:row_000794",
+        "autoresearchbench:row_000251",
+        "autoresearchbench:row_000415",
+        "autoresearchbench:row_000904",
+        "autoresearchbench:row_000878",
+        "autoresearchbench:row_000611"
+      ],
+      "release_note": null
+    },
+    {
+      "benchmark": "paperpilot",
+      "planned_questions": 10,
+      "selected_questions": 10,
+      "selection_status": "selected",
+      "source_url": "https://github.com/mtilyxuegao/PaperPilot/blob/HEAD/tests/dataset/testcases_s2ids_clean.csv",
+      "source_sha256": "a479ad2a79856634b0eb5e84c04499a1bcd6cfe4a4016df4622f9c6266dd80f4",
+      "source_rows": 50,
+      "eligible_rows": 50,
+      "excluded_without_targets": 0,
+      "strata": null,
+      "question_ids": [
+        "paperpilot:case_035",
+        "paperpilot:case_039",
+        "paperpilot:case_037",
+        "paperpilot:case_004",
+        "paperpilot:case_042",
+        "paperpilot:case_007",
+        "paperpilot:case_038",
+        "paperpilot:case_001",
+        "paperpilot:case_019",
+        "paperpilot:case_036"
+      ],
+      "release_note": "Public 50-case CSV; alignment with canonical evaluation is unverified."
+    },
+    {
+      "benchmark": "crase",
+      "planned_questions": 10,
+      "selected_questions": 0,
+      "selection_status": "awaiting_exact_release",
+      "source_url": "https://github.com/RadiantCrystal/CRASE",
+      "question_ids": [],
+      "release_note": "Exact filtered LitSearch splits and 98 original tasks unavailable; no proxy substitution."
+    }
+  ],
+  "annotation_status": "initial_llm_calibration_complete; human review pending; remaining gold pairs pending",
+  "metric_status": "complete_for_available_texts; independent human validation pending",
+  "metadata_status": "title + abstract retrieved for 584/589 unique targets; remaining records partial",
+  "annotation_progress": {
+    "annotated_pairs": 30,
+    "pending_pairs": 563,
+    "questions_covered": 30,
+    "query_concepts": 146,
+    "annotation_method": "llm",
+    "human_validated_pairs": 0,
+    "calibration_selection": "calibration-pairs.json"
+  },
+  "metadata_progress": {
+    "ready": 584,
+    "partial": 5
+  },
+  "calibration_artifact_sha256": {
+    "query-concepts.v1.json": "8b9d82e3f4937bd954edc760f9995e05b8ef823adccec59012295c39f47c536c",
+    "calibration-pairs.json": "25363751b13b020ded164750eb9268b110f612891df41d27c39ffd700262d33b",
+    "calibration-decisions.v1.json": "6e6967b83c51129c13d395e86a6e74337001b74a485a4e1cc46ecc2547917975",
+    "annotations.jsonl": "8ad69658d102d597bd12abb6b30a400b985c8a719703bda9ff49d14b52e35106"
+  },
+  "metadata_identity_review": {
+    "title_discrepancy_flags": 26,
+    "calibration_flags": 5,
+    "automatically_excluded": 0,
+    "details": "metadata-issues.json"
+  },
+  "metric_progress": {
+    "run_id": "terminology-grid-v2-2026-10-12",
+    "completed_at_utc": "2026-10-11T21:55:11.379039+00:00",
+    "pairs": 593,
+    "questions": 30,
+    "metric_records": 83020,
+    "methods": 15,
+    "text_views": 7,
+    "scientific_term_spans": 155,
+    "mentioned_spans": 149,
+    "excluded_spans": 6,
+    "common_pairs": 580,
+    "common_questions": 30,
+    "primary_method_recommendation": "words_lemma",
+    "human_validated_metric_winner": false,
+    "structural_validation": "passed",
+    "behavior_checks": "passed"
+  },
+  "fulltext_progress": {
+    "inventory_records": 589,
+    "ready": 583,
+    "unavailable": 6,
+    "bibliography_split": 583,
+    "provenance": "fulltexts.jsonl",
+    "raw_cache_ignored_by_git": true,
+    "related_work_split_counts": {
+      "no_explicit_section": 284,
+      "removed": 294,
+      "ambiguous": 5,
+      "unavailable": 6
+    }
+  },
+  "metric_artifact_sha256": {
+    "metrics.jsonl": "ca8250aa641d877622608d91ffbf96309dc203998587d1c301bd295f23338287",
+    "term-pairs.jsonl": "c2562675f8ac10378d1a0f450a8384c1343ab8830b2e1fd5f8496b5744aaa609",
+    "query-terms.v2.json": "620728b1aff3f254bcb3ab771482294f6169bc69df21fce1c28758cc5eb1ebb8",
+    "stopwords.v1.json": "02b08a8107d15e07da14f18b6a0488ce0e8b89860d961be15edc2ba7a6cba4ca",
+    "aliases.v1.json": "c2a943fa7de6f431d2996c63a631ba58a5e32df4802e440af6bd503ec234114d",
+    "idf.v1.json": "174b4432fd96f165c036353bc22ed4339d554e63ea687fbb6302141d3860bb2f",
+    "metric-config.v1.json": "f4cd4257154ee92db5002e1ac701eae392172077ea77253af057a8eb09516866",
+    "metric-run.json": "26ca5921d8e79afca4bcb6bb8fae4a581ffcd1111c17589940aaaf997195ebf1",
+    "metric-summary.json": "32e85387af62948c28fa74aa4e00454cec8e389f153a0a914ffae870c3384a04",
+    "fulltexts.jsonl": "ec0044a82d31982469a250dc054ce683d4cf08ba736a74a267c4dfb2c00df9ed",
+    "reference-splits.jsonl": "b14257a74d37b4b2c4dec0ba905a9edfebccbcd97722f1832ad326d1d34a124e",
+    "reference-boundaries.v1.json": "30fe89a2ea421b7277720d67f4aeaa07d0812b6590b6184559fd43237d5ec66f",
+    "fulltext-source-overrides.v1.json": "c965792f28ab3d41912d71016a0a8e5a6980fbd55ea1994312200c3bb87ed810",
+    "fulltext-unavailability-notes.v1.json": "ff80d4c96f5950c6227cc8018c94bc714c3973e9640067c55135400d1c7420a1",
+    "metric-behavior-checks.json": "9fd719a97ce1d02cd6cb4c7ff623d4e4177aa3b45f650328da33635511e1b2e4",
+    "metric-validation-summary.json": "94669c79179b80bbce459aa5d62884158fffe18f33ceb3efc1345d0dc819fb4b",
+    "metric-comparison.md": "f1c0ac330a3225a3af807855c8f3697a27c8ed937de1102831a3420a5894d9b8",
+    "term-match-details.md": "567a6b02d68fd26d1308776e3a09ea681be3650ac3c3cb0a3e300d79c3449161",
+    "README.md": "21aed80235e9b063c3abbd6b91b76e8e057233658e55910b8167ef1592e3720c",
+    "automatic-term-config.v1.json": "6eb17577924074b66510a4cef78e7c7f5aa18fedb0516dec7473adde864611e4",
+    "build_metric_report.py": "ef77019d87803e3c37f19e71b9b488492692e326e279236df3ec6d998619122b",
+    "validate_release.py": "0ebb4930df14c08067f1faf72e40f35a135089f5cbf13fd9b84523892773ab52",
+    "continue_release_run.py": "2df0465602b27e2221650f2b6975db808d2538ff9836dc5f826e1a77d3f99604",
+    "measure_release.py": "87319897a6fee31431526cd331907da2e7c69fe0785689f01064ba08497905dc",
+    "measure_terms.py": "36559d4dfef7d1d89059707a1d883d86c2c08dafe605ce93e808637bd7fa0e73",
+    "collect_release_bodies.py": "4e66e0206fd43d7d8290c04b80c9d601c613385c49f0acfc604851284f5009bf",
+    "section_text.py": "0cef2ccfd11fc9c8a0964bc7b58d7fc2a532fe921cc8b42dd1735a37174c0d2d",
+    "automatic_terms.py": "027ba973075e6223f9aa0cc2e2bea959735b8ca93f9f5ed26a5d3f2f75085d9a",
+    "related-work-boundaries.v1.json": "c7507e5ea6b9cd190bc94beff115af9cf5b6221b79e8893189ce6b7b4ef9c3fb",
+    "run_release_metadata.py": "86dfef32f84bbc0a1a91a34a41979c1246c89623bb67564b3b14059fb1a6320e",
+    "automatic-term-calibration.jsonl": "8c3a6d727f93f5c20c599f1d707eab06a94bc8328781d7448d37fa7ef596f38b",
+    "related-work-splits.jsonl": "8a5fe7edeaf4e0484264ec20c431423a02b00c93cc7f9ab9920fb12d2e80b0a7"
+  },
+  "updated_client_date": "2026-10-15",
+  "release_run": {
+    "scope": "all exact frozen releases; exclude calibration questions in primary summary",
+    "questions": 2101,
+    "pairs": 65458,
+    "remaining_questions": 2071,
+    "remaining_pairs": 64865,
+    "status": "frozen; no automatic collection or remeasurement",
+    "primary_method": "query-only POS noun phrases + unique-analysis WordNet noun normalization + query word coverage",
+    "report": "release-run/report.md",
+    "driver_progress": "release-run/driver-progress.json",
+    "collection_progress": "release-run/collection-progress.json",
+    "human_validated_metric_winner": false,
+    "paid_model_api_calls": 0,
+    "article_report": "release-run/article-report.md"
+  }
+}

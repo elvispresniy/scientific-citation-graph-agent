@@ -1,0 +1,15 @@
+{
+  "common_pairs": 580,
+  "common_questions": 30,
+  "primary_method": "words_lemma",
+  "primary_TA": 0.46156287619447284,
+  "primary_body": 0.8042399627974731,
+  "primary_body_no_related_work": 0.7916210089086623,
+  "phrase_TA": 0.19880690884072558,
+  "phrase_body": 0.3931111840546726,
+  "phrase_body_no_related_work": 0.3794973864132563,
+  "additional_body_percentage_points": 34.26770866030003,
+  "related_work_only_percentage_points": 1.2618953888810858,
+  "aggregation": "mean per question after mean over its available targets; same paired subset across views",
+  "human_validated_metric_winner": false
+}

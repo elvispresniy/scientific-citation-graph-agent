@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "pairs": 593,
+  "metric_records": 83020,
+  "cells_per_pair": 140,
+  "scientific_term_spans": 155,
+  "unique_articles": 589,
+  "fulltexts_ready": 583,
+  "metric_status_counts": {
+    "ok": 82240,
+    "missing_metadata": 780
+  },
+  "related_work_split_counts": {
+    "no_explicit_section": 284,
+    "removed": 294,
+    "ambiguous": 5,
+    "unavailable": 6
+  },
+  "checks": [
+    "all target pairs represented",
+    "complete metric/view grid without duplicate cells",
+    "finite scores in range; missing text is null",
+    "fixed term offsets in original questions",
+    "raw PDF/HTML completeness and text hashes",
+    "fixed config hashes and run ID",
+    "found/missing word partitions",
+    "coverage grows across nested text views"
+  ],
+  "limitation": "No independent validation of scientific equivalence or target relevance."
+}

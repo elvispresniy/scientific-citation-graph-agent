@@ -1,0 +1,35 @@
+{
+  "scope": "all rows of the exact frozen pilot releases",
+  "questions": 2101,
+  "pairs": 65458,
+  "unique_target_records": 53542,
+  "sources": [
+    {
+      "benchmark": "scholarquest",
+      "source_url": "https://raw.githubusercontent.com/pty12345/ScholarQuest/HEAD/datasets/ScholarQuest.jsonl",
+      "source_sha256": "9c6420260117d46538f26a6006c2133701ebe0b69a06ff8973817087294475e7",
+      "source_rows": 1111
+    },
+    {
+      "benchmark": "autoresearchbench",
+      "source_url": "https://huggingface.co/datasets/Lk123/AutoResearchBench",
+      "source_sha256": "61499014913a499b347eb2f7519394d972c5102309f9e02a1512ba9f96d24bbf",
+      "source_rows": 1000
+    },
+    {
+      "benchmark": "paperpilot",
+      "source_url": "https://raw.githubusercontent.com/mtilyxuegao/PaperPilot/HEAD/tests/dataset/testcases_s2ids_clean.csv",
+      "source_sha256": "a479ad2a79856634b0eb5e84c04499a1bcd6cfe4a4016df4622f9c6266dd80f4",
+      "source_rows": 50
+    }
+  ],
+  "excluded_no_target_questions": 60,
+  "metadata_counts": {
+    "ready": 53339,
+    "unavailable": 1,
+    "partial": 202
+  },
+  "crase": "exact release unavailable; not substituted",
+  "paperpilot": "public 50-case CSV; canonical test alignment unverified",
+  "fulltexts": "Separate resumable collection; see collection-progress.json and fulltexts.jsonl. Missing bodies remain null."
+}

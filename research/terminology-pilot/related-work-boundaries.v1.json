@@ -1,0 +1,84 @@
+{
+  "arxiv:2205.05878": {
+    "body_sha256": "a1058f0f6c5b8368146e3401ebb4128fccf0b5b98d7db6e8f65b67e5f1d3bb71",
+    "ranges": [
+      [
+        5663,
+        7145
+      ]
+    ],
+    "sections": [
+      {
+        "heading": "Related work",
+        "start": 5663,
+        "end": 7145,
+        "next_heading": "2",
+        "mixed_heading": false
+      }
+    ],
+    "reason": "Unnumbered Related Work heading; next section boundary reviewed in extracted text."
+  },
+  "arxiv:0909.3080": {
+    "body_sha256": "ad852a17ccdd881f9e5534ad54b972aabc8e0d95d01f8c2bbcfbfd4e39520919",
+    "ranges": [
+      [
+        2492,
+        7096
+      ]
+    ],
+    "sections": [
+      {
+        "heading": "Related work",
+        "start": 2492,
+        "end": 7096,
+        "next_heading": "Outline",
+        "mixed_heading": false
+      }
+    ],
+    "reason": "Unnumbered Related Work heading; next section boundary reviewed in extracted text."
+  },
+  "s2:6810af56467a5bc907cda0ad2414f56ed5aa182a": {
+    "body_sha256": "43ad23e6b1b1deb32b7aaaf844a099ca5b803d4fb63e9a80ee9f5ab31e730dba",
+    "ranges": [
+      [
+        5906,
+        8730
+      ]
+    ],
+    "sections": [
+      {
+        "heading": "Related works",
+        "start": 5906,
+        "end": 8730,
+        "next_heading": "Proposed method",
+        "mixed_heading": false
+      }
+    ],
+    "reason": "Unnumbered Related Work heading; next section boundary reviewed in extracted text."
+  },
+  "arxiv:1910.05425": {
+    "body_sha256": "2530a09f10537a20d2ad6aa9b8319d4e3931c6f67ea0fd1ab082266acec9828d",
+    "status": "unreliable_extraction",
+    "reason": "Two-column PDF extraction interleaves Related Work with Methods/Background/Conclusion; a single contiguous cut would remove own-work paragraphs or retain review paragraphs."
+  },
+  "arxiv:2406.00374": {
+    "body_sha256": "f2fbf9d9967d4a023066e817cbb202bd7f4cd258a51517bf2e3715e69c534018",
+    "status": "unreliable_extraction",
+    "reason": "Two-column PDF extraction interleaves Related Work with Methods/Background/Conclusion; a single contiguous cut would remove own-work paragraphs or retain review paragraphs."
+  },
+  "arxiv:2111.13817": {
+    "body_sha256": "cad97a6b52fda71a82d331113b28291d6d699e456e5d1a4729f1957ed6234b4b",
+    "status": "unreliable_extraction",
+    "reason": "Two-column PDF extraction interleaves Related Work with Methods/Background/Conclusion; a single contiguous cut would remove own-work paragraphs or retain review paragraphs."
+  },
+  "s2:fdb0f24fdf31b703921e4044ea1f55d82074b56f": {
+    "body_sha256": "63bcda7fcd12e7f1077ffc252f0619483c3fc614ec64e1bb6e264c36957ecad8",
+    "status": "unreliable_extraction",
+    "reason": "Two-column PDF extraction interleaves Related Work with Methods/Background/Conclusion; a single contiguous cut would remove own-work paragraphs or retain review paragraphs."
+  },
+  "arxiv:1906.09513": {
+    "body_sha256": "daefa314ad46b8470cd0aed7d0ecddcb4e75c3dd823d205e9e6119970e01d060",
+    "status": "unreliable_extraction",
+    "reason": "Two-column PDF extraction interleaves Related Work with Methods/Background/Conclusion; a single contiguous cut would remove own-work paragraphs or retain review paragraphs."
+  }
+}

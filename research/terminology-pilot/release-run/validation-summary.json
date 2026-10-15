@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "questions": 2101,
+  "pairs": 65458,
+  "view_status_counts": {
+    "title_abstract:ok": 65168,
+    "body_no_references:ok": 13414,
+    "body_no_references_no_related_work:ok": 13341,
+    "body_no_references:missing_text": 52044,
+    "body_no_references_no_related_work:missing_text": 52117,
+    "title_abstract:missing_text": 290
+  },
+  "numeric_checks": 459615,
+  "checks": [
+    "every released target pair exactly once",
+    "original-query span offsets",
+    "found/missing word partitions",
+    "fixed denominators",
+    "gap = 1 - coverage",
+    "finite scores in range",
+    "null missing values",
+    "nested available text views",
+    "input hashes"
+  ],
+  "limitation": "No independent expert validation of terminology equivalence, extraction boundaries or target relevance."
+}

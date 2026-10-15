@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "aliases": {
+    "mcmc": "markov chain monte carlo",
+    "rl": "reinforcement learning",
+    "gnn": "graph neural network",
+    "gnns": "graph neural networks",
+    "cnn": "convolutional neural network",
+    "cnns": "convolutional neural networks",
+    "nlp": "natural language processing"
+  },
+  "note": "Fixed small dictionary; no corpus-tailored synonyms, not an ontology or semantic relevance check."
+}

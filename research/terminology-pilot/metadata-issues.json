@@ -1,0 +1,213 @@
+{
+  "issues": [
+    {
+      "paper_id": "s2:0272b14dd471fe7b81df703af1b71d7600b77215",
+      "released_title": "AWAC: Accelerating Online Reinforcement Learning with Offline Datasets",
+      "fetched_title": "Accelerating Online Reinforcement Learning with Offline Datasets",
+      "in_calibration": false,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    },
+    {
+      "paper_id": "s2:0a0ab9759d199777d5403f994db1c001f1d539e9",
+      "released_title": "Adaptive Graph Attention Networks",
+      "fetched_title": "Adaptive graph attention networks with interactive learning for attributed graph clustering",
+      "in_calibration": false,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    },
+    {
+      "paper_id": "s2:173469b99fc54093f90cfa972810c51af420b3bb",
+      "released_title": "BCQ: Batch-Constrained Deep Q-Learning",
+      "fetched_title": "Energy-Efficient Train Control Method Based on Batch Constrained Deep Q-Learning",
+      "in_calibration": false,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    },
+    {
+      "paper_id": "s2:1c71771c701aadfd72c5866170a9f5d71464bb88",
+      "released_title": "UniLM: Unified Language Model Pre-training for Natural Language Understanding and Generation",
+      "fetched_title": "Unified Language Model Pre-training for Natural Language Understanding and Generation",
+      "in_calibration": false,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    },
+    {
+      "paper_id": "s2:277dd73bfeb5c46513ce305136b0e71fcd2a311c",
+      "released_title": "GPS: Recipe for a General, Powerful, Scalable Graph Transformer",
+      "fetched_title": "Recipe for a General, Powerful, Scalable Graph Transformer",
+      "in_calibration": false,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    },
+    {
+      "paper_id": "s2:3af229f3da1bd24378fd8d76c88fd393b4464058",
+      "released_title": "Knowledge-Intensive Language Tasks and the KILT Benchmark",
+      "fetched_title": "KILT: a Benchmark for Knowledge Intensive Language Tasks",
+      "in_calibration": false,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    },
+    {
+      "paper_id": "s2:3b9732bb07dc99bde5e1f9f75251c6ea5039373e",
+      "released_title": "Double Q-learning",
+      "fetched_title": "Deep Reinforcement Learning with Double Q-Learning",
+      "in_calibration": false,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    },
+    {
+      "paper_id": "s2:56c9da5e1d099ed109abb86ee1de1d9f4d75d751",
+      "released_title": "Papers100M: A Large-Scale Graph Benchmark",
+      "fetched_title": "When Heterophily Meets Heterogeneity: Challenges and a New Large-Scale Graph Benchmark",
+      "in_calibration": false,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    },
+    {
+      "paper_id": "s2:5727a9033c3d296358c4162a573c97715f039825",
+      "released_title": "A Comprehensive Review of Retrieval-Augmented Generation",
+      "fetched_title": "Enhancing Natural Language Processing: A Comprehensive Review of Retrieval Augmented Generation",
+      "in_calibration": false,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    },
+    {
+      "paper_id": "s2:63a513832f56addb67be81a2fa399b233f3030fc",
+      "released_title": "Graph Representation Learning",
+      "fetched_title": "Fast Graph Representation Learning with PyTorch Geometric",
+      "in_calibration": false,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    },
+    {
+      "paper_id": "s2:6810af56467a5bc907cda0ad2414f56ed5aa182a",
+      "released_title": "Simplifying Graph Convolutional Networks",
+      "fetched_title": "AdjMix: simplifying and attending graph convolutional networks",
+      "in_calibration": true,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    },
+    {
+      "paper_id": "s2:6c4b76232bb72897685d19b3d264c6ee3005bc2b",
+      "released_title": "T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+      "fetched_title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+      "in_calibration": false,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    },
+    {
+      "paper_id": "s2:6c96c2d4a3fbd572fef2d59cb856521ee1746789",
+      "released_title": "PinSAGE: Graph Convolutional Neural Networks for Web-Scale Recommender Systems",
+      "fetched_title": "Graph Convolutional Neural Networks for Web-Scale Recommender Systems",
+      "in_calibration": false,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    },
+    {
+      "paper_id": "s2:741a7faf9dbefd418cda878c61c5b839ecc02977",
+      "released_title": "Graph Transformer Networks: A Survey",
+      "fetched_title": "A Survey on Graph Neural Networks and Graph Transformers in Computer Vision: A Task-Oriented Perspective",
+      "in_calibration": true,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    },
+    {
+      "paper_id": "s2:8ede7ddf99986d69562455bc8d69222fc3e27350",
+      "released_title": "R2D2: Recurrent Experience Replay in Distributed Reinforcement Learning",
+      "fetched_title": "Recurrent Experience Replay in Distributed Reinforcement Learning",
+      "in_calibration": false,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    },
+    {
+      "paper_id": "s2:919ede27c84203ee0522c623f99f2315124cf164",
+      "released_title": "Graphormer",
+      "fetched_title": "Mesh Graphormer",
+      "in_calibration": false,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    },
+    {
+      "paper_id": "s2:a6f9fb141034a87ff9d627dc8a3ef31d0790c6ed",
+      "released_title": "IQL: Implicit Q-Learning",
+      "fetched_title": "IDQL: Implicit Q-Learning as an Actor-Critic Method with Diffusion Policies",
+      "in_calibration": false,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    },
+    {
+      "paper_id": "s2:a710fdd04a3d5c633af29820dc9571e4a39bfd6f",
+      "released_title": "Categorical Distributional Reinforcement Learning",
+      "fetched_title": "An Analysis of Categorical Distributional Reinforcement Learning",
+      "in_calibration": false,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    },
+    {
+      "paper_id": "s2:ab30672c8c5e4787f6a5985f26a8f281f0db2fb8",
+      "released_title": "GATv2: How Attentive are Graph Attention Networks?",
+      "fetched_title": "How Attentive are Graph Attention Networks?",
+      "in_calibration": true,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    },
+    {
+      "paper_id": "s2:ac215cee04eb7a5c41b8973c335ad5e82a836b3a",
+      "released_title": "BRAC: Behavior Regularized Actor Critic",
+      "fetched_title": "BRAC+: Improved Behavior Regularized Actor Critic for Offline Reinforcement Learning",
+      "in_calibration": true,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    },
+    {
+      "paper_id": "s2:ad14227e4f51276892ffc37aa43fd8750bb5eba8",
+      "released_title": "AWR: Advantage-Weighted Regression",
+      "fetched_title": "Advantage-Weighted Regression: Simple and Scalable Off-Policy Reinforcement Learning",
+      "in_calibration": false,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    },
+    {
+      "paper_id": "s2:b31d41172d3f13c472ddcfe168b7c92916343ae5",
+      "released_title": "PPI Dataset for Graph Learning",
+      "fetched_title": "Leveraging Graph Machine Learning for Moonlighting Protein Prediction: A Local PPI Network and Physiochemical Feature Approach",
+      "in_calibration": false,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    },
+    {
+      "paper_id": "s2:e025c3a3f2c628b9f40ba6e0d3cfb89faac2802a",
+      "released_title": "A Survey on Heterogeneous Graph Neural Networks",
+      "fetched_title": "Heterogeneous graph neural networks analysis: a survey of techniques, evaluations and applications",
+      "in_calibration": false,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    },
+    {
+      "paper_id": "s2:e58dde4b23f251314e900f56e765b4aad27bc15f",
+      "released_title": "Transformer for Graphs",
+      "fetched_title": "Transformer for Graphs: An Overview from Architecture Perspective",
+      "in_calibration": false,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    },
+    {
+      "paper_id": "s2:ea0e4a9778e33b7f8e7b3246d63071330950995a",
+      "released_title": "SAN: Structure-Aware Transformer for Graph Representation Learning",
+      "fetched_title": "Structure-Aware Transformer for Graph Representation Learning",
+      "in_calibration": false,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    },
+    {
+      "paper_id": "s2:fdb0f24fdf31b703921e4044ea1f55d82074b56f",
+      "released_title": "Document Grounded Generation: A Survey",
+      "fetched_title": "Pointwise Mutual Information Based Metric and Decoding Strategy for Faithful Generation in Document Grounded Dialogs",
+      "in_calibration": true,
+      "status": "needs_identity_review",
+      "note": "Title discrepancy is a review flag, not proof of wrong ID; aliases and title changes are possible."
+    }
+  ],
+  "automatically_excluded_papers": []
+}

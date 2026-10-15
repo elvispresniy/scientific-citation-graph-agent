@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "records": {
+    "questions": 30,
+    "papers": 589,
+    "annotations": 30,
+    "metrics": 83020
+  },
+  "validated_spans": 229,
+  "selected_gold_pairs": 593,
+  "checks": [
+    "schema subset used by records.schema.json",
+    "IDs and gold membership",
+    "Unicode span offsets",
+    "one alignment per fixed query concept",
+    "annotation input hashes",
+    "deterministic calibration target sampling",
+    "manifest counts and artifact hashes"
+  ],
+  "limitation": "Structural validation does not validate scientific judgments or supply human review."
+}

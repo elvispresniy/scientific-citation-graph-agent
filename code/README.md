@@ -1,23 +1,38 @@
-# Code
+# Код предварительного эксперимента
 
-This repository contains source code for our paper. The code includes data processing, model building, and visualization of results.
+Эксперимент измеряет лексическое покрытие научного запроса в целевых статьях. Сбор данных и расчёт завершены; зафиксированный срез не расширяется автоматически.
 
-> [!IMPORTANT]
-> We use jupyter notebooks for visualization purposes only. Please, keep your code in Python scripts.
+## Результаты и рисунки
 
-## Installation
+`lexical-results.json` содержит согласованные округлённые числа для статьи и ссылку на контрольную сумму исходного расчёта. Для заголовков и аннотаций и для основного текста без библиографии и Related Work результаты представлены независимо.
 
-Clone your project repository:
-```bash
-git clone https://github.com/elvispresniy/scientific-citation-graph-agent.git
-cd scientific-citation-graph-agent/code
+Из корня репозитория:
+
+```sh
+python3 -m pip install -r code/requirements.txt
+python3 code/plot_lexical_results.py
 ```
 
-Install dependencies:
-```bash
-pip install -r requirements.txt
+Команда создаёт два отдельных графика в `paper/figures/` в PNG и SVG, а также их векторные представления на LaTeX. Она читает готовые значения, не скачивает статьи, не пересчитывает лексические метрики и не запускает модели. По вертикали показана доля отсутствующих слов запроса; это не ошибка поисковой системы.
+
+## Код расчёта
+
+Основной код находится в `research/terminology-pilot/`:
+
+- `automatic_terms.py` — выделение выражений только из запроса.
+- `measure_terms.py` — токенизация, нормализация и пилотная сетка показателей.
+- `section_text.py` — подготовка частей текста.
+- `measure_release.py` — расчёт по парам и усреднение по вопросам.
+- `validate_release.py` — проверка сохранённых результатов.
+
+Источники, размеры релизов и контрольные суммы: `release-run/inventory.json`. Зафиксированный состав и хеши результатов: `release-run/frozen-slice.json`. Сводка: `release-run/summary.json`; значения по вопросам: `release-run/question-metrics.jsonl`.
+
+Полные тексты, полный комплект исходных вопросов, крупные сетки метрик и ответы сетевых источников остаются локальными входными данными и не включены в Git. Для повторного расчёта необходимы именно входы с контрольными суммами из зафиксированного запуска, NLTK 3.9.4, WordNet 3.0 и `averaged_perceptron_tagger_eng`; их версии указаны в конфигурациях. Инструменты получения данных требуют сети; обработка PDF требует `pdftotext`. Публикация кода не запускает сбор повторно.
+
+## Исходник статьи для редактора
+
+`paper/main.tex` содержит встроенные копии стиля и библиографии для редактора, который принимает один файл. При обычной сборке используются соседние исходные файлы. После изменения стиля, библиографии или рисунков обновить встроенные копии можно командой:
+
+```sh
+python3 code/sync_paper_assets.py
 ```
-
-## Usage
-
-TODO

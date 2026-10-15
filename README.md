@@ -10,8 +10,10 @@
 
 ## Материалы проекта
 
+- [Презентация курса](course/m1p_2026.pdf) — текущее домашнее задание на слайде 103; [статус выполнения](HOMEWORK_STATUS.md).
 - [Обзор литературы](LINKREVIEW.md)
 - [Код](code)
+- [Предварительный эксперимент: согласованный отчёт](research/terminology-pilot/release-run/article-report.md)
 - [Статья](paper/main.tex)
 - [Презентация](slides/main.tex)
 

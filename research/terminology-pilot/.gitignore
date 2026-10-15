@@ -1,0 +1,15 @@
+# Public full texts and extracted copies are local research inputs, not report artifacts.
+fulltext-cache/
+__pycache__/
+release-run/cache/
+release-run/papers.jsonl
+release-run/pair-metrics.jsonl
+release-run/*.writing
+# Large local measurement grids and complete benchmark inputs.
+metrics.jsonl
+term-pairs.jsonl
+release-run/questions.jsonl
+release-run/excluded-questions.jsonl
+release-run/query-terms.jsonl
+release-run/question-results.md
+release-run/fulltexts.jsonl
