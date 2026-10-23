@@ -1,0 +1,119 @@
+\documentclass[aspectratio=169]{beamer}
+
+\usepackage{iftex}
+\ifPDFTeX
+\usepackage[T2A,T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\else
+\usepackage{fontspec}
+\setmainfont{cmunrm.otf}[BoldFont=cmunbx.otf,ItalicFont=cmunti.otf,BoldItalicFont=cmunbi.otf]
+\setsansfont{cmunss.otf}[BoldFont=cmunsx.otf,ItalicFont=cmunsi.otf]
+\setmonofont{cmuntt.otf}
+\fi
+\usepackage[english,russian]{babel}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,calc}
+\usepackage{amssymb,amsfonts,amsmath}
+
+\usecolortheme{beaver}
+\usefonttheme[onlymath]{serif}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{blocks}[rounded=true,shadow=false]
+\setbeamerfont{frametitle}{size=\large}
+\setbeamerfont{block title}{size=\small}
+\setbeamersize{text margin left=0.45cm,text margin right=0.45cm}
+\setbeamertemplate{footline}{%
+  \leavevmode\hbox to\paperwidth{\hfill\tiny\color{gray}%
+  Гуляков Н.\,С. \enspace·\enspace науч. рук. Ищенко Р.\,В. \enspace·\enspace МФТИ, «Моя первая научная статья»\hspace*{0.45cm}}%
+  \vspace*{1mm}}
+
+\definecolor{qblue}{RGB}{31,94,168}
+\definecolor{okgreen}{RGB}{30,130,60}
+\definecolor{badred}{RGB}{190,30,45}
+\definecolor{nodegray}{RGB}{175,175,175}
+\definecolor{pathgray}{RGB}{90,90,90}
+
+\tikzset{
+  paper/.style={circle, draw=#1, fill=#1!12, line width=1pt, minimum size=8mm, inner sep=0pt, font=\small},
+  bg/.style={circle, draw=nodegray, fill=nodegray!15, minimum size=3.5mm, inner sep=0pt},
+  bgedge/.style={draw=nodegray, line width=0.5pt, -{Stealth[length=1.8mm]}},
+  pathedge/.style={okgreen, line width=2.2pt, -{Stealth[length=3mm]}},
+  term/.style={font=\footnotesize\itshape, align=center, text=black!80},
+}
+
+\begin{document}
+
+\begin{frame}{Целевая статья не находится по словам запроса, но достижима по цитированиям}
+\vspace{-3mm}
+\begin{columns}[T,onlytextwidth]
+\begin{column}{0.61\textwidth}
+\centering
+\resizebox{\linewidth}{!}{%
+\begin{tikzpicture}[x=1cm, y=1cm, font=\footnotesize]
+  % query and direct search
+  \node[draw=qblue, fill=qblue!8, rounded corners=2pt, line width=1pt, align=left,
+        text width=4.4cm, inner sep=4pt, execute at begin node={\hyphenpenalty=10000\relax}] (q) at (1.9,4.9)
+       {$q$:\ \textit{«domain adaptation: как обучить модель, если тестовые данные распределены иначе?»}};
+  \node[draw=gray, fill=gray!8, rounded corners=2pt, align=center, text width=3.6cm,
+        inner sep=4pt, execute at begin node={\hyphenpenalty=10000\relax}] (s) at (7.5,4.9)
+       {прямой поиск $\mathrm{Search}_k(q)$\\{\scriptsize BM25, эмбеддинги:\\ top-$k$ по совпадению слов}};
+  \draw[-{Stealth[length=2mm]}, line width=0.8pt, gray] (q) -- (s);
+
+  % citation graph: path p = (v0, v1, v2) and its neighbourhood
+  \node[paper=qblue]    (v0) at (0.9,2.3) {$v_0$};
+  \node[paper=pathgray] (v1) at (4.2,1.1) {$v_1$};
+  \node[paper=okgreen]  (v2) at (7.5,2.3) {$v_2$};
+  \foreach \n/\x/\y in {a/-0.5/3.3, b/2.6/3.0, c/2.4/0.1, d/5.4/3.0, e/6.0/0.1, g/9.1/3.4}
+    \node[bg] (\n) at (\x,\y) {};
+  \draw[bgedge] (a) -- (v0);  \draw[bgedge] (v0) -- (b);
+  \draw[bgedge] (v1) -- (c);  \draw[bgedge] (d) -- (v1);  \draw[bgedge] (e) -- (v1);
+  \draw[bgedge] (g) -- (v2);  \draw[bgedge] (d) -- (b);
+
+  \draw[pathedge] (v0) -- node[sloped, above, font=\scriptsize, text=okgreen] {ссылка, $N^{+}$} (v1);
+  \draw[pathedge] (v1) -- node[sloped, above, font=\scriptsize, text=okgreen] {цитирование, $N^{-}$} (v2);
+
+  % terminology changes along the path
+  \node[term, below=2pt of v0] {domain adaptation\\[-1pt]\upshape\scriptsize\color{gray}машинное обучение};
+  \node[term, below=2pt of v1] {covariate shift\\[-1pt]\upshape\scriptsize\color{gray}статистика};
+  \node[term, below=2pt of v2] {sample selection bias\\[-1pt]\upshape\scriptsize\color{gray}эконометрика};
+  \node[font=\small\bfseries, text=okgreen, right=1pt of v2] {$T$};
+  \node[anchor=west, font=\scriptsize, text=gray] at (-0.7,-0.45) {граф цитирований $G=(V,E)$;\ \textcolor{okgreen}{зелёный} — путь $p=(v_0,v_1,v_2)$};
+
+  % seed and direct-search miss
+  \draw[qblue, dashed, line width=1pt, -{Stealth[length=2mm]}] (q.south -| v0) -- node[right, font=\scriptsize, text=qblue] {затравка $S_0=\{v_0\}$} (v0);
+  \draw[badred, dashed, line width=1pt, -{Stealth[length=2mm]}] (s.south -| v2) -- coordinate[pos=0.45] (miss) (v2);
+  \node[text=badred, font=\Large\bfseries] at (miss) {$\times$};
+  \node[left=3pt of miss, font=\scriptsize, text=badred] {$T\cap\mathrm{Search}_k(q)=\varnothing$};
+\end{tikzpicture}}
+
+\end{column}
+
+\begin{column}{0.37\textwidth}
+\begin{block}{Задача $(q, S_0, T)$ правильная, если}
+\scriptsize
+\begin{enumerate}
+  \item $\mathrm{Ver}(q,T)=1$ — цели соответствуют запросу;
+  \item $T\cap\mathrm{Search}_k(q)=\varnothing$ — прямой поиск их не находит;
+  \item $v_0\in S_0$ или $\mathrm{Ver}(q,\{v_0\})=1$ — есть вход в путь.
+\end{enumerate}
+\end{block}
+\vspace{-1mm}
+\begin{block}{Вклад}
+\scriptsize
+\begin{enumerate}
+  \item \textbf{Фабрика задач}: генерация и проверка без участия человека.
+  \item \textbf{Сравнение} систем поиска: PaSa, Crase, Google Scholar.
+  \item \textbf{Агент}, который сам выбирает переходы по ссылкам и цитированиям.
+\end{enumerate}
+\end{block}
+\end{column}
+\end{columns}
+
+\vspace{1mm}
+\begin{alertblock}{}
+\footnotesize \alert{\textbf{Идея.}} Ссылки не зависят от терминологии. Поэтому по графу цитирований можно автоматически строить задачи,
+которые поиск по словам не решает, и измерять, когда обход графа помогает найти нужные статьи.
+\end{alertblock}
+\end{frame}
+
+\end{document}
