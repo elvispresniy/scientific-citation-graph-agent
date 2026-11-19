@@ -1,0 +1,16 @@
+{
+  "seed_count": 20,
+  "max_neighbors": 5,
+  "min_positive_neighbors": 3,
+  "max_concurrent_seeds": 3,
+  "rng_seed": 42,
+  "neighbor_selector": "uniform_index_v1",
+  "text_preparer": "fulltext_preserve_v1",
+  "pair_policy": "model_verdict_v1",
+  "seed_policy": "min_positive_v1",
+  "prompt_path": "../prompts/step1_5-pair-v2.md",
+  "tokenizer_path": "../../../research/factory-step1_5-llm/data/qwen38-tokenizer.json",
+  "tokenizer_sha256": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+  "max_context_tokens": 200000,
+  "chat_template_reserve_tokens": 2048
+}

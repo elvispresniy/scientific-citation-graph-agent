@@ -172,3 +172,47 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Local LLM credential (never commit)
+.secrets/
+
+# Large snapshot archive (65 MB, exceeds GitHub's recommended file size)
+research/factory-step2-iterations/snapshot-baseline-20261026/sources-and-state.tar.gz
+
+# Local UI settings and runtime model endpoints
+.claude/
+.context/
+code/graph_pilot/configs/llm-server.json
+code/graph_pilot/configs/step1_5-llm-run.json
+code/graph_pilot/configs/step1_5-llm.example.json
+code/graph_pilot/configs/step2-llm.example.json
+
+# Local research inputs and execution archives; selected reports are tracked explicitly
+output/
+research/algowiki/
+research/lomonosov2-access/
+research/unarxive-pilot/
+research/local-graph-pilot/
+research/factory-step1-pilot/
+research/factory-step1_5-llm/
+research/factory-step1_5-pilot/
+research/factory-step2-pilot/
+research/factory-step2-iterations/
+research/factory-step3-iterations/
+research/overnight-20261102/
+research/prequestion-20261117/
+research/factory-e2e/*/
+!research/factory-e2e/tests/
+research/factory-query-iterations/*/
+research/before-search-20261117/run-001/
+*.aux
+*.nav
+*.snm
+*.toc
+*.synctex.gz
+
+# Local handoff notes and superseded intermediate aggregation
+research/citation-graph-synthesis-algorithms-handoff-2026-10-25.md
+research/graph-experiments-handoff-2026-10-18.md
+research/factory-e2e/full-descriptive-20261115-interim.json
+research/terminology-pilot/fulltext-cache/

@@ -1,0 +1,11 @@
+{
+  "shared_aspects_prompt": "../prompts/step3-shared-aspects-v2-draft.md",
+  "membership_prompt": "../prompts/step3-aspect-membership-v2-draft.md",
+  "stage1_repeats": 1,
+  "stage1_max_output_tokens": 32768,
+  "rng_seed": 42,
+  "tokenizer_path": "../../../research/factory-step1_5-llm/data/qwen38-tokenizer.json",
+  "tokenizer_sha256": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+  "max_context_tokens": 200000,
+  "chat_template_reserve_tokens": 2048
+}

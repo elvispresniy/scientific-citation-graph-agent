@@ -1,0 +1,43 @@
+{
+  "run": "research/factory-e2e/night-20",
+  "status": "finished",
+  "stop_reason": "target_reached",
+  "completed_questions": 27,
+  "unique_target_papers": 43,
+  "question_target_distribution": {
+    "1": 8,
+    "2": 12,
+    "3": 4,
+    "4": 2,
+    "7": 1
+  },
+  "questions_with_multiple_targets": 19,
+  "seed_regions_with_ready_questions": 8,
+  "seeds_processed": 21,
+  "seed_status_counts": {
+    "error": 5,
+    "not_accepted": 7,
+    "completed": 5,
+    "partial": 4
+  },
+  "http_attempts": 2006,
+  "judge_pairs_in_completed_questions": 829,
+  "true_question_paper_pairs": 59,
+  "outside_subgraph_judge_pairs": 308,
+  "outside_subgraph_true_pairs": 10,
+  "composer_selected_pairs": 55,
+  "composer_selected_false_pairs": 9,
+  "retrieval": {
+    "bm25": {
+      "target_hits_at_10": 48,
+      "target_hits_at_20": 54,
+      "questions_with_any_target_top10": 25
+    },
+    "tfidf_lsa": {
+      "target_hits_at_10": 30,
+      "target_hits_at_20": 40,
+      "questions_with_any_target_top10": 16
+    }
+  },
+  "scope": "File/statistical review only; no new substantive reading of papers, no generation, no repairs. Search-derived targets make retrieval statistics conditional on judged pool."
+}

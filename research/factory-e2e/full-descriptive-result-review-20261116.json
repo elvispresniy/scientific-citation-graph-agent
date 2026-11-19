@@ -1,0 +1,31 @@
+{
+  "status": "finished",
+  "finished_moscow": "2026-11-16T12:53:16+03:00",
+  "http_attempts": 1924,
+  "generated": 33,
+  "recovered_originals": 1,
+  "unresolved_originals": 3,
+  "all_original_targets_true": 26,
+  "target_preservation_failed": 7,
+  "control_complete": 26,
+  "control_incomplete": 7,
+  "zero_new_true_complete": 17,
+  "one_two_new_true_complete": 9,
+  "three_plus_new_true": 0,
+  "preserved_and_zero_complete": 14,
+  "control_pairs": 1152,
+  "control_completed_pairs": 1112,
+  "control_error_pairs": 40,
+  "bm25_preserved_target_pairs": {
+    "total": 62,
+    "original_top20": 51,
+    "rewritten_top20": 53
+  },
+  "lsa_preserved_target_pairs": {
+    "total": 62,
+    "original_top20": 39,
+    "rewritten_top20": 39
+  },
+  "all_targets_outside_both_top20_with_preservation": 0,
+  "table_matches_summary": true
+}

@@ -1,0 +1,18 @@
+{
+  "dollar_math": {
+    "input": "\\begin{document}Inline $\\frac{x}{y}+\\sqrt{z}$.\\end{document}",
+    "output": "Inline $\\frac{x}{y}+\\sqrt{z}$."
+  },
+  "equation_math": {
+    "input": "\\begin{document}Displayed: \\begin{equation}\\frac{x}{y}+\\sqrt{z}\\end{equation}\\end{document}",
+    "output": "Displayed:\nx{y}+z"
+  },
+  "table_values": {
+    "input": "\\begin{document}\\begin{table}\\caption{Accuracy}\\begin{tabular}{cc}Method & Score \\\\ Baseline & 0.97\\end{tabular}\\end{table}\\end{document}",
+    "output": "[Figure] Accuracy"
+  },
+  "custom_macro": {
+    "input": "\\newcommand{\\method}{ScientificMethod}\\begin{document}We use \\method.\\end{document}",
+    "output": "We use ."
+  }
+}

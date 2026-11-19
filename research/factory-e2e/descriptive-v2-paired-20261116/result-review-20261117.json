@@ -1,0 +1,11 @@
+{
+  "status": "finished",
+  "generated": 6,
+  "http_attempts": 330,
+  "retained_target_pairs": 16,
+  "old_target_pairs": 23,
+  "questions_all_targets_true": 3,
+  "complete_controls": 4,
+  "incomplete_control_pairs": 2,
+  "all_targets_true_and_zero_complete": 0
+}

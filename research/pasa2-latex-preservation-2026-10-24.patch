@@ -1,0 +1,294 @@
+--- a/latex_to_text.py
++++ b/latex_to_text.py
+@@ -5,13 +5,13 @@
+     - Citation markers  [cite:key1;key2]  with a lookup map to bibliography entries
+     - Cross-refs        [ref:label]
+     - URLs and captions
+-    - Math kept as-is (inline $...$ and display $$...$$)
++    - Math and figure/table blocks kept as original LaTeX
++    - Custom macro calls and the used definitions (including dependencies)
+ 
+ Strips:
+     - Preamble (before \\begin{document}) and merged .sty/.cls blocks
+     - Formatting-only commands (\\textbf, \\emph, \\texttt, \\label, \\vskip, ...)
+-    - figure/table environments (keeping only their \\caption text)
+-    - Comments (%.*)
++    - Comments outside preserved LaTeX blocks
+ 
+ Returns dict:
+     {
+@@ -279,7 +279,7 @@
+ MATH_INLINE_RE = re.compile(r'\$[^$]{0,500}\$')
+ MATH_DISPLAY_RE = re.compile(r'\$\$[^$]{0,2000}\$\$')
+ 
+-def _process_generic_commands(text: str) -> str:
++def _process_generic_commands(text: str, protected_prefix=None) -> str:
+     """Walk through and rewrite \\cmd{...} for drop/unwrap sets. Skip math regions."""
+     out = []
+     i = 0
+@@ -317,10 +317,14 @@
+                     i = end2
+                 else:
+                     i = end1
++                if protected_prefix and protected_prefix in text[m.start():i]:
++                    out.append(text[m.start():i])
+             elif cmd in DROP_COMMANDS_ONE_ARG:
++                if protected_prefix and protected_prefix in content1:
++                    out.append(_process_generic_commands(content1, protected_prefix))
+                 i = end1
+             else:
+-                out.append(_process_generic_commands(content1))
++                out.append(_process_generic_commands(content1, protected_prefix))
+                 i = end1
+         else:
+             if cmd in MATH_SYMBOLS_NO_ARG:
+@@ -352,25 +356,216 @@
+     DROP_ENVS_KEEP_CONTENT = {'equation', 'equation*', 'align', 'align*', 'gather', 'gather*',
+                               'multline', 'multline*', 'eqnarray', 'eqnarray*', 'displaymath'}
+     # Replace \item with '- '
+-    text = re.sub(r'\\item\s*(?:\[[^\]]*\])?', '\n- ', text)
++    text = re.sub(r'\\item\s*(?:\[([^\]]*)\])?',
++                  lambda m: '\n- ' + (m.group(1) + ' ' if m.group(1) else ''), text)
+     # Wrap-remove for known envs (leave content)
+     for env in KEEP_ENVS_UNWRAP | DROP_ENVS_KEEP_CONTENT:
+-        text = re.sub(rf'\\begin\{{{re.escape(env)}\}}\s*(?:\[[^\]]*\])?', '\n', text)
++        text = re.sub(rf'\\begin\{{{re.escape(env)}\}}\s*(?:\[([^\]]*)\])?',
++                      lambda m: '\n' + (m.group(1) + '\n' if m.group(1) else ''), text)
+         text = re.sub(rf'\\end\{{{re.escape(env)}\}}', '\n', text)
+     # For any remaining unknown envs, drop wrappers too (keep content)
+-    text = re.sub(r'\\begin\{[a-zA-Z*]+\}\s*(?:\[[^\]]*\])?', '\n', text)
++    text = re.sub(r'\\begin\{[a-zA-Z*]+\}\s*(?:\[([^\]]*)\])?',
++                  lambda m: '\n' + (m.group(1) + '\n' if m.group(1) else ''), text)
+     text = re.sub(r'\\end\{[a-zA-Z*]+\}', '\n', text)
+     return text
+ 
+ 
++PRESERVED_ENVS = {
++    'math', 'displaymath', 'equation', 'align', 'alignat', 'flalign', 'gather',
++    'multline', 'eqnarray', 'split', 'aligned', 'alignedat', 'gathered',
++    'subequations', 'matrix', 'pmatrix', 'bmatrix', 'Bmatrix', 'vmatrix', 'Vmatrix', 'cases',
++    'table', 'tabular', 'tabularx', 'tabulary', 'longtable', 'supertabular',
++    'xltabular', 'sidewaystable', 'threeparttable',
++    'figure', 'wrapfigure', 'sidewaysfigure', 'tikzpicture',
++}
++MACRO_DEF_RE = re.compile(
++    r'\\(?P<kind>newcommand|renewcommand|providecommand|DeclareRobustCommand|DeclareMathOperator|'
++    r'def|gdef|edef|xdef|let)\*?(?:\s|%[^\n]*(?:\n|$))*'
++    r'(?:\{\s*\\(?P<braced>[A-Za-z@]+)\s*\}|\\(?P<plain>[A-Za-z@]+))')
++CONTROL_WORD_RE = re.compile(r'\\([A-Za-z@]+)')
++
++
++def _escaped(text, position):
++    previous = position - 1
++    while previous >= 0 and text[previous] == '\\':
++        previous -= 1
++    return (position - previous - 1) % 2 == 1
++
++
++def _in_comment(text, position):
++    start = text.rfind('\n', 0, position) + 1
++    return any(not _escaped(text, p) for p in range(start, position) if text[p] == '%')
++
++
++def _balanced_end(text, start):
++    opening, closing = text[start], {'{': '}', '[': ']'}[text[start]]
++    depth, position = 1, start + 1
++    while position < len(text):
++        char = text[position]
++        if char == '\\':
++            position += 2
++            continue
++        if char == '%':
++            newline = text.find('\n', position)
++            position = len(text) if newline < 0 else newline + 1
++            continue
++        if char == opening:
++            depth += 1
++        elif char == closing:
++            depth -= 1
++            if depth == 0:
++                return position + 1
++        position += 1
++    return None
++
++
++def _skip_layout(text, position):
++    while position < len(text):
++        if text[position].isspace():
++            position += 1
++        elif text[position] == '%':
++            newline = text.find('\n', position)
++            position = len(text) if newline < 0 else newline + 1
++        else:
++            break
++    return position
++
++
++def _macro_definitions(text):
++    """Retain declarations as data; never execute TeX or guess macro expansions."""
++    definitions, consumed = [], 0
++    for match in MACRO_DEF_RE.finditer(text):
++        if match.start() < consumed or _escaped(text, match.start()):
++            continue
++        if _in_comment(text, match.start()):
++            continue
++        position = match.end()
++        if match['kind'] == 'let':
++            target = re.match(r'\s*=?\s*(?:\\[A-Za-z@]+|\\.|[^\s])', text[position:])
++            end = position + target.end() if target else None
++        else:
++            if match['kind'] in ('def', 'gdef', 'edef', 'xdef'):
++                position = text.find('{', position)
++                if position < 0:
++                    continue
++            else:
++                while True:
++                    position = _skip_layout(text, position)
++                    if position >= len(text) or text[position] != '[':
++                        break
++                    position = _balanced_end(text, position)
++                    if position is None:
++                        break
++            end = _balanced_end(text, position) if position is not None and position < len(text) and text[position] == '{' else None
++        if end is not None:
++            definitions.append({'name': match['braced'] or match['plain'], 'start': match.start(),
++                                'end': end, 'latex': text[match.start():end]})
++            consumed = end
++    return definitions
++
++
++def _protect_content(text, macro_names):
++    """Shield scientific LaTeX from all later formatting/whitespace rewrites."""
++    prefix = '!LATEXPRESERVED'
++    while prefix in text:
++        prefix += 'X'
++    blocks, output, cursor = [], [], 0
++    definitions = {d['start']: d for d in _macro_definitions(text)}
++    handled = (DROP_COMMANDS_NO_ARG | DROP_COMMANDS_ONE_ARG | DROP_COMMANDS_TWO_ARGS |
++               UNWRAP_COMMANDS | {'begin', 'end', 'section', 'subsection', 'subsubsection',
++               'cite', 'citet', 'citep', 'citeauthor', 'citeyear', 'autocite', 'parencite',
++               'textcite', 'footcite', 'ref', 'eqref', 'autoref', 'Cref', 'cref', 'url', 'href'})
++    tokens = re.compile(r'\\begin\s*\{([^}]+)\}|\$\$?|\\[\[(]|\\[A-Za-z@]+\*?|%')
++    scan = 0
++    while True:
++        match = tokens.search(text, scan)
++        if match is None:
++            break
++        start, end, token = match.start(), None, match.group(0)
++        scan = match.end()
++        if _escaped(text, start):
++            continue
++        if token == '%':
++            newline = text.find('\n', start)
++            scan = len(text) if newline < 0 else newline + 1
++            continue
++        kind = 'macro'
++        if match.group(1) is not None and match.group(1).rstrip('*') in PRESERVED_ENVS:
++            env = match.group(1)
++            boundary = re.compile(r'\\(begin|end)\s*\{' + re.escape(env) + r'\}')
++            depth = 1
++            for close in boundary.finditer(text, match.end()):
++                if _escaped(text, close.start()) or _in_comment(text, close.start()):
++                    continue
++                depth += 1 if close.group(1) == 'begin' else -1
++                if depth == 0:
++                    end = close.end()
++                    break
++            kind = 'environment'
++            end = len(text) if end is None else end
++        elif token in ('$', '$$', '\\(', '\\['):
++            delimiter = {'\\(': '\\)', '\\[': '\\]'}.get(token, token)
++            position = match.end()
++            while True:
++                close = text.find(delimiter, position)
++                if close < 0:
++                    end = len(text)  # Preserve an incomplete region instead of deleting it.
++                    break
++                if not _escaped(text, close) and not _in_comment(text, close):
++                    end = close + len(delimiter)
++                    break
++                position = close + len(delimiter)
++            kind = 'math'
++        elif start in definitions:
++            end = definitions[start]['end']
++            kind = 'macro_definition'
++        elif token.startswith('\\') and match.group(1) is None:
++            name = token[1:].rstrip('*')
++            if name in macro_names or name not in handled or name == 'ensuremath':
++                end = match.end()
++                # Keep all following optional/braced arguments, including empty ones.
++                position = end
++                while True:
++                    while position < len(text) and text[position].isspace():
++                        position += 1
++                    if position >= len(text) or text[position] not in '[{':
++                        break
++                    closed = _balanced_end(text, position)
++                    end = len(text) if closed is None else closed
++                    position = end
++                    if closed is None:
++                        break
++        if end is not None:
++            output.extend((text[cursor:start], f'{prefix}{len(blocks)}!'))
++            blocks.append({'kind': kind, 'latex': text[start:end]})
++            cursor, scan = end, end
++    output.append(text[cursor:])
++    return ''.join(output), blocks, prefix
++
++
+ def latex_to_index_text(merged: str, files_dict: Optional[dict] = None) -> dict:
++    definitions = _macro_definitions(merged)
++    macro_names = {d['name'] for d in definitions}
+     text = merged
+     text = _strip_preamble_and_sty(text)
+     text, bib_raw, bib_fmt = _extract_and_remove_bibliography(text)
+     citations = parse_bibliography(bib_raw, bib_fmt)
++    used = set(CONTROL_WORD_RE.findall(_strip_comments(text))) & macro_names
++    while True:
++        dependencies = {name for d in definitions if d['name'] in used
++                        for name in CONTROL_WORD_RE.findall(d['latex'])} & macro_names
++        if dependencies <= used:
++            break
++        used |= dependencies
++    begin = BEGIN_DOC_RE.search(merged)
++    style_ranges = [m.span() for m in STY_CLS_BLOCK_RE.finditer(merged)]
++    retained = [d for d in definitions if d['name'] in used and
++                ((begin is not None and d['start'] < begin.start()) or
++                 any(start <= d['start'] < end for start, end in style_ranges))]
++    body_source = text
++    text, preserved_blocks, prefix = _protect_content(text, macro_names)
+     text = MERGE_MARKER_RE.sub('', text)
+     text = _strip_comments(text)
+-    text = _strip_float_envs(text)
+     text = _replace_urls(text)
+     sections = []
+     text = _replace_sections(text, sections)
+@@ -380,8 +575,17 @@
+     # Envs must be stripped BEFORE generic-command processing so \begin{...}/\end{...}
+     # aren't mis-parsed as generic \cmd{arg} calls.
+     text = _strip_env_wrappers(text)
+-    text = _process_generic_commands(text)
++    text = _process_generic_commands(text, prefix)
+     text = _cleanup_whitespace(text)
++    text = re.sub(re.escape(prefix) + r'(\d+)!',
++                  lambda m: preserved_blocks[int(m.group(1))]['latex'], text)
++    preservation_fallback = any(block['latex'] not in text for block in preserved_blocks)
++    if preservation_fallback:
++        # Fail conservatively: retain the original body, rather than silently
++        # losing scientific LaTeX inside an unexpected formatting construct.
++        text = body_source.strip()
++    if retained:
++        text = '[LaTeX macro definitions]\n' + '\n'.join(d['latex'] for d in retained) + '\n\n' + text
+     return {
+         'text': text,
+         'citations': citations,
+@@ -389,4 +593,9 @@
+         'cite_positions': cite_positions,
+         'n_citations': len(citations),
+         'n_sections': len(sections),
++        'preserved_blocks': preserved_blocks,
++        'macro_definitions': [{'name': d['name'], 'latex': d['latex']} for d in retained],
++        'macro_policy': 'Definitions and calls retained as LaTeX; no TeX execution or expansion',
++        'offset_scope': 'Intermediate transformations; not final text coordinates',
++        'preservation_fallback': preservation_fallback,
+     }

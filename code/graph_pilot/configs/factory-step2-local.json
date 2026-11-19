@@ -1,0 +1,14 @@
+{
+  "gap_weight": 0.5,
+  "rng_seed": 42,
+  "max_reviewed": null,
+  "max_accepted": 20,
+  "max_consecutive_rejections": 3,
+  "admission_prompt": "../prompts/step2-candidate-admission-v4.md",
+  "card_prompt": "../prompts/step2-paper-card-v6-descriptive.md",
+  "tokenizer_path": "../../../research/factory-step1_5-llm/data/qwen38-tokenizer.json",
+  "tokenizer_sha256": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+  "max_context_tokens": 200000,
+  "chat_template_reserve_tokens": 2048,
+  "admission_focus": "none"
+}

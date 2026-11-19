@@ -1,0 +1,3524 @@
+{
+  "date": "2026-11-16",
+  "scope": {
+    "Ночная серия — 27 вопросов с завершённым судьёй": 27,
+    "Ночная серия — дополнительно восстановленные вопросы": 1,
+    "Ночная серия — незавершённые проверки": 3,
+    "Ранний pilot-v1 — 5 вопросов": 5
+  },
+  "rows": [
+    {
+      "id": "N01",
+      "initial_target_count": 2,
+      "initial_target_ids": [
+        "arxiv:2004.09576",
+        "arxiv:2104.00210"
+      ],
+      "original_controls": {
+        "checked": 30,
+        "complete": true,
+        "total": 30,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "How can the initial scale and optional offset of a uniform quantizer be determined by minimizing expected mean-squared quantization error under a parametric or empirical distributional model of the tensor values, in order to reduce run-to-run variance in final accuracy during quantization-aware training at 2–4 bit and avoid the outlier sensitivity of min-max initialization?",
+      "ranks": {
+        "bm25": {
+          "arxiv:2004.09576": 9,
+          "arxiv:2104.00210": 4
+        },
+        "tfidf_lsa": {
+          "arxiv:2004.09576": 3,
+          "arxiv:2104.00210": 11
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_1805.06085/groups/02/question-001",
+      "state": "Прежние цели сохранены; есть цели в top-20; 1–2 новых true, решение открыто",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 27,
+                "complete": true,
+                "total": 27,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2106.08295"
+                ]
+              },
+              "new": {
+                "checked": 31,
+                "complete": true,
+                "total": 31,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2106.08295"
+                ]
+              },
+              "new_only": {
+                "checked": 4,
+                "complete": true,
+                "total": 4,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 30,
+                "complete": true,
+                "total": 30,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2106.08295"
+                ]
+              },
+              "old_only": {
+                "checked": 3,
+                "complete": true,
+                "total": 3,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 34,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 34,
+            "true_count": 1,
+            "true_ids": [
+              "arxiv:2106.08295"
+            ]
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "How can the initial scale and optional offset of a uniform (equally-spaced) quantizer be determined by minimizing the expected mean-squared quantization error under a parametric or empirical distributional model of the tensor values, to reduce run-to-run variance in final accuracy during quantization-aware training at 2–4 bit and avoid the outlier sensitivity of initialization that sets the quantization range from the min and max of the observed values?",
+          "ranks": {
+            "bm25": {
+              "arxiv:2004.09576": 9,
+              "arxiv:2104.00210": 3
+            },
+            "tfidf_lsa": {
+              "arxiv:2004.09576": 2,
+              "arxiv:2104.00210": 11
+            }
+          },
+          "state": "Прежние цели сохранены; есть цели в top-20; 1–2 новых true, решение открыто",
+          "target_count": 2,
+          "true_count": 2,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N02",
+      "initial_target_count": 1,
+      "initial_target_ids": [
+        "arxiv:2102.07444"
+      ],
+      "original_controls": {
+        "checked": 33,
+        "complete": true,
+        "total": 33,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "For a uniform or logarithmic quantizer applied to neural network weights drawn from a known continuous distribution, how can the expected mean squared quantization error be analytically decomposed into a step-size-dependent rounding term (integrating over the interior of the representable range) and a clipping-threshold-dependent saturation term (integrating over the exterior), and how does optimizing the clipping threshold against the finite amplitude of the weight distribution determine the residual error and its dependence on that amplitude?",
+      "ranks": {
+        "bm25": {
+          "arxiv:2102.07444": 1
+        },
+        "tfidf_lsa": {
+          "arxiv:2102.07444": 18
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_1805.06085/groups/03/question-001",
+      "state": "Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 29,
+                "complete": true,
+                "total": 29,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new": {
+                "checked": 32,
+                "complete": true,
+                "total": 32,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new_only": {
+                "checked": 3,
+                "complete": true,
+                "total": 3,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 33,
+                "complete": true,
+                "total": 33,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old_only": {
+                "checked": 4,
+                "complete": true,
+                "total": 4,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 36,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 36,
+            "true_count": 0,
+            "true_ids": []
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "For a uniform or logarithmic quantizer applied to neural network weights drawn from a known continuous distribution, how can the expected mean squared quantization error be analytically decomposed into a rounding term that depends on the step size (integrating over values within the representable range) and a clipping term that depends on the range boundary (integrating over values outside it), and how does optimizing the clipping threshold against the finite amplitude of the weight distribution determine the residual error and its dependence on that amplitude?",
+          "ranks": {
+            "bm25": {
+              "arxiv:2102.07444": 1
+            },
+            "tfidf_lsa": {
+              "arxiv:2102.07444": 18
+            }
+          },
+          "state": "Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+          "target_count": 1,
+          "true_count": 1,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N03",
+      "initial_target_count": 2,
+      "initial_target_ids": [
+        "arxiv:1908.01104",
+        "arxiv:1911.08105"
+      ],
+      "original_controls": {
+        "checked": 27,
+        "complete": false,
+        "total": 28,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "Which methods learn a CT image restoration mapping—such as low-dose-to-routine-dose denoising or metal artifact removal—by jointly training two inverse generators under cycle-consistency and domain-specific adversarial losses, using only unpaired collections from the degraded and clean domains?",
+      "ranks": {
+        "bm25": {
+          "arxiv:1908.01104": 6,
+          "arxiv:1911.08105": 1
+        },
+        "tfidf_lsa": {
+          "arxiv:1908.01104": 5,
+          "arxiv:1911.08105": 2
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_1812.03503/groups/02/question-001",
+      "state": "Не все прежние цели сохранили true; контроль не завершён",
+      "variants": [
+        {
+          "all_old_targets_true": false,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 24,
+                "complete": false,
+                "total": 25,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2104.08538"
+                ]
+              },
+              "new": {
+                "checked": 32,
+                "complete": false,
+                "total": 33,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2104.08538"
+                ]
+              },
+              "new_only": {
+                "checked": 8,
+                "complete": true,
+                "total": 8,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 27,
+                "complete": false,
+                "total": 28,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2104.08538"
+                ]
+              },
+              "old_only": {
+                "checked": 3,
+                "complete": true,
+                "total": 3,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 35,
+            "complete": false,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 36,
+            "true_count": 1,
+            "true_ids": [
+              "arxiv:2104.08538"
+            ]
+          },
+          "errors": 0,
+          "false_ids": [
+            "arxiv:1908.01104"
+          ],
+          "question": "Which methods learn a CT image restoration mapping—such as low-dose-to-routine-dose denoising or metal artifact removal—by jointly training two generators that map between a degraded and a clean CT domain in opposite directions, constrained by cycle-consistency and by adversarial losses that make generated images indistinguishable from real images in each domain, using only unpaired collections from the two domains?",
+          "ranks": {
+            "bm25": {
+              "arxiv:1908.01104": 5,
+              "arxiv:1911.08105": 2
+            },
+            "tfidf_lsa": {
+              "arxiv:1908.01104": 7,
+              "arxiv:1911.08105": 1
+            }
+          },
+          "state": "Не все прежние цели сохранили true; контроль не завершён",
+          "target_count": 2,
+          "true_count": 1,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N04",
+      "initial_target_count": 2,
+      "initial_target_ids": [
+        "arxiv:1908.01104",
+        "arxiv:2104.01405"
+      ],
+      "original_controls": {
+        "checked": 29,
+        "complete": true,
+        "total": 29,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "What deep learning approaches decompose a metal-affected CT signal into complementary anatomical and metal-artifact components while enforcing a constraint that the two components jointly reconstruct the original corrupted data?",
+      "ranks": {
+        "bm25": {
+          "arxiv:1908.01104": 1,
+          "arxiv:2104.01405": 3
+        },
+        "tfidf_lsa": {
+          "arxiv:1908.01104": 9,
+          "arxiv:2104.01405": 10
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_1812.03503/groups/03/question-001",
+      "state": "Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 26,
+                "complete": true,
+                "total": 26,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new": {
+                "checked": 30,
+                "complete": true,
+                "total": 30,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new_only": {
+                "checked": 4,
+                "complete": true,
+                "total": 4,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 29,
+                "complete": true,
+                "total": 29,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old_only": {
+                "checked": 3,
+                "complete": true,
+                "total": 3,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 33,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 33,
+            "true_count": 0,
+            "true_ids": []
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "What deep learning approaches decompose a metal-affected CT signal into complementary anatomical and metal-artifact components, subject to a constraint that the two components jointly reconstruct the original corrupted data?",
+          "ranks": {
+            "bm25": {
+              "arxiv:1908.01104": 1,
+              "arxiv:2104.01405": 3
+            },
+            "tfidf_lsa": {
+              "arxiv:1908.01104": 14,
+              "arxiv:2104.01405": 10
+            }
+          },
+          "state": "Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+          "target_count": 2,
+          "true_count": 2,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N05",
+      "initial_target_count": 2,
+      "initial_target_ids": [
+        "arxiv:1907.00273",
+        "arxiv:1907.00294"
+      ],
+      "original_controls": {
+        "checked": 30,
+        "complete": true,
+        "total": 30,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "How can a binary metal trace mask be propagated through multiple resolution levels of a sinogram inpainting network to enable accurate restoration of corrupted projection bins for implants of arbitrary shape and size, while maintaining geometric continuity at the mask boundary?",
+      "ranks": {
+        "bm25": {
+          "arxiv:1907.00273": 1,
+          "arxiv:1907.00294": 3
+        },
+        "tfidf_lsa": {
+          "arxiv:1907.00273": 2,
+          "arxiv:1907.00294": 1
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_1812.03503/groups/04/question-001",
+      "state": "Формулировка оставлена без изменения; Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 30,
+                "complete": true,
+                "total": 30,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new": {
+                "checked": 30,
+                "complete": true,
+                "total": 30,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new_only": {
+                "checked": 0,
+                "complete": true,
+                "total": 0,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 30,
+                "complete": true,
+                "total": 30,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old_only": {
+                "checked": 0,
+                "complete": true,
+                "total": 0,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 30,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 30,
+            "true_count": 0,
+            "true_ids": []
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "How can a binary metal trace mask be propagated through multiple resolution levels of a sinogram inpainting network to enable accurate restoration of corrupted projection bins for implants of arbitrary shape and size, while maintaining geometric continuity at the mask boundary?",
+          "ranks": {
+            "bm25": {
+              "arxiv:1907.00273": 1,
+              "arxiv:1907.00294": 3
+            },
+            "tfidf_lsa": {
+              "arxiv:1907.00273": 2,
+              "arxiv:1907.00294": 1
+            }
+          },
+          "state": "Формулировка оставлена без изменения; Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+          "target_count": 2,
+          "true_count": 2,
+          "unchanged": true,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N06",
+      "initial_target_count": 2,
+      "initial_target_ids": [
+        "arxiv:2003.11645",
+        "arxiv:2007.16007"
+      ],
+      "original_controls": {
+        "checked": 32,
+        "complete": true,
+        "total": 32,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "Do distributional word embeddings trained on substantially smaller text corpora (differing by at least an order of magnitude in token count) achieve comparable or superior quality to embeddings from much larger corpora, as measured by intrinsic analogy and semantic-similarity benchmarks and extrinsic downstream task performance?",
+      "ranks": {
+        "bm25": {
+          "arxiv:2003.11645": 11,
+          "arxiv:2007.16007": 14
+        },
+        "tfidf_lsa": {
+          "arxiv:2003.11645": 2,
+          "arxiv:2007.16007": 8
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_2007.16007/groups/01/question-001",
+      "state": "Прежние цели сохранены; есть цели в top-20; 1–2 новых true, решение открыто",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 26,
+                "complete": true,
+                "total": 26,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2107.10614"
+                ]
+              },
+              "new": {
+                "checked": 29,
+                "complete": true,
+                "total": 29,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2107.10614"
+                ]
+              },
+              "new_only": {
+                "checked": 3,
+                "complete": true,
+                "total": 3,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 32,
+                "complete": true,
+                "total": 32,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2107.10614"
+                ]
+              },
+              "old_only": {
+                "checked": 6,
+                "complete": true,
+                "total": 6,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 35,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 35,
+            "true_count": 1,
+            "true_ids": [
+              "arxiv:2107.10614"
+            ]
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "Do word embeddings trained to predict words from context on text corpora at least an order of magnitude smaller achieve comparable or superior quality to embeddings from much larger corpora, as measured by intrinsic analogy and semantic-similarity evaluation and extrinsic downstream task performance?",
+          "ranks": {
+            "bm25": {
+              "arxiv:2003.11645": 3,
+              "arxiv:2007.16007": 5
+            },
+            "tfidf_lsa": {
+              "arxiv:2003.11645": 4,
+              "arxiv:2007.16007": 8
+            }
+          },
+          "state": "Прежние цели сохранены; есть цели в top-20; 1–2 новых true, решение открыто",
+          "target_count": 2,
+          "true_count": 2,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N07",
+      "initial_target_count": 2,
+      "initial_target_ids": [
+        "arxiv:2003.11645",
+        "arxiv:2007.16007"
+      ],
+      "original_controls": {
+        "checked": 33,
+        "complete": true,
+        "total": 33,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "When training distributional word embeddings by varying the prediction direction (context words predicting a target word versus a target word predicting context words) and the co-occurrence window size, which architecture–window combinations yield the highest intrinsic embedding quality as measured by analogy completion accuracy and correlation with human-judged semantic similarity scores?",
+      "ranks": {
+        "bm25": {
+          "arxiv:2003.11645": 11,
+          "arxiv:2007.16007": 8
+        },
+        "tfidf_lsa": {
+          "arxiv:2003.11645": 16,
+          "arxiv:2007.16007": 45
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_2007.16007/groups/02/question-001",
+      "state": "Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 31,
+                "complete": true,
+                "total": 31,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new": {
+                "checked": 33,
+                "complete": true,
+                "total": 33,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new_only": {
+                "checked": 2,
+                "complete": true,
+                "total": 2,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 33,
+                "complete": true,
+                "total": 33,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old_only": {
+                "checked": 2,
+                "complete": true,
+                "total": 2,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 35,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 35,
+            "true_count": 0,
+            "true_ids": []
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "Among distributional word embeddings trained by varying the prediction direction (context words predicting a target word versus a target word predicting context words) and the co-occurrence window size, which architecture and window-size combinations yield the highest intrinsic embedding quality as measured by analogy completion accuracy and correlation with human-judged semantic similarity scores?",
+          "ranks": {
+            "bm25": {
+              "arxiv:2003.11645": 11,
+              "arxiv:2007.16007": 8
+            },
+            "tfidf_lsa": {
+              "arxiv:2003.11645": 15,
+              "arxiv:2007.16007": 38
+            }
+          },
+          "state": "Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+          "target_count": 2,
+          "true_count": 2,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N08",
+      "initial_target_count": 4,
+      "initial_target_ids": [
+        "arxiv:2002.12636",
+        "arxiv:2007.09297",
+        "arxiv:2106.02390",
+        "arxiv:2107.11811"
+      ],
+      "original_controls": {
+        "checked": 27,
+        "complete": true,
+        "total": 27,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "How can a variational free energy computed over a sequence of future latent variables under a factored generative model be decomposed into an expected information gain term (KL divergence between posterior and prior beliefs over hidden states or model parameters) and a pragmatic term measuring divergence between policy-conditioned predicted observations and a preference distribution over desired outcomes, so that exploration and exploitation are driven by a single tractable objective without a separate scalar reward signal or heuristic exploration bonus?",
+      "ranks": {
+        "bm25": {
+          "arxiv:2002.12636": 1,
+          "arxiv:2007.09297": 6,
+          "arxiv:2106.02390": 2,
+          "arxiv:2107.11811": 9
+        },
+        "tfidf_lsa": {
+          "arxiv:2002.12636": 4,
+          "arxiv:2007.09297": 8,
+          "arxiv:2106.02390": 3,
+          "arxiv:2107.11811": 5
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_2011.03303/groups/01/question-001",
+      "state": "Не все прежние цели сохранили true; контроль завершён, новых true нет (не окончательное принятие)",
+      "variants": [
+        {
+          "all_old_targets_true": false,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 27,
+                "complete": true,
+                "total": 27,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new": {
+                "checked": 27,
+                "complete": true,
+                "total": 27,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new_only": {
+                "checked": 0,
+                "complete": true,
+                "total": 0,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 27,
+                "complete": true,
+                "total": 27,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old_only": {
+                "checked": 0,
+                "complete": true,
+                "total": 0,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 27,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 27,
+            "true_count": 0,
+            "true_ids": []
+          },
+          "errors": 0,
+          "false_ids": [
+            "arxiv:2107.11811"
+          ],
+          "question": "How can a variational free energy over a sequence of future latent variables, computed under a factored generative model, be decomposed into an expected information-gain term (the KL divergence between posterior and prior beliefs over hidden states or model parameters) and a pragmatic term measuring the divergence between policy-conditioned predicted observations and a preference distribution over desired outcomes, so that exploration and exploitation are driven by a single tractable objective without a separate scalar reward signal or a heuristic exploration bonus?",
+          "ranks": {
+            "bm25": {
+              "arxiv:2002.12636": 1,
+              "arxiv:2007.09297": 6,
+              "arxiv:2106.02390": 2,
+              "arxiv:2107.11811": 9
+            },
+            "tfidf_lsa": {
+              "arxiv:2002.12636": 4,
+              "arxiv:2007.09297": 8,
+              "arxiv:2106.02390": 3,
+              "arxiv:2107.11811": 5
+            }
+          },
+          "state": "Не все прежние цели сохранили true; контроль завершён, новых true нет (не окончательное принятие)",
+          "target_count": 4,
+          "true_count": 3,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N09",
+      "initial_target_count": 7,
+      "initial_target_ids": [
+        "arxiv:1901.00723",
+        "arxiv:1904.08149",
+        "arxiv:1906.04023",
+        "arxiv:2003.12331",
+        "arxiv:2004.07155",
+        "arxiv:2104.10429",
+        "arxiv:2106.13911"
+      ],
+      "original_controls": {
+        "checked": 29,
+        "complete": false,
+        "total": 30,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "How can evolutionary search over populations of short discrete action sequences, evaluated by rolling them out in a forward model, serve as a real-time planning mechanism for sequential control tasks without requiring a separately trained policy network?",
+      "ranks": {
+        "bm25": {
+          "arxiv:1901.00723": 6,
+          "arxiv:1904.08149": 825,
+          "arxiv:1906.04023": 3,
+          "arxiv:2003.12331": 13,
+          "arxiv:2004.07155": 5,
+          "arxiv:2104.10429": 7,
+          "arxiv:2106.13911": 1
+        },
+        "tfidf_lsa": {
+          "arxiv:1901.00723": 24,
+          "arxiv:1904.08149": 136,
+          "arxiv:1906.04023": 21,
+          "arxiv:2003.12331": 29,
+          "arxiv:2004.07155": 32,
+          "arxiv:2104.10429": 35,
+          "arxiv:2106.13911": 1
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_2011.03303/groups/02/question-001",
+      "state": "Не все прежние цели сохранили true; контроль не завершён",
+      "variants": [
+        {
+          "all_old_targets_true": false,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 21,
+                "complete": false,
+                "total": 22,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2107.06924"
+                ]
+              },
+              "new": {
+                "checked": 26,
+                "complete": false,
+                "total": 27,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2107.06924"
+                ]
+              },
+              "new_only": {
+                "checked": 5,
+                "complete": true,
+                "total": 5,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 29,
+                "complete": false,
+                "total": 30,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2107.06924"
+                ]
+              },
+              "old_only": {
+                "checked": 8,
+                "complete": true,
+                "total": 8,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 34,
+            "complete": false,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 35,
+            "true_count": 1,
+            "true_ids": [
+              "arxiv:2107.06924"
+            ]
+          },
+          "errors": 0,
+          "false_ids": [
+            "arxiv:1904.08149",
+            "arxiv:2004.07155"
+          ],
+          "question": "How can evolutionary search over populations of short discrete action sequences, evaluated by rolling each candidate out in a forward model, serve as a real-time planning mechanism for sequential control tasks without requiring a separately trained policy network?",
+          "ranks": {
+            "bm25": {
+              "arxiv:1901.00723": 3,
+              "arxiv:1904.08149": 988,
+              "arxiv:1906.04023": 5,
+              "arxiv:2003.12331": 15,
+              "arxiv:2004.07155": 4,
+              "arxiv:2104.10429": 8,
+              "arxiv:2106.13911": 1
+            },
+            "tfidf_lsa": {
+              "arxiv:1901.00723": 15,
+              "arxiv:1904.08149": 142,
+              "arxiv:1906.04023": 18,
+              "arxiv:2003.12331": 16,
+              "arxiv:2004.07155": 34,
+              "arxiv:2104.10429": 21,
+              "arxiv:2106.13911": 1
+            }
+          },
+          "state": "Не все прежние цели сохранили true; контроль не завершён",
+          "target_count": 7,
+          "true_count": 5,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "initial_target_count": 1,
+      "initial_target_ids": [
+        "arxiv:2004.07155"
+      ],
+      "original_controls": {
+        "checked": 32,
+        "complete": true,
+        "total": 32,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "How does the predictive quality and structure of a learned forward model affect the performance of evolutionary real-time planning over discrete action sequences, particularly as rollouts extend to longer horizons?",
+      "ranks": {
+        "bm25": {
+          "arxiv:2004.07155": 21
+        },
+        "tfidf_lsa": {
+          "arxiv:2004.07155": 21
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_2011.03303/groups/02/question-002",
+      "state": "Прежние цели сохранены; есть цели в top-20; контроль не завершён",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 23,
+                "complete": true,
+                "total": 23,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2106.13911"
+                ]
+              },
+              "new": {
+                "checked": 31,
+                "complete": false,
+                "total": 32,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2106.13911"
+                ]
+              },
+              "new_only": {
+                "checked": 8,
+                "complete": false,
+                "total": 9,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 32,
+                "complete": true,
+                "total": 32,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2106.13911"
+                ]
+              },
+              "old_only": {
+                "checked": 9,
+                "complete": true,
+                "total": 9,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 40,
+            "complete": false,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 41,
+            "true_count": 1,
+            "true_ids": [
+              "arxiv:2106.13911"
+            ]
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "How does the predictive quality and structure of a learned forward model affect the performance of population-based planning over discrete action sequences, particularly as planning horizons grow longer?",
+          "ranks": {
+            "bm25": {
+              "arxiv:2004.07155": 3
+            },
+            "tfidf_lsa": {
+              "arxiv:2004.07155": 14
+            }
+          },
+          "state": "Прежние цели сохранены; есть цели в top-20; контроль не завершён",
+          "target_count": 1,
+          "true_count": 1,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "initial_target_count": 2,
+      "initial_target_ids": [
+        "arxiv:2101.01169",
+        "arxiv:2108.06747"
+      ],
+      "original_controls": {
+        "checked": 33,
+        "complete": true,
+        "total": 33,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "How can global 2D self-attention over high-resolution spatial feature maps be decomposed into two sequential 1D attention passes (one along each spatial axis) so that every position receives full-image context at linear cost in the total number of spatial elements, enabling dense prediction without the quadratic memory and compute overhead of full pairwise attention?",
+      "ranks": {
+        "bm25": {
+          "arxiv:2101.01169": 1,
+          "arxiv:2108.06747": 28
+        },
+        "tfidf_lsa": {
+          "arxiv:2101.01169": 54,
+          "arxiv:2108.06747": 9
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_2101.01169/groups/01/question-001",
+      "state": "Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 33,
+                "complete": true,
+                "total": 33,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new": {
+                "checked": 33,
+                "complete": true,
+                "total": 33,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new_only": {
+                "checked": 0,
+                "complete": true,
+                "total": 0,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 33,
+                "complete": true,
+                "total": 33,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old_only": {
+                "checked": 0,
+                "complete": true,
+                "total": 0,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 33,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 33,
+            "true_count": 0,
+            "true_ids": []
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "How can global 2D self-attention over high-resolution spatial feature maps be decomposed into two sequential 1D attention passes, one along each spatial axis, so that every position receives full-image context at linear cost in the total number of spatial elements, enabling dense prediction without the quadratic memory and compute overhead of full pairwise attention?",
+          "ranks": {
+            "bm25": {
+              "arxiv:2101.01169": 1,
+              "arxiv:2108.06747": 28
+            },
+            "tfidf_lsa": {
+              "arxiv:2101.01169": 54,
+              "arxiv:2108.06747": 9
+            }
+          },
+          "state": "Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+          "target_count": 2,
+          "true_count": 2,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N12",
+      "initial_target_count": 2,
+      "initial_target_ids": [
+        "arxiv:2102.00240",
+        "arxiv:2106.08382"
+      ],
+      "original_controls": {
+        "checked": 31,
+        "complete": true,
+        "total": 31,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "How can a lightweight attention module capture informative dependencies along both the spatial and channel dimensions of a convolutional feature map within a single plug-and-play block, by partitioning channels into groups, computing parallel per-group spatial and channel attention weights, and restoring cross-group information flow through a channel shuffle, while preserving the input and output tensor shape for direct insertion into ResNet-style backbones?",
+      "ranks": {
+        "bm25": {
+          "arxiv:2102.00240": 1,
+          "arxiv:2106.08382": 4
+        },
+        "tfidf_lsa": {
+          "arxiv:2102.00240": 3,
+          "arxiv:2106.08382": 1
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_2101.01169/groups/02/question-001",
+      "state": "Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 27,
+                "complete": true,
+                "total": 27,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new": {
+                "checked": 30,
+                "complete": true,
+                "total": 30,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new_only": {
+                "checked": 3,
+                "complete": true,
+                "total": 3,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 31,
+                "complete": true,
+                "total": 31,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old_only": {
+                "checked": 4,
+                "complete": true,
+                "total": 4,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 34,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 34,
+            "true_count": 0,
+            "true_ids": []
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "How can a lightweight attention module capture informative dependencies along both the spatial and channel dimensions of a convolutional feature map within a single plug-and-play block, by partitioning channels into groups, computing parallel per-group spatial and channel attention weight maps, and restoring cross-group information flow through a channel shuffle, while preserving the input and output tensor shape for direct insertion into ResNet-style backbones?",
+          "ranks": {
+            "bm25": {
+              "arxiv:2102.00240": 1,
+              "arxiv:2106.08382": 3
+            },
+            "tfidf_lsa": {
+              "arxiv:2102.00240": 3,
+              "arxiv:2106.08382": 1
+            }
+          },
+          "state": "Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+          "target_count": 2,
+          "true_count": 2,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N13",
+      "initial_target_count": 2,
+      "initial_target_ids": [
+        "arxiv:2103.14586",
+        "arxiv:2108.06747"
+      ],
+      "original_controls": {
+        "checked": 32,
+        "complete": true,
+        "total": 32,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "Do deeper self-attention layers in Vision Transformer encoders processing image patch sequences exhibit representational convergence with earlier layers, and does this convergence limit the functional contribution of additional depth to model performance?",
+      "ranks": {
+        "bm25": {
+          "arxiv:2103.14586": 27,
+          "arxiv:2108.06747": 1
+        },
+        "tfidf_lsa": {
+          "arxiv:2103.14586": 30,
+          "arxiv:2108.06747": 55
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_2101.01169/groups/03/question-001",
+      "state": "Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 26,
+                "complete": true,
+                "total": 26,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new": {
+                "checked": 33,
+                "complete": true,
+                "total": 33,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new_only": {
+                "checked": 7,
+                "complete": true,
+                "total": 7,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 32,
+                "complete": true,
+                "total": 32,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old_only": {
+                "checked": 6,
+                "complete": true,
+                "total": 6,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 39,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 39,
+            "true_count": 0,
+            "true_ids": []
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "Do deeper self-attention layers in Vision Transformer encoders processing image patch sequences exhibit representational convergence with earlier layers—successive-layer patch representations becoming highly correlated and changing only slightly between adjacent layers—and does this convergence limit the functional contribution of additional depth to model performance?",
+          "ranks": {
+            "bm25": {
+              "arxiv:2103.14586": 12,
+              "arxiv:2108.06747": 4
+            },
+            "tfidf_lsa": {
+              "arxiv:2103.14586": 21,
+              "arxiv:2108.06747": 56
+            }
+          },
+          "state": "Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+          "target_count": 2,
+          "true_count": 2,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N14",
+      "initial_target_count": 4,
+      "initial_target_ids": [
+        "arxiv:2101.01169",
+        "arxiv:2104.11746",
+        "arxiv:2108.04384",
+        "arxiv:2108.06747"
+      ],
+      "original_controls": {
+        "checked": 31,
+        "complete": true,
+        "total": 31,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "How can the quadratic time and memory cost of full 2D cross-position mixing over a spatial grid of h×w tokens in high-resolution image feature maps be reduced by decomposing the interaction into two sequential 1D mixing operations—one that mixes all positions along the height axis independently for each column and a second that mixes all positions along the width axis independently for each row—while preserving a global receptive field spanning both spatial dimensions?",
+      "ranks": {
+        "bm25": {
+          "arxiv:2101.01169": 1,
+          "arxiv:2104.11746": 8,
+          "arxiv:2108.04384": 5,
+          "arxiv:2108.06747": 14
+        },
+        "tfidf_lsa": {
+          "arxiv:2101.01169": 138,
+          "arxiv:2104.11746": 67,
+          "arxiv:2108.04384": 13,
+          "arxiv:2108.06747": 14
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_2102.04306/groups/01/question-001",
+      "state": "Формулировка оставлена без изменения; Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 31,
+                "complete": true,
+                "total": 31,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new": {
+                "checked": 31,
+                "complete": true,
+                "total": 31,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new_only": {
+                "checked": 0,
+                "complete": true,
+                "total": 0,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 31,
+                "complete": true,
+                "total": 31,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old_only": {
+                "checked": 0,
+                "complete": true,
+                "total": 0,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 31,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 31,
+            "true_count": 0,
+            "true_ids": []
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "How can the quadratic time and memory cost of full 2D cross-position mixing over a spatial grid of h×w tokens in high-resolution image feature maps be reduced by decomposing the interaction into two sequential 1D mixing operations—one that mixes all positions along the height axis independently for each column and a second that mixes all positions along the width axis independently for each row—while preserving a global receptive field spanning both spatial dimensions?",
+          "ranks": {
+            "bm25": {
+              "arxiv:2101.01169": 1,
+              "arxiv:2104.11746": 8,
+              "arxiv:2108.04384": 5,
+              "arxiv:2108.06747": 14
+            },
+            "tfidf_lsa": {
+              "arxiv:2101.01169": 138,
+              "arxiv:2104.11746": 67,
+              "arxiv:2108.04384": 13,
+              "arxiv:2108.06747": 14
+            }
+          },
+          "state": "Формулировка оставлена без изменения; Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+          "target_count": 4,
+          "true_count": 4,
+          "unchanged": true,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N15",
+      "initial_target_count": 2,
+      "initial_target_ids": [
+        "arxiv:2102.04306",
+        "arxiv:2107.05188"
+      ],
+      "original_controls": {
+        "checked": 32,
+        "complete": true,
+        "total": 32,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "How can a self-attention transformer operating on non-overlapping patches of a convolutional feature map be integrated into a U-shaped skip-connection decoder to improve boundary precision and reduce over- or under-segmentation in multi-organ medical image segmentation?",
+      "ranks": {
+        "bm25": {
+          "arxiv:2102.04306": 2,
+          "arxiv:2107.05188": 3
+        },
+        "tfidf_lsa": {
+          "arxiv:2102.04306": 2,
+          "arxiv:2107.05188": 3
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_2102.04306/groups/02/question-001",
+      "state": "Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 24,
+                "complete": true,
+                "total": 24,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new": {
+                "checked": 31,
+                "complete": true,
+                "total": 31,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new_only": {
+                "checked": 7,
+                "complete": true,
+                "total": 7,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 32,
+                "complete": true,
+                "total": 32,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old_only": {
+                "checked": 8,
+                "complete": true,
+                "total": 8,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 39,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 39,
+            "true_count": 0,
+            "true_ids": []
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "How can a stack of self-attention blocks that model long-range interactions among non-overlapping patches of a convolutional feature map be integrated into a U-shaped skip-connection decoder to improve boundary precision and reduce over- or under-segmentation in multi-organ medical image segmentation?",
+          "ranks": {
+            "bm25": {
+              "arxiv:2102.04306": 2,
+              "arxiv:2107.05188": 3
+            },
+            "tfidf_lsa": {
+              "arxiv:2102.04306": 2,
+              "arxiv:2107.05188": 3
+            }
+          },
+          "state": "Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+          "target_count": 2,
+          "true_count": 2,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N16",
+      "initial_target_count": 2,
+      "initial_target_ids": [
+        "arxiv:2102.04306",
+        "arxiv:2107.05188"
+      ],
+      "original_controls": {
+        "checked": 37,
+        "complete": true,
+        "total": 37,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "In a U-shaped encoder-decoder segmentation network, how does the number of skip connections—implemented as concatenation of same-resolution encoder and decoder features followed by a channel-unifying projection—affect multi-organ segmentation accuracy, and is the improvement differential across organs of varying size?",
+      "ranks": {
+        "bm25": {
+          "arxiv:2102.04306": 1,
+          "arxiv:2107.05188": 4
+        },
+        "tfidf_lsa": {
+          "arxiv:2102.04306": 41,
+          "arxiv:2107.05188": 47
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_2102.04306/groups/03/question-001",
+      "state": "Прежние цели сохранены; есть цели в top-20; 1–2 новых true, решение открыто",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 32,
+                "complete": true,
+                "total": 32,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2105.05537"
+                ]
+              },
+              "new": {
+                "checked": 35,
+                "complete": true,
+                "total": 35,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2105.05537"
+                ]
+              },
+              "new_only": {
+                "checked": 3,
+                "complete": true,
+                "total": 3,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 37,
+                "complete": true,
+                "total": 37,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2105.05537"
+                ]
+              },
+              "old_only": {
+                "checked": 5,
+                "complete": true,
+                "total": 5,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 40,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 40,
+            "true_count": 1,
+            "true_ids": [
+              "arxiv:2105.05537"
+            ]
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "In a U-shaped encoder-decoder segmentation network, how does the number of skip connections—each implemented as concatenation of encoder and decoder feature maps at the same spatial resolution followed by a projection to unify channel dimensions—affect multi-organ segmentation accuracy, and is the improvement differential across organs of varying size?",
+          "ranks": {
+            "bm25": {
+              "arxiv:2102.04306": 2,
+              "arxiv:2107.05188": 6
+            },
+            "tfidf_lsa": {
+              "arxiv:2102.04306": 30,
+              "arxiv:2107.05188": 39
+            }
+          },
+          "state": "Прежние цели сохранены; есть цели в top-20; 1–2 новых true, решение открыто",
+          "target_count": 2,
+          "true_count": 2,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N17",
+      "initial_target_count": 3,
+      "initial_target_ids": [
+        "arxiv:2102.04306",
+        "arxiv:2105.05537",
+        "arxiv:2107.05188"
+      ],
+      "original_controls": {
+        "checked": 29,
+        "complete": true,
+        "total": 29,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "How does increasing the input image resolution while holding the transformer patch size fixed affect multi-organ segmentation accuracy and computational cost in transformer-based encoder architectures for 2D medical image segmentation?",
+      "ranks": {
+        "bm25": {
+          "arxiv:2102.04306": 1,
+          "arxiv:2105.05537": 2,
+          "arxiv:2107.05188": 3
+        },
+        "tfidf_lsa": {
+          "arxiv:2102.04306": 2,
+          "arxiv:2105.05537": 1,
+          "arxiv:2107.05188": 3
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_2102.04306/groups/04/question-001",
+      "state": "Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 18,
+                "complete": true,
+                "total": 18,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new": {
+                "checked": 29,
+                "complete": true,
+                "total": 29,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new_only": {
+                "checked": 11,
+                "complete": true,
+                "total": 11,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 29,
+                "complete": true,
+                "total": 29,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old_only": {
+                "checked": 11,
+                "complete": true,
+                "total": 11,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 40,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 40,
+            "true_count": 0,
+            "true_ids": []
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "How does increasing the input image resolution, while keeping the size of the fixed image patches fed to a transformer encoder constant, affect multi-organ segmentation accuracy and computational cost in 2D medical image segmentation?",
+          "ranks": {
+            "bm25": {
+              "arxiv:2102.04306": 2,
+              "arxiv:2105.05537": 1,
+              "arxiv:2107.05188": 3
+            },
+            "tfidf_lsa": {
+              "arxiv:2102.04306": 2,
+              "arxiv:2105.05537": 1,
+              "arxiv:2107.05188": 3
+            }
+          },
+          "state": "Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+          "target_count": 3,
+          "true_count": 3,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N18",
+      "initial_target_count": 1,
+      "initial_target_ids": [
+        "arxiv:2106.13230"
+      ],
+      "original_controls": {
+        "checked": 32,
+        "complete": true,
+        "total": 32,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "How can hierarchical multi-stage transformer backbones achieve linear-complexity self-attention by restricting standard multi-head self-attention to non-overlapping fixed-size spatial or spatiotemporal windows, and how does this windowed design perform on dense prediction and video recognition tasks?",
+      "ranks": {
+        "bm25": {
+          "arxiv:2106.13230": 1
+        },
+        "tfidf_lsa": {
+          "arxiv:2106.13230": 1
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_2103.14030/groups/01/question-001",
+      "state": "Прежние цели сохранены; есть цели в top-20; 1–2 новых true, решение открыто",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 24,
+                "complete": true,
+                "total": 24,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2103.14030"
+                ]
+              },
+              "new": {
+                "checked": 29,
+                "complete": true,
+                "total": 29,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2103.14030"
+                ]
+              },
+              "new_only": {
+                "checked": 5,
+                "complete": true,
+                "total": 5,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 32,
+                "complete": true,
+                "total": 32,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2103.14030"
+                ]
+              },
+              "old_only": {
+                "checked": 8,
+                "complete": true,
+                "total": 8,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 37,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 37,
+            "true_count": 1,
+            "true_ids": [
+              "arxiv:2103.14030"
+            ]
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "In multi-stage hierarchical transformer backbones, how does partitioning the spatial or spatiotemporal token grid into non-overlapping fixed-size windows, so that standard multi-head self-attention for each token is computed only over the tokens in its own window, reduce attention complexity from quadratic to linear in the number of tokens, and how do such windowed backbones perform on dense prediction and video recognition tasks?",
+          "ranks": {
+            "bm25": {
+              "arxiv:2106.13230": 1
+            },
+            "tfidf_lsa": {
+              "arxiv:2106.13230": 1
+            }
+          },
+          "state": "Прежние цели сохранены; есть цели в top-20; 1–2 новых true, решение открыто",
+          "target_count": 1,
+          "true_count": 1,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N19",
+      "initial_target_count": 2,
+      "initial_target_ids": [
+        "arxiv:2103.12731",
+        "arxiv:2103.14030"
+      ],
+      "original_controls": {
+        "checked": 33,
+        "complete": true,
+        "total": 33,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "What are the real-world latency and throughput tradeoffs between shifted non-overlapping window partitioning and sliding-window self-attention for local attention in hierarchical transformer architectures, and does the efficiency gain come at a modeling accuracy cost?",
+      "ranks": {
+        "bm25": {
+          "arxiv:2103.12731": 6,
+          "arxiv:2103.14030": 1
+        },
+        "tfidf_lsa": {
+          "arxiv:2103.12731": 30,
+          "arxiv:2103.14030": 13
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_2103.14030/groups/01/question-002",
+      "state": "Не все прежние цели сохранили true; контроль завершён, новых true нет (не окончательное принятие)",
+      "variants": [
+        {
+          "all_old_targets_true": false,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 28,
+                "complete": true,
+                "total": 28,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new": {
+                "checked": 32,
+                "complete": true,
+                "total": 32,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new_only": {
+                "checked": 4,
+                "complete": true,
+                "total": 4,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 33,
+                "complete": true,
+                "total": 33,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old_only": {
+                "checked": 5,
+                "complete": true,
+                "total": 5,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 37,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 37,
+            "true_count": 0,
+            "true_ids": []
+          },
+          "errors": 0,
+          "false_ids": [
+            "arxiv:2103.12731"
+          ],
+          "question": "What are the real-world latency and throughput tradeoffs between shifted non-overlapping window partitioning, where the token grid is divided into fixed blocks whose boundaries are offset between stages, and sliding-window self-attention for local attention in hierarchical transformer architectures, and does the efficiency gain come at a modeling accuracy cost?",
+          "ranks": {
+            "bm25": {
+              "arxiv:2103.12731": 6,
+              "arxiv:2103.14030": 1
+            },
+            "tfidf_lsa": {
+              "arxiv:2103.12731": 25,
+              "arxiv:2103.14030": 15
+            }
+          },
+          "state": "Не все прежние цели сохранили true; контроль завершён, новых true нет (не окончательное принятие)",
+          "target_count": 2,
+          "true_count": 1,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N20",
+      "initial_target_count": 1,
+      "initial_target_ids": [
+        "arxiv:2104.05707"
+      ],
+      "original_controls": {
+        "checked": 31,
+        "complete": true,
+        "total": 31,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "What is the impact of inserting a depth-wise convolution at the expanded intermediate dimension within the feed-forward sublayer of vision transformers on image classification accuracy, and how do design choices such as network-depth placement, post-convolution non-linearity, and hidden-dimension expansion ratio modulate the benefit?",
+      "ranks": {
+        "bm25": {
+          "arxiv:2104.05707": 1
+        },
+        "tfidf_lsa": {
+          "arxiv:2104.05707": 2
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_2103.14030/groups/02/question-001",
+      "state": "Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 27,
+                "complete": true,
+                "total": 27,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new": {
+                "checked": 31,
+                "complete": true,
+                "total": 31,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new_only": {
+                "checked": 4,
+                "complete": true,
+                "total": 4,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 31,
+                "complete": true,
+                "total": 31,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old_only": {
+                "checked": 4,
+                "complete": true,
+                "total": 4,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 35,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 35,
+            "true_count": 0,
+            "true_ids": []
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "How does inserting a depth-wise convolution over the 2D spatial grid of tokens at the expanded intermediate dimension within the feed-forward sublayer of vision transformers affect image classification accuracy, and how do design choices such as network-depth placement, post-convolution non-linearity, and hidden-dimension expansion ratio modulate the benefit?",
+          "ranks": {
+            "bm25": {
+              "arxiv:2104.05707": 1
+            },
+            "tfidf_lsa": {
+              "arxiv:2104.05707": 3
+            }
+          },
+          "state": "Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+          "target_count": 1,
+          "true_count": 1,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N21",
+      "initial_target_count": 1,
+      "initial_target_ids": [
+        "arxiv:2103.14030"
+      ],
+      "original_controls": {
+        "checked": 31,
+        "complete": true,
+        "total": 31,
+        "true_count": 1,
+        "true_ids": [
+          "arxiv:2103.12731"
+        ]
+      },
+      "question": "How should spatial or spatiotemporal position information be encoded within fixed-size local attention windows in hierarchical vision transformers, and what are the effects of using a learned per-head bias indexed by relative pairwise offsets versus absolute position embeddings on classification and dense prediction performance?",
+      "ranks": {
+        "bm25": {
+          "arxiv:2103.14030": 4
+        },
+        "tfidf_lsa": {
+          "arxiv:2103.14030": 17
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_2103.14030/groups/03/question-001",
+      "state": "Прежние цели сохранены; есть цели в top-20; 1–2 новых true, решение открыто",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 24,
+                "complete": true,
+                "total": 24,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2103.12731"
+                ]
+              },
+              "new": {
+                "checked": 32,
+                "complete": true,
+                "total": 32,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2103.12731"
+                ]
+              },
+              "new_only": {
+                "checked": 8,
+                "complete": true,
+                "total": 8,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 31,
+                "complete": true,
+                "total": 31,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2103.12731"
+                ]
+              },
+              "old_only": {
+                "checked": 7,
+                "complete": true,
+                "total": 7,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 39,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 39,
+            "true_count": 1,
+            "true_ids": [
+              "arxiv:2103.12731"
+            ]
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "How should spatial or spatiotemporal position information be encoded within fixed-size local attention windows in hierarchical vision transformers, and what are the effects on classification and dense prediction performance of using a learned per-head bias added to attention logits, parameterized by the relative displacement between each query and key token pair within the window, compared to absolute position embeddings?",
+          "ranks": {
+            "bm25": {
+              "arxiv:2103.14030": 3
+            },
+            "tfidf_lsa": {
+              "arxiv:2103.14030": 23
+            }
+          },
+          "state": "Прежние цели сохранены; есть цели в top-20; 1–2 новых true, решение открыто",
+          "target_count": 1,
+          "true_count": 1,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N22",
+      "initial_target_count": 3,
+      "initial_target_ids": [
+        "arxiv:2102.12122",
+        "arxiv:2103.14030",
+        "arxiv:2106.12011"
+      ],
+      "original_controls": {
+        "checked": 23,
+        "complete": true,
+        "total": 23,
+        "true_count": 2,
+        "true_ids": [
+          "arxiv:2105.05537",
+          "arxiv:2106.09785"
+        ]
+      },
+      "question": "How can a single-resolution transformer token sequence be converted into a multi-scale feature pyramid by successively merging 2×2 spatially neighboring tokens into a single token with doubled channel dimension via a learned linear projection, producing progressively coarser feature maps suitable for dense prediction heads in object detection and semantic segmentation?",
+      "ranks": {
+        "bm25": {
+          "arxiv:2102.12122": 18,
+          "arxiv:2103.14030": 8,
+          "arxiv:2106.12011": 10
+        },
+        "tfidf_lsa": {
+          "arxiv:2102.12122": 2,
+          "arxiv:2103.14030": 12,
+          "arxiv:2106.12011": 6
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_2103.14030/groups/04/question-001",
+      "state": "Прежние цели сохранены; есть цели в top-20; 1–2 новых true, решение открыто",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 23,
+                "complete": true,
+                "total": 23,
+                "true_count": 2,
+                "true_ids": [
+                  "arxiv:2105.05537",
+                  "arxiv:2106.09785"
+                ]
+              },
+              "new": {
+                "checked": 23,
+                "complete": true,
+                "total": 23,
+                "true_count": 2,
+                "true_ids": [
+                  "arxiv:2105.05537",
+                  "arxiv:2106.09785"
+                ]
+              },
+              "new_only": {
+                "checked": 0,
+                "complete": true,
+                "total": 0,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 23,
+                "complete": true,
+                "total": 23,
+                "true_count": 2,
+                "true_ids": [
+                  "arxiv:2105.05537",
+                  "arxiv:2106.09785"
+                ]
+              },
+              "old_only": {
+                "checked": 0,
+                "complete": true,
+                "total": 0,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 23,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 23,
+            "true_count": 2,
+            "true_ids": [
+              "arxiv:2105.05537",
+              "arxiv:2106.09785"
+            ]
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "How can a transformer token sequence at a single resolution be converted into a multi-scale feature pyramid by successively merging 2×2 spatially neighboring tokens into a single token with doubled channel dimension via a learned linear projection, producing progressively coarser feature maps suitable for dense prediction heads in object detection and semantic segmentation?",
+          "ranks": {
+            "bm25": {
+              "arxiv:2102.12122": 18,
+              "arxiv:2103.14030": 8,
+              "arxiv:2106.12011": 10
+            },
+            "tfidf_lsa": {
+              "arxiv:2102.12122": 2,
+              "arxiv:2103.14030": 12,
+              "arxiv:2106.12011": 6
+            }
+          },
+          "state": "Прежние цели сохранены; есть цели в top-20; 1–2 новых true, решение открыто",
+          "target_count": 3,
+          "true_count": 3,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N23",
+      "initial_target_count": 3,
+      "initial_target_ids": [
+        "arxiv:2104.05707",
+        "arxiv:2106.12011",
+        "arxiv:2106.13797"
+      ],
+      "original_controls": {
+        "checked": 30,
+        "complete": true,
+        "total": 30,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "How does inserting a small-kernel depthwise 2D convolution into the position-wise feed-forward sub-layer of a vision transformer block—reshaping the token sequence to a spatial feature map, applying a per-channel spatial aggregation between channel-expanding and channel-reducing linear projections, and reshaping back—affect image classification and dense prediction accuracy, when the block retains a separate global self-attention mechanism for long-range dependency modeling?",
+      "ranks": {
+        "bm25": {
+          "arxiv:2104.05707": 7,
+          "arxiv:2106.12011": 3,
+          "arxiv:2106.13797": 77
+        },
+        "tfidf_lsa": {
+          "arxiv:2104.05707": 2,
+          "arxiv:2106.12011": 30,
+          "arxiv:2106.13797": 22
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_2108.01072/groups/01/question-001",
+      "state": "Не все прежние цели сохранили true; контроль завершён, новых true нет (не окончательное принятие)",
+      "variants": [
+        {
+          "all_old_targets_true": false,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 27,
+                "complete": true,
+                "total": 27,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new": {
+                "checked": 31,
+                "complete": true,
+                "total": 31,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new_only": {
+                "checked": 4,
+                "complete": true,
+                "total": 4,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 30,
+                "complete": true,
+                "total": 30,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old_only": {
+                "checked": 3,
+                "complete": true,
+                "total": 3,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 34,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 34,
+            "true_count": 0,
+            "true_ids": []
+          },
+          "errors": 0,
+          "false_ids": [
+            "arxiv:2106.13797"
+          ],
+          "question": "How does adding a small-kernel depthwise 2D convolution to the position-wise feed-forward sub-layer of a vision transformer block—applying per-channel spatial aggregation between the channel-expanding and channel-reducing linear projections after reshaping the token sequence into a spatial feature map—affect image classification and dense prediction accuracy when the block retains a separate global self-attention mechanism for long-range dependency modeling?",
+          "ranks": {
+            "bm25": {
+              "arxiv:2104.05707": 7,
+              "arxiv:2106.12011": 3,
+              "arxiv:2106.13797": 67
+            },
+            "tfidf_lsa": {
+              "arxiv:2104.05707": 2,
+              "arxiv:2106.12011": 31,
+              "arxiv:2106.13797": 22
+            }
+          },
+          "state": "Не все прежние цели сохранили true; контроль завершён, новых true нет (не окончательное принятие)",
+          "target_count": 3,
+          "true_count": 2,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N24",
+      "initial_target_count": 1,
+      "initial_target_ids": [
+        "arxiv:2106.04263"
+      ],
+      "original_controls": {
+        "checked": 33,
+        "complete": true,
+        "total": 33,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "What is the structural and mathematical relationship between windowed local self-attention and per-channel depthwise convolution in vision architectures, and in which specific dimensions—weight dynamism, weight sharing direction, and spatial order of the local window—do they diverge despite sharing the same sparse local connectivity pattern?",
+      "ranks": {
+        "bm25": {
+          "arxiv:2106.04263": 1
+        },
+        "tfidf_lsa": {
+          "arxiv:2106.04263": 12
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_2108.01072/groups/02/question-001",
+      "state": "Прежние цели сохранены; есть цели в top-20; 1–2 новых true, решение открыто",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 20,
+                "complete": true,
+                "total": 20,
+                "true_count": 2,
+                "true_ids": [
+                  "arxiv:2103.12731",
+                  "arxiv:2106.01401"
+                ]
+              },
+              "new": {
+                "checked": 35,
+                "complete": true,
+                "total": 35,
+                "true_count": 2,
+                "true_ids": [
+                  "arxiv:2103.12731",
+                  "arxiv:2106.01401"
+                ]
+              },
+              "new_only": {
+                "checked": 15,
+                "complete": true,
+                "total": 15,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 33,
+                "complete": true,
+                "total": 33,
+                "true_count": 2,
+                "true_ids": [
+                  "arxiv:2103.12731",
+                  "arxiv:2106.01401"
+                ]
+              },
+              "old_only": {
+                "checked": 13,
+                "complete": true,
+                "total": 13,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 48,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 48,
+            "true_count": 2,
+            "true_ids": [
+              "arxiv:2103.12731",
+              "arxiv:2106.01401"
+            ]
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "What is the structural and mathematical relationship between self-attention restricted to a local spatial window, in which each position computes input-dependent mixing weights only over neighboring positions, and a per-channel local convolution, in which fixed learned weights are applied independently to each feature channel over the same window, in vision architectures—and in which specific dimensions (whether mixing weights are dynamic or static parameters, the direction of weight sharing across spatial positions versus across channels, and whether the window preserves spatial order or treats positions as an unordered set) do these two operations diverge despite sharing the same sparse local connectivity pattern?",
+          "ranks": {
+            "bm25": {
+              "arxiv:2106.04263": 1
+            },
+            "tfidf_lsa": {
+              "arxiv:2106.04263": 5
+            }
+          },
+          "state": "Прежние цели сохранены; есть цели в top-20; 1–2 новых true, решение открыто",
+          "target_count": 1,
+          "true_count": 1,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N25",
+      "initial_target_count": 1,
+      "initial_target_ids": [
+        "arxiv:2106.04263"
+      ],
+      "original_controls": {
+        "checked": 31,
+        "complete": true,
+        "total": 31,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "When the sparse local connectivity pattern is held fixed in a vision transformer backbone, how do the structural differences between local attention (dynamically predicted weights, channel-wise sharing, set-based window) and depthwise convolution (static learned kernels, position-wise sharing, ordered vector window) translate into downstream performance on classification, detection, and segmentation tasks?",
+      "ranks": {
+        "bm25": {
+          "arxiv:2106.04263": 2
+        },
+        "tfidf_lsa": {
+          "arxiv:2106.04263": 18
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_2108.01072/groups/02/question-002",
+      "state": "Прежние цели сохранены; есть цели в top-20; контроль не завершён",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 22,
+                "complete": false,
+                "total": 23,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new": {
+                "checked": 29,
+                "complete": false,
+                "total": 30,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new_only": {
+                "checked": 7,
+                "complete": true,
+                "total": 7,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 30,
+                "complete": false,
+                "total": 31,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old_only": {
+                "checked": 8,
+                "complete": true,
+                "total": 8,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 37,
+            "complete": false,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 38,
+            "true_count": 0,
+            "true_ids": []
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "When the sparse local connectivity pattern is held fixed in a vision transformer backbone, how do the structural differences between windowed self-attention (dynamically predicted weights, channel-wise weight sharing, set-based spatial window) and per-channel local convolution (static learned kernels, position-wise weight sharing, ordered vector window) translate into downstream performance on classification, detection, and segmentation tasks?",
+          "ranks": {
+            "bm25": {
+              "arxiv:2106.04263": 1
+            },
+            "tfidf_lsa": {
+              "arxiv:2106.04263": 19
+            }
+          },
+          "state": "Прежние цели сохранены; есть цели в top-20; контроль не завершён",
+          "target_count": 1,
+          "true_count": 1,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N26",
+      "initial_target_count": 3,
+      "initial_target_ids": [
+        "arxiv:2106.07477",
+        "arxiv:2106.14882",
+        "arxiv:2108.01072"
+      ],
+      "original_controls": {
+        "checked": 22,
+        "complete": true,
+        "total": 22,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "What spatially invariant inter-patch mixing operations have been proposed to replace the position-specific token-mixing MLP in pure-MLP vision backbones, and how do they achieve effective cross-patch communication for image classification on ImageNet-1K?",
+      "ranks": {
+        "bm25": {
+          "arxiv:2106.07477": 1,
+          "arxiv:2106.14882": 2,
+          "arxiv:2108.01072": 4
+        },
+        "tfidf_lsa": {
+          "arxiv:2106.07477": 10,
+          "arxiv:2106.14882": 7,
+          "arxiv:2108.01072": 5
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_2108.01072/groups/03/question-001",
+      "state": "Прежние цели сохранены; есть цели в top-20; 1–2 новых true, решение открыто",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 21,
+                "complete": true,
+                "total": 21,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2108.04384"
+                ]
+              },
+              "new": {
+                "checked": 23,
+                "complete": true,
+                "total": 23,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2108.04384"
+                ]
+              },
+              "new_only": {
+                "checked": 2,
+                "complete": true,
+                "total": 2,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 22,
+                "complete": true,
+                "total": 22,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2108.04384"
+                ]
+              },
+              "old_only": {
+                "checked": 1,
+                "complete": true,
+                "total": 1,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 24,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 24,
+            "true_count": 1,
+            "true_ids": [
+              "arxiv:2108.04384"
+            ]
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "What spatially invariant inter-patch mixing operations, in which the same mixing weights are applied at every patch location on the grid, have been proposed to replace the position-specific token-mixing MLP in pure-MLP vision backbones, and how do they achieve effective cross-patch communication for image classification on ImageNet-1K?",
+          "ranks": {
+            "bm25": {
+              "arxiv:2106.07477": 1,
+              "arxiv:2106.14882": 2,
+              "arxiv:2108.01072": 5
+            },
+            "tfidf_lsa": {
+              "arxiv:2106.07477": 12,
+              "arxiv:2106.14882": 9,
+              "arxiv:2108.01072": 8
+            }
+          },
+          "state": "Прежние цели сохранены; есть цели в top-20; 1–2 новых true, решение открыто",
+          "target_count": 3,
+          "true_count": 3,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "N27",
+      "initial_target_count": 1,
+      "initial_target_ids": [
+        "arxiv:2103.03404"
+      ],
+      "original_controls": {
+        "checked": 36,
+        "complete": true,
+        "total": 36,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "In a deep stack of self-attention layers where the output contracts toward a rank-1 matrix, how does the position-wise non-linear feed-forward sub-layer resist this collapse, and what is the role of its Lipschitz constant in determining the rate at which token distinguishability is preserved or lost as depth increases?",
+      "ranks": {
+        "bm25": {
+          "arxiv:2103.03404": 1
+        },
+        "tfidf_lsa": {
+          "arxiv:2103.03404": 24
+        }
+      },
+      "section": "Ночная серия — 27 вопросов с завершённым судьёй",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_2108.01072/groups/04/question-001",
+      "state": "Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 25,
+                "complete": true,
+                "total": 25,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new": {
+                "checked": 34,
+                "complete": true,
+                "total": 34,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new_only": {
+                "checked": 9,
+                "complete": true,
+                "total": 9,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 36,
+                "complete": true,
+                "total": 36,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old_only": {
+                "checked": 11,
+                "complete": true,
+                "total": 11,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 45,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 45,
+            "true_count": 0,
+            "true_ids": []
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "In a deep stack of self-attention layers where repeated weighted averaging drives the representation matrix toward rank 1, how does the position-wise non-linear feed-forward transformation resist this collapse, and what is the role of its Lipschitz constant in determining the rate at which token distinguishability is preserved or lost as depth increases?",
+          "ranks": {
+            "bm25": {
+              "arxiv:2103.03404": 1
+            },
+            "tfidf_lsa": {
+              "arxiv:2103.03404": 35
+            }
+          },
+          "state": "Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+          "target_count": 1,
+          "true_count": 1,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "composer_target_count": 3,
+      "id": "U01",
+      "initial_target_count": 3,
+      "initial_target_ids": [
+        "arxiv:1907.05686",
+        "arxiv:2004.10568",
+        "arxiv:2102.02147"
+      ],
+      "original_controls": {
+        "checked": 30,
+        "complete": true,
+        "total": 30,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "partial_true_count": 2,
+      "question": "In post-training quantization of deep convolutional networks, how should each layer's quantization parameters be determined when the input distribution to that layer has been perturbed by discretization errors accumulated from all preceding layers, and what is the effect of conditioning on the quantized outputs of prior layers versus their full-precision outputs on final network accuracy?",
+      "rank_note": "Ранги кандидатов композитора, не окончательных целей судьи",
+      "ranks": {
+        "bm25": {
+          "arxiv:1907.05686": 33,
+          "arxiv:2004.10568": 7,
+          "arxiv:2102.02147": 5
+        },
+        "tfidf_lsa": {
+          "arxiv:1907.05686": 30,
+          "arxiv:2004.10568": 34,
+          "arxiv:2102.02147": 14
+        }
+      },
+      "section": "Ночная серия — дополнительно восстановленные вопросы",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_1805.06085/groups/01/question-001",
+      "state": "Прежние цели сохранены; есть цели в top-20; 1–2 новых true, решение открыто",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 30,
+                "complete": true,
+                "total": 30,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2106.08295"
+                ]
+              },
+              "new": {
+                "checked": 30,
+                "complete": true,
+                "total": 30,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2106.08295"
+                ]
+              },
+              "new_only": {
+                "checked": 0,
+                "complete": true,
+                "total": 0,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 30,
+                "complete": true,
+                "total": 30,
+                "true_count": 1,
+                "true_ids": [
+                  "arxiv:2106.08295"
+                ]
+              },
+              "old_only": {
+                "checked": 0,
+                "complete": true,
+                "total": 0,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 30,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 30,
+            "true_count": 1,
+            "true_ids": [
+              "arxiv:2106.08295"
+            ]
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "In post-training quantization of deep convolutional networks, how should each layer's quantization parameters be determined when the input distribution to that layer is perturbed by discretization errors accumulated from all preceding layers, and what is the effect of conditioning on the quantized outputs of prior layers versus their full-precision outputs on final network accuracy?",
+          "ranks": {
+            "bm25": {
+              "arxiv:1907.05686": 33,
+              "arxiv:2004.10568": 7,
+              "arxiv:2102.02147": 5
+            },
+            "tfidf_lsa": {
+              "arxiv:1907.05686": 30,
+              "arxiv:2004.10568": 34,
+              "arxiv:2102.02147": 14
+            }
+          },
+          "state": "Прежние цели сохранены; есть цели в top-20; 1–2 новых true, решение открыто",
+          "target_count": 3,
+          "true_count": 3,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "composer_target_count": 3,
+      "id": "U02",
+      "initial_target_count": null,
+      "initial_target_ids": [],
+      "original_controls": {
+        "status": "unresolved_target_set"
+      },
+      "partial_true_count": 3,
+      "question": "In CT image restoration (low-dose denoising or few-view projection reconstruction), how does incorporating a Wasserstein GAN adversarial objective with gradient penalty alongside reconstruction-level losses (MSE, SSIM, or MAE) affect the preservation of fine anatomical structures and tissue texture, compared to training the generator with reconstruction-level losses alone?",
+      "rank_note": "Ранги кандидатов композитора, не окончательных целей судьи",
+      "ranks": {
+        "bm25": {
+          "arxiv:1708.00961": 2,
+          "arxiv:1911.05880": 3,
+          "arxiv:1912.04278": 1
+        },
+        "tfidf_lsa": {
+          "arxiv:1708.00961": 2,
+          "arxiv:1911.05880": 3,
+          "arxiv:1912.04278": 9
+        }
+      },
+      "section": "Ночная серия — незавершённые проверки",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_1812.03503/groups/01/question-001",
+      "state": "Не удалось завершить исходного судью",
+      "variants": []
+    },
+    {
+      "composer_target_count": 2,
+      "id": "U03",
+      "initial_target_count": null,
+      "initial_target_ids": [],
+      "original_controls": {
+        "status": "unresolved_target_set"
+      },
+      "partial_true_count": 1,
+      "question": "How can wind speed at multiple weather stations be forecasted for future time steps by discovering the inter-station spatial dependency structure entirely from data through a dense, fully trainable adjacency matrix that serves as the sole mechanism for cross-station feature mixing in a graph convolution or graph attention operation, while temporal dependencies are captured by a separate modeling component?",
+      "rank_note": "Ранги кандидатов композитора, не окончательных целей судьи",
+      "ranks": {
+        "bm25": {
+          "arxiv:2101.10041": 2,
+          "arxiv:2108.07063": 3
+        },
+        "tfidf_lsa": {
+          "arxiv:2101.10041": 2,
+          "arxiv:2108.07063": 1
+        }
+      },
+      "section": "Ночная серия — незавершённые проверки",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_2011.03303/groups/03/question-001",
+      "state": "Не удалось завершить исходного судью",
+      "variants": []
+    },
+    {
+      "composer_target_count": 2,
+      "id": "U04",
+      "initial_target_count": null,
+      "initial_target_ids": [],
+      "original_controls": {
+        "status": "unresolved_target_set"
+      },
+      "partial_true_count": 2,
+      "question": "What is the impact of the number of skip-connections between a convolutional encoder and a transformer-augmented U-shaped decoder on multi-organ segmentation accuracy, particularly for small or closely packed organs?",
+      "rank_note": "Ранги кандидатов композитора, не окончательных целей судьи",
+      "ranks": {
+        "bm25": {
+          "arxiv:2102.04306": 1,
+          "arxiv:2107.05188": 4
+        },
+        "tfidf_lsa": {
+          "arxiv:2102.04306": 2,
+          "arxiv:2107.05188": 5
+        }
+      },
+      "section": "Ночная серия — незавершённые проверки",
+      "source": "research/factory-e2e/night-20/seeds/arxiv_2102.04306/groups/02/question-002",
+      "state": "Не удалось завершить исходного судью",
+      "variants": []
+    },
+    {
+      "id": "P01",
+      "initial_target_count": 7,
+      "initial_target_ids": [
+        "arxiv:1802.02172",
+        "arxiv:1809.07656",
+        "arxiv:1811.05321",
+        "arxiv:1910.00445",
+        "arxiv:2001.04959",
+        "arxiv:2010.05241",
+        "arxiv:2106.15416"
+      ],
+      "original_controls": {
+        "checked": 22,
+        "complete": false,
+        "total": 23,
+        "true_count": 1,
+        "true_ids": [
+          "arxiv:1703.01203"
+        ]
+      },
+      "question": "Under what distributional regularity conditions—such as bounded density with geometrically controlled deviation from uniformity, log-concavity or strong log-concavity of the density, or a smeared absolute continuity bound on small-set probabilities—does the Fisher inner-product discriminant separate each point in a large random finite set from all other points with high probability in high-dimensional Euclidean space, and at what rate in the ambient dimension does the maximal guaranteed separable set size grow?",
+      "ranks": {
+        "bm25": {
+          "arxiv:1802.02172": 5,
+          "arxiv:1809.07656": 1,
+          "arxiv:1811.05321": 2,
+          "arxiv:1910.00445": 7,
+          "arxiv:2001.04959": 4,
+          "arxiv:2010.05241": 6,
+          "arxiv:2106.15416": 3
+        },
+        "tfidf_lsa": {
+          "arxiv:1802.02172": 5,
+          "arxiv:1809.07656": 8,
+          "arxiv:1811.05321": 2,
+          "arxiv:1910.00445": 15,
+          "arxiv:2001.04959": 1,
+          "arxiv:2010.05241": 18,
+          "arxiv:2106.15416": 7
+        }
+      },
+      "section": "Ранний pilot-v1 — 5 вопросов",
+      "source": "research/factory-query-iterations/pilot-v1/highdim-01/questions.json",
+      "state": "Прежние цели сохранены; есть цели в top-20; контроль не завершён",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 19,
+                "complete": false,
+                "total": 20,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new": {
+                "checked": 22,
+                "complete": false,
+                "total": 23,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new_only": {
+                "checked": 3,
+                "complete": true,
+                "total": 3,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 22,
+                "complete": false,
+                "total": 23,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old_only": {
+                "checked": 3,
+                "complete": true,
+                "total": 3,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 25,
+            "complete": false,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 26,
+            "true_count": 0,
+            "true_ids": []
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "Under what distributional regularity conditions—bounded density with geometrically controlled deviation from uniformity, log-concavity or strong log-concavity of the density, or a smeared absolute continuity bound on the probability mass of small relative-volume sets—does the Fisher inner-product discriminant separate each point in a large random finite set from all other points with high probability in high-dimensional Euclidean space, and at what rate in the ambient dimension does the maximal guaranteed separable set size grow?",
+          "ranks": {
+            "bm25": {
+              "arxiv:1802.02172": 5,
+              "arxiv:1809.07656": 1,
+              "arxiv:1811.05321": 2,
+              "arxiv:1910.00445": 7,
+              "arxiv:2001.04959": 4,
+              "arxiv:2010.05241": 6,
+              "arxiv:2106.15416": 3
+            },
+            "tfidf_lsa": {
+              "arxiv:1802.02172": 5,
+              "arxiv:1809.07656": 7,
+              "arxiv:1811.05321": 2,
+              "arxiv:1910.00445": 17,
+              "arxiv:2001.04959": 1,
+              "arxiv:2010.05241": 19,
+              "arxiv:2106.15416": 6
+            }
+          },
+          "state": "Прежние цели сохранены; есть цели в top-20; контроль не завершён",
+          "target_count": 7,
+          "true_count": 7,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "initial_target_count": 9,
+      "initial_target_ids": [
+        "arxiv:1610.00494",
+        "arxiv:1801.03421",
+        "arxiv:1802.02172",
+        "arxiv:1809.07656",
+        "arxiv:1810.05593",
+        "arxiv:1811.05321",
+        "arxiv:1910.00445",
+        "arxiv:2001.04959",
+        "arxiv:2106.15416"
+      ],
+      "original_controls": {
+        "checked": 36,
+        "complete": true,
+        "total": 36,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "Can specific false positives or misclassifications of a frozen deep-learning classifier be eliminated at minimal per-query cost by appending a non-iteratively-trained linear filter—computed in closed form from a small labeled set of error examples in the network's internal feature space—that acts as a binary gate suppressing only the flagged errors while leaving all correct outputs unchanged?",
+      "ranks": {
+        "bm25": {
+          "arxiv:1610.00494": 10,
+          "arxiv:1801.03421": 115,
+          "arxiv:1802.02172": 1038,
+          "arxiv:1809.07656": 156,
+          "arxiv:1810.05593": 196,
+          "arxiv:1811.05321": 213,
+          "arxiv:1910.00445": 7,
+          "arxiv:2001.04959": 135,
+          "arxiv:2106.15416": 24
+        },
+        "tfidf_lsa": {
+          "arxiv:1610.00494": 113,
+          "arxiv:1801.03421": 1596,
+          "arxiv:1802.02172": 4730,
+          "arxiv:1809.07656": 1300,
+          "arxiv:1810.05593": 908,
+          "arxiv:1811.05321": 3648,
+          "arxiv:1910.00445": 339,
+          "arxiv:2001.04959": 757,
+          "arxiv:2106.15416": 587
+        }
+      },
+      "section": "Ранний pilot-v1 — 5 вопросов",
+      "source": "research/factory-query-iterations/pilot-v1/highdim-02/questions.json",
+      "state": "Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 36,
+                "complete": true,
+                "total": 36,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new": {
+                "checked": 36,
+                "complete": true,
+                "total": 36,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new_only": {
+                "checked": 0,
+                "complete": true,
+                "total": 0,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 36,
+                "complete": true,
+                "total": 36,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old_only": {
+                "checked": 0,
+                "complete": true,
+                "total": 0,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 36,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 36,
+            "true_count": 0,
+            "true_ids": []
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "Can specific false positives or misclassifications of a frozen deep-learning classifier be eliminated at minimal per-query cost by appending a non-iteratively-trained linear filter, computed in closed form from a small labeled set of error examples in the network's internal feature space, that acts as a binary gate suppressing only the flagged errors while leaving all correct outputs unchanged?",
+          "ranks": {
+            "bm25": {
+              "arxiv:1610.00494": 10,
+              "arxiv:1801.03421": 115,
+              "arxiv:1802.02172": 1038,
+              "arxiv:1809.07656": 156,
+              "arxiv:1810.05593": 196,
+              "arxiv:1811.05321": 213,
+              "arxiv:1910.00445": 7,
+              "arxiv:2001.04959": 135,
+              "arxiv:2106.15416": 24
+            },
+            "tfidf_lsa": {
+              "arxiv:1610.00494": 113,
+              "arxiv:1801.03421": 1596,
+              "arxiv:1802.02172": 4730,
+              "arxiv:1809.07656": 1300,
+              "arxiv:1810.05593": 908,
+              "arxiv:1811.05321": 3648,
+              "arxiv:1910.00445": 339,
+              "arxiv:2001.04959": 757,
+              "arxiv:2106.15416": 587
+            }
+          },
+          "state": "Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+          "target_count": 9,
+          "true_count": 9,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "initial_target_count": 2,
+      "initial_target_ids": [
+        "arxiv:1910.00445",
+        "arxiv:2106.15416"
+      ],
+      "original_controls": {
+        "checked": 38,
+        "complete": true,
+        "total": 38,
+        "true_count": 0,
+        "true_ids": []
+      },
+      "question": "For a deployed classifier whose error population forms distinct clusters in the internal feature space, does routing each query to its nearest error-cluster centroid and evaluating only that cluster's linear discriminant provide better false-positive removal at lower per-query cost than a single global discriminant or an OR-rule that evaluates all cluster discriminants simultaneously?",
+      "ranks": {
+        "bm25": {
+          "arxiv:1910.00445": 1,
+          "arxiv:2106.15416": 2
+        },
+        "tfidf_lsa": {
+          "arxiv:1910.00445": 91,
+          "arxiv:2106.15416": 148
+        }
+      },
+      "section": "Ранний pilot-v1 — 5 вопросов",
+      "source": "research/factory-query-iterations/pilot-v1/highdim-02/questions.json",
+      "state": "Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+      "variants": [
+        {
+          "all_old_targets_true": true,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 36,
+                "complete": true,
+                "total": 36,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new": {
+                "checked": 38,
+                "complete": true,
+                "total": 38,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new_only": {
+                "checked": 2,
+                "complete": true,
+                "total": 2,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 38,
+                "complete": true,
+                "total": 38,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old_only": {
+                "checked": 2,
+                "complete": true,
+                "total": 2,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 40,
+            "complete": true,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 40,
+            "true_count": 0,
+            "true_ids": []
+          },
+          "errors": 0,
+          "false_ids": [],
+          "question": "For a deployed classifier whose error population forms distinct clusters in the internal feature space, does assigning each query to the centroid of its nearest error cluster and evaluating only that cluster's linear discriminant provide better false-positive removal at lower per-query cost than a single global discriminant or an OR-rule that evaluates all cluster discriminants simultaneously?",
+          "ranks": {
+            "bm25": {
+              "arxiv:1910.00445": 1,
+              "arxiv:2106.15416": 2
+            },
+            "tfidf_lsa": {
+              "arxiv:1910.00445": 91,
+              "arxiv:2106.15416": 151
+            }
+          },
+          "state": "Прежние цели сохранены; есть цели в top-20; контроль завершён, новых true нет (не окончательное принятие)",
+          "target_count": 2,
+          "true_count": 2,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "initial_target_count": 3,
+      "initial_target_ids": [
+        "arxiv:2103.13582",
+        "arxiv:2103.16470",
+        "arxiv:2105.11657"
+      ],
+      "original_controls": {
+        "checked": 34,
+        "complete": true,
+        "total": 34,
+        "true_count": 1,
+        "true_ids": [
+          "arxiv:2108.07058"
+        ]
+      },
+      "question": "In dense prediction tasks such as semantic segmentation, 3D object detection, and few-shot classification, how can per-position spatial displacement offsets predicted by a learned convolution and applied via bilinear interpolation of a source feature map replace a fixed local convolutional window to create an input-dependent, adaptively expanding receptive field for feature refinement?",
+      "ranks": {
+        "bm25": {
+          "arxiv:2103.13582": 40,
+          "arxiv:2103.16470": 36,
+          "arxiv:2105.11657": 186
+        },
+        "tfidf_lsa": {
+          "arxiv:2103.13582": 138,
+          "arxiv:2103.16470": 35,
+          "arxiv:2105.11657": 31
+        }
+      },
+      "section": "Ранний pilot-v1 — 5 вопросов",
+      "source": "research/factory-query-iterations/pilot-v1/vision-01/questions.json",
+      "state": "Не все прежние цели сохранили true; контроль не завершён",
+      "variants": [
+        {
+          "all_old_targets_true": false,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 22,
+                "complete": false,
+                "total": 30,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new": {
+                "checked": 24,
+                "complete": false,
+                "total": 34,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new_only": {
+                "checked": 2,
+                "complete": false,
+                "total": 4,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 25,
+                "complete": false,
+                "total": 34,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old_only": {
+                "checked": 3,
+                "complete": false,
+                "total": 4,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 27,
+            "complete": false,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 38,
+            "true_count": 0,
+            "true_ids": []
+          },
+          "errors": 0,
+          "false_ids": [
+            "arxiv:2103.13582",
+            "arxiv:2105.11657"
+          ],
+          "question": "In dense prediction tasks such as semantic segmentation, 3D object detection, and few-shot classification, how can per-position spatial displacement offsets predicted by a learned convolution and applied via bilinear interpolation at non-integer positions in a source feature map replace a fixed local convolutional window to create an input-dependent, adaptively expanding receptive field for feature refinement?",
+          "ranks": {
+            "bm25": {
+              "arxiv:2103.13582": 30,
+              "arxiv:2103.16470": 31,
+              "arxiv:2105.11657": 137
+            },
+            "tfidf_lsa": {
+              "arxiv:2103.13582": 139,
+              "arxiv:2103.16470": 36,
+              "arxiv:2105.11657": 31
+            }
+          },
+          "state": "Не все прежние цели сохранили true; контроль не завершён",
+          "target_count": 3,
+          "true_count": 1,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    },
+    {
+      "id": "P05",
+      "initial_target_count": 3,
+      "initial_target_ids": [
+        "arxiv:2103.03231",
+        "arxiv:2104.01772",
+        "arxiv:2108.05577"
+      ],
+      "original_controls": {
+        "checked": 21,
+        "complete": true,
+        "total": 21,
+        "true_count": 1,
+        "true_ids": [
+          "arxiv:2104.10078"
+        ]
+      },
+      "question": "In neural volume rendering or image-based view synthesis, what is the effect on rendering quality and per-ray computational cost when stratified sampling is confined to a depth interval derived from a geometric proxy (a coarse surface reconstruction, a predicted or extracted depth map, or silhouette-based near-far bounds) rather than spanning the full near-to-far clip range?",
+      "ranks": {
+        "bm25": {
+          "arxiv:2103.03231": 17,
+          "arxiv:2104.01772": 1,
+          "arxiv:2108.05577": 2
+        },
+        "tfidf_lsa": {
+          "arxiv:2103.03231": 12,
+          "arxiv:2104.01772": 6,
+          "arxiv:2108.05577": 7
+        }
+      },
+      "section": "Ранний pilot-v1 — 5 вопросов",
+      "source": "research/factory-query-iterations/pilot-v1/view_synthesis-01/questions.json",
+      "state": "Не все прежние цели сохранили true; контроль не завершён",
+      "variants": [
+        {
+          "all_old_targets_true": false,
+          "controls": {
+            "breakdown": {
+              "both": {
+                "checked": 0,
+                "complete": false,
+                "total": 21,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new": {
+                "checked": 0,
+                "complete": false,
+                "total": 24,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "new_only": {
+                "checked": 0,
+                "complete": false,
+                "total": 3,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old": {
+                "checked": 0,
+                "complete": false,
+                "total": 21,
+                "true_count": 0,
+                "true_ids": []
+              },
+              "old_only": {
+                "checked": 0,
+                "complete": true,
+                "total": 0,
+                "true_count": 0,
+                "true_ids": []
+              }
+            },
+            "checked": 0,
+            "complete": false,
+            "pool_definition": "union_original_and_rewritten_top20_bm25_lsa_excluding_old_targets",
+            "total": 24,
+            "true_count": 0,
+            "true_ids": []
+          },
+          "errors": 2,
+          "false_ids": [],
+          "question": "In ray-based neural rendering or image-based view synthesis, what is the effect on rendered image quality and per-ray computational cost when a fixed set of sample points is distributed only within a depth interval derived from a coarse geometric proxy (a surface reconstruction, a predicted or extracted depth map, or silhouette-based near-far bounds), rather than spread across the full near-to-far clip range?",
+          "ranks": {
+            "bm25": {
+              "arxiv:2103.03231": 15,
+              "arxiv:2104.01772": 5,
+              "arxiv:2108.05577": 2
+            },
+            "tfidf_lsa": {
+              "arxiv:2103.03231": 12,
+              "arxiv:2104.01772": 6,
+              "arxiv:2108.05577": 11
+            }
+          },
+          "state": "Не все прежние цели сохранили true; контроль не завершён",
+          "target_count": 3,
+          "true_count": 1,
+          "unchanged": false,
+          "variant": "descriptive_generated"
+        }
+      ]
+    }
+  ]
+}

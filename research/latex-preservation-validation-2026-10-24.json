@@ -1,0 +1,2991 @@
+{
+  "purpose": "content-preservation checks only; no text-length measurement or LLM calls",
+  "baseline": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/latex-token-sizing-2026-10-24.json",
+  "cleaner_sha256": "713f7b86d25ec1ddac18a9a21972447c70b4c7b4761f48f41960b29747a8c7f8",
+  "cleaner_path": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/code/graph_pilot/latex_to_text.py",
+  "articles_checked": 225,
+  "all_checks_passed": true,
+  "preserved_blocks_by_kind": {
+    "macro": 30514,
+    "math": 59312,
+    "environment": 5924,
+    "macro_definition": 421
+  },
+  "preservation_fallback_articles": [
+    "2606.16012"
+  ],
+  "limitation": "Checks protected-block retention; not proof of complete scientific equivalence",
+  "elapsed_seconds": 30.709,
+  "records": [
+    {
+      "paper_id": "hep-lat/0101015",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 401,
+        "math": 222,
+        "environment": 23
+      },
+      "retained_preamble_macros": 4,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/42c5bc06fb2120e0d00faccbd598fd2de3978669605f8e16acb126689666d062.json.gz"
+    },
+    {
+      "paper_id": "hep-ph/0101015",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 53,
+        "environment": 23,
+        "math": 106
+      },
+      "retained_preamble_macros": 21,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/8b4fd373e9ebdbb474f4edf23e8b831d80bdb8fb94bc429c02bd53971cdbb416.json.gz"
+    },
+    {
+      "paper_id": "math/0101015",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 56,
+        "math": 448
+      },
+      "retained_preamble_macros": 7,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/9c403bc3b5d6558b44d69c11c841de81ca66db98d07d925989ead2b878288f9c.json.gz"
+    },
+    {
+      "paper_id": "nlin/0101015",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro_definition": 4,
+        "macro": 16,
+        "math": 99
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/e0f6f7a74508875c9bc3ca9bdfa768e5f05169b81b5f4c5fe9d756d1018e1308.json.gz"
+    },
+    {
+      "paper_id": "physics/0101015",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 561,
+        "math": 291,
+        "environment": 11
+      },
+      "retained_preamble_macros": 10,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/65be0dc847cf9428fce20048e179f14c643b534b8b52c9c849268f1d19773d3c.json.gz"
+    },
+    {
+      "paper_id": "cs/0101016",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 38,
+        "math": 505,
+        "environment": 3
+      },
+      "retained_preamble_macros": 4,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/e778012cee4e566b1d59ee0e94ddae202500afa5a27144440c8fdb4f47295e17.json.gz"
+    },
+    {
+      "paper_id": "hep-ex/0101016",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 70,
+        "macro_definition": 2,
+        "math": 109,
+        "environment": 13
+      },
+      "retained_preamble_macros": 36,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/79b393d98740edaf2fdda290a615816bce6b40a8aa13ab7c2099ee964001ac15.json.gz"
+    },
+    {
+      "paper_id": "hep-lat/0101016",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 3,
+        "math": 96,
+        "environment": 33
+      },
+      "retained_preamble_macros": 8,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/b69956ce8d70bff2250c197f6b488f84158e031a333902c944818859d0312257.json.gz"
+    },
+    {
+      "paper_id": "hep-ph/0101016",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 37,
+        "math": 46,
+        "environment": 14
+      },
+      "retained_preamble_macros": 20,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/a5d809c20513de60ce14165c16e0f8684ff439cad06cb561bd1840c95dd7fe76.json.gz"
+    },
+    {
+      "paper_id": "hep-th/0101016",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 40,
+        "math": 245,
+        "environment": 80
+      },
+      "retained_preamble_macros": 16,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/b9b045a774f65ae43d3b68577fda100e8d53f55a0b63b7dfec4f2f1865e32d64.json.gz"
+    },
+    {
+      "paper_id": "math/0101016",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 62,
+        "math": 1058,
+        "environment": 80,
+        "macro_definition": 1
+      },
+      "retained_preamble_macros": 16,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/a0bd114af78d2c6f80d57cd9073722fde4eed77cc18bea6e024112b87f209b7e.json.gz"
+    },
+    {
+      "paper_id": "math-ph/0101016",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro_definition": 15,
+        "macro": 77,
+        "environment": 29,
+        "math": 83
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/65000c1906dc5f956f760b7ae6a2c397ebdc7501a3062c5fae7e2d6732cce229.json.gz"
+    },
+    {
+      "paper_id": "astro-ph/0101017",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 53,
+        "math": 477
+      },
+      "retained_preamble_macros": 8,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/359f054b8e3cf797caeebc755ba6b80d34482975c6cb3ffda846729e8db5300f.json.gz"
+    },
+    {
+      "paper_id": "cs/0101017",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 199,
+        "math": 1018,
+        "environment": 9
+      },
+      "retained_preamble_macros": 31,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/fc907e97f66692385c3ef857e8b428476dde8ca531e9061a3a6886b854f770e4.json.gz"
+    },
+    {
+      "paper_id": "gr-qc/0101017",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 15,
+        "math": 105,
+        "environment": 62
+      },
+      "retained_preamble_macros": 3,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/dfa5085e8d02a539076909e4a126657fa33f143bb950db808d1d4df1e10d3483.json.gz"
+    },
+    {
+      "paper_id": "hep-ex/0101017",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 9,
+        "math": 156,
+        "environment": 3
+      },
+      "retained_preamble_macros": 59,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/f4c1d35c656280009f40e87da3eb2690178b05794056c2fbeb4ae7f013536ce6.json.gz"
+    },
+    {
+      "paper_id": "hep-lat/0101017",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 12,
+        "macro_definition": 10,
+        "math": 132,
+        "environment": 60
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/84d8b0e470ea4009605670f7afa728a6b08f2dc00a5e301843ab77bd7050e878.json.gz"
+    },
+    {
+      "paper_id": "hep-ph/0101017",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 3,
+        "math": 228,
+        "environment": 30
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/5f62e73ae0c218c79ef4565f8a46a5e0833d844a1931d204d1c35a401d297161.json.gz"
+    },
+    {
+      "paper_id": "hep-th/0101017",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 112,
+        "macro": 4,
+        "environment": 41,
+        "macro_definition": 1
+      },
+      "retained_preamble_macros": 6,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/67385c0acab1e24028347a8d58c2a60a4facf46d68a7d168581862bd38077e83.json.gz"
+    },
+    {
+      "paper_id": "math/0101017",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 19,
+        "math": 1951,
+        "environment": 24
+      },
+      "retained_preamble_macros": 18,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/d9fdcd6324b3392646d03f9639dbc1df3bd611b3f6b0d487fec4a7b499bec4b9.json.gz"
+    },
+    {
+      "paper_id": "math-ph/0101017",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 205,
+        "math": 104
+      },
+      "retained_preamble_macros": 5,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/1b8a1d6338b159a408b3e9c33ad03deea0c13e4e50ab05d506760ef18daf6b33.json.gz"
+    },
+    {
+      "paper_id": "nlin/0101017",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro_definition": 35,
+        "macro": 1401,
+        "math": 269
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/5f3f6697ea79ea16b18053dd710f1214370945280368981dc264f116bd58a711.json.gz"
+    },
+    {
+      "paper_id": "astro-ph/0101018",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 278,
+        "math": 113,
+        "environment": 3
+      },
+      "retained_preamble_macros": 44,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/3dd9af6e259deb68143193af4eebfd5e5b6970d08a7d2e4e849321cf893642f1.json.gz"
+    },
+    {
+      "paper_id": "cs/0101018",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 54,
+        "environment": 21,
+        "math": 183
+      },
+      "retained_preamble_macros": 12,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/39093efae7c72416973c8747086cd104d42fdc35d03b59ac9b2c71eae76fb08d.json.gz"
+    },
+    {
+      "paper_id": "hep-ph/0101018",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 15,
+        "math": 588,
+        "environment": 194
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/8290b874fe1a776eb52c544c57e0a4aa866947288089492a9c1e7d8c1e910564.json.gz"
+    },
+    {
+      "paper_id": "hep-th/0101018",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro_definition": 19,
+        "macro": 14,
+        "math": 113,
+        "environment": 22
+      },
+      "retained_preamble_macros": 1,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/b382fb2905f7ef35fd6b6b0f9f5a26cd434df94c72102aeb5b4ba23c90aa360a.json.gz"
+    },
+    {
+      "paper_id": "math/0101018",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 1217,
+        "macro": 642,
+        "environment": 11
+      },
+      "retained_preamble_macros": 15,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/6c54ef7b65913f37bfa2cc1ab2b0396edb794c2b512facb727001b158271f322.json.gz"
+    },
+    {
+      "paper_id": "math-ph/0101018",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 436,
+        "macro": 34,
+        "environment": 54
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/a90cc329c1bfa09f5f51afde68dce8ba7d63b09b95efa6b77895106e80f710c4.json.gz"
+    },
+    {
+      "paper_id": "nlin/0101018",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 14,
+        "math": 126,
+        "environment": 9
+      },
+      "retained_preamble_macros": 38,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/9822b06d5582eca0cedc4662be74ec061769ef5cd2370567cd2342bed86c4d9f.json.gz"
+    },
+    {
+      "paper_id": "cs/0101019",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 525,
+        "macro": 213,
+        "environment": 1
+      },
+      "retained_preamble_macros": 15,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/738de62d2291a149103122cdcabf409fa5d2bdc7a042faf058cb5b13d4aa6dd1.json.gz"
+    },
+    {
+      "paper_id": "gr-qc/0101019",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro_definition": 1,
+        "macro": 6,
+        "math": 239,
+        "environment": 44
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/2890f71ab0d99b5d6c21cd7d4eafed69b5b4fefdc5bbe2f89c4285de996080c6.json.gz"
+    },
+    {
+      "paper_id": "hep-ph/0412183",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 27,
+        "math": 295,
+        "environment": 30
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/2ec1e7857f37c8ea823630c8ad5a306b7d8a0546662060d1fd14255603f15a74.json.gz"
+    },
+    {
+      "paper_id": "hep-th/0412183",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 20,
+        "math": 172,
+        "environment": 23
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/1f5a4128d74cb78ab6921006fc05963fcf29722ba2ff61da36c089914d89fddd.json.gz"
+    },
+    {
+      "paper_id": "math/0412183",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 20,
+        "math": 832,
+        "environment": 14
+      },
+      "retained_preamble_macros": 20,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/05d09a8458cfa0dc78f1345c0c59af98c7dd3df44f9e2c34dd0b3a2c52d10166.json.gz"
+    },
+    {
+      "paper_id": "astro-ph/0412184",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro_definition": 2,
+        "macro": 5,
+        "math": 305,
+        "environment": 23
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/2c472d1d2cf8bc6cd1362ba602ca327972f8a60af55325c2987f8022655d9e9d.json.gz"
+    },
+    {
+      "paper_id": "hep-ph/0412184",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 11,
+        "math": 31,
+        "environment": 8
+      },
+      "retained_preamble_macros": 20,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/c6eca581cfd260c0015c2b5f96c286ad846cb423e5c909a6823f5448cea70c14.json.gz"
+    },
+    {
+      "paper_id": "hep-th/0412184",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 27,
+        "macro_definition": 1,
+        "math": 528,
+        "environment": 53
+      },
+      "retained_preamble_macros": 3,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/b1f10d2174111ffe18446413d4aff6950f8080037fa0786746166d6202c777cf.json.gz"
+    },
+    {
+      "paper_id": "math/0412184",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 9,
+        "math": 519,
+        "environment": 16
+      },
+      "retained_preamble_macros": 17,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/6e8c5e544cb75c21d1c6ca29050946196e83c9edd63a16b04c83723c3eec5c23.json.gz"
+    },
+    {
+      "paper_id": "cond-mat/0412185",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 7,
+        "environment": 8,
+        "math": 82
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/f309555da8df61ecfdebd68f3f47f58dcd08a24ae5f3b30c5e5dee028c6d86bc.json.gz"
+    },
+    {
+      "paper_id": "hep-ph/0412185",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 6,
+        "math": 158,
+        "environment": 22
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/57fcb513509f6e5769b2bb809f337f471485d9ad7d465e782f1ee17914b159f0.json.gz"
+    },
+    {
+      "paper_id": "astro-ph/0412186",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 163,
+        "math": 323,
+        "environment": 45
+      },
+      "retained_preamble_macros": 4,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/c06f2936539d973f51779de1974a545d40083916f4cd9c9fb69874220f1ed8ea.json.gz"
+    },
+    {
+      "paper_id": "hep-ph/0412186",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 5,
+        "math": 92,
+        "environment": 30
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/a69b5af0274b7d3f8a64c7df3ed1840d3d6d6d88ff70a54fd118d800afe9e6ae.json.gz"
+    },
+    {
+      "paper_id": "hep-th/0412186",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 1598,
+        "math": 114
+      },
+      "retained_preamble_macros": 11,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/242e8062df2876e7da69bb10a9de0168e3f3d5f24b661a38c2fd98444be427e8.json.gz"
+    },
+    {
+      "paper_id": "math/0412186",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 72,
+        "math": 318
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/43b5523777d1ec0b9d1dd96f540a8b20d8a26ca59ba44b6e8c5cfa2ace4d6ecf.json.gz"
+    },
+    {
+      "paper_id": "astro-ph/0412187",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 30,
+        "math": 136,
+        "environment": 13
+      },
+      "retained_preamble_macros": 2,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/0234815a7500d48fcf8ff800c34398fc224b92a2333c9f228c043e7d1ad2d316.json.gz"
+    },
+    {
+      "paper_id": "cond-mat/0412187",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 11,
+        "math": 57,
+        "environment": 4
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/a333e7ea171e938e2824c0936699a1a9d88fabe438eaf9d3ad4edf7bc57c30f9.json.gz"
+    },
+    {
+      "paper_id": "hep-ph/0412187",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 5,
+        "math": 134,
+        "environment": 8
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/fbcba8e85d4a206b92956529e9193dea6402589dd1aa6b03c31c945bfff05791.json.gz"
+    },
+    {
+      "paper_id": "hep-th/0412187",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 954,
+        "math": 755,
+        "environment": 8,
+        "macro_definition": 3
+      },
+      "retained_preamble_macros": 15,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/d90cfe9f95f31dce9a4157e20c05664ca83ed55dca4efad06efc18b3b526b729.json.gz"
+    },
+    {
+      "paper_id": "math/0412187",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 537,
+        "macro": 55,
+        "macro_definition": 1,
+        "environment": 6
+      },
+      "retained_preamble_macros": 1,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/03e1dbf800e2e01cb0771d746aab154708a88d647d416ded3bc38caa609f0bec.json.gz"
+    },
+    {
+      "paper_id": "astro-ph/0412188",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 190,
+        "math": 338,
+        "environment": 52
+      },
+      "retained_preamble_macros": 82,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/7a4c8431d8a519c9d7d1dff81cb0bdcaf83fe9cd645f9215aafd1b7f6024d901.json.gz"
+    },
+    {
+      "paper_id": "cond-mat/0412188",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 22,
+        "math": 136,
+        "environment": 36
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/a213cc5536a8bafaa9cc6270fee7b885ff582c9279a476e71c31e955827a139b.json.gz"
+    },
+    {
+      "paper_id": "hep-ph/0412188",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 1814,
+        "math": 468,
+        "environment": 17
+      },
+      "retained_preamble_macros": 36,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/e89b59fac7611d1430f85b0794bc0f00467ec270f53f6740e7ac6b5e03355ef4.json.gz"
+    },
+    {
+      "paper_id": "hep-th/0412188",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 467,
+        "macro": 1465
+      },
+      "retained_preamble_macros": 23,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/92079868c57937e30329997195a797f1d387472657ff3a507eedf2e79f3b71a9.json.gz"
+    },
+    {
+      "paper_id": "astro-ph/0412189",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 17,
+        "math": 84,
+        "environment": 11
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/f23a56c2672db324afeffc5c6b65a83ede53b3c566f74e13fa439f485c07a92d.json.gz"
+    },
+    {
+      "paper_id": "cond-mat/0412189",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 155,
+        "macro": 68,
+        "environment": 15
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/f2932666010fe1cd27cb72bad3bfee9f59aa29576ba3553379e260c8f8785be0.json.gz"
+    },
+    {
+      "paper_id": "hep-th/0412189",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 9,
+        "macro_definition": 1,
+        "math": 155,
+        "environment": 52
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/a8e4c7c1df375f8ca477300a99c5acc9b305b76eb496a22918bbeb2d24593fa0.json.gz"
+    },
+    {
+      "paper_id": "math/0412189",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 52,
+        "math": 647,
+        "environment": 11
+      },
+      "retained_preamble_macros": 10,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/591ef488368e93ad61a4c63eb377ca30362325f8e0691c480ea90a45100aaf4a.json.gz"
+    },
+    {
+      "paper_id": "astro-ph/0412190",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 124,
+        "math": 134,
+        "environment": 5
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/d55b5ddb6178d522105a505891bbaa3c9f26af46ad2e342c78cb5a73d6245f31.json.gz"
+    },
+    {
+      "paper_id": "cond-mat/0412190",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 189,
+        "macro": 20,
+        "environment": 34
+      },
+      "retained_preamble_macros": 3,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/c3c8d62a551d5e32fd320da3a523f0bb186969c3618d71daa3f85c28c9621b3b.json.gz"
+    },
+    {
+      "paper_id": "hep-ph/0412190",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 32,
+        "math": 281,
+        "environment": 51
+      },
+      "retained_preamble_macros": 3,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/c3d5adb86bbfa76943854252d3e6ded122ccac4b7f075c21a5194671a118ed1a.json.gz"
+    },
+    {
+      "paper_id": "math/0412190",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 1444,
+        "macro": 62,
+        "environment": 7
+      },
+      "retained_preamble_macros": 27,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/09851e5aa7306f0c47d58ca4aa68b5f02406f427ae6cda8294feed98284ca507.json.gz"
+    },
+    {
+      "paper_id": "hep-th/0412191",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 2521,
+        "math": 676,
+        "environment": 48
+      },
+      "retained_preamble_macros": 35,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/3184bb49e49c98acb6095c7857c99aab91d7bdf8aefb0955e8e472953cbee61e.json.gz"
+    },
+    {
+      "paper_id": "math/0412191",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 528,
+        "math": 1396,
+        "environment": 24,
+        "macro_definition": 1
+      },
+      "retained_preamble_macros": 50,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/4c7cede3a293c24d7311b7843b1859f9ff9eff0b81859f9e2f44a1f239895d5c.json.gz"
+    },
+    {
+      "paper_id": "astro-ph/0412192",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 34,
+        "math": 189,
+        "environment": 3
+      },
+      "retained_preamble_macros": 33,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/4568d469132c94b147e07fa8e7838f84feb9337eda800e4c6adaca7aef302aaa.json.gz"
+    },
+    {
+      "paper_id": "cond-mat/0412192",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 35,
+        "math": 86,
+        "environment": 27
+      },
+      "retained_preamble_macros": 11,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/a4bd8bafdbb03618d9d3fbde047805b68ed98b51dbe11311a521a1adf325eaf5.json.gz"
+    },
+    {
+      "paper_id": "hep-ph/0412192",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 372,
+        "macro": 10,
+        "environment": 45
+      },
+      "retained_preamble_macros": 14,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/1839982d1c8388e86e323a570075617e1f9ae316ac864f646ffbe2129b37c85e.json.gz"
+    },
+    {
+      "paper_id": "hep-th/0412192",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro_definition": 6,
+        "macro": 13,
+        "math": 337,
+        "environment": 49
+      },
+      "retained_preamble_macros": 1,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/3da82ed8ba49d33fa45cdb874fa7b540e4589e906b1265b80ce6bcfbf5ce2e87.json.gz"
+    },
+    {
+      "paper_id": "cond-mat/0412193",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 19,
+        "math": 149,
+        "environment": 5
+      },
+      "retained_preamble_macros": 27,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/de5be967fee1779b955846b4bc8a09f470151c9c5a461363662b3f4f9f1e0acf.json.gz"
+    },
+    {
+      "paper_id": "hep-ph/0412193",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 106,
+        "macro_definition": 80,
+        "math": 338,
+        "environment": 6
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/d242052b07109e0f4b4a6226c01dd0cfa0c9273861b708662eeb1ae38dfee88e.json.gz"
+    },
+    {
+      "paper_id": "hep-th/0412193",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 460,
+        "math": 531,
+        "macro_definition": 1,
+        "environment": 18
+      },
+      "retained_preamble_macros": 3,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/17979b388b3575187cca33d03a3ced626dafedf13a8eb69834dc2c615f3fded8.json.gz"
+    },
+    {
+      "paper_id": "astro-ph/0412194",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 784,
+        "math": 222,
+        "environment": 2
+      },
+      "retained_preamble_macros": 12,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/f624238f2e8dacd3120b36b62b4b599ae2ae5e5c4002859d86b741610e8aea09.json.gz"
+    },
+    {
+      "paper_id": "cond-mat/0412194",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 378,
+        "macro": 18,
+        "environment": 70
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/319822dabc74c4eabd7431d11fdf5307ed3c1901242759f132f9a693f5529d59.json.gz"
+    },
+    {
+      "paper_id": "hep-th/0412194",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 892,
+        "math": 154,
+        "environment": 2,
+        "macro_definition": 1
+      },
+      "retained_preamble_macros": 46,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/55f66aa6876f92e56e3a04d1d014bd4243b42cb30d8ade93080d50b46974b4e8.json.gz"
+    },
+    {
+      "paper_id": "astro-ph/0412195",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 13,
+        "math": 450,
+        "environment": 109
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/1942975ae954d33f47f404b50c3b46f0a9cc2c5adac9eb367e75b09bee75e2c6.json.gz"
+    },
+    {
+      "paper_id": "cond-mat/0412195",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 2,
+        "environment": 18,
+        "math": 98
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/175a156761825745042c80e70e2b80a99bbcbab501682167192937978463c85a.json.gz"
+    },
+    {
+      "paper_id": "hep-ph/0412195",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 57,
+        "math": 71,
+        "environment": 5
+      },
+      "retained_preamble_macros": 3,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/e6d56ed31e36ca35129c2fb0e97d6b4eaf4a7e8addcfe4069d31bcce21b57598.json.gz"
+    },
+    {
+      "paper_id": "math/0412195",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 19,
+        "math": 475,
+        "environment": 1
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/ebc3b4e3446d1dd1adfbb4c2e2adefabfccebad98d6b00485f6be6b1174583b8.json.gz"
+    },
+    {
+      "paper_id": "astro-ph/0412196",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 102,
+        "math": 384,
+        "environment": 10
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/baefe66dbeeae5033570342baec3f6ace7664abb9bc590496add996a430386ec.json.gz"
+    },
+    {
+      "paper_id": "2606.00001",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 61,
+        "environment": 2,
+        "math": 3
+      },
+      "retained_preamble_macros": 4,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/ad419ba13636fadbe7a0aac1fb1734a24d01020ce13fedc36841a5d3846b101a.json.gz"
+    },
+    {
+      "paper_id": "2606.00002",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 25,
+        "math": 60,
+        "environment": 16
+      },
+      "retained_preamble_macros": 143,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/3ffd1bfa8beb5e30df6df8ecbf409ffc256c3db9b4f230c9b8a843ad186a292c.json.gz"
+    },
+    {
+      "paper_id": "2606.00003",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 16,
+        "environment": 5,
+        "math": 3
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/cfb0588df8b3b33ea814e835fb16d8d1a34010fd5460270b253969d67e33244a.json.gz"
+    },
+    {
+      "paper_id": "2606.00007",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 217,
+        "macro": 44,
+        "environment": 10
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/34bc308e06fcace2bcb8dbed52f76b21a1622453ae3bf5ce591ebcc86df987af.json.gz"
+    },
+    {
+      "paper_id": "2606.00008",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 88,
+        "environment": 35,
+        "math": 137
+      },
+      "retained_preamble_macros": 32,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/bc422c94a28761a6364082ebd98df9deb6b8cf34ad8f488182a4bc37eb321067.json.gz"
+    },
+    {
+      "paper_id": "2606.00009",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 64,
+        "math": 227,
+        "environment": 21
+      },
+      "retained_preamble_macros": 82,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/371aa0540cee9bb282e3cc910b303cac2139005ce1b79819f3f8e422384c5291.json.gz"
+    },
+    {
+      "paper_id": "2606.00011",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 173,
+        "macro_definition": 1,
+        "math": 168,
+        "environment": 23
+      },
+      "retained_preamble_macros": 491,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/748d2b97078ac4f505619528026557ba0f5e1b465c192945bc67ca627eabcdb4.json.gz"
+    },
+    {
+      "paper_id": "2606.00012",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 71,
+        "environment": 16,
+        "math": 71
+      },
+      "retained_preamble_macros": 9,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/4737729008c92ad30b08dd2225f5adc4b9fbd248105ad223263257a52670552f.json.gz"
+    },
+    {
+      "paper_id": "2606.00014",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 113,
+        "environment": 21,
+        "math": 133
+      },
+      "retained_preamble_macros": 11,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/ea7c9e6f7f7f96dd0e1ba9b116c08cc98b4b0b7305e5c4df72ea6d7e9712c920.json.gz"
+    },
+    {
+      "paper_id": "2606.00015",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 52,
+        "macro_definition": 1,
+        "environment": 9
+      },
+      "retained_preamble_macros": 471,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/ac4f070744e9c0b53f0481e94b44a470d5a1b54cd31641bbbe1ac173907d32bd.json.gz"
+    },
+    {
+      "paper_id": "2606.00016",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 43,
+        "math": 145,
+        "environment": 28
+      },
+      "retained_preamble_macros": 10,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/1310a60e15269655775aa6e09fc93f06964798fd69190d30dffbb1a2c899d1dd.json.gz"
+    },
+    {
+      "paper_id": "2606.00017",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 129,
+        "math": 124,
+        "environment": 18
+      },
+      "retained_preamble_macros": 24,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/8721ec61bf0bf1547dab31ab1021c65213b10afdbc35a6cdf541855da478c11e.json.gz"
+    },
+    {
+      "paper_id": "2606.00020",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 180,
+        "math": 82,
+        "environment": 19
+      },
+      "retained_preamble_macros": 11,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/04bb3641a94cb194cf500b5111d1d0806a9db8fa7ec2111e8dab29a9abfb65c4.json.gz"
+    },
+    {
+      "paper_id": "2606.00021",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 285,
+        "math": 309,
+        "environment": 43
+      },
+      "retained_preamble_macros": 61,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/2f44e0ebe075a5cdb632d8bea98375f895b4017ddea0a47db743df88727783ff.json.gz"
+    },
+    {
+      "paper_id": "2606.00022",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 94,
+        "math": 8,
+        "environment": 3
+      },
+      "retained_preamble_macros": 10,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/acbcc577277ff7fe878e809985cc85c2f0fc7e13723723cd654665682d499558.json.gz"
+    },
+    {
+      "paper_id": "2606.00023",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 277,
+        "environment": 27,
+        "math": 31
+      },
+      "retained_preamble_macros": 12,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/c753b7796fd756cc868bac919184463bec7912eda8ebc4161572ac07586ef947.json.gz"
+    },
+    {
+      "paper_id": "2606.00024",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 76,
+        "environment": 19,
+        "math": 207
+      },
+      "retained_preamble_macros": 58,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/20b44c0efd06d479ab002bd3b319769a3269901afac98802aad069ec2b678448.json.gz"
+    },
+    {
+      "paper_id": "2606.00026",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 48,
+        "math": 7,
+        "environment": 8
+      },
+      "retained_preamble_macros": 3,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/13e3f33b2d2cb9aef4cea79c75dcb842a5fcb841faab677a1a9849a5469b8d4d.json.gz"
+    },
+    {
+      "paper_id": "2606.00027",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 12,
+        "environment": 5,
+        "math": 5
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/cb94b27168bbfa9031ba3ae0bfe88ea6e3fd63accfead4e41eebb47b08cee584.json.gz"
+    },
+    {
+      "paper_id": "2606.00028",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 16,
+        "macro_definition": 2
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/49dcf72d529ef8252df36f8d68c20ca89d9d08acef0062bd301b02d2ac990d17.json.gz"
+    },
+    {
+      "paper_id": "2606.00029",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 134,
+        "macro": 8,
+        "environment": 29
+      },
+      "retained_preamble_macros": 2,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/7af05dc3240bc2102b0870e32901b9e8aac8fe2d1808da7816b31200e9cddb84.json.gz"
+    },
+    {
+      "paper_id": "2606.00030",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 5,
+        "environment": 9,
+        "math": 16
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/f5c622956870174669024d924a23d155814c63ca430781a6bdfd5b8d7722fb5b.json.gz"
+    },
+    {
+      "paper_id": "2606.00031",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 39,
+        "environment": 11,
+        "math": 1
+      },
+      "retained_preamble_macros": 23,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/f8485d7c1ed5eac2061b59029431019e6fdeb8f5141d44b646855727c10c67f9.json.gz"
+    },
+    {
+      "paper_id": "2606.00033",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 147,
+        "environment": 10,
+        "math": 40,
+        "macro_definition": 3
+      },
+      "retained_preamble_macros": 13,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/c7532dcb905a2982fba7d185619519fee760e909f32c2fb41234670f2f7ff450.json.gz"
+    },
+    {
+      "paper_id": "2606.00034",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 33,
+        "math": 40,
+        "environment": 9
+      },
+      "retained_preamble_macros": 19,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/c4da1586689b965c23ea72980b5cd85215e96c6258600dfb7eacc6754ea5eae9.json.gz"
+    },
+    {
+      "paper_id": "2606.00035",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 153,
+        "macro_definition": 1,
+        "environment": 14
+      },
+      "retained_preamble_macros": 495,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/00e7f55441562cad1776f1bfe54987b9fc824226bfeb5e8104ca02ac986be22e.json.gz"
+    },
+    {
+      "paper_id": "2606.00037",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 35,
+        "math": 58,
+        "environment": 6
+      },
+      "retained_preamble_macros": 22,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/c2e4620ef03922decc0465abdaefc50b3bd49ceb464ff1f5247fbb689d0df59c.json.gz"
+    },
+    {
+      "paper_id": "2606.00039",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 193,
+        "macro_definition": 1,
+        "environment": 19,
+        "math": 1
+      },
+      "retained_preamble_macros": 494,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/b8fe1837946a77ed04aed112d54ec04a18c9a147b1a777b2e63701746dc7e5bb.json.gz"
+    },
+    {
+      "paper_id": "2606.00040",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 10,
+        "math": 8,
+        "environment": 2
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/ca26f3e3d74349fbb32daf910cd84ed3c8a4331a6aa23573264ce49afd8fec60.json.gz"
+    },
+    {
+      "paper_id": "2606.00041",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 40,
+        "math": 5,
+        "environment": 7
+      },
+      "retained_preamble_macros": 19,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/fa10570c4078f3ab63f852e76dd81896a3d267430421ac1137058770fa803510.json.gz"
+    },
+    {
+      "paper_id": "2606.00044",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 21,
+        "environment": 1
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/2123b7ed6c9aebd6e4884aae928beb9a25b09c9c3c795b9c72ea81afb8223f9d.json.gz"
+    },
+    {
+      "paper_id": "2606.00045",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 154,
+        "environment": 21,
+        "macro_definition": 1,
+        "macro": 5
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/f74eaab74a4582354c7972d37ceca301de828969ed47189840298bb436936ca4.json.gz"
+    },
+    {
+      "paper_id": "2606.00046",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 37,
+        "environment": 9,
+        "math": 25
+      },
+      "retained_preamble_macros": 1,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/ffae812242e2b5ba66a156ac22d5886cdde7f075a8304ef98290b2d61c544927.json.gz"
+    },
+    {
+      "paper_id": "2606.00047",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 28,
+        "macro_definition": 1,
+        "environment": 1
+      },
+      "retained_preamble_macros": 28,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/dfbc0b6826ad8edcbcaa64dec7d7f341c9e27a4176a5f474307a55fdb931a490.json.gz"
+    },
+    {
+      "paper_id": "2606.00048",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 117,
+        "math": 123,
+        "environment": 14
+      },
+      "retained_preamble_macros": 482,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/a32d872ecf16ace2fc30074d35e1a6d88e4caccad595253990b58ae0d565d8d4.json.gz"
+    },
+    {
+      "paper_id": "2606.00049",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 90,
+        "math": 43,
+        "environment": 20
+      },
+      "retained_preamble_macros": 71,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/9a18348540761c33c745a644dbc57ed83f0bc6bc35b23e0b699d21f6af42a1e0.json.gz"
+    },
+    {
+      "paper_id": "2606.00050",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 24,
+        "math": 239,
+        "environment": 1
+      },
+      "retained_preamble_macros": 4,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/08f95fe91ea2c12b9ae297cacb7bf504afad99e355262c5086f39b4c61ce93cd.json.gz"
+    },
+    {
+      "paper_id": "2606.00051",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 128,
+        "macro_definition": 3,
+        "environment": 8,
+        "math": 13
+      },
+      "retained_preamble_macros": 4,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/da2d18b8c9d82b936307dc28f8fa04074bc18822e6b73a395fa31ca40ca141f8.json.gz"
+    },
+    {
+      "paper_id": "2606.00052",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 21,
+        "environment": 14,
+        "math": 42
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/7ce0c42e2300ad582ed5515df7694d67b56016feffafc6f264906aeb27409582.json.gz"
+    },
+    {
+      "paper_id": "2606.00053",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 212,
+        "math": 174,
+        "environment": 20
+      },
+      "retained_preamble_macros": 2,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/599cf47bef0669b60cae9e810f80780d5f3a6c403d7bd2826fd4556c61c06217.json.gz"
+    },
+    {
+      "paper_id": "2606.00054",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 128,
+        "macro_definition": 1,
+        "environment": 5,
+        "math": 23
+      },
+      "retained_preamble_macros": 20,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/3a582aefe256fb6786aa11ad2ae37e528a45fa5742f12a350a7a597674648aa0.json.gz"
+    },
+    {
+      "paper_id": "2606.00057",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro_definition": 3,
+        "macro": 16,
+        "environment": 5
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/6f9f36aa494997fc15fb5ded3d22b7c08fc5c1fe7ca6669d82a708cac8fa8512.json.gz"
+    },
+    {
+      "paper_id": "2606.00058",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 38,
+        "environment": 24,
+        "math": 30
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/e8ad0b5cc27e21c8a98bd78c8cb6c2d43f03e9088059cfe2641ed9ef920c2d9a.json.gz"
+    },
+    {
+      "paper_id": "2606.00059",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 77,
+        "math": 59,
+        "environment": 5
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/c772b719a7cfc86cc81bb20f9fc1d4b5cd6dd0e85b6282e897b80819bab636cf.json.gz"
+    },
+    {
+      "paper_id": "2606.00060",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 64,
+        "math": 125,
+        "environment": 91
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/60cef3f0f7a3e04769bba251d26b9ffdd40345b2daa1283007f6f1e45722c602.json.gz"
+    },
+    {
+      "paper_id": "2606.00061",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 65,
+        "math": 42,
+        "environment": 4
+      },
+      "retained_preamble_macros": 31,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/2af7f6807fed040570c1d9fea6e57caac12fe01bca9307cef7217f3052619744.json.gz"
+    },
+    {
+      "paper_id": "2606.00062",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 29,
+        "math": 60,
+        "environment": 9
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/67d3803e7d050a7dc9d98cd61e5204749eccbfbb732cc80ad61d7b49d9c10593.json.gz"
+    },
+    {
+      "paper_id": "2606.00063",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 14,
+        "math": 214,
+        "environment": 27
+      },
+      "retained_preamble_macros": 10,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/49a7a8fe9610436b1bd47aa310c11ae3073f6b805e540b3e26e8bae635b2feee.json.gz"
+    },
+    {
+      "paper_id": "2606.16001",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 892,
+        "macro": 49,
+        "environment": 32
+      },
+      "retained_preamble_macros": 3,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/04b5c797c25c4cd8f83a8468a22e9b051f04ddda259a9689678eb10e5f55303b.json.gz"
+    },
+    {
+      "paper_id": "2606.16002",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 26,
+        "math": 29,
+        "environment": 28
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/db32bc5d8159ba260ecbf6511d8a4e7c05905e29ed5da86f542cc3cd89ea952f.json.gz"
+    },
+    {
+      "paper_id": "2606.16003",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 195,
+        "environment": 17,
+        "math": 39
+      },
+      "retained_preamble_macros": 13,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/854344215e1d8af9d92032f63721edd78ff5cd5502633bd1c49030a89af2e0dd.json.gz"
+    },
+    {
+      "paper_id": "2606.16004",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 312,
+        "environment": 11,
+        "macro": 2
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/68bf02966e1e1d5469365dca75e9e8d18146167ded1fb240a197d9d735daa469.json.gz"
+    },
+    {
+      "paper_id": "2606.16005",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 7,
+        "math": 691,
+        "environment": 36
+      },
+      "retained_preamble_macros": 13,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/92f71f7eeb0261441fd8ee8d7268e20e3a4c204c29de00e891d5c632d2b2b521.json.gz"
+    },
+    {
+      "paper_id": "2606.16006",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 11,
+        "math": 128,
+        "environment": 4
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/ed49a88fb1171a1d2924c2656feeed4d6c9c138dac4bd2edc7f17855450cccb7.json.gz"
+    },
+    {
+      "paper_id": "2606.16008",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 37,
+        "math": 477,
+        "environment": 50
+      },
+      "retained_preamble_macros": 8,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/3a01ff8d5da2916f9c816430839e0f57040f56dde7348b1626db090db05e9606.json.gz"
+    },
+    {
+      "paper_id": "2606.16009",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 14
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/66f74c345c2824ff8f9f5fe813018653075c96be6001f0ea58660d690bd237e9.json.gz"
+    },
+    {
+      "paper_id": "2606.16010",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 671,
+        "environment": 201,
+        "math": 58
+      },
+      "retained_preamble_macros": 15,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/3538690899106e6d90cb7a07c6817eeee895752f2a0bcde9e7f72435660bfb22.json.gz"
+    },
+    {
+      "paper_id": "2606.16011",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 77,
+        "math": 106,
+        "environment": 12
+      },
+      "retained_preamble_macros": 17,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/a60f379e90d712d12ad723414a515286073e2dc903191e9838f741d3ab039bfa.json.gz"
+    },
+    {
+      "paper_id": "2606.16012",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 57,
+        "environment": 24,
+        "math": 484
+      },
+      "retained_preamble_macros": 137,
+      "preservation_fallback": true,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/d02e5f75ba7bf1bcd7401fbd0165e2a19af4ae215ad27736b2bc59fadd3ac187.json.gz"
+    },
+    {
+      "paper_id": "2606.16013",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 16,
+        "math": 486,
+        "environment": 83
+      },
+      "retained_preamble_macros": 7,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/54487bd77e243860196dd2da7f2b4079651bfa79e22bc1b627f7c8e569860574.json.gz"
+    },
+    {
+      "paper_id": "2606.16014",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 27,
+        "macro_definition": 1,
+        "math": 68,
+        "environment": 7
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/e9a3c01ad77d48b26559d3e5359a8c1ef6828ecd44a6b4bf4aa94af14cf5a7f8.json.gz"
+    },
+    {
+      "paper_id": "2606.16015",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 96,
+        "math": 37,
+        "environment": 11
+      },
+      "retained_preamble_macros": 9,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/49334c88a2c7d52081d4adda5db0277a752ca9d188b0ee626b377d5999679d13.json.gz"
+    },
+    {
+      "paper_id": "2606.16016",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 136,
+        "math": 85,
+        "environment": 25
+      },
+      "retained_preamble_macros": 160,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/967e2dd4739ea418bbf13281416ebda619a2cb2d9ef449cf56e4390a796c074f.json.gz"
+    },
+    {
+      "paper_id": "2606.16017",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 140,
+        "math": 1817,
+        "environment": 113
+      },
+      "retained_preamble_macros": 12,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/c99dd6f137727b93732bc13b967547fd5bc719cdfe9e877e9d8a57b81c3fe32d.json.gz"
+    },
+    {
+      "paper_id": "2606.16018",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 34,
+        "math": 166,
+        "environment": 6,
+        "macro_definition": 1
+      },
+      "retained_preamble_macros": 23,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/f1648e34296cb750ab588436096fec4ab825368f3ea78880273513722e1aa179.json.gz"
+    },
+    {
+      "paper_id": "2606.16019",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 20,
+        "environment": 4,
+        "math": 10
+      },
+      "retained_preamble_macros": 15,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/f7ab78e2f63a15e27c7c3986b80b548ed6103c5656c29f2b2b4d6340dd4471c3.json.gz"
+    },
+    {
+      "paper_id": "2606.16021",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 3,
+        "math": 356,
+        "environment": 5
+      },
+      "retained_preamble_macros": 3,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/bea5c7cc165bca9c85585d85c993a2feb2b7cd1ba9615287ddb426b84d48178b.json.gz"
+    },
+    {
+      "paper_id": "2606.16022",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 54,
+        "environment": 30,
+        "math": 296
+      },
+      "retained_preamble_macros": 37,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/82cb9d431dae71ada85320005df9515c4591a572f2f2d03e67ae4424c0cbb69c.json.gz"
+    },
+    {
+      "paper_id": "2606.16023",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 152,
+        "macro_definition": 1,
+        "math": 186,
+        "environment": 23
+      },
+      "retained_preamble_macros": 496,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/866493e05748fd11d781f008a6e44e477b59eec81bf6a9c28fd43e18365aee4f.json.gz"
+    },
+    {
+      "paper_id": "2606.16024",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 19,
+        "math": 205,
+        "environment": 14,
+        "macro_definition": 1
+      },
+      "retained_preamble_macros": 4,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/b9f51ca2cfc748edf20ca187c6e9af72fbdb2500abb12e3c7638b2a35c806681.json.gz"
+    },
+    {
+      "paper_id": "2606.16025",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 11,
+        "environment": 62,
+        "math": 345,
+        "macro_definition": 5
+      },
+      "retained_preamble_macros": 2,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/e9b9d8fa4ed0e899219996298a2a6fdefdfc320d2ff4f8f5b07c01e7771face3.json.gz"
+    },
+    {
+      "paper_id": "2606.16026",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 25,
+        "environment": 8,
+        "math": 48
+      },
+      "retained_preamble_macros": 43,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/8ca225d65355fcb3bdd5feee14c8f3cac5637e5f331ad80e6dd18a6dcf201434.json.gz"
+    },
+    {
+      "paper_id": "2606.16027",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 5,
+        "math": 288,
+        "environment": 4
+      },
+      "retained_preamble_macros": 11,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/5e3503765e744453e74c1e66d039df32faa34b0d6882b971e02de39bb8e6791d.json.gz"
+    },
+    {
+      "paper_id": "2606.16028",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 33,
+        "math": 522,
+        "environment": 102
+      },
+      "retained_preamble_macros": 25,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/41f7c230f01606e563179b8a9b94002fdcef9068657cdde846cfa05acd05596d.json.gz"
+    },
+    {
+      "paper_id": "2606.16029",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 119,
+        "environment": 27,
+        "macro": 1
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/738cac268d9aa63046f45dffab9660c4ee8149bfa7e06762226961e5533cfd6a.json.gz"
+    },
+    {
+      "paper_id": "2606.16030",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 15,
+        "math": 201,
+        "environment": 40,
+        "macro_definition": 4
+      },
+      "retained_preamble_macros": 1,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/39744d185df1c7282866218eab90bf192564d4c004cd2c4532142738a84b0f8b.json.gz"
+    },
+    {
+      "paper_id": "2606.16031",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro_definition": 1,
+        "macro": 151,
+        "math": 514,
+        "environment": 46
+      },
+      "retained_preamble_macros": 16,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/bf9d8ef5578dcac05b58dfb1b6405f4baf7857e786d2fb14772462af8f8cad7d.json.gz"
+    },
+    {
+      "paper_id": "2606.16032",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 12,
+        "environment": 27,
+        "math": 90
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/d45a58bed58d442f6b8353431c0f480d9bb0807729ce8badd18ff0c4dbf0cc74.json.gz"
+    },
+    {
+      "paper_id": "2606.16033",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 376,
+        "macro": 15,
+        "environment": 17
+      },
+      "retained_preamble_macros": 2,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/92ab20a546c9c2dd130d5f74012d8c290d5a040d2b4c77259764f7190b12f3be.json.gz"
+    },
+    {
+      "paper_id": "2606.16034",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 287,
+        "math": 207,
+        "environment": 11,
+        "macro_definition": 6
+      },
+      "retained_preamble_macros": 37,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/e17fb9df4fef47f4d550c7fdeb96555c727c336038b38212ae701275174414af.json.gz"
+    },
+    {
+      "paper_id": "2606.16035",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro_definition": 1,
+        "macro": 45,
+        "math": 81,
+        "environment": 17
+      },
+      "retained_preamble_macros": 20,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/b3c58f2bf49c55f4d8128fca133897dae31bf915d36ce5b762c4f92a1d64aa47.json.gz"
+    },
+    {
+      "paper_id": "2606.16036",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 29,
+        "math": 21,
+        "environment": 20
+      },
+      "retained_preamble_macros": 22,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/f1d420fdd6eba6395201e964d65909fd55106390ec01e90b306ad45d0b6ed0dd.json.gz"
+    },
+    {
+      "paper_id": "2606.16037",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 12,
+        "macro_definition": 3,
+        "math": 440,
+        "environment": 119
+      },
+      "retained_preamble_macros": 13,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/269abf2057cc982603cb04e0bd9f6fd75eada7617ec07a0ad29405497832b24b.json.gz"
+    },
+    {
+      "paper_id": "2606.16038",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 461,
+        "environment": 7,
+        "math": 10,
+        "macro_definition": 2
+      },
+      "retained_preamble_macros": 13,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/23fed3000b1772edf93d7d6b3527e4bea1eab8a6000d8cc7d8b8901319444a8b.json.gz"
+    },
+    {
+      "paper_id": "2606.16039",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 991,
+        "macro": 55,
+        "environment": 7
+      },
+      "retained_preamble_macros": 4,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/31f8e1920b8c4ca610e962263f3e77063d5985d654eb00f9be77442411a245b9.json.gz"
+    },
+    {
+      "paper_id": "2606.16040",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 12,
+        "math": 164
+      },
+      "retained_preamble_macros": 4,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/530de7d7dcc7f7eb86e7d228d73ed04c395546b2186c28ef0b86cd186e3497ff.json.gz"
+    },
+    {
+      "paper_id": "2606.16041",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro_definition": 13,
+        "macro": 147,
+        "math": 20,
+        "environment": 13
+      },
+      "retained_preamble_macros": 9,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/2fe29bee01ed3f2dd5c294078126b91d5d8330c68561adf9c46f6d671ea41394.json.gz"
+    },
+    {
+      "paper_id": "2606.16042",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 24,
+        "environment": 8
+      },
+      "retained_preamble_macros": 84,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/01ff7ae06a783d77ae519663f9ef16a204b9bca220d085a56a25bac726d93a5b.json.gz"
+    },
+    {
+      "paper_id": "2606.16043",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 261,
+        "environment": 13,
+        "macro": 10
+      },
+      "retained_preamble_macros": 39,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/aa4fd5685d361004c34fd2d19cc007f7770e86b702b5c2af41adb8637cbfc74e.json.gz"
+    },
+    {
+      "paper_id": "2606.16044",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 108,
+        "environment": 23,
+        "math": 164
+      },
+      "retained_preamble_macros": 32,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/261cd731c768e08851fc457db11773f212b54b927210f5730597a19da750d693.json.gz"
+    },
+    {
+      "paper_id": "2606.16045",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 44,
+        "math": 418,
+        "environment": 15
+      },
+      "retained_preamble_macros": 14,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/644212874a0983128a9d1618832cf9158b022b1f5e69037c06372ece2d55f0d7.json.gz"
+    },
+    {
+      "paper_id": "2606.16046",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "environment": 10,
+        "math": 56,
+        "macro": 9
+      },
+      "retained_preamble_macros": 2,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/3837df1b008ef2b6743120000b0580ec34659bbeb6df3a29f12e53a91583c6d2.json.gz"
+    },
+    {
+      "paper_id": "2606.16047",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 37,
+        "environment": 4,
+        "math": 35
+      },
+      "retained_preamble_macros": 46,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/0ff8e2e3d308919e9748d4fa870d9714215cc90a1e67787cf45b7048efcdd0f8.json.gz"
+    },
+    {
+      "paper_id": "2606.16048",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 101,
+        "macro": 23,
+        "environment": 19
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/36c9c06e461a27d1ae8574c03134f8f5078ef7b93e8254144632b17cecbeb67a.json.gz"
+    },
+    {
+      "paper_id": "2606.16049",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 126,
+        "math": 1219,
+        "environment": 398
+      },
+      "retained_preamble_macros": 48,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/38fd0a0590db20849d0da031a10b5701eeac5094671d1c48aada466a2600887a.json.gz"
+    },
+    {
+      "paper_id": "2606.16050",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 33,
+        "math": 164,
+        "environment": 43
+      },
+      "retained_preamble_macros": 152,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/fabb98bf08fa96f3760922981ef00fa754618928a160c7d43211f04dde0e548a.json.gz"
+    },
+    {
+      "paper_id": "2606.16052",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 84,
+        "math": 166,
+        "macro_definition": 4,
+        "environment": 41
+      },
+      "retained_preamble_macros": 168,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/dcfbb4658f5bda717329fbc7f39c1377b3cb917c9236fd106a5dc20478d61850.json.gz"
+    },
+    {
+      "paper_id": "2606.16053",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "environment": 12,
+        "macro": 20,
+        "math": 49,
+        "macro_definition": 2
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/4728712ba75db364d20770be32d6c9ee5f097fee4be914829cd2e74f0928f1f6.json.gz"
+    },
+    {
+      "paper_id": "2606.16055",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 182,
+        "math": 318,
+        "environment": 56,
+        "macro_definition": 36
+      },
+      "retained_preamble_macros": 6,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/7b2d6f7c85797be5e39851f0dcccda36151f63996e9e7985410478af9430dcf7.json.gz"
+    },
+    {
+      "paper_id": "2606.16056",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 24,
+        "math": 30,
+        "environment": 8,
+        "macro_definition": 1
+      },
+      "retained_preamble_macros": 4,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/c07903ee66e68c131c2bee5265b9f3e01b9114d180348b14724c5497b2779fc9.json.gz"
+    },
+    {
+      "paper_id": "2606.16057",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 47,
+        "math": 52,
+        "environment": 9
+      },
+      "retained_preamble_macros": 154,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/7c5382e8ae673a8fb25b1a5b792cb5c50c8a51372abb8a50264aa36dd925f37a.json.gz"
+    },
+    {
+      "paper_id": "2606.16058",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 288,
+        "environment": 11,
+        "macro": 6
+      },
+      "retained_preamble_macros": 30,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/45e87dee0b02d955c4b75486e4df8023b1fd6139488b407b27e2d8870ffd27bf.json.gz"
+    },
+    {
+      "paper_id": "2606.16059",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 26,
+        "math": 17,
+        "environment": 4
+      },
+      "retained_preamble_macros": 1,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/874d69809d9f29231b74c7c2f62843d0b92194f2ad937614140e4ce0acd154ca.json.gz"
+    },
+    {
+      "paper_id": "2606.16060",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro_definition": 5,
+        "macro": 46,
+        "math": 85,
+        "environment": 30
+      },
+      "retained_preamble_macros": 1,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/7c40f4972ff3ff42a6a377c56df2d298df22199f1b4f38d218f6e4d7526bf9f5.json.gz"
+    },
+    {
+      "paper_id": "2606.16061",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 1391,
+        "environment": 36,
+        "macro": 8
+      },
+      "retained_preamble_macros": 9,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/dd50f723995ebb221c0d3f189c5ea7f3a1202f4266ccff6c26832df1a0f4ace5.json.gz"
+    },
+    {
+      "paper_id": "2606.16062",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 58,
+        "macro": 13,
+        "environment": 11
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/ef4676cf7d4bee0117ecf984f90001bda427ab620f5212b056792f148af0d973.json.gz"
+    },
+    {
+      "paper_id": "2606.16063",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 97,
+        "math": 171,
+        "environment": 4
+      },
+      "retained_preamble_macros": 13,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/6f0e3afec22c4bae7ed32d2966d293f14f7d0c8405bb1301b475a282c26a2214.json.gz"
+    },
+    {
+      "paper_id": "2606.16064",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 2066,
+        "macro": 132,
+        "environment": 17
+      },
+      "retained_preamble_macros": 14,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/db166ffd7b81cd0ff1eef4b865b717e945ddbe7651132903028253264cc4c570.json.gz"
+    },
+    {
+      "paper_id": "2606.32001",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 10,
+        "math": 509,
+        "environment": 46
+      },
+      "retained_preamble_macros": 16,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/d4c7baabb0076b9cead4b18e4149833a15bf4900adac08d0f9b483ae18855678.json.gz"
+    },
+    {
+      "paper_id": "2606.32002",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 30,
+        "math": 84,
+        "environment": 15
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/42d37ebb3f0bf625eb87b84952904e81b8608e309650061728e31d673d71d6f5.json.gz"
+    },
+    {
+      "paper_id": "2606.32003",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 71,
+        "math": 279,
+        "environment": 36
+      },
+      "retained_preamble_macros": 16,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/19b3e2dc2f8761f5ef3c6021e42670d4658bf8cc17217c2fbb69a520b48fdba0.json.gz"
+    },
+    {
+      "paper_id": "2606.32004",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 72,
+        "environment": 10,
+        "math": 40
+      },
+      "retained_preamble_macros": 2,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/2872947888631e74ff929a970fedf9c963f423ac02deff36e2bf47dde3083e5c.json.gz"
+    },
+    {
+      "paper_id": "2606.32005",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 49,
+        "macro_definition": 19,
+        "math": 604,
+        "environment": 35
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/8931db4b0586aee7c206a6069e2ab3f2bbb4cf42969d500c98291184ed82721d.json.gz"
+    },
+    {
+      "paper_id": "2606.32006",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 124,
+        "macro": 93,
+        "macro_definition": 8,
+        "environment": 9
+      },
+      "retained_preamble_macros": 2,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/0d905d58fabd35e4c7420898d4758dffb0f8a1788933be491de573e407f8df17.json.gz"
+    },
+    {
+      "paper_id": "2606.32007",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 31,
+        "environment": 7,
+        "math": 2
+      },
+      "retained_preamble_macros": 29,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/782e7eeb3943afb38b6e67fa1e5d61a6fa0825e7675d8d4dbfc0ff9798de5c7d.json.gz"
+    },
+    {
+      "paper_id": "2606.32008",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro_definition": 11,
+        "macro": 101,
+        "environment": 53,
+        "math": 519
+      },
+      "retained_preamble_macros": 30,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/65412c040032f1b7f8eb3e951ed33a3b612c41fdf13dea0c1a74a7950e8fd9a3.json.gz"
+    },
+    {
+      "paper_id": "2606.32009",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 108,
+        "macro_definition": 1,
+        "environment": 24,
+        "math": 47
+      },
+      "retained_preamble_macros": 11,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/e7270a7a4de0470d6aa632149b3e3b2ffd02985dca6b475c66404e17b9b41481.json.gz"
+    },
+    {
+      "paper_id": "2606.32010",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 55,
+        "math": 536,
+        "environment": 84
+      },
+      "retained_preamble_macros": 0,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/604e93b5107f024e60fb5d701ea6ab7c155dc839856b526a879cf1fc1f89e2a8.json.gz"
+    },
+    {
+      "paper_id": "2606.32011",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro_definition": 4,
+        "macro": 99,
+        "math": 42,
+        "environment": 24
+      },
+      "retained_preamble_macros": 3,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/b58aea816991ba8c219f512bca726cc37472b5d46c19361bcec922de001384f2.json.gz"
+    },
+    {
+      "paper_id": "2606.32012",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 949,
+        "environment": 48,
+        "math": 354,
+        "macro_definition": 12
+      },
+      "retained_preamble_macros": 45,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/03723d24f7300fcc56dcd7b7c9c4e8f2dd984279af4b5db849878beb44f2bba9.json.gz"
+    },
+    {
+      "paper_id": "2606.32013",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 34,
+        "math": 272,
+        "environment": 18
+      },
+      "retained_preamble_macros": 3,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/267a5520aaadeea97c2554497957342a828c08c2c52dae320c8fd369f113325b.json.gz"
+    },
+    {
+      "paper_id": "2606.32014",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 108,
+        "environment": 14,
+        "math": 54
+      },
+      "retained_preamble_macros": 10,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/b03e28f7de5f159d954474f8b1548fa7b24b975db136312eaf86d4b5067da3d5.json.gz"
+    },
+    {
+      "paper_id": "2606.32015",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 737,
+        "macro": 26,
+        "environment": 13
+      },
+      "retained_preamble_macros": 12,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/1298270615864ca89da2b18dd0f4a7cd27745bbda6070075cd6ef6dd71bbc88b.json.gz"
+    },
+    {
+      "paper_id": "2606.32016",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 39,
+        "environment": 35,
+        "math": 73,
+        "macro_definition": 6
+      },
+      "retained_preamble_macros": 17,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/8c6f4d5cf276eefa429beaf06c5f6f560b486c5c0d661a03293560c3f7ef6f01.json.gz"
+    },
+    {
+      "paper_id": "2606.32017",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 166,
+        "math": 383,
+        "environment": 33
+      },
+      "retained_preamble_macros": 37,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/66b45f48477566379f8eff2e242071c11716fae54eb42f33a48326b1768f83fa.json.gz"
+    },
+    {
+      "paper_id": "2606.32018",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 136,
+        "environment": 19,
+        "math": 89,
+        "macro_definition": 4
+      },
+      "retained_preamble_macros": 47,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/779556728d260467bb382d55dbcddc324e81e5d2bb10f61b3a5199d4b7738c75.json.gz"
+    },
+    {
+      "paper_id": "2606.32019",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 24,
+        "math": 46,
+        "environment": 5
+      },
+      "retained_preamble_macros": 310,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/7d0b6c9e946a0b313778c32ea8503f3ef5e3d1c5920b679ab2344d63d50abafe.json.gz"
+    },
+    {
+      "paper_id": "2606.32020",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 100,
+        "macro_definition": 33,
+        "environment": 24,
+        "math": 119
+      },
+      "retained_preamble_macros": 38,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/d0f6494188e8caff92d423d209d052b5aa43a7ec124560b9b6aab0c923ff7495.json.gz"
+    },
+    {
+      "paper_id": "2606.32021",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 104,
+        "math": 241,
+        "environment": 18,
+        "macro_definition": 4
+      },
+      "retained_preamble_macros": 55,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/7fd65b20c14983cc80702262182eb4dc0ef96f19f79974670c31574d465a9802.json.gz"
+    },
+    {
+      "paper_id": "2606.32022",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 379,
+        "macro": 4,
+        "environment": 4
+      },
+      "retained_preamble_macros": 3,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/834d0449939df69aa210b1610ff2182cfbdd5866fcb896912dd624dc8a839026.json.gz"
+    },
+    {
+      "paper_id": "2606.32023",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 284,
+        "math": 175,
+        "environment": 19
+      },
+      "retained_preamble_macros": 81,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/6b3f0fb90f791be2ce56ebd9754223b39e93bdbf0bd6da4930e35e6c4cded4d4.json.gz"
+    },
+    {
+      "paper_id": "2606.32024",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 457,
+        "environment": 23,
+        "macro": 7
+      },
+      "retained_preamble_macros": 12,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/c883a9cbed7984e6c78c4a3a9b55aff94194604afd88111e9ddc835462c12309.json.gz"
+    },
+    {
+      "paper_id": "2606.32025",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro_definition": 6,
+        "macro": 177,
+        "math": 148,
+        "environment": 19
+      },
+      "retained_preamble_macros": 15,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/885f5e947ccac8fe01cf411d34c14596c03dc19fb9573b60eb0fa51e210ef4d7.json.gz"
+    },
+    {
+      "paper_id": "2606.32026",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 37,
+        "math": 125,
+        "environment": 19
+      },
+      "retained_preamble_macros": 8,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/5d61a9d406a46e4129d859f1d9252ca0b16b79173407f38ac8df433f05db8e85.json.gz"
+    },
+    {
+      "paper_id": "2606.32027",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 93,
+        "environment": 31,
+        "math": 54
+      },
+      "retained_preamble_macros": 30,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/7ec76f14435afbef764938046232d093c6edcbeb23979e1bcc57abfabf085f24.json.gz"
+    },
+    {
+      "paper_id": "2606.32028",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 37,
+        "math": 104,
+        "environment": 33,
+        "macro_definition": 2
+      },
+      "retained_preamble_macros": 7,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/81f9232246556613c8239110f36da7eda8e687a95393e1ad97f1f6769ca77ff2.json.gz"
+    },
+    {
+      "paper_id": "2606.32029",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 63,
+        "environment": 15,
+        "math": 9
+      },
+      "retained_preamble_macros": 13,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/bf944e6271fa159f7a01c03c25f838e187edc522ec6cfd8d9a90cbfa57e0ef5e.json.gz"
+    },
+    {
+      "paper_id": "2606.32031",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "math": 362,
+        "environment": 21,
+        "macro": 9
+      },
+      "retained_preamble_macros": 36,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/3395e4ea4896f23eda4bb1699a331ec809b387086c7403e02af10e7075b606a9.json.gz"
+    },
+    {
+      "paper_id": "2606.32032",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 1029,
+        "environment": 67,
+        "math": 220,
+        "macro_definition": 6
+      },
+      "retained_preamble_macros": 52,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/996c4cd35c99f64a0ddf36313cd32cd5eca463260ea2602b9d90e0b98d8b5bf5.json.gz"
+    },
+    {
+      "paper_id": "2606.32033",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 77,
+        "macro_definition": 11,
+        "math": 151,
+        "environment": 33
+      },
+      "retained_preamble_macros": 34,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/239da4e239f0c2479d97a59c6550f47c2b41997cd608ae28368b73af59fff85c.json.gz"
+    },
+    {
+      "paper_id": "2606.32034",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 260,
+        "environment": 30,
+        "math": 250
+      },
+      "retained_preamble_macros": 35,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/1fe98b32737f158743d659626c6f801b7af3546871696cfcd8abb97e10a2e897.json.gz"
+    },
+    {
+      "paper_id": "2606.32035",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 501,
+        "math": 485,
+        "environment": 160
+      },
+      "retained_preamble_macros": 7,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/9bc78ef1f8859be41c201188693b59d0582024799bae7b13c877427295e13762.json.gz"
+    },
+    {
+      "paper_id": "2606.32036",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 94,
+        "macro_definition": 1,
+        "environment": 34,
+        "math": 81
+      },
+      "retained_preamble_macros": 26,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/a6fdeb1b8ac5b1958cac5c303e271dc9b507b418fb9272b7d994fba73cf169e3.json.gz"
+    },
+    {
+      "paper_id": "2606.32037",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 88,
+        "math": 710,
+        "environment": 64
+      },
+      "retained_preamble_macros": 56,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/13752e565a902c947e67d706a2ce8e29536a67e009099f7ad5af4ef31a5b667d.json.gz"
+    },
+    {
+      "paper_id": "2606.32038",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "environment": 27,
+        "macro": 132,
+        "math": 294,
+        "macro_definition": 1
+      },
+      "retained_preamble_macros": 20,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/d518e431ab04c14ee066c2f9c2562cc77d370194186d93399ee235a3ba55a055.json.gz"
+    },
+    {
+      "paper_id": "2606.32039",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 109,
+        "math": 253,
+        "environment": 33
+      },
+      "retained_preamble_macros": 17,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/589e5ed607ba280ebc0dc5096c7b0bf0ab20b5449440e7c67e02164075041229.json.gz"
+    },
+    {
+      "paper_id": "2606.32040",
+      "source_file": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "preserved_blocks_by_kind": {
+        "macro": 89,
+        "math": 229,
+        "environment": 23,
+        "macro_definition": 2
+      },
+      "retained_preamble_macros": 24,
+      "preservation_fallback": false,
+      "all_preserved_content_present": true,
+      "artifact": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/preserved-clean-sample-20261024-v4/c365d73fa65e12d1656645b761fd45424f1b66b5c5da95d24896569016bdc89e.json.gz"
+    }
+  ]
+}

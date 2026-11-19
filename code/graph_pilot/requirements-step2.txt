@@ -1,0 +1,4 @@
+-r requirements-step1_5.txt
+scikit-learn>=1.6,<2
+nltk>=3.9,<4
+joblib>=1.4,<2

@@ -1,0 +1,11 @@
+{
+  "base_url": "http://localhost:8000/v1",
+  "model": "qwen38_27b",
+  "timeout_seconds": 600,
+  "max_requests": 100,
+  "max_output_tokens": 16384,
+  "max_input_characters": 1000000,
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "reasoning_effort": "medium"
+}

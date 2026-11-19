@@ -1,0 +1,6 @@
+{
+  "n_components": 128,
+  "max_features": 40000,
+  "min_df": 2,
+  "random_state": 42
+}

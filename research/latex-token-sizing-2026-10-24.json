@@ -1,0 +1,4116 @@
+{
+  "date": "2026-10-24",
+  "sampling": "First 64 rows of first/middle/last row groups per file; nonrandom convenience sample.",
+  "limitation": "Conditional on successful merging; not a population estimate or source coverage estimate.",
+  "tokenizer": {
+    "model": "Qwen/Qwen3.8-27B",
+    "sha256": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+    "tokenizers_version": "0.22.2",
+    "add_special_tokens": false,
+    "chat_template": false,
+    "truncation": false,
+    "server_tokenizer_identity_verified": false
+  },
+  "merger": {
+    "path": "/Users/n.gulyakov/Desktop/work/pasa2/compile_arxiv.py",
+    "sha256": "95dd879d100cc47253edb57428b49147d24db4b8e94b3e5f212f78c4c2cf79be",
+    "policy": "process_row defaults; include bibliography, macros and inlined styles; no text cleaning"
+  },
+  "files": [
+    {
+      "path": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0001.parquet",
+      "bytes": 9620069396,
+      "mtime_ns": 1784750167209440880,
+      "row_groups": [
+        0,
+        74,
+        147
+      ],
+      "rows": 192,
+      "merge_status": {
+        "no_main": 105,
+        "ok": 78,
+        "partial": 7,
+        "no_source": 2
+      },
+      "raw": {
+        "n": 190,
+        "mean_tokens": 22992.736842105263,
+        "median_tokens": 14418.0,
+        "p90_tokens": 41793.299999999996,
+        "p95_tokens": 52129.8,
+        "max_tokens": 516522,
+        "mean_characters": 60960.063157894736,
+        "mean_utf8_bytes": 64153.06842105263,
+        "over_100000_tokens": 3,
+        "over_100000_fraction": 0.015789473684210527,
+        "over_200000_tokens": 1,
+        "longest_paper_id": "hep-th/9108028",
+        "all_sample_pairs": 17955,
+        "pairs_over_196000_article_tokens": 221,
+        "over_100000_papers": [
+          {
+            "paper_id": "hep-th/9108028",
+            "tokens": 516522
+          },
+          {
+            "paper_id": "cond-mat/0101019",
+            "tokens": 166473
+          },
+          {
+            "paper_id": "astro-ph/0412188",
+            "tokens": 109175
+          }
+        ]
+      },
+      "merged_ok": {
+        "n": 78,
+        "mean_tokens": 23186.52564102564,
+        "median_tokens": 19408.5,
+        "p90_tokens": 46628.09999999999,
+        "p95_tokens": 50914.04999999999,
+        "max_tokens": 109175,
+        "mean_characters": 65087.38461538462,
+        "mean_utf8_bytes": 65089.5641025641,
+        "over_100000_tokens": 1,
+        "over_100000_fraction": 0.01282051282051282,
+        "over_200000_tokens": 0,
+        "longest_paper_id": "astro-ph/0412188",
+        "all_sample_pairs": 3003,
+        "pairs_over_196000_article_tokens": 0,
+        "over_100000_papers": [
+          {
+            "paper_id": "astro-ph/0412188",
+            "tokens": 109175
+          }
+        ]
+      },
+      "records": [
+        {
+          "paper_id": "hep-lat/9107001",
+          "row_group": 0,
+          "row_index": 0,
+          "raw_tokens": 9074,
+          "raw_characters": 29746,
+          "raw_utf8_bytes": 29746,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-lat/9107002",
+          "row_group": 0,
+          "row_index": 1,
+          "raw_tokens": 42084,
+          "raw_characters": 100515,
+          "raw_utf8_bytes": 100515,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108001",
+          "row_group": 0,
+          "row_index": 2,
+          "raw_tokens": 25786,
+          "raw_characters": 77568,
+          "raw_utf8_bytes": 77568,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108002",
+          "row_group": 0,
+          "row_index": 3,
+          "raw_tokens": 15134,
+          "raw_characters": 40243,
+          "raw_utf8_bytes": 40243,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108003",
+          "row_group": 0,
+          "row_index": 4,
+          "raw_tokens": 13305,
+          "raw_characters": 32271,
+          "raw_utf8_bytes": 32271,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108004",
+          "row_group": 0,
+          "row_index": 5,
+          "raw_tokens": 22639,
+          "raw_characters": 67466,
+          "raw_utf8_bytes": 67466,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108005",
+          "row_group": 0,
+          "row_index": 6,
+          "raw_tokens": 13185,
+          "raw_characters": 37327,
+          "raw_utf8_bytes": 37327,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108006",
+          "row_group": 0,
+          "row_index": 7,
+          "raw_tokens": 17400,
+          "raw_characters": 46851,
+          "raw_utf8_bytes": 46851,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108007",
+          "row_group": 0,
+          "row_index": 8,
+          "raw_tokens": 38559,
+          "raw_characters": 93532,
+          "raw_utf8_bytes": 93532,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108008",
+          "row_group": 0,
+          "row_index": 9,
+          "raw_tokens": 17862,
+          "raw_characters": 50062,
+          "raw_utf8_bytes": 50062,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108009",
+          "row_group": 0,
+          "row_index": 10,
+          "raw_tokens": 25270,
+          "raw_characters": 74885,
+          "raw_utf8_bytes": 74885,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108010",
+          "row_group": 0,
+          "row_index": 11,
+          "raw_tokens": 9019,
+          "raw_characters": 26606,
+          "raw_utf8_bytes": 26606,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108011",
+          "row_group": 0,
+          "row_index": 12,
+          "raw_tokens": 8932,
+          "raw_characters": 24026,
+          "raw_utf8_bytes": 24026,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108012",
+          "row_group": 0,
+          "row_index": 13,
+          "raw_tokens": 37659,
+          "raw_characters": 98879,
+          "raw_utf8_bytes": 98879,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108013",
+          "row_group": 0,
+          "row_index": 14,
+          "raw_tokens": 43099,
+          "raw_characters": 111110,
+          "raw_utf8_bytes": 111110,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108014",
+          "row_group": 0,
+          "row_index": 15,
+          "raw_tokens": 17673,
+          "raw_characters": 51815,
+          "raw_utf8_bytes": 51815,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108015",
+          "row_group": 0,
+          "row_index": 16,
+          "raw_tokens": 6784,
+          "raw_characters": 23550,
+          "raw_utf8_bytes": 23550,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108016",
+          "row_group": 0,
+          "row_index": 17,
+          "raw_tokens": 6466,
+          "raw_characters": 19241,
+          "raw_utf8_bytes": 19241,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108017",
+          "row_group": 0,
+          "row_index": 18,
+          "raw_tokens": 26992,
+          "raw_characters": 70684,
+          "raw_utf8_bytes": 70684,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108018",
+          "row_group": 0,
+          "row_index": 19,
+          "raw_tokens": 14213,
+          "raw_characters": 33982,
+          "raw_utf8_bytes": 33982,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108019",
+          "row_group": 0,
+          "row_index": 20,
+          "raw_tokens": 76224,
+          "raw_characters": 220137,
+          "raw_utf8_bytes": 220137,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108020",
+          "row_group": 0,
+          "row_index": 21,
+          "raw_tokens": 13539,
+          "raw_characters": 39181,
+          "raw_utf8_bytes": 39181,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108021",
+          "row_group": 0,
+          "row_index": 22,
+          "raw_tokens": 80877,
+          "raw_characters": 133735,
+          "raw_utf8_bytes": 234935,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108022",
+          "row_group": 0,
+          "row_index": 23,
+          "raw_tokens": 14474,
+          "raw_characters": 48783,
+          "raw_utf8_bytes": 48783,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108023",
+          "row_group": 0,
+          "row_index": 24,
+          "raw_tokens": 21522,
+          "raw_characters": 53281,
+          "raw_utf8_bytes": 53281,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108024",
+          "row_group": 0,
+          "row_index": 25,
+          "raw_tokens": 26932,
+          "raw_characters": 64667,
+          "raw_utf8_bytes": 64667,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108025",
+          "row_group": 0,
+          "row_index": 26,
+          "raw_tokens": 8895,
+          "raw_characters": 21160,
+          "raw_utf8_bytes": 21160,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108026",
+          "row_group": 0,
+          "row_index": 27,
+          "raw_tokens": 7318,
+          "raw_characters": 18981,
+          "raw_utf8_bytes": 18981,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108027",
+          "row_group": 0,
+          "row_index": 28,
+          "raw_tokens": 11943,
+          "raw_characters": 35604,
+          "raw_utf8_bytes": 35604,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9108028",
+          "row_group": 0,
+          "row_index": 29,
+          "raw_tokens": 516522,
+          "raw_characters": 842154,
+          "raw_utf8_bytes": 1347429,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109001",
+          "row_group": 0,
+          "row_index": 30,
+          "raw_tokens": 8452,
+          "raw_characters": 25162,
+          "raw_utf8_bytes": 25162,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109002",
+          "row_group": 0,
+          "row_index": 31,
+          "raw_tokens": 10842,
+          "raw_characters": 40879,
+          "raw_utf8_bytes": 40879,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109003",
+          "row_group": 0,
+          "row_index": 32,
+          "raw_tokens": 22013,
+          "raw_characters": 58949,
+          "raw_utf8_bytes": 58949,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109004",
+          "row_group": 0,
+          "row_index": 33,
+          "raw_tokens": 14549,
+          "raw_characters": 37856,
+          "raw_utf8_bytes": 37856,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109005",
+          "row_group": 0,
+          "row_index": 34,
+          "raw_tokens": 46027,
+          "raw_characters": 142151,
+          "raw_utf8_bytes": 142151,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109006",
+          "row_group": 0,
+          "row_index": 35,
+          "raw_tokens": 10708,
+          "raw_characters": 32597,
+          "raw_utf8_bytes": 32597,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109007",
+          "row_group": 0,
+          "row_index": 36,
+          "raw_tokens": 7029,
+          "raw_characters": 22605,
+          "raw_utf8_bytes": 22605,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109008",
+          "row_group": 0,
+          "row_index": 37,
+          "raw_tokens": 13313,
+          "raw_characters": 36152,
+          "raw_utf8_bytes": 36152,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109009",
+          "row_group": 0,
+          "row_index": 38,
+          "raw_tokens": 16624,
+          "raw_characters": 40732,
+          "raw_utf8_bytes": 40732,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109010",
+          "row_group": 0,
+          "row_index": 39,
+          "raw_tokens": 7057,
+          "raw_characters": 19883,
+          "raw_utf8_bytes": 19883,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109011",
+          "row_group": 0,
+          "row_index": 40,
+          "raw_tokens": 13265,
+          "raw_characters": 29465,
+          "raw_utf8_bytes": 29465,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109012",
+          "row_group": 0,
+          "row_index": 41,
+          "raw_tokens": 10811,
+          "raw_characters": 28293,
+          "raw_utf8_bytes": 28293,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109013",
+          "row_group": 0,
+          "row_index": 42,
+          "raw_tokens": 11094,
+          "raw_characters": 28850,
+          "raw_utf8_bytes": 28850,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109014",
+          "row_group": 0,
+          "row_index": 43,
+          "raw_tokens": 44511,
+          "raw_characters": 124836,
+          "raw_utf8_bytes": 124836,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109015",
+          "row_group": 0,
+          "row_index": 44,
+          "raw_tokens": 13509,
+          "raw_characters": 36483,
+          "raw_utf8_bytes": 36483,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109016",
+          "row_group": 0,
+          "row_index": 45,
+          "raw_tokens": 16193,
+          "raw_characters": 41703,
+          "raw_utf8_bytes": 41703,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109017",
+          "row_group": 0,
+          "row_index": 46,
+          "raw_tokens": 5967,
+          "raw_characters": 15171,
+          "raw_utf8_bytes": 15171,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109018",
+          "row_group": 0,
+          "row_index": 47,
+          "raw_tokens": 15221,
+          "raw_characters": 41844,
+          "raw_utf8_bytes": 41844,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109019",
+          "row_group": 0,
+          "row_index": 48,
+          "raw_tokens": 52121,
+          "raw_characters": 130479,
+          "raw_utf8_bytes": 130479,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109020",
+          "row_group": 0,
+          "row_index": 49,
+          "raw_tokens": 27263,
+          "raw_characters": 64910,
+          "raw_utf8_bytes": 64910,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109021",
+          "row_group": 0,
+          "row_index": 50,
+          "raw_tokens": 20185,
+          "raw_characters": 59705,
+          "raw_utf8_bytes": 59705,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109022",
+          "row_group": 0,
+          "row_index": 51,
+          "raw_tokens": 12829,
+          "raw_characters": 39298,
+          "raw_utf8_bytes": 39298,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109023",
+          "row_group": 0,
+          "row_index": 52,
+          "raw_tokens": 14580,
+          "raw_characters": 39343,
+          "raw_utf8_bytes": 39343,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109024",
+          "row_group": 0,
+          "row_index": 53,
+          "raw_tokens": 13903,
+          "raw_characters": 36637,
+          "raw_utf8_bytes": 36637,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109025",
+          "row_group": 0,
+          "row_index": 54,
+          "raw_tokens": 11008,
+          "raw_characters": 28311,
+          "raw_utf8_bytes": 28311,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109026",
+          "row_group": 0,
+          "row_index": 55,
+          "raw_tokens": 6713,
+          "raw_characters": 17058,
+          "raw_utf8_bytes": 17058,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109027",
+          "row_group": 0,
+          "row_index": 56,
+          "raw_tokens": 15475,
+          "raw_characters": 54824,
+          "raw_utf8_bytes": 54824,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109028",
+          "row_group": 0,
+          "row_index": 57,
+          "raw_tokens": 12441,
+          "raw_characters": 35788,
+          "raw_utf8_bytes": 35788,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109029",
+          "row_group": 0,
+          "row_index": 58,
+          "raw_tokens": 30869,
+          "raw_characters": 80309,
+          "raw_utf8_bytes": 80309,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109030",
+          "row_group": 0,
+          "row_index": 59,
+          "raw_tokens": 10907,
+          "raw_characters": 38758,
+          "raw_utf8_bytes": 38758,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109031",
+          "row_group": 0,
+          "row_index": 60,
+          "raw_tokens": 9378,
+          "raw_characters": 24244,
+          "raw_utf8_bytes": 24244,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109032",
+          "row_group": 0,
+          "row_index": 61,
+          "raw_tokens": 9523,
+          "raw_characters": 24191,
+          "raw_utf8_bytes": 24191,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109033",
+          "row_group": 0,
+          "row_index": 62,
+          "raw_tokens": 5215,
+          "raw_characters": 17805,
+          "raw_utf8_bytes": 17805,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/9109034",
+          "row_group": 0,
+          "row_index": 63,
+          "raw_tokens": 11073,
+          "raw_characters": 35805,
+          "raw_utf8_bytes": 35805,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-lat/0101015",
+          "row_group": 74,
+          "row_index": 0,
+          "raw_tokens": 20579,
+          "raw_characters": 61041,
+          "raw_utf8_bytes": 61041,
+          "merge_status": "ok",
+          "merged_tokens": 20563,
+          "merged_characters": 60911,
+          "merged_utf8_bytes": 60911
+        },
+        {
+          "paper_id": "hep-ph/0101015",
+          "row_group": 74,
+          "row_index": 1,
+          "raw_tokens": 26973,
+          "raw_characters": 78710,
+          "raw_utf8_bytes": 78710,
+          "merge_status": "ok",
+          "merged_tokens": 26983,
+          "merged_characters": 78544,
+          "merged_utf8_bytes": 78544
+        },
+        {
+          "paper_id": "hep-th/0101015",
+          "row_group": 74,
+          "row_index": 2,
+          "raw_tokens": 6705,
+          "raw_characters": 20241,
+          "raw_utf8_bytes": 20241,
+          "merge_status": "partial"
+        },
+        {
+          "paper_id": "math/0101015",
+          "row_group": 74,
+          "row_index": 3,
+          "raw_tokens": 14572,
+          "raw_characters": 43087,
+          "raw_utf8_bytes": 43087,
+          "merge_status": "ok",
+          "merged_tokens": 14556,
+          "merged_characters": 42967,
+          "merged_utf8_bytes": 42967
+        },
+        {
+          "paper_id": "math-ph/0101015",
+          "row_group": 74,
+          "row_index": 4,
+          "raw_tokens": 6099,
+          "raw_characters": 17228,
+          "raw_utf8_bytes": 17228,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "nlin/0101015",
+          "row_group": 74,
+          "row_index": 5,
+          "raw_tokens": 14283,
+          "raw_characters": 36855,
+          "raw_utf8_bytes": 36865,
+          "merge_status": "ok",
+          "merged_tokens": 14272,
+          "merged_characters": 36748,
+          "merged_utf8_bytes": 36758
+        },
+        {
+          "paper_id": "nucl-th/0101015",
+          "row_group": 74,
+          "row_index": 6,
+          "raw_tokens": 9860,
+          "raw_characters": 29765,
+          "raw_utf8_bytes": 29765,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "physics/0101015",
+          "row_group": 74,
+          "row_index": 7,
+          "raw_tokens": 25065,
+          "raw_characters": 88258,
+          "raw_utf8_bytes": 88258,
+          "merge_status": "ok",
+          "merged_tokens": 25056,
+          "merged_characters": 88147,
+          "merged_utf8_bytes": 88147
+        },
+        {
+          "paper_id": "quant-ph/0101015",
+          "row_group": 74,
+          "row_index": 8,
+          "raw_tokens": 12435,
+          "raw_characters": 38438,
+          "raw_utf8_bytes": 38438,
+          "merge_status": "partial"
+        },
+        {
+          "paper_id": "astro-ph/0101016",
+          "row_group": 74,
+          "row_index": 9,
+          "raw_tokens": 8738,
+          "raw_characters": 22028,
+          "raw_utf8_bytes": 22028,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "cond-mat/0101016",
+          "row_group": 74,
+          "row_index": 10,
+          "raw_tokens": 6917,
+          "raw_characters": 21772,
+          "raw_utf8_bytes": 21772,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "cs/0101016",
+          "row_group": 74,
+          "row_index": 11,
+          "raw_tokens": 12028,
+          "raw_characters": 36012,
+          "raw_utf8_bytes": 36012,
+          "merge_status": "ok",
+          "merged_tokens": 12024,
+          "merged_characters": 35826,
+          "merged_utf8_bytes": 35826
+        },
+        {
+          "paper_id": "gr-qc/0101016",
+          "row_group": 74,
+          "row_index": 12,
+          "raw_tokens": 3283,
+          "raw_characters": 9513,
+          "raw_utf8_bytes": 9513,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-ex/0101016",
+          "row_group": 74,
+          "row_index": 13,
+          "raw_tokens": 17692,
+          "raw_characters": 50744,
+          "raw_utf8_bytes": 50744,
+          "merge_status": "ok",
+          "merged_tokens": 16539,
+          "merged_characters": 47206,
+          "merged_utf8_bytes": 47206
+        },
+        {
+          "paper_id": "hep-lat/0101016",
+          "row_group": 74,
+          "row_index": 14,
+          "raw_tokens": 8562,
+          "raw_characters": 23719,
+          "raw_utf8_bytes": 23719,
+          "merge_status": "ok",
+          "merged_tokens": 8552,
+          "merged_characters": 23509,
+          "merged_utf8_bytes": 23509
+        },
+        {
+          "paper_id": "hep-ph/0101016",
+          "row_group": 74,
+          "row_index": 15,
+          "raw_tokens": 12003,
+          "raw_characters": 35075,
+          "raw_utf8_bytes": 35075,
+          "merge_status": "ok",
+          "merged_tokens": 12013,
+          "merged_characters": 34915,
+          "merged_utf8_bytes": 34915
+        },
+        {
+          "paper_id": "hep-th/0101016",
+          "row_group": 74,
+          "row_index": 16,
+          "raw_tokens": 30153,
+          "raw_characters": 77077,
+          "raw_utf8_bytes": 77077,
+          "merge_status": "ok",
+          "merged_tokens": 30141,
+          "merged_characters": 76968,
+          "merged_utf8_bytes": 76968
+        },
+        {
+          "paper_id": "math/0101016",
+          "row_group": 74,
+          "row_index": 17,
+          "raw_tokens": 38967,
+          "raw_characters": 87331,
+          "raw_utf8_bytes": 87331,
+          "merge_status": "ok",
+          "merged_tokens": 38951,
+          "merged_characters": 87211,
+          "merged_utf8_bytes": 87211
+        },
+        {
+          "paper_id": "math-ph/0101016",
+          "row_group": 74,
+          "row_index": 18,
+          "raw_tokens": 6030,
+          "raw_characters": 16292,
+          "raw_utf8_bytes": 16292,
+          "merge_status": "ok",
+          "merged_tokens": 6013,
+          "merged_characters": 16169,
+          "merged_utf8_bytes": 16169
+        },
+        {
+          "paper_id": "nlin/0101016",
+          "row_group": 74,
+          "row_index": 19,
+          "raw_tokens": 13214,
+          "raw_characters": 42908,
+          "raw_utf8_bytes": 42908,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "nucl-th/0101016",
+          "row_group": 74,
+          "row_index": 20,
+          "raw_tokens": 7992,
+          "raw_characters": 24867,
+          "raw_utf8_bytes": 24867,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "physics/0101016",
+          "row_group": 74,
+          "row_index": 21,
+          "merge_status": "no_source"
+        },
+        {
+          "paper_id": "quant-ph/0101016",
+          "row_group": 74,
+          "row_index": 22,
+          "raw_tokens": 10109,
+          "raw_characters": 29838,
+          "raw_utf8_bytes": 29838,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "astro-ph/0101017",
+          "row_group": 74,
+          "row_index": 23,
+          "raw_tokens": 22232,
+          "raw_characters": 71651,
+          "raw_utf8_bytes": 71651,
+          "merge_status": "ok",
+          "merged_tokens": 22223,
+          "merged_characters": 71535,
+          "merged_utf8_bytes": 71535
+        },
+        {
+          "paper_id": "cond-mat/0101017",
+          "row_group": 74,
+          "row_index": 24,
+          "raw_tokens": 6627,
+          "raw_characters": 21645,
+          "raw_utf8_bytes": 21645,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "cs/0101017",
+          "row_group": 74,
+          "row_index": 25,
+          "raw_tokens": 45891,
+          "raw_characters": 135206,
+          "raw_utf8_bytes": 135208,
+          "merge_status": "ok",
+          "merged_tokens": 49210,
+          "merged_characters": 142839,
+          "merged_utf8_bytes": 142843
+        },
+        {
+          "paper_id": "gr-qc/0101017",
+          "row_group": 74,
+          "row_index": 26,
+          "raw_tokens": 10048,
+          "raw_characters": 27001,
+          "raw_utf8_bytes": 27001,
+          "merge_status": "ok",
+          "merged_tokens": 10036,
+          "merged_characters": 26893,
+          "merged_utf8_bytes": 26893
+        },
+        {
+          "paper_id": "hep-ex/0101017",
+          "row_group": 74,
+          "row_index": 27,
+          "raw_tokens": 40970,
+          "raw_characters": 106396,
+          "raw_utf8_bytes": 106396,
+          "merge_status": "ok",
+          "merged_tokens": 25408,
+          "merged_characters": 69681,
+          "merged_utf8_bytes": 69681
+        },
+        {
+          "paper_id": "hep-lat/0101017",
+          "row_group": 74,
+          "row_index": 28,
+          "raw_tokens": 13488,
+          "raw_characters": 36841,
+          "raw_utf8_bytes": 36841,
+          "merge_status": "ok",
+          "merged_tokens": 13476,
+          "merged_characters": 36718,
+          "merged_utf8_bytes": 36718
+        },
+        {
+          "paper_id": "hep-ph/0101017",
+          "row_group": 74,
+          "row_index": 29,
+          "raw_tokens": 10303,
+          "raw_characters": 27354,
+          "raw_utf8_bytes": 27354,
+          "merge_status": "ok",
+          "merged_tokens": 10293,
+          "merged_characters": 27237,
+          "merged_utf8_bytes": 27237
+        },
+        {
+          "paper_id": "hep-th/0101017",
+          "row_group": 74,
+          "row_index": 30,
+          "raw_tokens": 11299,
+          "raw_characters": 27796,
+          "raw_utf8_bytes": 27796,
+          "merge_status": "ok",
+          "merged_tokens": 11282,
+          "merged_characters": 27674,
+          "merged_utf8_bytes": 27674
+        },
+        {
+          "paper_id": "math/0101017",
+          "row_group": 74,
+          "row_index": 31,
+          "raw_tokens": 54375,
+          "raw_characters": 157655,
+          "raw_utf8_bytes": 157655,
+          "merge_status": "ok",
+          "merged_tokens": 54368,
+          "merged_characters": 157461,
+          "merged_utf8_bytes": 157461
+        },
+        {
+          "paper_id": "math-ph/0101017",
+          "row_group": 74,
+          "row_index": 32,
+          "raw_tokens": 4000,
+          "raw_characters": 10709,
+          "raw_utf8_bytes": 10709,
+          "merge_status": "ok",
+          "merged_tokens": 3983,
+          "merged_characters": 10586,
+          "merged_utf8_bytes": 10586
+        },
+        {
+          "paper_id": "nlin/0101017",
+          "row_group": 74,
+          "row_index": 33,
+          "raw_tokens": 19617,
+          "raw_characters": 48703,
+          "raw_utf8_bytes": 48703,
+          "merge_status": "ok",
+          "merged_tokens": 19600,
+          "merged_characters": 48583,
+          "merged_utf8_bytes": 48583
+        },
+        {
+          "paper_id": "nucl-th/0101017",
+          "row_group": 74,
+          "row_index": 34,
+          "raw_tokens": 9093,
+          "raw_characters": 24713,
+          "raw_utf8_bytes": 24713,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "physics/0101017",
+          "row_group": 74,
+          "row_index": 35,
+          "merge_status": "no_source"
+        },
+        {
+          "paper_id": "quant-ph/0101017",
+          "row_group": 74,
+          "row_index": 36,
+          "raw_tokens": 7056,
+          "raw_characters": 24422,
+          "raw_utf8_bytes": 24422,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "astro-ph/0101018",
+          "row_group": 74,
+          "row_index": 37,
+          "raw_tokens": 28379,
+          "raw_characters": 86977,
+          "raw_utf8_bytes": 86981,
+          "merge_status": "ok",
+          "merged_tokens": 28383,
+          "merged_characters": 86813,
+          "merged_utf8_bytes": 86817
+        },
+        {
+          "paper_id": "cond-mat/0101018",
+          "row_group": 74,
+          "row_index": 38,
+          "raw_tokens": 5685,
+          "raw_characters": 19827,
+          "raw_utf8_bytes": 19827,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "cs/0101018",
+          "row_group": 74,
+          "row_index": 39,
+          "raw_tokens": 35016,
+          "raw_characters": 98760,
+          "raw_utf8_bytes": 98760,
+          "merge_status": "ok",
+          "merged_tokens": 33513,
+          "merged_characters": 94255,
+          "merged_utf8_bytes": 94255
+        },
+        {
+          "paper_id": "gr-qc/0101018",
+          "row_group": 74,
+          "row_index": 40,
+          "raw_tokens": 12324,
+          "raw_characters": 33611,
+          "raw_utf8_bytes": 33611,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-ex/0101018",
+          "row_group": 74,
+          "row_index": 41,
+          "raw_tokens": 10842,
+          "raw_characters": 37128,
+          "raw_utf8_bytes": 37128,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-lat/0101018",
+          "row_group": 74,
+          "row_index": 42,
+          "raw_tokens": 3681,
+          "raw_characters": 12352,
+          "raw_utf8_bytes": 12352,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-ph/0101018",
+          "row_group": 74,
+          "row_index": 43,
+          "raw_tokens": 38238,
+          "raw_characters": 119091,
+          "raw_utf8_bytes": 119095,
+          "merge_status": "ok",
+          "merged_tokens": 38227,
+          "merged_characters": 118977,
+          "merged_utf8_bytes": 118981
+        },
+        {
+          "paper_id": "hep-th/0101018",
+          "row_group": 74,
+          "row_index": 44,
+          "raw_tokens": 10427,
+          "raw_characters": 32463,
+          "raw_utf8_bytes": 32463,
+          "merge_status": "ok",
+          "merged_tokens": 10420,
+          "merged_characters": 32276,
+          "merged_utf8_bytes": 32276
+        },
+        {
+          "paper_id": "math/0101018",
+          "row_group": 74,
+          "row_index": 45,
+          "raw_tokens": 31194,
+          "raw_characters": 79031,
+          "raw_utf8_bytes": 79031,
+          "merge_status": "ok",
+          "merged_tokens": 31178,
+          "merged_characters": 78911,
+          "merged_utf8_bytes": 78911
+        },
+        {
+          "paper_id": "math-ph/0101018",
+          "row_group": 74,
+          "row_index": 46,
+          "raw_tokens": 52144,
+          "raw_characters": 133781,
+          "raw_utf8_bytes": 133781,
+          "merge_status": "ok",
+          "merged_tokens": 52127,
+          "merged_characters": 133658,
+          "merged_utf8_bytes": 133658
+        },
+        {
+          "paper_id": "nlin/0101018",
+          "row_group": 74,
+          "row_index": 47,
+          "raw_tokens": 19230,
+          "raw_characters": 57334,
+          "raw_utf8_bytes": 57334,
+          "merge_status": "ok",
+          "merged_tokens": 19230,
+          "merged_characters": 57162,
+          "merged_utf8_bytes": 57162
+        },
+        {
+          "paper_id": "nucl-th/0101018",
+          "row_group": 74,
+          "row_index": 48,
+          "raw_tokens": 27095,
+          "raw_characters": 51325,
+          "raw_utf8_bytes": 51325,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "physics/0101018",
+          "row_group": 74,
+          "row_index": 49,
+          "raw_tokens": 3093,
+          "raw_characters": 8418,
+          "raw_utf8_bytes": 8418,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "quant-ph/0101018",
+          "row_group": 74,
+          "row_index": 50,
+          "raw_tokens": 7035,
+          "raw_characters": 19105,
+          "raw_utf8_bytes": 19105,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "astro-ph/0101019",
+          "row_group": 74,
+          "row_index": 51,
+          "raw_tokens": 10280,
+          "raw_characters": 28618,
+          "raw_utf8_bytes": 28618,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "cond-mat/0101019",
+          "row_group": 74,
+          "row_index": 52,
+          "raw_tokens": 166473,
+          "raw_characters": 503314,
+          "raw_utf8_bytes": 503314,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "cs/0101019",
+          "row_group": 74,
+          "row_index": 53,
+          "raw_tokens": 16016,
+          "raw_characters": 49864,
+          "raw_utf8_bytes": 49864,
+          "merge_status": "ok",
+          "merged_tokens": 16001,
+          "merged_characters": 49746,
+          "merged_utf8_bytes": 49746
+        },
+        {
+          "paper_id": "gr-qc/0101019",
+          "row_group": 74,
+          "row_index": 54,
+          "raw_tokens": 27080,
+          "raw_characters": 81943,
+          "raw_utf8_bytes": 81943,
+          "merge_status": "ok",
+          "merged_tokens": 27071,
+          "merged_characters": 81828,
+          "merged_utf8_bytes": 81828
+        },
+        {
+          "paper_id": "hep-ex/0101019",
+          "row_group": 74,
+          "row_index": 55,
+          "raw_tokens": 8203,
+          "raw_characters": 26213,
+          "raw_utf8_bytes": 26213,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-lat/0101019",
+          "row_group": 74,
+          "row_index": 56,
+          "raw_tokens": 27122,
+          "raw_characters": 78327,
+          "raw_utf8_bytes": 78327,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-ph/0101019",
+          "row_group": 74,
+          "row_index": 57,
+          "raw_tokens": 34076,
+          "raw_characters": 87506,
+          "raw_utf8_bytes": 87506,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/0101019",
+          "row_group": 74,
+          "row_index": 58,
+          "raw_tokens": 8625,
+          "raw_characters": 25996,
+          "raw_utf8_bytes": 25996,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "math/0101019",
+          "row_group": 74,
+          "row_index": 59,
+          "raw_tokens": 13944,
+          "raw_characters": 36852,
+          "raw_utf8_bytes": 36852,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "math-ph/0101019",
+          "row_group": 74,
+          "row_index": 60,
+          "raw_tokens": 7534,
+          "raw_characters": 22770,
+          "raw_utf8_bytes": 22770,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "nlin/0101019",
+          "row_group": 74,
+          "row_index": 61,
+          "raw_tokens": 6442,
+          "raw_characters": 23195,
+          "raw_utf8_bytes": 23195,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "nucl-th/0101019",
+          "row_group": 74,
+          "row_index": 62,
+          "raw_tokens": 8902,
+          "raw_characters": 29407,
+          "raw_utf8_bytes": 29411,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "physics/0101019",
+          "row_group": 74,
+          "row_index": 63,
+          "raw_tokens": 7304,
+          "raw_characters": 25531,
+          "raw_utf8_bytes": 25533,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-ph/0412183",
+          "row_group": 147,
+          "row_index": 0,
+          "raw_tokens": 12668,
+          "raw_characters": 38795,
+          "raw_utf8_bytes": 38795,
+          "merge_status": "ok",
+          "merged_tokens": 12659,
+          "merged_characters": 38677,
+          "merged_utf8_bytes": 38677
+        },
+        {
+          "paper_id": "hep-th/0412183",
+          "row_group": 147,
+          "row_index": 1,
+          "raw_tokens": 9600,
+          "raw_characters": 26494,
+          "raw_utf8_bytes": 26494,
+          "merge_status": "ok",
+          "merged_tokens": 9595,
+          "merged_characters": 26390,
+          "merged_utf8_bytes": 26390
+        },
+        {
+          "paper_id": "math/0412183",
+          "row_group": 147,
+          "row_index": 2,
+          "raw_tokens": 23143,
+          "raw_characters": 71256,
+          "raw_utf8_bytes": 71256,
+          "merge_status": "ok",
+          "merged_tokens": 23132,
+          "merged_characters": 71137,
+          "merged_utf8_bytes": 71137
+        },
+        {
+          "paper_id": "astro-ph/0412184",
+          "row_group": 147,
+          "row_index": 3,
+          "raw_tokens": 25242,
+          "raw_characters": 70494,
+          "raw_utf8_bytes": 70494,
+          "merge_status": "ok",
+          "merged_tokens": 25226,
+          "merged_characters": 70368,
+          "merged_utf8_bytes": 70368
+        },
+        {
+          "paper_id": "cond-mat/0412184",
+          "row_group": 147,
+          "row_index": 4,
+          "raw_tokens": 31819,
+          "raw_characters": 81661,
+          "raw_utf8_bytes": 81663,
+          "merge_status": "partial"
+        },
+        {
+          "paper_id": "hep-ph/0412184",
+          "row_group": 147,
+          "row_index": 5,
+          "raw_tokens": 18435,
+          "raw_characters": 49675,
+          "raw_utf8_bytes": 49675,
+          "merge_status": "ok",
+          "merged_tokens": 18440,
+          "merged_characters": 49511,
+          "merged_utf8_bytes": 49511
+        },
+        {
+          "paper_id": "hep-th/0412184",
+          "row_group": 147,
+          "row_index": 6,
+          "raw_tokens": 22979,
+          "raw_characters": 65999,
+          "raw_utf8_bytes": 65999,
+          "merge_status": "ok",
+          "merged_tokens": 22970,
+          "merged_characters": 65883,
+          "merged_utf8_bytes": 65883
+        },
+        {
+          "paper_id": "math/0412184",
+          "row_group": 147,
+          "row_index": 7,
+          "raw_tokens": 14291,
+          "raw_characters": 43850,
+          "raw_utf8_bytes": 43850,
+          "merge_status": "ok",
+          "merged_tokens": 14280,
+          "merged_characters": 43734,
+          "merged_utf8_bytes": 43734
+        },
+        {
+          "paper_id": "astro-ph/0412185",
+          "row_group": 147,
+          "row_index": 8,
+          "raw_tokens": 6519,
+          "raw_characters": 16815,
+          "raw_utf8_bytes": 16815,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "cond-mat/0412185",
+          "row_group": 147,
+          "row_index": 9,
+          "raw_tokens": 8994,
+          "raw_characters": 29150,
+          "raw_utf8_bytes": 29150,
+          "merge_status": "ok",
+          "merged_tokens": 8964,
+          "merged_characters": 28949,
+          "merged_utf8_bytes": 28949
+        },
+        {
+          "paper_id": "hep-ph/0412185",
+          "row_group": 147,
+          "row_index": 10,
+          "raw_tokens": 11659,
+          "raw_characters": 35976,
+          "raw_utf8_bytes": 35976,
+          "merge_status": "ok",
+          "merged_tokens": 11649,
+          "merged_characters": 35859,
+          "merged_utf8_bytes": 35859
+        },
+        {
+          "paper_id": "hep-th/0412185",
+          "row_group": 147,
+          "row_index": 11,
+          "raw_tokens": 52137,
+          "raw_characters": 157584,
+          "raw_utf8_bytes": 157584,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "math/0412185",
+          "row_group": 147,
+          "row_index": 12,
+          "raw_tokens": 19608,
+          "raw_characters": 53144,
+          "raw_utf8_bytes": 53146,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "astro-ph/0412186",
+          "row_group": 147,
+          "row_index": 13,
+          "raw_tokens": 39208,
+          "raw_characters": 128949,
+          "raw_utf8_bytes": 128949,
+          "merge_status": "ok",
+          "merged_tokens": 39195,
+          "merged_characters": 128836,
+          "merged_utf8_bytes": 128836
+        },
+        {
+          "paper_id": "cond-mat/0412186",
+          "row_group": 147,
+          "row_index": 14,
+          "raw_tokens": 6112,
+          "raw_characters": 17083,
+          "raw_utf8_bytes": 17083,
+          "merge_status": "partial"
+        },
+        {
+          "paper_id": "hep-ph/0412186",
+          "row_group": 147,
+          "row_index": 15,
+          "raw_tokens": 7964,
+          "raw_characters": 24640,
+          "raw_utf8_bytes": 24640,
+          "merge_status": "ok",
+          "merged_tokens": 7955,
+          "merged_characters": 24527,
+          "merged_utf8_bytes": 24527
+        },
+        {
+          "paper_id": "hep-th/0412186",
+          "row_group": 147,
+          "row_index": 16,
+          "raw_tokens": 20390,
+          "raw_characters": 54082,
+          "raw_utf8_bytes": 54082,
+          "merge_status": "ok",
+          "merged_tokens": 20373,
+          "merged_characters": 53960,
+          "merged_utf8_bytes": 53960
+        },
+        {
+          "paper_id": "math/0412186",
+          "row_group": 147,
+          "row_index": 17,
+          "raw_tokens": 7242,
+          "raw_characters": 21190,
+          "raw_utf8_bytes": 21190,
+          "merge_status": "ok",
+          "merged_tokens": 7226,
+          "merged_characters": 21070,
+          "merged_utf8_bytes": 21070
+        },
+        {
+          "paper_id": "astro-ph/0412187",
+          "row_group": 147,
+          "row_index": 18,
+          "raw_tokens": 17103,
+          "raw_characters": 55198,
+          "raw_utf8_bytes": 55198,
+          "merge_status": "ok",
+          "merged_tokens": 17094,
+          "merged_characters": 55087,
+          "merged_utf8_bytes": 55087
+        },
+        {
+          "paper_id": "cond-mat/0412187",
+          "row_group": 147,
+          "row_index": 19,
+          "raw_tokens": 4964,
+          "raw_characters": 17122,
+          "raw_utf8_bytes": 17122,
+          "merge_status": "ok",
+          "merged_tokens": 4935,
+          "merged_characters": 16931,
+          "merged_utf8_bytes": 16931
+        },
+        {
+          "paper_id": "hep-ph/0412187",
+          "row_group": 147,
+          "row_index": 20,
+          "raw_tokens": 5379,
+          "raw_characters": 18685,
+          "raw_utf8_bytes": 18685,
+          "merge_status": "ok",
+          "merged_tokens": 5366,
+          "merged_characters": 18564,
+          "merged_utf8_bytes": 18564
+        },
+        {
+          "paper_id": "hep-th/0412187",
+          "row_group": 147,
+          "row_index": 21,
+          "raw_tokens": 41761,
+          "raw_characters": 112650,
+          "raw_utf8_bytes": 112650,
+          "merge_status": "ok",
+          "merged_tokens": 41755,
+          "merged_characters": 112548,
+          "merged_utf8_bytes": 112548
+        },
+        {
+          "paper_id": "math/0412187",
+          "row_group": 147,
+          "row_index": 22,
+          "raw_tokens": 18353,
+          "raw_characters": 53002,
+          "raw_utf8_bytes": 53002,
+          "merge_status": "ok",
+          "merged_tokens": 18349,
+          "merged_characters": 52917,
+          "merged_utf8_bytes": 52917
+        },
+        {
+          "paper_id": "astro-ph/0412188",
+          "row_group": 147,
+          "row_index": 23,
+          "raw_tokens": 109175,
+          "raw_characters": 253777,
+          "raw_utf8_bytes": 253777,
+          "merge_status": "ok",
+          "merged_tokens": 109175,
+          "merged_characters": 253602,
+          "merged_utf8_bytes": 253602
+        },
+        {
+          "paper_id": "cond-mat/0412188",
+          "row_group": 147,
+          "row_index": 24,
+          "raw_tokens": 13295,
+          "raw_characters": 45880,
+          "raw_utf8_bytes": 45880,
+          "merge_status": "ok",
+          "merged_tokens": 13285,
+          "merged_characters": 45762,
+          "merged_utf8_bytes": 45762
+        },
+        {
+          "paper_id": "hep-ph/0412188",
+          "row_group": 147,
+          "row_index": 25,
+          "raw_tokens": 66742,
+          "raw_characters": 194942,
+          "raw_utf8_bytes": 194942,
+          "merge_status": "ok",
+          "merged_tokens": 66633,
+          "merged_characters": 194389,
+          "merged_utf8_bytes": 194389
+        },
+        {
+          "paper_id": "hep-th/0412188",
+          "row_group": 147,
+          "row_index": 26,
+          "raw_tokens": 45732,
+          "raw_characters": 120871,
+          "raw_utf8_bytes": 120871,
+          "merge_status": "ok",
+          "merged_tokens": 45720,
+          "merged_characters": 120762,
+          "merged_utf8_bytes": 120762
+        },
+        {
+          "paper_id": "math/0412188",
+          "row_group": 147,
+          "row_index": 27,
+          "raw_tokens": 27916,
+          "raw_characters": 72042,
+          "raw_utf8_bytes": 72042,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "astro-ph/0412189",
+          "row_group": 147,
+          "row_index": 28,
+          "raw_tokens": 9151,
+          "raw_characters": 28360,
+          "raw_utf8_bytes": 28360,
+          "merge_status": "ok",
+          "merged_tokens": 9138,
+          "merged_characters": 28246,
+          "merged_utf8_bytes": 28246
+        },
+        {
+          "paper_id": "cond-mat/0412189",
+          "row_group": 147,
+          "row_index": 29,
+          "raw_tokens": 10295,
+          "raw_characters": 32175,
+          "raw_utf8_bytes": 32175,
+          "merge_status": "ok",
+          "merged_tokens": 10283,
+          "merged_characters": 32054,
+          "merged_utf8_bytes": 32054
+        },
+        {
+          "paper_id": "hep-ph/0412189",
+          "row_group": 147,
+          "row_index": 30,
+          "raw_tokens": 4848,
+          "raw_characters": 15615,
+          "raw_utf8_bytes": 15615,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/0412189",
+          "row_group": 147,
+          "row_index": 31,
+          "raw_tokens": 13014,
+          "raw_characters": 39912,
+          "raw_utf8_bytes": 39912,
+          "merge_status": "ok",
+          "merged_tokens": 13034,
+          "merged_characters": 39881,
+          "merged_utf8_bytes": 39881
+        },
+        {
+          "paper_id": "math/0412189",
+          "row_group": 147,
+          "row_index": 32,
+          "raw_tokens": 18893,
+          "raw_characters": 45778,
+          "raw_utf8_bytes": 45780,
+          "merge_status": "ok",
+          "merged_tokens": 18874,
+          "merged_characters": 45651,
+          "merged_utf8_bytes": 45653
+        },
+        {
+          "paper_id": "astro-ph/0412190",
+          "row_group": 147,
+          "row_index": 33,
+          "raw_tokens": 18548,
+          "raw_characters": 54420,
+          "raw_utf8_bytes": 54420,
+          "merge_status": "ok",
+          "merged_tokens": 18557,
+          "merged_characters": 53859,
+          "merged_utf8_bytes": 53859
+        },
+        {
+          "paper_id": "cond-mat/0412190",
+          "row_group": 147,
+          "row_index": 34,
+          "raw_tokens": 14362,
+          "raw_characters": 41846,
+          "raw_utf8_bytes": 41846,
+          "merge_status": "ok",
+          "merged_tokens": 14339,
+          "merged_characters": 41657,
+          "merged_utf8_bytes": 41657
+        },
+        {
+          "paper_id": "hep-ph/0412190",
+          "row_group": 147,
+          "row_index": 35,
+          "raw_tokens": 19974,
+          "raw_characters": 52788,
+          "raw_utf8_bytes": 52790,
+          "merge_status": "ok",
+          "merged_tokens": 19963,
+          "merged_characters": 52672,
+          "merged_utf8_bytes": 52674
+        },
+        {
+          "paper_id": "hep-th/0412190",
+          "row_group": 147,
+          "row_index": 36,
+          "raw_tokens": 18541,
+          "raw_characters": 45531,
+          "raw_utf8_bytes": 45531,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "math/0412190",
+          "row_group": 147,
+          "row_index": 37,
+          "raw_tokens": 32338,
+          "raw_characters": 86804,
+          "raw_utf8_bytes": 86814,
+          "merge_status": "ok",
+          "merged_tokens": 32324,
+          "merged_characters": 86675,
+          "merged_utf8_bytes": 86685
+        },
+        {
+          "paper_id": "astro-ph/0412191",
+          "row_group": 147,
+          "row_index": 38,
+          "raw_tokens": 20100,
+          "raw_characters": 73849,
+          "raw_utf8_bytes": 73849,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "cond-mat/0412191",
+          "row_group": 147,
+          "row_index": 39,
+          "raw_tokens": 135,
+          "raw_characters": 442,
+          "raw_utf8_bytes": 442,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-ph/0412191",
+          "row_group": 147,
+          "row_index": 40,
+          "raw_tokens": 17027,
+          "raw_characters": 61458,
+          "raw_utf8_bytes": 61458,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/0412191",
+          "row_group": 147,
+          "row_index": 41,
+          "raw_tokens": 48764,
+          "raw_characters": 108918,
+          "raw_utf8_bytes": 108918,
+          "merge_status": "ok",
+          "merged_tokens": 48747,
+          "merged_characters": 108796,
+          "merged_utf8_bytes": 108796
+        },
+        {
+          "paper_id": "math/0412191",
+          "row_group": 147,
+          "row_index": 42,
+          "raw_tokens": 53768,
+          "raw_characters": 139833,
+          "raw_utf8_bytes": 139833,
+          "merge_status": "ok",
+          "merged_tokens": 50700,
+          "merged_characters": 131795,
+          "merged_utf8_bytes": 131795
+        },
+        {
+          "paper_id": "astro-ph/0412192",
+          "row_group": 147,
+          "row_index": 43,
+          "raw_tokens": 25888,
+          "raw_characters": 74448,
+          "raw_utf8_bytes": 74448,
+          "merge_status": "ok",
+          "merged_tokens": 25891,
+          "merged_characters": 74291,
+          "merged_utf8_bytes": 74291
+        },
+        {
+          "paper_id": "cond-mat/0412192",
+          "row_group": 147,
+          "row_index": 44,
+          "raw_tokens": 21592,
+          "raw_characters": 62673,
+          "raw_utf8_bytes": 62673,
+          "merge_status": "ok",
+          "merged_tokens": 21611,
+          "merged_characters": 62464,
+          "merged_utf8_bytes": 62464
+        },
+        {
+          "paper_id": "hep-ph/0412192",
+          "row_group": 147,
+          "row_index": 45,
+          "raw_tokens": 19593,
+          "raw_characters": 54647,
+          "raw_utf8_bytes": 54647,
+          "merge_status": "ok",
+          "merged_tokens": 19587,
+          "merged_characters": 54544,
+          "merged_utf8_bytes": 54544
+        },
+        {
+          "paper_id": "hep-th/0412192",
+          "row_group": 147,
+          "row_index": 46,
+          "raw_tokens": 24648,
+          "raw_characters": 71702,
+          "raw_utf8_bytes": 71834,
+          "merge_status": "ok",
+          "merged_tokens": 24633,
+          "merged_characters": 71574,
+          "merged_utf8_bytes": 71706
+        },
+        {
+          "paper_id": "math/0412192",
+          "row_group": 147,
+          "row_index": 47,
+          "raw_tokens": 23591,
+          "raw_characters": 60585,
+          "raw_utf8_bytes": 60585,
+          "merge_status": "partial"
+        },
+        {
+          "paper_id": "astro-ph/0412193",
+          "row_group": 147,
+          "row_index": 48,
+          "raw_tokens": 27617,
+          "raw_characters": 81070,
+          "raw_utf8_bytes": 81070,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "cond-mat/0412193",
+          "row_group": 147,
+          "row_index": 49,
+          "raw_tokens": 12348,
+          "raw_characters": 35325,
+          "raw_utf8_bytes": 35325,
+          "merge_status": "ok",
+          "merged_tokens": 12347,
+          "merged_characters": 35235,
+          "merged_utf8_bytes": 35235
+        },
+        {
+          "paper_id": "hep-ph/0412193",
+          "row_group": 147,
+          "row_index": 50,
+          "raw_tokens": 16667,
+          "raw_characters": 45189,
+          "raw_utf8_bytes": 45189,
+          "merge_status": "ok",
+          "merged_tokens": 16653,
+          "merged_characters": 45066,
+          "merged_utf8_bytes": 45066
+        },
+        {
+          "paper_id": "hep-th/0412193",
+          "row_group": 147,
+          "row_index": 51,
+          "raw_tokens": 21986,
+          "raw_characters": 58007,
+          "raw_utf8_bytes": 58007,
+          "merge_status": "ok",
+          "merged_tokens": 21976,
+          "merged_characters": 57895,
+          "merged_utf8_bytes": 57895
+        },
+        {
+          "paper_id": "math/0412193",
+          "row_group": 147,
+          "row_index": 52,
+          "raw_tokens": 28200,
+          "raw_characters": 81765,
+          "raw_utf8_bytes": 81783,
+          "merge_status": "partial"
+        },
+        {
+          "paper_id": "astro-ph/0412194",
+          "row_group": 147,
+          "row_index": 53,
+          "raw_tokens": 20902,
+          "raw_characters": 62166,
+          "raw_utf8_bytes": 62166,
+          "merge_status": "ok",
+          "merged_tokens": 20893,
+          "merged_characters": 62055,
+          "merged_utf8_bytes": 62055
+        },
+        {
+          "paper_id": "cond-mat/0412194",
+          "row_group": 147,
+          "row_index": 54,
+          "raw_tokens": 26387,
+          "raw_characters": 74265,
+          "raw_utf8_bytes": 74265,
+          "merge_status": "ok",
+          "merged_tokens": 26377,
+          "merged_characters": 74147,
+          "merged_utf8_bytes": 74147
+        },
+        {
+          "paper_id": "hep-ph/0412194",
+          "row_group": 147,
+          "row_index": 55,
+          "raw_tokens": 10010,
+          "raw_characters": 29484,
+          "raw_utf8_bytes": 29484,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "hep-th/0412194",
+          "row_group": 147,
+          "row_index": 56,
+          "raw_tokens": 50119,
+          "raw_characters": 133867,
+          "raw_utf8_bytes": 133867,
+          "merge_status": "ok",
+          "merged_tokens": 50125,
+          "merged_characters": 133709,
+          "merged_utf8_bytes": 133709
+        },
+        {
+          "paper_id": "math/0412194",
+          "row_group": 147,
+          "row_index": 57,
+          "raw_tokens": 18053,
+          "raw_characters": 47270,
+          "raw_utf8_bytes": 47270,
+          "merge_status": "partial"
+        },
+        {
+          "paper_id": "astro-ph/0412195",
+          "row_group": 147,
+          "row_index": 58,
+          "raw_tokens": 25806,
+          "raw_characters": 76317,
+          "raw_utf8_bytes": 76317,
+          "merge_status": "ok",
+          "merged_tokens": 25796,
+          "merged_characters": 76204,
+          "merged_utf8_bytes": 76204
+        },
+        {
+          "paper_id": "cond-mat/0412195",
+          "row_group": 147,
+          "row_index": 59,
+          "raw_tokens": 7019,
+          "raw_characters": 21924,
+          "raw_utf8_bytes": 21924,
+          "merge_status": "ok",
+          "merged_tokens": 7010,
+          "merged_characters": 21816,
+          "merged_utf8_bytes": 21816
+        },
+        {
+          "paper_id": "hep-ph/0412195",
+          "row_group": 147,
+          "row_index": 60,
+          "raw_tokens": 7228,
+          "raw_characters": 17653,
+          "raw_utf8_bytes": 17653,
+          "merge_status": "ok",
+          "merged_tokens": 7212,
+          "merged_characters": 17531,
+          "merged_utf8_bytes": 17531
+        },
+        {
+          "paper_id": "hep-th/0412195",
+          "row_group": 147,
+          "row_index": 61,
+          "raw_tokens": 12268,
+          "raw_characters": 38793,
+          "raw_utf8_bytes": 38793,
+          "merge_status": "no_main"
+        },
+        {
+          "paper_id": "math/0412195",
+          "row_group": 147,
+          "row_index": 62,
+          "raw_tokens": 11174,
+          "raw_characters": 34024,
+          "raw_utf8_bytes": 34026,
+          "merge_status": "ok",
+          "merged_tokens": 11158,
+          "merged_characters": 33904,
+          "merged_utf8_bytes": 33906
+        },
+        {
+          "paper_id": "astro-ph/0412196",
+          "row_group": 147,
+          "row_index": 63,
+          "raw_tokens": 35645,
+          "raw_characters": 123755,
+          "raw_utf8_bytes": 123755,
+          "merge_status": "ok",
+          "merged_tokens": 35653,
+          "merged_characters": 123678,
+          "merged_utf8_bytes": 123678
+        }
+      ]
+    },
+    {
+      "path": "/Users/n.gulyakov/Desktop/work/pasa2/arxiv_part_0045.parquet",
+      "bytes": 2177151198,
+      "mtime_ns": 1784400617503183152,
+      "row_groups": [
+        0,
+        8,
+        16
+      ],
+      "rows": 168,
+      "merge_status": {
+        "ok": 147,
+        "no_source": 20,
+        "partial": 1
+      },
+      "raw": {
+        "n": 148,
+        "mean_tokens": 57359.89864864865,
+        "median_tokens": 38414.0,
+        "p90_tokens": 103466.90000000004,
+        "p95_tokens": 174259.65000000005,
+        "max_tokens": 367357,
+        "mean_characters": 177191.52027027027,
+        "mean_utf8_bytes": 177464.9527027027,
+        "over_100000_tokens": 17,
+        "over_100000_fraction": 0.11486486486486487,
+        "over_200000_tokens": 6,
+        "longest_paper_id": "2606.16041",
+        "all_sample_pairs": 10878,
+        "pairs_over_196000_article_tokens": 1466,
+        "over_100000_papers": [
+          {
+            "paper_id": "2606.00002",
+            "tokens": 102302
+          },
+          {
+            "paper_id": "2606.00023",
+            "tokens": 312572
+          },
+          {
+            "paper_id": "2606.00035",
+            "tokens": 106185
+          },
+          {
+            "paper_id": "2606.16016",
+            "tokens": 144673
+          },
+          {
+            "paper_id": "2606.16030",
+            "tokens": 169501
+          },
+          {
+            "paper_id": "2606.16041",
+            "tokens": 367357
+          },
+          {
+            "paper_id": "2606.16043",
+            "tokens": 232567
+          },
+          {
+            "paper_id": "2606.16050",
+            "tokens": 109789
+          },
+          {
+            "paper_id": "2606.16052",
+            "tokens": 248753
+          },
+          {
+            "paper_id": "2606.16053",
+            "tokens": 349381
+          },
+          {
+            "paper_id": "2606.16057",
+            "tokens": 100138
+          },
+          {
+            "paper_id": "2606.16058",
+            "tokens": 224739
+          },
+          {
+            "paper_id": "2606.16064",
+            "tokens": 190152
+          },
+          {
+            "paper_id": "2606.32016",
+            "tokens": 176822
+          },
+          {
+            "paper_id": "2606.32019",
+            "tokens": 166725
+          },
+          {
+            "paper_id": "2606.32023",
+            "tokens": 138162
+          },
+          {
+            "paper_id": "2606.32027",
+            "tokens": 160394
+          }
+        ]
+      },
+      "merged_ok": {
+        "n": 147,
+        "mean_tokens": 48312.72108843538,
+        "median_tokens": 34743,
+        "p90_tokens": 96033.20000000003,
+        "p95_tokens": 122788.59999999996,
+        "max_tokens": 286509,
+        "mean_characters": 153270.7074829932,
+        "mean_utf8_bytes": 153527.03401360544,
+        "over_100000_tokens": 13,
+        "over_100000_fraction": 0.08843537414965986,
+        "over_200000_tokens": 4,
+        "longest_paper_id": "2606.00023",
+        "all_sample_pairs": 10731,
+        "pairs_over_196000_article_tokens": 869,
+        "over_100000_papers": [
+          {
+            "paper_id": "2606.00002",
+            "tokens": 102314
+          },
+          {
+            "paper_id": "2606.00023",
+            "tokens": 286509
+          },
+          {
+            "paper_id": "2606.00035",
+            "tokens": 106174
+          },
+          {
+            "paper_id": "2606.16016",
+            "tokens": 138426
+          },
+          {
+            "paper_id": "2606.16043",
+            "tokens": 232547
+          },
+          {
+            "paper_id": "2606.16050",
+            "tokens": 109781
+          },
+          {
+            "paper_id": "2606.16052",
+            "tokens": 230768
+          },
+          {
+            "paper_id": "2606.16057",
+            "tokens": 100172
+          },
+          {
+            "paper_id": "2606.16058",
+            "tokens": 224722
+          },
+          {
+            "paper_id": "2606.16064",
+            "tokens": 190043
+          },
+          {
+            "paper_id": "2606.32023",
+            "tokens": 120193
+          },
+          {
+            "paper_id": "2606.32027",
+            "tokens": 160391
+          },
+          {
+            "paper_id": "2606.32032",
+            "tokens": 123901
+          }
+        ]
+      },
+      "records": [
+        {
+          "paper_id": "2606.00001",
+          "row_group": 0,
+          "row_index": 0,
+          "raw_tokens": 15682,
+          "raw_characters": 68248,
+          "raw_utf8_bytes": 68407,
+          "merge_status": "ok",
+          "merged_tokens": 15669,
+          "merged_characters": 67918,
+          "merged_utf8_bytes": 68077
+        },
+        {
+          "paper_id": "2606.00002",
+          "row_group": 0,
+          "row_index": 1,
+          "raw_tokens": 102302,
+          "raw_characters": 325886,
+          "raw_utf8_bytes": 325888,
+          "merge_status": "ok",
+          "merged_tokens": 102314,
+          "merged_characters": 325664,
+          "merged_utf8_bytes": 325666
+        },
+        {
+          "paper_id": "2606.00003",
+          "row_group": 0,
+          "row_index": 2,
+          "raw_tokens": 62921,
+          "raw_characters": 185017,
+          "raw_utf8_bytes": 185021,
+          "merge_status": "ok",
+          "merged_tokens": 31506,
+          "merged_characters": 102699,
+          "merged_utf8_bytes": 102703
+        },
+        {
+          "paper_id": "2606.00004",
+          "row_group": 0,
+          "row_index": 3,
+          "merge_status": "no_source"
+        },
+        {
+          "paper_id": "2606.00005",
+          "row_group": 0,
+          "row_index": 4,
+          "merge_status": "no_source"
+        },
+        {
+          "paper_id": "2606.00006",
+          "row_group": 0,
+          "row_index": 5,
+          "merge_status": "no_source"
+        },
+        {
+          "paper_id": "2606.00007",
+          "row_group": 0,
+          "row_index": 6,
+          "raw_tokens": 26925,
+          "raw_characters": 107771,
+          "raw_utf8_bytes": 107771,
+          "merge_status": "ok",
+          "merged_tokens": 26898,
+          "merged_characters": 107613,
+          "merged_utf8_bytes": 107613
+        },
+        {
+          "paper_id": "2606.00008",
+          "row_group": 0,
+          "row_index": 7,
+          "raw_tokens": 60037,
+          "raw_characters": 180459,
+          "raw_utf8_bytes": 180711,
+          "merge_status": "ok",
+          "merged_tokens": 42131,
+          "merged_characters": 138351,
+          "merged_utf8_bytes": 138545
+        },
+        {
+          "paper_id": "2606.00009",
+          "row_group": 0,
+          "row_index": 8,
+          "raw_tokens": 39629,
+          "raw_characters": 120110,
+          "raw_utf8_bytes": 120110,
+          "merge_status": "ok",
+          "merged_tokens": 39643,
+          "merged_characters": 119871,
+          "merged_utf8_bytes": 119871
+        },
+        {
+          "paper_id": "2606.00010",
+          "row_group": 0,
+          "row_index": 9,
+          "merge_status": "no_source"
+        },
+        {
+          "paper_id": "2606.00011",
+          "row_group": 0,
+          "row_index": 10,
+          "raw_tokens": 99460,
+          "raw_characters": 296758,
+          "raw_utf8_bytes": 296834,
+          "merge_status": "ok",
+          "merged_tokens": 99526,
+          "merged_characters": 295344,
+          "merged_utf8_bytes": 295420
+        },
+        {
+          "paper_id": "2606.00012",
+          "row_group": 0,
+          "row_index": 11,
+          "raw_tokens": 28632,
+          "raw_characters": 97992,
+          "raw_utf8_bytes": 98072,
+          "merge_status": "ok",
+          "merged_tokens": 24225,
+          "merged_characters": 84200,
+          "merged_utf8_bytes": 84200
+        },
+        {
+          "paper_id": "2606.00013",
+          "row_group": 0,
+          "row_index": 12,
+          "merge_status": "no_source"
+        },
+        {
+          "paper_id": "2606.00014",
+          "row_group": 0,
+          "row_index": 13,
+          "raw_tokens": 33907,
+          "raw_characters": 101795,
+          "raw_utf8_bytes": 101837,
+          "merge_status": "ok",
+          "merged_tokens": 33897,
+          "merged_characters": 101507,
+          "merged_utf8_bytes": 101549
+        },
+        {
+          "paper_id": "2606.00015",
+          "row_group": 0,
+          "row_index": 14,
+          "raw_tokens": 59990,
+          "raw_characters": 170678,
+          "raw_utf8_bytes": 171340,
+          "merge_status": "ok",
+          "merged_tokens": 54338,
+          "merged_characters": 153047,
+          "merged_utf8_bytes": 153687
+        },
+        {
+          "paper_id": "2606.00016",
+          "row_group": 0,
+          "row_index": 15,
+          "raw_tokens": 64348,
+          "raw_characters": 192559,
+          "raw_utf8_bytes": 192626,
+          "merge_status": "ok",
+          "merged_tokens": 56850,
+          "merged_characters": 175032,
+          "merged_utf8_bytes": 175099
+        },
+        {
+          "paper_id": "2606.00017",
+          "row_group": 0,
+          "row_index": 16,
+          "raw_tokens": 22971,
+          "raw_characters": 85135,
+          "raw_utf8_bytes": 85139,
+          "merge_status": "ok",
+          "merged_tokens": 22967,
+          "merged_characters": 84866,
+          "merged_utf8_bytes": 84870
+        },
+        {
+          "paper_id": "2606.00018",
+          "row_group": 0,
+          "row_index": 17,
+          "merge_status": "no_source"
+        },
+        {
+          "paper_id": "2606.00019",
+          "row_group": 0,
+          "row_index": 18,
+          "merge_status": "no_source"
+        },
+        {
+          "paper_id": "2606.00020",
+          "row_group": 0,
+          "row_index": 19,
+          "raw_tokens": 27358,
+          "raw_characters": 92912,
+          "raw_utf8_bytes": 93590,
+          "merge_status": "ok",
+          "merged_tokens": 27237,
+          "merged_characters": 92041,
+          "merged_utf8_bytes": 92719
+        },
+        {
+          "paper_id": "2606.00021",
+          "row_group": 0,
+          "row_index": 20,
+          "raw_tokens": 97461,
+          "raw_characters": 303823,
+          "raw_utf8_bytes": 309592,
+          "merge_status": "ok",
+          "merged_tokens": 83301,
+          "merged_characters": 270970,
+          "merged_utf8_bytes": 276739
+        },
+        {
+          "paper_id": "2606.00022",
+          "row_group": 0,
+          "row_index": 21,
+          "raw_tokens": 18324,
+          "raw_characters": 62157,
+          "raw_utf8_bytes": 62173,
+          "merge_status": "ok",
+          "merged_tokens": 18316,
+          "merged_characters": 61875,
+          "merged_utf8_bytes": 61891
+        },
+        {
+          "paper_id": "2606.00023",
+          "row_group": 0,
+          "row_index": 22,
+          "raw_tokens": 312572,
+          "raw_characters": 927372,
+          "raw_utf8_bytes": 927496,
+          "merge_status": "ok",
+          "merged_tokens": 286509,
+          "merged_characters": 861145,
+          "merged_utf8_bytes": 861269
+        },
+        {
+          "paper_id": "2606.00024",
+          "row_group": 0,
+          "row_index": 23,
+          "raw_tokens": 56816,
+          "raw_characters": 180846,
+          "raw_utf8_bytes": 180890,
+          "merge_status": "ok",
+          "merged_tokens": 56790,
+          "merged_characters": 179594,
+          "merged_utf8_bytes": 179638
+        },
+        {
+          "paper_id": "2606.00025",
+          "row_group": 0,
+          "row_index": 24,
+          "merge_status": "no_source"
+        },
+        {
+          "paper_id": "2606.00026",
+          "row_group": 0,
+          "row_index": 25,
+          "raw_tokens": 8519,
+          "raw_characters": 33381,
+          "raw_utf8_bytes": 34789,
+          "merge_status": "ok",
+          "merged_tokens": 8486,
+          "merged_characters": 33103,
+          "merged_utf8_bytes": 34511
+        },
+        {
+          "paper_id": "2606.00027",
+          "row_group": 0,
+          "row_index": 26,
+          "raw_tokens": 52407,
+          "raw_characters": 148577,
+          "raw_utf8_bytes": 148596,
+          "merge_status": "ok",
+          "merged_tokens": 14837,
+          "merged_characters": 51522,
+          "merged_utf8_bytes": 51536
+        },
+        {
+          "paper_id": "2606.00028",
+          "row_group": 0,
+          "row_index": 27,
+          "raw_tokens": 75293,
+          "raw_characters": 224932,
+          "raw_utf8_bytes": 224956,
+          "merge_status": "ok",
+          "merged_tokens": 75280,
+          "merged_characters": 224541,
+          "merged_utf8_bytes": 224565
+        },
+        {
+          "paper_id": "2606.00029",
+          "row_group": 0,
+          "row_index": 28,
+          "raw_tokens": 22253,
+          "raw_characters": 83940,
+          "raw_utf8_bytes": 83961,
+          "merge_status": "ok",
+          "merged_tokens": 22134,
+          "merged_characters": 83475,
+          "merged_utf8_bytes": 83496
+        },
+        {
+          "paper_id": "2606.00030",
+          "row_group": 0,
+          "row_index": 29,
+          "raw_tokens": 20521,
+          "raw_characters": 90223,
+          "raw_utf8_bytes": 90751,
+          "merge_status": "ok",
+          "merged_tokens": 20500,
+          "merged_characters": 89988,
+          "merged_utf8_bytes": 90516
+        },
+        {
+          "paper_id": "2606.00031",
+          "row_group": 0,
+          "row_index": 30,
+          "raw_tokens": 26086,
+          "raw_characters": 81134,
+          "raw_utf8_bytes": 81200,
+          "merge_status": "ok",
+          "merged_tokens": 26071,
+          "merged_characters": 80817,
+          "merged_utf8_bytes": 80883
+        },
+        {
+          "paper_id": "2606.00032",
+          "row_group": 0,
+          "row_index": 31,
+          "merge_status": "no_source"
+        },
+        {
+          "paper_id": "2606.00033",
+          "row_group": 0,
+          "row_index": 32,
+          "raw_tokens": 67140,
+          "raw_characters": 243017,
+          "raw_utf8_bytes": 243142,
+          "merge_status": "ok",
+          "merged_tokens": 48619,
+          "merged_characters": 196369,
+          "merged_utf8_bytes": 196494
+        },
+        {
+          "paper_id": "2606.00034",
+          "row_group": 0,
+          "row_index": 33,
+          "raw_tokens": 13279,
+          "raw_characters": 49958,
+          "raw_utf8_bytes": 49958,
+          "merge_status": "ok",
+          "merged_tokens": 13270,
+          "merged_characters": 49763,
+          "merged_utf8_bytes": 49763
+        },
+        {
+          "paper_id": "2606.00035",
+          "row_group": 0,
+          "row_index": 34,
+          "raw_tokens": 106185,
+          "raw_characters": 340201,
+          "raw_utf8_bytes": 342031,
+          "merge_status": "ok",
+          "merged_tokens": 106174,
+          "merged_characters": 339827,
+          "merged_utf8_bytes": 341657
+        },
+        {
+          "paper_id": "2606.00036",
+          "row_group": 0,
+          "row_index": 35,
+          "merge_status": "no_source"
+        },
+        {
+          "paper_id": "2606.00037",
+          "row_group": 0,
+          "row_index": 36,
+          "raw_tokens": 38168,
+          "raw_characters": 143216,
+          "raw_utf8_bytes": 143252,
+          "merge_status": "ok",
+          "merged_tokens": 38109,
+          "merged_characters": 142727,
+          "merged_utf8_bytes": 142763
+        },
+        {
+          "paper_id": "2606.00038",
+          "row_group": 0,
+          "row_index": 37,
+          "merge_status": "no_source"
+        },
+        {
+          "paper_id": "2606.00039",
+          "row_group": 0,
+          "row_index": 38,
+          "raw_tokens": 72581,
+          "raw_characters": 222934,
+          "raw_utf8_bytes": 223186,
+          "merge_status": "ok",
+          "merged_tokens": 72578,
+          "merged_characters": 222659,
+          "merged_utf8_bytes": 222911
+        },
+        {
+          "paper_id": "2606.00040",
+          "row_group": 0,
+          "row_index": 39,
+          "raw_tokens": 35142,
+          "raw_characters": 97146,
+          "raw_utf8_bytes": 97146,
+          "merge_status": "ok",
+          "merged_tokens": 3727,
+          "merged_characters": 14828,
+          "merged_utf8_bytes": 14828
+        },
+        {
+          "paper_id": "2606.00041",
+          "row_group": 0,
+          "row_index": 40,
+          "raw_tokens": 26242,
+          "raw_characters": 82789,
+          "raw_utf8_bytes": 82827,
+          "merge_status": "ok",
+          "merged_tokens": 26248,
+          "merged_characters": 82546,
+          "merged_utf8_bytes": 82584
+        },
+        {
+          "paper_id": "2606.00042",
+          "row_group": 0,
+          "row_index": 41,
+          "merge_status": "no_source"
+        },
+        {
+          "paper_id": "2606.00043",
+          "row_group": 0,
+          "row_index": 42,
+          "merge_status": "no_source"
+        },
+        {
+          "paper_id": "2606.00044",
+          "row_group": 0,
+          "row_index": 43,
+          "raw_tokens": 11380,
+          "raw_characters": 50680,
+          "raw_utf8_bytes": 50682,
+          "merge_status": "ok",
+          "merged_tokens": 11356,
+          "merged_characters": 50431,
+          "merged_utf8_bytes": 50433
+        },
+        {
+          "paper_id": "2606.00045",
+          "row_group": 0,
+          "row_index": 44,
+          "raw_tokens": 15265,
+          "raw_characters": 55572,
+          "raw_utf8_bytes": 55572,
+          "merge_status": "ok",
+          "merged_tokens": 14833,
+          "merged_characters": 54233,
+          "merged_utf8_bytes": 54233
+        },
+        {
+          "paper_id": "2606.00046",
+          "row_group": 0,
+          "row_index": 45,
+          "raw_tokens": 43500,
+          "raw_characters": 165784,
+          "raw_utf8_bytes": 165963,
+          "merge_status": "ok",
+          "merged_tokens": 43486,
+          "merged_characters": 165564,
+          "merged_utf8_bytes": 165743
+        },
+        {
+          "paper_id": "2606.00047",
+          "row_group": 0,
+          "row_index": 46,
+          "raw_tokens": 47437,
+          "raw_characters": 144661,
+          "raw_utf8_bytes": 144785,
+          "merge_status": "ok",
+          "merged_tokens": 29532,
+          "merged_characters": 102450,
+          "merged_utf8_bytes": 102574
+        },
+        {
+          "paper_id": "2606.00048",
+          "row_group": 0,
+          "row_index": 47,
+          "raw_tokens": 92095,
+          "raw_characters": 285190,
+          "raw_utf8_bytes": 285286,
+          "merge_status": "ok",
+          "merged_tokens": 81992,
+          "merged_characters": 259400,
+          "merged_utf8_bytes": 259484
+        },
+        {
+          "paper_id": "2606.00049",
+          "row_group": 0,
+          "row_index": 48,
+          "raw_tokens": 51249,
+          "raw_characters": 168829,
+          "raw_utf8_bytes": 175813,
+          "merge_status": "ok",
+          "merged_tokens": 49314,
+          "merged_characters": 162788,
+          "merged_utf8_bytes": 169772
+        },
+        {
+          "paper_id": "2606.00050",
+          "row_group": 0,
+          "row_index": 49,
+          "raw_tokens": 10772,
+          "raw_characters": 36998,
+          "raw_utf8_bytes": 36998,
+          "merge_status": "ok",
+          "merged_tokens": 10784,
+          "merged_characters": 36849,
+          "merged_utf8_bytes": 36849
+        },
+        {
+          "paper_id": "2606.00051",
+          "row_group": 0,
+          "row_index": 50,
+          "raw_tokens": 18528,
+          "raw_characters": 61158,
+          "raw_utf8_bytes": 61178,
+          "merge_status": "ok",
+          "merged_tokens": 18466,
+          "merged_characters": 60828,
+          "merged_utf8_bytes": 60848
+        },
+        {
+          "paper_id": "2606.00052",
+          "row_group": 0,
+          "row_index": 51,
+          "raw_tokens": 11808,
+          "raw_characters": 50411,
+          "raw_utf8_bytes": 50419,
+          "merge_status": "ok",
+          "merged_tokens": 11734,
+          "merged_characters": 49818,
+          "merged_utf8_bytes": 49826
+        },
+        {
+          "paper_id": "2606.00053",
+          "row_group": 0,
+          "row_index": 52,
+          "raw_tokens": 26495,
+          "raw_characters": 97917,
+          "raw_utf8_bytes": 97928,
+          "merge_status": "ok",
+          "merged_tokens": 26511,
+          "merged_characters": 97182,
+          "merged_utf8_bytes": 97193
+        },
+        {
+          "paper_id": "2606.00054",
+          "row_group": 0,
+          "row_index": 53,
+          "raw_tokens": 24778,
+          "raw_characters": 85167,
+          "raw_utf8_bytes": 85212,
+          "merge_status": "ok",
+          "merged_tokens": 24772,
+          "merged_characters": 84281,
+          "merged_utf8_bytes": 84324
+        },
+        {
+          "paper_id": "2606.00055",
+          "row_group": 0,
+          "row_index": 54,
+          "raw_tokens": 50132,
+          "raw_characters": 169865,
+          "raw_utf8_bytes": 169865,
+          "merge_status": "partial"
+        },
+        {
+          "paper_id": "2606.00056",
+          "row_group": 0,
+          "row_index": 55,
+          "merge_status": "no_source"
+        },
+        {
+          "paper_id": "2606.00057",
+          "row_group": 0,
+          "row_index": 56,
+          "raw_tokens": 28724,
+          "raw_characters": 111646,
+          "raw_utf8_bytes": 111662,
+          "merge_status": "ok",
+          "merged_tokens": 28695,
+          "merged_characters": 111269,
+          "merged_utf8_bytes": 111285
+        },
+        {
+          "paper_id": "2606.00058",
+          "row_group": 0,
+          "row_index": 57,
+          "raw_tokens": 68219,
+          "raw_characters": 263018,
+          "raw_utf8_bytes": 263108,
+          "merge_status": "ok",
+          "merged_tokens": 68203,
+          "merged_characters": 262765,
+          "merged_utf8_bytes": 262855
+        },
+        {
+          "paper_id": "2606.00059",
+          "row_group": 0,
+          "row_index": 58,
+          "raw_tokens": 12877,
+          "raw_characters": 46586,
+          "raw_utf8_bytes": 46615,
+          "merge_status": "ok",
+          "merged_tokens": 12356,
+          "merged_characters": 45037,
+          "merged_utf8_bytes": 45066
+        },
+        {
+          "paper_id": "2606.00060",
+          "row_group": 0,
+          "row_index": 59,
+          "raw_tokens": 57908,
+          "raw_characters": 183137,
+          "raw_utf8_bytes": 183153,
+          "merge_status": "ok",
+          "merged_tokens": 57881,
+          "merged_characters": 182911,
+          "merged_utf8_bytes": 182927
+        },
+        {
+          "paper_id": "2606.00061",
+          "row_group": 0,
+          "row_index": 60,
+          "raw_tokens": 39144,
+          "raw_characters": 108978,
+          "raw_utf8_bytes": 110340,
+          "merge_status": "ok",
+          "merged_tokens": 21288,
+          "merged_characters": 67008,
+          "merged_utf8_bytes": 68370
+        },
+        {
+          "paper_id": "2606.00062",
+          "row_group": 0,
+          "row_index": 61,
+          "raw_tokens": 7997,
+          "raw_characters": 32628,
+          "raw_utf8_bytes": 32638,
+          "merge_status": "ok",
+          "merged_tokens": 7997,
+          "merged_characters": 32534,
+          "merged_utf8_bytes": 32544
+        },
+        {
+          "paper_id": "2606.00063",
+          "row_group": 0,
+          "row_index": 62,
+          "raw_tokens": 15204,
+          "raw_characters": 48601,
+          "raw_utf8_bytes": 48615,
+          "merge_status": "ok",
+          "merged_tokens": 15175,
+          "merged_characters": 47995,
+          "merged_utf8_bytes": 48009
+        },
+        {
+          "paper_id": "2606.00064",
+          "row_group": 0,
+          "row_index": 63,
+          "merge_status": "no_source"
+        },
+        {
+          "paper_id": "2606.16001",
+          "row_group": 8,
+          "row_index": 0,
+          "raw_tokens": 61500,
+          "raw_characters": 145801,
+          "raw_utf8_bytes": 145811,
+          "merge_status": "ok",
+          "merged_tokens": 61452,
+          "merged_characters": 145595,
+          "merged_utf8_bytes": 145605
+        },
+        {
+          "paper_id": "2606.16002",
+          "row_group": 8,
+          "row_index": 1,
+          "raw_tokens": 22946,
+          "raw_characters": 67113,
+          "raw_utf8_bytes": 67184,
+          "merge_status": "ok",
+          "merged_tokens": 22938,
+          "merged_characters": 66921,
+          "merged_utf8_bytes": 66992
+        },
+        {
+          "paper_id": "2606.16003",
+          "row_group": 8,
+          "row_index": 2,
+          "raw_tokens": 23677,
+          "raw_characters": 82223,
+          "raw_utf8_bytes": 82404,
+          "merge_status": "ok",
+          "merged_tokens": 23657,
+          "merged_characters": 81896,
+          "merged_utf8_bytes": 82077
+        },
+        {
+          "paper_id": "2606.16004",
+          "row_group": 8,
+          "row_index": 3,
+          "raw_tokens": 11559,
+          "raw_characters": 30113,
+          "raw_utf8_bytes": 30113,
+          "merge_status": "ok",
+          "merged_tokens": 11523,
+          "merged_characters": 29814,
+          "merged_utf8_bytes": 29814
+        },
+        {
+          "paper_id": "2606.16005",
+          "row_group": 8,
+          "row_index": 4,
+          "raw_tokens": 26607,
+          "raw_characters": 74231,
+          "raw_utf8_bytes": 74231,
+          "merge_status": "ok",
+          "merged_tokens": 26555,
+          "merged_characters": 73881,
+          "merged_utf8_bytes": 73881
+        },
+        {
+          "paper_id": "2606.16006",
+          "row_group": 8,
+          "row_index": 5,
+          "raw_tokens": 12375,
+          "raw_characters": 41386,
+          "raw_utf8_bytes": 41386,
+          "merge_status": "ok",
+          "merged_tokens": 12368,
+          "merged_characters": 41193,
+          "merged_utf8_bytes": 41193
+        },
+        {
+          "paper_id": "2606.16007",
+          "row_group": 8,
+          "row_index": 6,
+          "merge_status": "no_source"
+        },
+        {
+          "paper_id": "2606.16008",
+          "row_group": 8,
+          "row_index": 7,
+          "raw_tokens": 24674,
+          "raw_characters": 67497,
+          "raw_utf8_bytes": 67501,
+          "merge_status": "ok",
+          "merged_tokens": 24652,
+          "merged_characters": 67325,
+          "merged_utf8_bytes": 67329
+        },
+        {
+          "paper_id": "2606.16009",
+          "row_group": 8,
+          "row_index": 8,
+          "raw_tokens": 60795,
+          "raw_characters": 232983,
+          "raw_utf8_bytes": 233178,
+          "merge_status": "ok",
+          "merged_tokens": 60784,
+          "merged_characters": 232757,
+          "merged_utf8_bytes": 232952
+        },
+        {
+          "paper_id": "2606.16010",
+          "row_group": 8,
+          "row_index": 9,
+          "raw_tokens": 43120,
+          "raw_characters": 167799,
+          "raw_utf8_bytes": 167811,
+          "merge_status": "ok",
+          "merged_tokens": 43173,
+          "merged_characters": 165069,
+          "merged_utf8_bytes": 165081
+        },
+        {
+          "paper_id": "2606.16011",
+          "row_group": 8,
+          "row_index": 10,
+          "raw_tokens": 38528,
+          "raw_characters": 120148,
+          "raw_utf8_bytes": 120160,
+          "merge_status": "ok",
+          "merged_tokens": 38538,
+          "merged_characters": 119238,
+          "merged_utf8_bytes": 119250
+        },
+        {
+          "paper_id": "2606.16012",
+          "row_group": 8,
+          "row_index": 11,
+          "raw_tokens": 78110,
+          "raw_characters": 216356,
+          "raw_utf8_bytes": 216369,
+          "merge_status": "ok",
+          "merged_tokens": 78115,
+          "merged_characters": 215916,
+          "merged_utf8_bytes": 215929
+        },
+        {
+          "paper_id": "2606.16013",
+          "row_group": 8,
+          "row_index": 12,
+          "raw_tokens": 57458,
+          "raw_characters": 176290,
+          "raw_utf8_bytes": 176312,
+          "merge_status": "ok",
+          "merged_tokens": 57421,
+          "merged_characters": 175957,
+          "merged_utf8_bytes": 175979
+        },
+        {
+          "paper_id": "2606.16014",
+          "row_group": 8,
+          "row_index": 13,
+          "raw_tokens": 13518,
+          "raw_characters": 44588,
+          "raw_utf8_bytes": 44592,
+          "merge_status": "ok",
+          "merged_tokens": 13514,
+          "merged_characters": 44401,
+          "merged_utf8_bytes": 44405
+        },
+        {
+          "paper_id": "2606.16015",
+          "row_group": 8,
+          "row_index": 14,
+          "raw_tokens": 19425,
+          "raw_characters": 69693,
+          "raw_utf8_bytes": 69758,
+          "merge_status": "ok",
+          "merged_tokens": 19406,
+          "merged_characters": 69381,
+          "merged_utf8_bytes": 69446
+        },
+        {
+          "paper_id": "2606.16016",
+          "row_group": 8,
+          "row_index": 15,
+          "raw_tokens": 144673,
+          "raw_characters": 474228,
+          "raw_utf8_bytes": 474305,
+          "merge_status": "ok",
+          "merged_tokens": 138426,
+          "merged_characters": 458199,
+          "merged_utf8_bytes": 458276
+        },
+        {
+          "paper_id": "2606.16017",
+          "row_group": 8,
+          "row_index": 16,
+          "raw_tokens": 98702,
+          "raw_characters": 294933,
+          "raw_utf8_bytes": 294953,
+          "merge_status": "ok",
+          "merged_tokens": 98666,
+          "merged_characters": 294480,
+          "merged_utf8_bytes": 294500
+        },
+        {
+          "paper_id": "2606.16018",
+          "row_group": 8,
+          "row_index": 17,
+          "raw_tokens": 13895,
+          "raw_characters": 36754,
+          "raw_utf8_bytes": 36754,
+          "merge_status": "ok",
+          "merged_tokens": 13581,
+          "merged_characters": 35496,
+          "merged_utf8_bytes": 35496
+        },
+        {
+          "paper_id": "2606.16019",
+          "row_group": 8,
+          "row_index": 18,
+          "raw_tokens": 31741,
+          "raw_characters": 98351,
+          "raw_utf8_bytes": 98418,
+          "merge_status": "ok",
+          "merged_tokens": 31747,
+          "merged_characters": 98107,
+          "merged_utf8_bytes": 98174
+        },
+        {
+          "paper_id": "2606.16020",
+          "row_group": 8,
+          "row_index": 19,
+          "merge_status": "no_source"
+        },
+        {
+          "paper_id": "2606.16021",
+          "row_group": 8,
+          "row_index": 20,
+          "raw_tokens": 67459,
+          "raw_characters": 209613,
+          "raw_utf8_bytes": 209627,
+          "merge_status": "ok",
+          "merged_tokens": 67443,
+          "merged_characters": 209360,
+          "merged_utf8_bytes": 209374
+        },
+        {
+          "paper_id": "2606.16022",
+          "row_group": 8,
+          "row_index": 21,
+          "raw_tokens": 62248,
+          "raw_characters": 194435,
+          "raw_utf8_bytes": 194475,
+          "merge_status": "ok",
+          "merged_tokens": 62026,
+          "merged_characters": 192076,
+          "merged_utf8_bytes": 192116
+        },
+        {
+          "paper_id": "2606.16023",
+          "row_group": 8,
+          "row_index": 22,
+          "raw_tokens": 86740,
+          "raw_characters": 272830,
+          "raw_utf8_bytes": 272911,
+          "merge_status": "ok",
+          "merged_tokens": 83162,
+          "merged_characters": 257592,
+          "merged_utf8_bytes": 257673
+        },
+        {
+          "paper_id": "2606.16024",
+          "row_group": 8,
+          "row_index": 23,
+          "raw_tokens": 17573,
+          "raw_characters": 52140,
+          "raw_utf8_bytes": 52140,
+          "merge_status": "ok",
+          "merged_tokens": 17574,
+          "merged_characters": 51967,
+          "merged_utf8_bytes": 51967
+        },
+        {
+          "paper_id": "2606.16025",
+          "row_group": 8,
+          "row_index": 24,
+          "raw_tokens": 36890,
+          "raw_characters": 109161,
+          "raw_utf8_bytes": 109209,
+          "merge_status": "ok",
+          "merged_tokens": 28434,
+          "merged_characters": 86760,
+          "merged_utf8_bytes": 86785
+        },
+        {
+          "paper_id": "2606.16026",
+          "row_group": 8,
+          "row_index": 25,
+          "raw_tokens": 32301,
+          "raw_characters": 95735,
+          "raw_utf8_bytes": 95738,
+          "merge_status": "ok",
+          "merged_tokens": 32303,
+          "merged_characters": 95473,
+          "merged_utf8_bytes": 95476
+        },
+        {
+          "paper_id": "2606.16027",
+          "row_group": 8,
+          "row_index": 26,
+          "raw_tokens": 11637,
+          "raw_characters": 31110,
+          "raw_utf8_bytes": 31110,
+          "merge_status": "ok",
+          "merged_tokens": 11636,
+          "merged_characters": 30920,
+          "merged_utf8_bytes": 30920
+        },
+        {
+          "paper_id": "2606.16028",
+          "row_group": 8,
+          "row_index": 27,
+          "raw_tokens": 47100,
+          "raw_characters": 139811,
+          "raw_utf8_bytes": 139839,
+          "merge_status": "ok",
+          "merged_tokens": 52222,
+          "merged_characters": 155283,
+          "merged_utf8_bytes": 155315
+        },
+        {
+          "paper_id": "2606.16029",
+          "row_group": 8,
+          "row_index": 28,
+          "raw_tokens": 11508,
+          "raw_characters": 45354,
+          "raw_utf8_bytes": 45374,
+          "merge_status": "ok",
+          "merged_tokens": 11494,
+          "merged_characters": 45207,
+          "merged_utf8_bytes": 45227
+        },
+        {
+          "paper_id": "2606.16030",
+          "row_group": 8,
+          "row_index": 29,
+          "raw_tokens": 169501,
+          "raw_characters": 493536,
+          "raw_utf8_bytes": 494630,
+          "merge_status": "ok",
+          "merged_tokens": 85675,
+          "merged_characters": 250540,
+          "merged_utf8_bytes": 251088
+        },
+        {
+          "paper_id": "2606.16031",
+          "row_group": 8,
+          "row_index": 30,
+          "raw_tokens": 75176,
+          "raw_characters": 248052,
+          "raw_utf8_bytes": 248105,
+          "merge_status": "ok",
+          "merged_tokens": 57781,
+          "merged_characters": 190617,
+          "merged_utf8_bytes": 190667
+        },
+        {
+          "paper_id": "2606.16032",
+          "row_group": 8,
+          "row_index": 31,
+          "raw_tokens": 27026,
+          "raw_characters": 112149,
+          "raw_utf8_bytes": 112158,
+          "merge_status": "ok",
+          "merged_tokens": 23236,
+          "merged_characters": 101597,
+          "merged_utf8_bytes": 101606
+        },
+        {
+          "paper_id": "2606.16033",
+          "row_group": 8,
+          "row_index": 32,
+          "raw_tokens": 11829,
+          "raw_characters": 34538,
+          "raw_utf8_bytes": 34538,
+          "merge_status": "ok",
+          "merged_tokens": 11815,
+          "merged_characters": 34410,
+          "merged_utf8_bytes": 34410
+        },
+        {
+          "paper_id": "2606.16034",
+          "row_group": 8,
+          "row_index": 33,
+          "raw_tokens": 66026,
+          "raw_characters": 223754,
+          "raw_utf8_bytes": 223840,
+          "merge_status": "ok",
+          "merged_tokens": 64000,
+          "merged_characters": 217469,
+          "merged_utf8_bytes": 217555
+        },
+        {
+          "paper_id": "2606.16035",
+          "row_group": 8,
+          "row_index": 34,
+          "raw_tokens": 43899,
+          "raw_characters": 133453,
+          "raw_utf8_bytes": 133497,
+          "merge_status": "ok",
+          "merged_tokens": 40560,
+          "merged_characters": 124134,
+          "merged_utf8_bytes": 124178
+        },
+        {
+          "paper_id": "2606.16036",
+          "row_group": 8,
+          "row_index": 35,
+          "raw_tokens": 26890,
+          "raw_characters": 82991,
+          "raw_utf8_bytes": 82993,
+          "merge_status": "ok",
+          "merged_tokens": 26887,
+          "merged_characters": 82701,
+          "merged_utf8_bytes": 82703
+        },
+        {
+          "paper_id": "2606.16037",
+          "row_group": 8,
+          "row_index": 36,
+          "raw_tokens": 36083,
+          "raw_characters": 113832,
+          "raw_utf8_bytes": 113850,
+          "merge_status": "ok",
+          "merged_tokens": 36112,
+          "merged_characters": 113724,
+          "merged_utf8_bytes": 113742
+        },
+        {
+          "paper_id": "2606.16038",
+          "row_group": 8,
+          "row_index": 37,
+          "raw_tokens": 28639,
+          "raw_characters": 85897,
+          "raw_utf8_bytes": 85917,
+          "merge_status": "ok",
+          "merged_tokens": 48815,
+          "merged_characters": 134939,
+          "merged_utf8_bytes": 134959
+        },
+        {
+          "paper_id": "2606.16039",
+          "row_group": 8,
+          "row_index": 38,
+          "raw_tokens": 22962,
+          "raw_characters": 64426,
+          "raw_utf8_bytes": 64426,
+          "merge_status": "ok",
+          "merged_tokens": 22957,
+          "merged_characters": 64294,
+          "merged_utf8_bytes": 64294
+        },
+        {
+          "paper_id": "2606.16040",
+          "row_group": 8,
+          "row_index": 39,
+          "raw_tokens": 6745,
+          "raw_characters": 22110,
+          "raw_utf8_bytes": 22110,
+          "merge_status": "ok",
+          "merged_tokens": 6736,
+          "merged_characters": 21907,
+          "merged_utf8_bytes": 21907
+        },
+        {
+          "paper_id": "2606.16041",
+          "row_group": 8,
+          "row_index": 40,
+          "raw_tokens": 367357,
+          "raw_characters": 942107,
+          "raw_utf8_bytes": 942821,
+          "merge_status": "ok",
+          "merged_tokens": 35327,
+          "merged_characters": 118087,
+          "merged_utf8_bytes": 118089
+        },
+        {
+          "paper_id": "2606.16042",
+          "row_group": 8,
+          "row_index": 41,
+          "raw_tokens": 65867,
+          "raw_characters": 209621,
+          "raw_utf8_bytes": 209880,
+          "merge_status": "ok",
+          "merged_tokens": 64719,
+          "merged_characters": 205705,
+          "merged_utf8_bytes": 205964
+        },
+        {
+          "paper_id": "2606.16043",
+          "row_group": 8,
+          "row_index": 42,
+          "raw_tokens": 232567,
+          "raw_characters": 868776,
+          "raw_utf8_bytes": 869072,
+          "merge_status": "ok",
+          "merged_tokens": 232547,
+          "merged_characters": 868531,
+          "merged_utf8_bytes": 868827
+        },
+        {
+          "paper_id": "2606.16044",
+          "row_group": 8,
+          "row_index": 43,
+          "raw_tokens": 57578,
+          "raw_characters": 178880,
+          "raw_utf8_bytes": 178971,
+          "merge_status": "ok",
+          "merged_tokens": 39720,
+          "merged_characters": 136536,
+          "merged_utf8_bytes": 136627
+        },
+        {
+          "paper_id": "2606.16045",
+          "row_group": 8,
+          "row_index": 44,
+          "raw_tokens": 37793,
+          "raw_characters": 122007,
+          "raw_utf8_bytes": 122016,
+          "merge_status": "ok",
+          "merged_tokens": 37769,
+          "merged_characters": 121675,
+          "merged_utf8_bytes": 121684
+        },
+        {
+          "paper_id": "2606.16046",
+          "row_group": 8,
+          "row_index": 45,
+          "raw_tokens": 23965,
+          "raw_characters": 70470,
+          "raw_utf8_bytes": 70497,
+          "merge_status": "ok",
+          "merged_tokens": 16236,
+          "merged_characters": 49174,
+          "merged_utf8_bytes": 49201
+        },
+        {
+          "paper_id": "2606.16047",
+          "row_group": 8,
+          "row_index": 46,
+          "raw_tokens": 44791,
+          "raw_characters": 139332,
+          "raw_utf8_bytes": 139356,
+          "merge_status": "ok",
+          "merged_tokens": 37572,
+          "merged_characters": 116415,
+          "merged_utf8_bytes": 116439
+        },
+        {
+          "paper_id": "2606.16048",
+          "row_group": 8,
+          "row_index": 47,
+          "raw_tokens": 15617,
+          "raw_characters": 44078,
+          "raw_utf8_bytes": 44083,
+          "merge_status": "ok",
+          "merged_tokens": 12289,
+          "merged_characters": 35716,
+          "merged_utf8_bytes": 35721
+        },
+        {
+          "paper_id": "2606.16049",
+          "row_group": 8,
+          "row_index": 48,
+          "raw_tokens": 83377,
+          "raw_characters": 193107,
+          "raw_utf8_bytes": 193111,
+          "merge_status": "ok",
+          "merged_tokens": 83354,
+          "merged_characters": 192733,
+          "merged_utf8_bytes": 192737
+        },
+        {
+          "paper_id": "2606.16050",
+          "row_group": 8,
+          "row_index": 49,
+          "raw_tokens": 109789,
+          "raw_characters": 346517,
+          "raw_utf8_bytes": 346537,
+          "merge_status": "ok",
+          "merged_tokens": 109781,
+          "merged_characters": 346227,
+          "merged_utf8_bytes": 346247
+        },
+        {
+          "paper_id": "2606.16051",
+          "row_group": 8,
+          "row_index": 50,
+          "merge_status": "no_source"
+        },
+        {
+          "paper_id": "2606.16052",
+          "row_group": 8,
+          "row_index": 51,
+          "raw_tokens": 248753,
+          "raw_characters": 779406,
+          "raw_utf8_bytes": 779463,
+          "merge_status": "ok",
+          "merged_tokens": 230768,
+          "merged_characters": 717827,
+          "merged_utf8_bytes": 717884
+        },
+        {
+          "paper_id": "2606.16053",
+          "row_group": 8,
+          "row_index": 52,
+          "raw_tokens": 349381,
+          "raw_characters": 862155,
+          "raw_utf8_bytes": 862195,
+          "merge_status": "ok",
+          "merged_tokens": 20172,
+          "merged_characters": 80737,
+          "merged_utf8_bytes": 80741
+        },
+        {
+          "paper_id": "2606.16054",
+          "row_group": 8,
+          "row_index": 53,
+          "merge_status": "no_source"
+        },
+        {
+          "paper_id": "2606.16055",
+          "row_group": 8,
+          "row_index": 54,
+          "raw_tokens": 61225,
+          "raw_characters": 181170,
+          "raw_utf8_bytes": 181224,
+          "merge_status": "ok",
+          "merged_tokens": 61210,
+          "merged_characters": 181041,
+          "merged_utf8_bytes": 181095
+        },
+        {
+          "paper_id": "2606.16056",
+          "row_group": 8,
+          "row_index": 55,
+          "raw_tokens": 18483,
+          "raw_characters": 67951,
+          "raw_utf8_bytes": 68727,
+          "merge_status": "ok",
+          "merged_tokens": 18491,
+          "merged_characters": 67710,
+          "merged_utf8_bytes": 68486
+        },
+        {
+          "paper_id": "2606.16057",
+          "row_group": 8,
+          "row_index": 56,
+          "raw_tokens": 100138,
+          "raw_characters": 317119,
+          "raw_utf8_bytes": 317135,
+          "merge_status": "ok",
+          "merged_tokens": 100172,
+          "merged_characters": 316293,
+          "merged_utf8_bytes": 316309
+        },
+        {
+          "paper_id": "2606.16058",
+          "row_group": 8,
+          "row_index": 57,
+          "raw_tokens": 224739,
+          "raw_characters": 863733,
+          "raw_utf8_bytes": 864028,
+          "merge_status": "ok",
+          "merged_tokens": 224722,
+          "merged_characters": 863486,
+          "merged_utf8_bytes": 863781
+        },
+        {
+          "paper_id": "2606.16059",
+          "row_group": 8,
+          "row_index": 58,
+          "raw_tokens": 13870,
+          "raw_characters": 56189,
+          "raw_utf8_bytes": 56191,
+          "merge_status": "ok",
+          "merged_tokens": 13851,
+          "merged_characters": 56066,
+          "merged_utf8_bytes": 56068
+        },
+        {
+          "paper_id": "2606.16060",
+          "row_group": 8,
+          "row_index": 59,
+          "raw_tokens": 19080,
+          "raw_characters": 58834,
+          "raw_utf8_bytes": 58844,
+          "merge_status": "ok",
+          "merged_tokens": 19059,
+          "merged_characters": 58455,
+          "merged_utf8_bytes": 58465
+        },
+        {
+          "paper_id": "2606.16061",
+          "row_group": 8,
+          "row_index": 60,
+          "raw_tokens": 36015,
+          "raw_characters": 109375,
+          "raw_utf8_bytes": 109380,
+          "merge_status": "ok",
+          "merged_tokens": 36009,
+          "merged_characters": 109175,
+          "merged_utf8_bytes": 109180
+        },
+        {
+          "paper_id": "2606.16062",
+          "row_group": 8,
+          "row_index": 61,
+          "raw_tokens": 12298,
+          "raw_characters": 42050,
+          "raw_utf8_bytes": 43980,
+          "merge_status": "ok",
+          "merged_tokens": 12219,
+          "merged_characters": 41618,
+          "merged_utf8_bytes": 43548
+        },
+        {
+          "paper_id": "2606.16063",
+          "row_group": 8,
+          "row_index": 62,
+          "raw_tokens": 11267,
+          "raw_characters": 42230,
+          "raw_utf8_bytes": 42230,
+          "merge_status": "ok",
+          "merged_tokens": 11260,
+          "merged_characters": 42121,
+          "merged_utf8_bytes": 42121
+        },
+        {
+          "paper_id": "2606.16064",
+          "row_group": 8,
+          "row_index": 63,
+          "raw_tokens": 190152,
+          "raw_characters": 345805,
+          "raw_utf8_bytes": 345808,
+          "merge_status": "ok",
+          "merged_tokens": 190043,
+          "merged_characters": 344378,
+          "merged_utf8_bytes": 344381
+        },
+        {
+          "paper_id": "2606.32001",
+          "row_group": 16,
+          "row_index": 0,
+          "raw_tokens": 35575,
+          "raw_characters": 105824,
+          "raw_utf8_bytes": 105824,
+          "merge_status": "ok",
+          "merged_tokens": 31768,
+          "merged_characters": 96191,
+          "merged_utf8_bytes": 96191
+        },
+        {
+          "paper_id": "2606.32002",
+          "row_group": 16,
+          "row_index": 1,
+          "raw_tokens": 35138,
+          "raw_characters": 119901,
+          "raw_utf8_bytes": 121844,
+          "merge_status": "ok",
+          "merged_tokens": 24008,
+          "merged_characters": 87302,
+          "merged_utf8_bytes": 88449
+        },
+        {
+          "paper_id": "2606.32003",
+          "row_group": 16,
+          "row_index": 2,
+          "raw_tokens": 23504,
+          "raw_characters": 73092,
+          "raw_utf8_bytes": 73096,
+          "merge_status": "ok",
+          "merged_tokens": 23420,
+          "merged_characters": 72520,
+          "merged_utf8_bytes": 72524
+        },
+        {
+          "paper_id": "2606.32004",
+          "row_group": 16,
+          "row_index": 3,
+          "raw_tokens": 38300,
+          "raw_characters": 145651,
+          "raw_utf8_bytes": 150695,
+          "merge_status": "ok",
+          "merged_tokens": 35028,
+          "merged_characters": 126557,
+          "merged_utf8_bytes": 131601
+        },
+        {
+          "paper_id": "2606.32005",
+          "row_group": 16,
+          "row_index": 4,
+          "raw_tokens": 56622,
+          "raw_characters": 146152,
+          "raw_utf8_bytes": 146153,
+          "merge_status": "ok",
+          "merged_tokens": 36175,
+          "merged_characters": 92863,
+          "merged_utf8_bytes": 92864
+        },
+        {
+          "paper_id": "2606.32006",
+          "row_group": 16,
+          "row_index": 5,
+          "raw_tokens": 15751,
+          "raw_characters": 52658,
+          "raw_utf8_bytes": 52730,
+          "merge_status": "ok",
+          "merged_tokens": 15738,
+          "merged_characters": 52450,
+          "merged_utf8_bytes": 52522
+        },
+        {
+          "paper_id": "2606.32007",
+          "row_group": 16,
+          "row_index": 6,
+          "raw_tokens": 40672,
+          "raw_characters": 117400,
+          "raw_utf8_bytes": 117400,
+          "merge_status": "ok",
+          "merged_tokens": 22112,
+          "merged_characters": 73554,
+          "merged_utf8_bytes": 73554
+        },
+        {
+          "paper_id": "2606.32008",
+          "row_group": 16,
+          "row_index": 7,
+          "raw_tokens": 82485,
+          "raw_characters": 253171,
+          "raw_utf8_bytes": 253290,
+          "merge_status": "ok",
+          "merged_tokens": 64648,
+          "merged_characters": 210290,
+          "merged_utf8_bytes": 210409
+        },
+        {
+          "paper_id": "2606.32009",
+          "row_group": 16,
+          "row_index": 8,
+          "raw_tokens": 34730,
+          "raw_characters": 126271,
+          "raw_utf8_bytes": 126277,
+          "merge_status": "ok",
+          "merged_tokens": 34743,
+          "merged_characters": 126040,
+          "merged_utf8_bytes": 126046
+        },
+        {
+          "paper_id": "2606.32010",
+          "row_group": 16,
+          "row_index": 9,
+          "raw_tokens": 28228,
+          "raw_characters": 87751,
+          "raw_utf8_bytes": 87751,
+          "merge_status": "ok",
+          "merged_tokens": 28302,
+          "merged_characters": 87757,
+          "merged_utf8_bytes": 87757
+        },
+        {
+          "paper_id": "2606.32011",
+          "row_group": 16,
+          "row_index": 10,
+          "raw_tokens": 40047,
+          "raw_characters": 137080,
+          "raw_utf8_bytes": 137103,
+          "merge_status": "ok",
+          "merged_tokens": 30067,
+          "merged_characters": 110072,
+          "merged_utf8_bytes": 110089
+        },
+        {
+          "paper_id": "2606.32012",
+          "row_group": 16,
+          "row_index": 11,
+          "raw_tokens": 52887,
+          "raw_characters": 171255,
+          "raw_utf8_bytes": 171268,
+          "merge_status": "ok",
+          "merged_tokens": 75448,
+          "merged_characters": 232258,
+          "merged_utf8_bytes": 232307
+        },
+        {
+          "paper_id": "2606.32013",
+          "row_group": 16,
+          "row_index": 12,
+          "raw_tokens": 19408,
+          "raw_characters": 58402,
+          "raw_utf8_bytes": 58418,
+          "merge_status": "ok",
+          "merged_tokens": 19339,
+          "merged_characters": 58063,
+          "merged_utf8_bytes": 58079
+        },
+        {
+          "paper_id": "2606.32014",
+          "row_group": 16,
+          "row_index": 13,
+          "raw_tokens": 21402,
+          "raw_characters": 82630,
+          "raw_utf8_bytes": 82651,
+          "merge_status": "ok",
+          "merged_tokens": 21428,
+          "merged_characters": 81866,
+          "merged_utf8_bytes": 81887
+        },
+        {
+          "paper_id": "2606.32015",
+          "row_group": 16,
+          "row_index": 14,
+          "raw_tokens": 24856,
+          "raw_characters": 71432,
+          "raw_utf8_bytes": 71432,
+          "merge_status": "ok",
+          "merged_tokens": 24801,
+          "merged_characters": 71075,
+          "merged_utf8_bytes": 71075
+        },
+        {
+          "paper_id": "2606.32016",
+          "row_group": 16,
+          "row_index": 15,
+          "raw_tokens": 176822,
+          "raw_characters": 558372,
+          "raw_utf8_bytes": 558825,
+          "merge_status": "ok",
+          "merged_tokens": 44452,
+          "merged_characters": 133997,
+          "merged_utf8_bytes": 134004
+        },
+        {
+          "paper_id": "2606.32017",
+          "row_group": 16,
+          "row_index": 16,
+          "raw_tokens": 36462,
+          "raw_characters": 126357,
+          "raw_utf8_bytes": 126361,
+          "merge_status": "ok",
+          "merged_tokens": 36459,
+          "merged_characters": 126077,
+          "merged_utf8_bytes": 126081
+        },
+        {
+          "paper_id": "2606.32018",
+          "row_group": 16,
+          "row_index": 17,
+          "raw_tokens": 39656,
+          "raw_characters": 136465,
+          "raw_utf8_bytes": 136487,
+          "merge_status": "ok",
+          "merged_tokens": 39638,
+          "merged_characters": 136034,
+          "merged_utf8_bytes": 136056
+        },
+        {
+          "paper_id": "2606.32019",
+          "row_group": 16,
+          "row_index": 18,
+          "raw_tokens": 166725,
+          "raw_characters": 409208,
+          "raw_utf8_bytes": 409222,
+          "merge_status": "ok",
+          "merged_tokens": 94278,
+          "merged_characters": 235737,
+          "merged_utf8_bytes": 235751
+        },
+        {
+          "paper_id": "2606.32020",
+          "row_group": 16,
+          "row_index": 19,
+          "raw_tokens": 39312,
+          "raw_characters": 132526,
+          "raw_utf8_bytes": 132529,
+          "merge_status": "ok",
+          "merged_tokens": 55358,
+          "merged_characters": 179458,
+          "merged_utf8_bytes": 179464
+        },
+        {
+          "paper_id": "2606.32021",
+          "row_group": 16,
+          "row_index": 20,
+          "raw_tokens": 27927,
+          "raw_characters": 93813,
+          "raw_utf8_bytes": 93821,
+          "merge_status": "ok",
+          "merged_tokens": 27924,
+          "merged_characters": 93536,
+          "merged_utf8_bytes": 93544
+        },
+        {
+          "paper_id": "2606.32022",
+          "row_group": 16,
+          "row_index": 21,
+          "raw_tokens": 21933,
+          "raw_characters": 71049,
+          "raw_utf8_bytes": 71049,
+          "merge_status": "ok",
+          "merged_tokens": 21956,
+          "merged_characters": 70255,
+          "merged_utf8_bytes": 70255
+        },
+        {
+          "paper_id": "2606.32023",
+          "row_group": 16,
+          "row_index": 22,
+          "raw_tokens": 138162,
+          "raw_characters": 442707,
+          "raw_utf8_bytes": 444375,
+          "merge_status": "ok",
+          "merged_tokens": 120193,
+          "merged_characters": 396724,
+          "merged_utf8_bytes": 398278
+        },
+        {
+          "paper_id": "2606.32024",
+          "row_group": 16,
+          "row_index": 23,
+          "raw_tokens": 23748,
+          "raw_characters": 63210,
+          "raw_utf8_bytes": 63212,
+          "merge_status": "ok",
+          "merged_tokens": 23733,
+          "merged_characters": 62995,
+          "merged_utf8_bytes": 62997
+        },
+        {
+          "paper_id": "2606.32025",
+          "row_group": 16,
+          "row_index": 24,
+          "raw_tokens": 46187,
+          "raw_characters": 143955,
+          "raw_utf8_bytes": 143979,
+          "merge_status": "ok",
+          "merged_tokens": 46216,
+          "merged_characters": 142663,
+          "merged_utf8_bytes": 142687
+        },
+        {
+          "paper_id": "2606.32026",
+          "row_group": 16,
+          "row_index": 25,
+          "raw_tokens": 24663,
+          "raw_characters": 86199,
+          "raw_utf8_bytes": 86247,
+          "merge_status": "ok",
+          "merged_tokens": 24691,
+          "merged_characters": 85678,
+          "merged_utf8_bytes": 85726
+        },
+        {
+          "paper_id": "2606.32027",
+          "row_group": 16,
+          "row_index": 26,
+          "raw_tokens": 160394,
+          "raw_characters": 495722,
+          "raw_utf8_bytes": 495791,
+          "merge_status": "ok",
+          "merged_tokens": 160391,
+          "merged_characters": 494777,
+          "merged_utf8_bytes": 494846
+        },
+        {
+          "paper_id": "2606.32028",
+          "row_group": 16,
+          "row_index": 27,
+          "raw_tokens": 27637,
+          "raw_characters": 93066,
+          "raw_utf8_bytes": 93074,
+          "merge_status": "ok",
+          "merged_tokens": 27587,
+          "merged_characters": 92493,
+          "merged_utf8_bytes": 92501
+        },
+        {
+          "paper_id": "2606.32029",
+          "row_group": 16,
+          "row_index": 28,
+          "raw_tokens": 48794,
+          "raw_characters": 152575,
+          "raw_utf8_bytes": 152595,
+          "merge_status": "ok",
+          "merged_tokens": 48778,
+          "merged_characters": 152270,
+          "merged_utf8_bytes": 152290
+        },
+        {
+          "paper_id": "2606.32030",
+          "row_group": 16,
+          "row_index": 29,
+          "merge_status": "no_source"
+        },
+        {
+          "paper_id": "2606.32031",
+          "row_group": 16,
+          "row_index": 30,
+          "raw_tokens": 15365,
+          "raw_characters": 40832,
+          "raw_utf8_bytes": 40834,
+          "merge_status": "ok",
+          "merged_tokens": 15374,
+          "merged_characters": 40646,
+          "merged_utf8_bytes": 40648
+        },
+        {
+          "paper_id": "2606.32032",
+          "row_group": 16,
+          "row_index": 31,
+          "raw_tokens": 94113,
+          "raw_characters": 295669,
+          "raw_utf8_bytes": 295959,
+          "merge_status": "ok",
+          "merged_tokens": 123901,
+          "merged_characters": 377719,
+          "merged_utf8_bytes": 378039
+        },
+        {
+          "paper_id": "2606.32033",
+          "row_group": 16,
+          "row_index": 32,
+          "raw_tokens": 96260,
+          "raw_characters": 296233,
+          "raw_utf8_bytes": 296238,
+          "merge_status": "ok",
+          "merged_tokens": 71855,
+          "merged_characters": 225783,
+          "merged_utf8_bytes": 225788
+        },
+        {
+          "paper_id": "2606.32034",
+          "row_group": 16,
+          "row_index": 33,
+          "raw_tokens": 75005,
+          "raw_characters": 236083,
+          "raw_utf8_bytes": 236136,
+          "merge_status": "ok",
+          "merged_tokens": 74921,
+          "merged_characters": 234237,
+          "merged_utf8_bytes": 234290
+        },
+        {
+          "paper_id": "2606.32035",
+          "row_group": 16,
+          "row_index": 34,
+          "raw_tokens": 77351,
+          "raw_characters": 210941,
+          "raw_utf8_bytes": 210949,
+          "merge_status": "ok",
+          "merged_tokens": 77337,
+          "merged_characters": 210725,
+          "merged_utf8_bytes": 210733
+        },
+        {
+          "paper_id": "2606.32036",
+          "row_group": 16,
+          "row_index": 35,
+          "raw_tokens": 47028,
+          "raw_characters": 142344,
+          "raw_utf8_bytes": 144321,
+          "merge_status": "ok",
+          "merged_tokens": 47078,
+          "merged_characters": 140690,
+          "merged_utf8_bytes": 142667
+        },
+        {
+          "paper_id": "2606.32037",
+          "row_group": 16,
+          "row_index": 36,
+          "raw_tokens": 61329,
+          "raw_characters": 180081,
+          "raw_utf8_bytes": 180089,
+          "merge_status": "ok",
+          "merged_tokens": 61316,
+          "merged_characters": 179274,
+          "merged_utf8_bytes": 179282
+        },
+        {
+          "paper_id": "2606.32038",
+          "row_group": 16,
+          "row_index": 37,
+          "raw_tokens": 51178,
+          "raw_characters": 152164,
+          "raw_utf8_bytes": 152182,
+          "merge_status": "ok",
+          "merged_tokens": 51143,
+          "merged_characters": 151437,
+          "merged_utf8_bytes": 151455
+        },
+        {
+          "paper_id": "2606.32039",
+          "row_group": 16,
+          "row_index": 38,
+          "raw_tokens": 54763,
+          "raw_characters": 154313,
+          "raw_utf8_bytes": 154485,
+          "merge_status": "ok",
+          "merged_tokens": 46651,
+          "merged_characters": 129390,
+          "merged_utf8_bytes": 129562
+        },
+        {
+          "paper_id": "2606.32040",
+          "row_group": 16,
+          "row_index": 39,
+          "raw_tokens": 66546,
+          "raw_characters": 207673,
+          "raw_utf8_bytes": 207721,
+          "merge_status": "ok",
+          "merged_tokens": 66516,
+          "merged_characters": 205794,
+          "merged_utf8_bytes": 205842
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 42.985
+}

@@ -1,0 +1,8 @@
+{
+  "snapshot_id": "unarxive-open-cs-local-2026-10-18",
+  "K": 20,
+  "m": 5,
+  "D_max": 50,
+  "rng_seed": 42,
+  "weight_mode": "uniform"
+}

@@ -1,0 +1,8 @@
+{
+  "same_samples_and_merged_lengths": true,
+  "same_tokenizer_and_merger": true,
+  "cleaner_source_hash_matches": true,
+  "cleaned_artifacts": 225,
+  "compressed_artifact_bytes": 5826361,
+  "no_empty_cleaned_texts": true
+}

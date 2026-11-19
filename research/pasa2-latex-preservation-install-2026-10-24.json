@@ -1,0 +1,9 @@
+{
+  "target": "/Users/n.gulyakov/Desktop/work/pasa2/latex_to_text.py",
+  "old_sha256": "8d5d7cc99f7b7ab8a54f470809b7fc3d7958e9b6ad415dcb4a007a4bc4b2bab6",
+  "new_sha256": "713f7b86d25ec1ddac18a9a21972447c70b4c7b4761f48f41960b29747a8c7f8",
+  "backup": "/Users/n.gulyakov/Desktop/hw/scientific-citation-graph-agent/research/factory-step1_5-llm/data/latex_to_text.original-20261024.py",
+  "installed_source_matches_tested_copy": true,
+  "installed_script_control_checks_passed": true,
+  "text_lengths_remeasured": false
+}

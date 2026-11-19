@@ -1,0 +1,23 @@
+{
+  "early_pilot": {
+    "seed_probes": 20,
+    "admitted": 13,
+    "regions_selected_for_question_generation": 3,
+    "questions_with_judged_target_sets": 5,
+    "preserved_targets_and_complete_zero_control": 2
+  },
+  "night_e2e": {
+    "seed_probes": 21,
+    "admitted": 14,
+    "questions_generated": 31,
+    "questions_with_judged_target_sets_after_recovery": 28,
+    "preserved_targets_and_complete_zero_control": 12
+  },
+  "total": {
+    "distinct_seed_probes": 41,
+    "questions_generated": 36,
+    "questions_with_judged_target_sets": 33,
+    "preserved_targets_and_complete_zero_control": 14
+  },
+  "interpretation": "14 are relevance/control candidates, not14 accepted hard questions. One highlighted search-interesting full-set candidate P02 comes from early pilot. Seed cohorts are not a controlled comparable end-to-end experiment; no agreed hard acceptance boundary; v2 results not inspected."
+}

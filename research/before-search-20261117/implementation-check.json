@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "question_composer_enabled": true,
+  "judge_checks_all_subgraph_papers": true,
+  "stop_before_search": true,
+  "technical_failure_not_false": true,
+  "llm_requests": 0
+}

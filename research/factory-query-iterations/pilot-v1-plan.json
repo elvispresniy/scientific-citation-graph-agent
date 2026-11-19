@@ -1,0 +1,15 @@
+{
+  "phase": "pilot-v1",
+  "prompt": "code/graph_pilot/prompts/group-query-composer-v1-draft.md",
+  "llm_config": "code/graph_pilot/configs/step2-llm.example.json",
+  "guard_config": "code/graph_pilot/configs/factory-step3-local.json",
+  "timeout_seconds": 1500,
+  "max_output_tokens": 32768,
+  "max_concurrent_groups": 3,
+  "groups": [
+    {"name": "highdim-01", "source": "research/factory-step3-iterations/wave1-v2/highdim", "aspect": "01"},
+    {"name": "highdim-02", "source": "research/factory-step3-iterations/wave1-v2/highdim", "aspect": "02"},
+    {"name": "vision-01", "source": "research/factory-step3-iterations/wave2-v1/vision", "aspect": "01"},
+    {"name": "view_synthesis-01", "source": "research/factory-step3-iterations/wave2-v1/view_synthesis", "aspect": "01"}
+  ]
+}

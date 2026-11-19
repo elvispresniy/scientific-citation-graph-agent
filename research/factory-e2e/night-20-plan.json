@@ -1,0 +1,31 @@
+{
+  "graph": "research/unarxive-pilot/graph.sqlite",
+  "index": "research/factory-step2-pilot/index-001",
+  "index_compatibility": "research/factory-step2-iterations/index-001-compatibility-sources-20261026.json",
+  "step1_config": "code/graph_pilot/configs/factory-step1-local.json",
+  "probe_config": "code/graph_pilot/configs/factory-step1_5-local.json",
+  "step2_config": "code/graph_pilot/configs/factory-step2-local.json",
+  "step3_config": "code/graph_pilot/configs/factory-step3-local.json",
+  "llm_config": "code/graph_pilot/configs/step2-llm.example.json",
+  "probe_llm_config": "code/graph_pilot/configs/step1_5-llm-run.json",
+  "composer_prompt": "code/graph_pilot/prompts/group-query-composer-v1-draft.md",
+  "judge_prompt": "code/graph_pilot/prompts/question-paper-verdict-v1-draft.md",
+  "exclude_seed_reports": ["research/factory-step1-pilot/run-001/report.json"],
+  "exclude_question_runs": ["research/factory-query-iterations/pilot-v1"],
+  "seed_draw_count": 100,
+  "seed_rng": 43,
+  "max_seeds": 60,
+  "target_questions": 20,
+  "min_target_papers": 20,
+  "workers": 3,
+  "max_http_requests": 4000,
+  "max_hours": 12,
+  "timeout_seconds": 1500,
+  "top_k_per_method": 10,
+  "retry": {
+    "max_attempts": 5,
+    "max_invalid_responses": 2,
+    "initial_delay_seconds": 30,
+    "max_delay_seconds": 240
+  }
+}

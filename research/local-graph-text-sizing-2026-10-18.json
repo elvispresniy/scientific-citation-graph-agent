@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-18",
+  "method": "First 64 rows from first/middle/last row groups of each local arxiv shard. Bounded, non-random convenience sample; conditional text sizes exclude empty/failed texts. Does not estimate population source coverage. No new data downloaded.",
+  "sample": [
+    {
+      "file": "arxiv_part_0001.parquet",
+      "row_groups_sampled": [
+        0,
+        74,
+        147
+      ],
+      "first_rows_per_group": 64,
+      "raw_nonempty": {
+        "n": 190,
+        "mean_utf8_bytes": 64153.06842105263,
+        "mean_zstd3_bytes": 20770.657894736843,
+        "p50_zstd3_bytes": 14839.5,
+        "max_utf8_bytes": 1347429,
+        "max_zstd3_bytes": 279680
+      },
+      "merged_nonempty": {
+        "n": 85,
+        "mean_utf8_bytes": 63800.529411764706,
+        "mean_zstd3_bytes": 20972.682352941178,
+        "p50_zstd3_bytes": 18085,
+        "max_utf8_bytes": 253602,
+        "max_zstd3_bytes": 70261
+      },
+      "merge_status": {
+        "no_main": 105,
+        "ok": 78,
+        "partial": 7,
+        "no_source": 2
+      },
+      "read_errors": []
+    },
+    {
+      "file": "arxiv_part_0045.parquet",
+      "row_groups_sampled": [
+        0,
+        8,
+        16
+      ],
+      "first_rows_per_group": 64,
+      "raw_nonempty": {
+        "n": 148,
+        "mean_utf8_bytes": 177464.9527027027,
+        "mean_zstd3_bytes": 50563.32432432433,
+        "p50_zstd3_bytes": 38051.5,
+        "max_utf8_bytes": 942821,
+        "max_zstd3_bytes": 242749
+      },
+      "merged_nonempty": {
+        "n": 148,
+        "mean_utf8_bytes": 153631.7972972973,
+        "mean_zstd3_bytes": 45479.70945945946,
+        "p50_zstd3_bytes": 34401.0,
+        "max_utf8_bytes": 868827,
+        "max_zstd3_bytes": 229975
+      },
+      "merge_status": {
+        "ok": 147,
+        "no_source": 20,
+        "partial": 1
+      },
+      "read_errors": []
+    }
+  ],
+  "elapsed_seconds": 16.65854495899839
+}

@@ -1,0 +1,147 @@
+# Diagnostic e2e questions
+
+Completed: 18; stop: run_limit
+
+## arxiv:1810.09073 — seeds/arxiv_1810.09073/groups/01/question-001
+
+In structured prediction models for overlapping entity mention recognition, how does the bijectivity (or lack thereof) of the mapping from the model's output configurations—paths in a directed graph, hyperpaths, or tag sequences—to the space of valid entity-combination interpretations affect the training objective, and which structural representations eliminate spurious structures in the normalization?
+
+Judge targets: arxiv:1810.01817, arxiv:1810.08579, arxiv:1810.09073
+
+[Full results](seeds/arxiv_1810.09073/groups/01/question-001/completed.json)
+
+## arxiv:1907.01669 — seeds/arxiv_1907.01669/groups/01/question-001
+
+How can a self-supervised cloze-style pretraining objective be designed so that the model learns to select contiguous token spans from context—rather than merely predicting individual masked tokens—thereby directly training the span-selection and sequence-decoding layers before fine-tuning, and enabling effective adaptation to downstream extractive tasks (e.g., slot-value filling in task-oriented dialog, answer-span extraction in question answering) from only tens to hundreds of labeled examples?
+
+Judge targets: arxiv:2010.11791, arxiv:2101.00438
+
+[Full results](seeds/arxiv_1907.01669/groups/01/question-001/completed.json)
+
+## arxiv:1907.01669 — seeds/arxiv_1907.01669/groups/02/question-001
+
+Does additional self-supervised masked language modeling on large-scale dialog or conversation corpora, performed between general web-text pretraining and supervised fine-tuning, improve performance on task-oriented dialog NLU tasks when only a small fraction of labeled training data is available?
+
+Judge targets: arxiv:2009.13570
+
+[Full results](seeds/arxiv_1907.01669/groups/02/question-001/completed.json)
+
+## arxiv:2011.13959 — seeds/arxiv_2011.13959/groups/01/question-001
+
+How does distributed parasitic resistance on wordlines and bitlines in a resistive crossbar create a position-dependent gradient in the electrical stress experienced by memory cells—manifesting as non-uniform cell voltage or programming current—and how does the magnitude of this gradient scale with crossbar dimension, technology node, and operating temperature?
+
+Judge targets: arxiv:2103.05707, arxiv:2106.09104
+
+[Full results](seeds/arxiv_2011.13959/groups/01/question-001/completed.json)
+
+## arxiv:2011.13959 — seeds/arxiv_2011.13959/groups/02/question-001
+
+How should SNN synapses be assigned to specific positions within and across memristive crossbars to maximize the minimum effective lifetime of the system, given that cell endurance varies spatially due to parasitic voltage drops along current paths and that synapse activation is heterogeneous across the inference workload?
+
+Judge targets: arxiv:2103.05707, arxiv:2106.09104
+
+[Full results](seeds/arxiv_2011.13959/groups/02/question-001/completed.json)
+
+## arxiv:2011.13959 — seeds/arxiv_2011.13959/groups/03/question-001
+
+How do NBTI (with partial threshold-voltage recovery during low-voltage idle periods) and TDDB (with monotonic gate-oxide degradation independent of voltage level) differentially contribute to cumulative CMOS transistor aging in neuromorphic neuron circuits subjected to the repeated elevated-overdrive-voltage stress imposed by NVM synaptic read/write operations during spike propagation?
+
+Judge targets: arxiv:2006.05868, arxiv:2007.02210
+
+[Full results](seeds/arxiv_2011.13959/groups/03/question-001/completed.json)
+
+## arxiv:2011.13959 — seeds/arxiv_2011.13959/groups/04/question-001
+
+What compile-time mapping strategy can assign pre-partitioned spiking neural network clusters to a fixed set of neuromorphic crossbar tiles to minimize the system-level CMOS aging under a series failure model (where the worst tile determines overall system failure), while keeping execution-time overhead small, when per-neuron aging is computed from the cumulative voltage stress experienced during spike propagation?
+
+Judge targets: arxiv:2006.05868, arxiv:2011.13959
+
+[Full results](seeds/arxiv_2011.13959/groups/04/question-001/completed.json)
+
+## arxiv:2011.13959 — seeds/arxiv_2011.13959/groups/05/question-001
+
+How should a spiking neural network, represented as a directed graph with synaptic edges weighted by pre-computed spike counts from simulation, be partitioned into fixed-size clusters bounded by the neuron and synapse capacity of a single crossbar, so as to minimize the total weighted spike traffic crossing cluster boundaries that must traverse a shared interconnect?
+
+Judge targets: arxiv:1908.08024, arxiv:2006.06777, arxiv:2011.13965, arxiv:2103.05707, arxiv:2105.01795
+
+[Full results](seeds/arxiv_2011.13959/groups/05/question-001/completed.json)
+
+## arxiv:2011.13959 — seeds/arxiv_2011.13959/groups/06/question-001
+
+How can a leaky integrate-and-fire neuron whose pre-synaptic fan-in exceeds a fixed crossbar input-port capacity be spatially decomposed into a sequential chain of fan-in-of-two units such that the chain's output spike train is functionally equivalent to the original neuron's, while retaining every synaptic connection without pruning?
+
+Judge targets: arxiv:2009.09298, arxiv:2011.13965, arxiv:2105.01795, arxiv:2108.02023
+
+[Full results](seeds/arxiv_2011.13959/groups/06/question-001/completed.json)
+
+## arxiv:2011.13959 — seeds/arxiv_2011.13959/groups/07/question-001
+
+How can one analytically determine the steady-state throughput of a clustered spiking neural network executing on tile-based neuromorphic hardware, where the dataflow model must account for finite per-tile buffer capacities, time-division multiplexing of co-located actors on shared crossbars, and cyclic inter-cluster dependencies introduced by the graph partitioning?
+
+Judge targets: arxiv:2004.03717, arxiv:2108.02023
+
+[Full results](seeds/arxiv_2011.13959/groups/07/question-001/completed.json)
+
+## arxiv:2105.01795 — seeds/arxiv_2105.01795/groups/01/question-001
+
+How does distributed parasitic resistance on wordlines and bitlines in a resistive crossbar create a position-dependent gradient in the electrical stress experienced by memory cells—manifesting as non-uniform cell voltage or programming current—and how does the magnitude of this gradient scale with crossbar dimension, technology node, and operating temperature?
+
+Judge targets: arxiv:2103.05707, arxiv:2106.09104
+
+[Full results](seeds/arxiv_2105.01795/groups/01/question-001/completed.json)
+
+## arxiv:2105.01795 — seeds/arxiv_2105.01795/groups/02/question-001
+
+How should SNN synapses be assigned to specific positions within and across memristive crossbars to maximize the minimum effective lifetime of the system, given that cell endurance varies spatially due to parasitic voltage drops along current paths and that synapse activation is heterogeneous across the inference workload?
+
+Judge targets: arxiv:2103.05707, arxiv:2106.09104
+
+[Full results](seeds/arxiv_2105.01795/groups/02/question-001/completed.json)
+
+## arxiv:2105.01795 — seeds/arxiv_2105.01795/groups/03/question-001
+
+How do negative-bias temperature instability and time-dependent dielectric breakdown accumulate in the CMOS transistors of a neuromorphic neuron circuit that cycles between elevated overdrive voltage during NVM crossbar access and low idle voltage between spikes, and how does total circuit aging depend on accumulated spike count and the per-spike voltage-temperature stress profile?
+
+Judge targets: arxiv:2006.05868, arxiv:2007.02210, arxiv:2011.13959, arxiv:2105.02038
+
+[Full results](seeds/arxiv_2105.01795/groups/03/question-001/completed.json)
+
+## arxiv:2105.01795 — seeds/arxiv_2105.01795/groups/03/question-002
+
+What is the trade-off between limiting NBTI and TDDB degradation in neuromorphic neuron circuits through periodic de-stress (driving transistors below threshold to allow trapped-charge recovery) and the resulting distortion of inter-spike intervals and spike-rate fidelity in the deployed spiking neural network, and how does the optimal de-stress timing depend on the workload's spike firing rate?
+
+Judge targets: arxiv:2007.02210, arxiv:2105.02038
+
+[Full results](seeds/arxiv_2105.01795/groups/03/question-002/completed.json)
+
+## arxiv:2105.01795 — seeds/arxiv_2105.01795/groups/04/question-001
+
+What compile-time mapping strategy can assign pre-partitioned spiking neural network clusters to a fixed set of neuromorphic crossbar tiles to minimize the system-level CMOS aging under a series failure model (where the worst tile determines overall system failure), while keeping execution-time overhead small, when per-neuron aging is computed from the cumulative voltage stress experienced during spike propagation?
+
+Judge targets: arxiv:2006.05868, arxiv:2011.13959
+
+[Full results](seeds/arxiv_2105.01795/groups/04/question-001/completed.json)
+
+## arxiv:2105.01795 — seeds/arxiv_2105.01795/groups/05/question-001
+
+How should a spiking neural network, represented as a directed graph with synaptic edges weighted by pre-computed spike counts from simulation, be partitioned into fixed-size clusters bounded by the neuron and synapse capacity of a single crossbar, so as to minimize the total weighted spike traffic crossing cluster boundaries that must traverse a shared interconnect?
+
+Judge targets: arxiv:1908.08024, arxiv:2006.06777, arxiv:2011.13965, arxiv:2103.05707, arxiv:2105.01795
+
+[Full results](seeds/arxiv_2105.01795/groups/05/question-001/completed.json)
+
+## arxiv:2105.01795 — seeds/arxiv_2105.01795/groups/06/question-001
+
+How can a leaky integrate-and-fire neuron whose pre-synaptic fan-in exceeds a fixed crossbar input-port capacity be spatially decomposed into a sequential chain of fan-in-of-two units such that the chain's output spike train is functionally equivalent to the original neuron's, while retaining every synaptic connection without pruning?
+
+Judge targets: arxiv:2009.09298, arxiv:2011.13965, arxiv:2105.01795, arxiv:2108.02023
+
+[Full results](seeds/arxiv_2105.01795/groups/06/question-001/completed.json)
+
+## arxiv:2105.01795 — seeds/arxiv_2105.01795/groups/07/question-001
+
+How can one analytically determine the steady-state throughput of a clustered spiking neural network executing on tile-based neuromorphic hardware, where the dataflow model must account for finite per-tile buffer capacities, time-division multiplexing of co-located actors on shared crossbars, and cyclic inter-cluster dependencies introduced by the graph partitioning?
+
+Judge targets: arxiv:2004.03717, arxiv:2108.02023
+
+[Full results](seeds/arxiv_2105.01795/groups/07/question-001/completed.json)

@@ -1,0 +1,384 @@
+{
+  "scope": "14 versions: all old targets true, completed old/new control, zero new true. v2 not included.",
+  "sort": "descending fraction of targets outside both top20; then mean of per-target min(BM25,LSA), then min rank. Descriptive assistant ranking, not an adopted acceptance threshold. Per-target min is an optimistic oracle across methods, not a fused retrieval rank.",
+  "rows": [
+    {
+      "id": "P02",
+      "question": "Can specific false positives or misclassifications of a frozen deep-learning classifier be eliminated at minimal per-query cost by appending a non-iteratively-trained linear filter, computed in closed form from a small labeled set of error examples in the network's internal feature space, that acts as a binary gate suppressing only the flagged errors while leaving all correct outputs unchanged?",
+      "target_ids": [
+        "arxiv:1610.00494",
+        "arxiv:1801.03421",
+        "arxiv:1802.02172",
+        "arxiv:1809.07656",
+        "arxiv:1810.05593",
+        "arxiv:1811.05321",
+        "arxiv:1910.00445",
+        "arxiv:2001.04959",
+        "arxiv:2106.15416"
+      ],
+      "target_count": 9,
+      "bm25_ranks": [
+        10,
+        115,
+        1038,
+        156,
+        196,
+        213,
+        7,
+        135,
+        24
+      ],
+      "lsa_ranks": [
+        113,
+        1596,
+        4730,
+        1300,
+        908,
+        3648,
+        339,
+        757,
+        587
+      ],
+      "optimistic_best_ranks": [
+        10,
+        115,
+        1038,
+        156,
+        196,
+        213,
+        7,
+        135,
+        24
+      ],
+      "outside_both_top20": 7,
+      "outside_fraction": 0.7777777777777778,
+      "mean_best_rank": 210.44444444444446,
+      "first_best_rank": 7
+    },
+    {
+      "id": "N07",
+      "question": "Among distributional word embeddings trained by varying the prediction direction (context words predicting a target word versus a target word predicting context words) and the co-occurrence window size, which architecture and window-size combinations yield the highest intrinsic embedding quality as measured by analogy completion accuracy and correlation with human-judged semantic similarity scores?",
+      "target_ids": [
+        "arxiv:2003.11645",
+        "arxiv:2007.16007"
+      ],
+      "target_count": 2,
+      "bm25_ranks": [
+        11,
+        8
+      ],
+      "lsa_ranks": [
+        15,
+        38
+      ],
+      "optimistic_best_ranks": [
+        11,
+        8
+      ],
+      "outside_both_top20": 0,
+      "outside_fraction": 0.0,
+      "mean_best_rank": 9.5,
+      "first_best_rank": 8
+    },
+    {
+      "id": "N13",
+      "question": "Do deeper self-attention layers in Vision Transformer encoders processing image patch sequences exhibit representational convergence with earlier layers—successive-layer patch representations becoming highly correlated and changing only slightly between adjacent layers—and does this convergence limit the functional contribution of additional depth to model performance?",
+      "target_ids": [
+        "arxiv:2103.14586",
+        "arxiv:2108.06747"
+      ],
+      "target_count": 2,
+      "bm25_ranks": [
+        12,
+        4
+      ],
+      "lsa_ranks": [
+        21,
+        56
+      ],
+      "optimistic_best_ranks": [
+        12,
+        4
+      ],
+      "outside_both_top20": 0,
+      "outside_fraction": 0.0,
+      "mean_best_rank": 8.0,
+      "first_best_rank": 4
+    },
+    {
+      "id": "N14",
+      "question": "How can the quadratic time and memory cost of full 2D cross-position mixing over a spatial grid of h×w tokens in high-resolution image feature maps be reduced by decomposing the interaction into two sequential 1D mixing operations—one that mixes all positions along the height axis independently for each column and a second that mixes all positions along the width axis independently for each row—while preserving a global receptive field spanning both spatial dimensions?",
+      "target_ids": [
+        "arxiv:2101.01169",
+        "arxiv:2104.11746",
+        "arxiv:2108.04384",
+        "arxiv:2108.06747"
+      ],
+      "target_count": 4,
+      "bm25_ranks": [
+        1,
+        8,
+        5,
+        14
+      ],
+      "lsa_ranks": [
+        138,
+        67,
+        13,
+        14
+      ],
+      "optimistic_best_ranks": [
+        1,
+        8,
+        5,
+        14
+      ],
+      "outside_both_top20": 0,
+      "outside_fraction": 0.0,
+      "mean_best_rank": 7.0,
+      "first_best_rank": 1
+    },
+    {
+      "id": "N11",
+      "question": "How can global 2D self-attention over high-resolution spatial feature maps be decomposed into two sequential 1D attention passes, one along each spatial axis, so that every position receives full-image context at linear cost in the total number of spatial elements, enabling dense prediction without the quadratic memory and compute overhead of full pairwise attention?",
+      "target_ids": [
+        "arxiv:2101.01169",
+        "arxiv:2108.06747"
+      ],
+      "target_count": 2,
+      "bm25_ranks": [
+        1,
+        28
+      ],
+      "lsa_ranks": [
+        54,
+        9
+      ],
+      "optimistic_best_ranks": [
+        1,
+        9
+      ],
+      "outside_both_top20": 0,
+      "outside_fraction": 0.0,
+      "mean_best_rank": 5.0,
+      "first_best_rank": 1
+    },
+    {
+      "id": "N15",
+      "question": "How can a stack of self-attention blocks that model long-range interactions among non-overlapping patches of a convolutional feature map be integrated into a U-shaped skip-connection decoder to improve boundary precision and reduce over- or under-segmentation in multi-organ medical image segmentation?",
+      "target_ids": [
+        "arxiv:2102.04306",
+        "arxiv:2107.05188"
+      ],
+      "target_count": 2,
+      "bm25_ranks": [
+        2,
+        3
+      ],
+      "lsa_ranks": [
+        2,
+        3
+      ],
+      "optimistic_best_ranks": [
+        2,
+        3
+      ],
+      "outside_both_top20": 0,
+      "outside_fraction": 0.0,
+      "mean_best_rank": 2.5,
+      "first_best_rank": 2
+    },
+    {
+      "id": "N04",
+      "question": "What deep learning approaches decompose a metal-affected CT signal into complementary anatomical and metal-artifact components, subject to a constraint that the two components jointly reconstruct the original corrupted data?",
+      "target_ids": [
+        "arxiv:1908.01104",
+        "arxiv:2104.01405"
+      ],
+      "target_count": 2,
+      "bm25_ranks": [
+        1,
+        3
+      ],
+      "lsa_ranks": [
+        14,
+        10
+      ],
+      "optimistic_best_ranks": [
+        1,
+        3
+      ],
+      "outside_both_top20": 0,
+      "outside_fraction": 0.0,
+      "mean_best_rank": 2.0,
+      "first_best_rank": 1
+    },
+    {
+      "id": "N17",
+      "question": "How does increasing the input image resolution, while keeping the size of the fixed image patches fed to a transformer encoder constant, affect multi-organ segmentation accuracy and computational cost in 2D medical image segmentation?",
+      "target_ids": [
+        "arxiv:2102.04306",
+        "arxiv:2105.05537",
+        "arxiv:2107.05188"
+      ],
+      "target_count": 3,
+      "bm25_ranks": [
+        2,
+        1,
+        3
+      ],
+      "lsa_ranks": [
+        2,
+        1,
+        3
+      ],
+      "optimistic_best_ranks": [
+        2,
+        1,
+        3
+      ],
+      "outside_both_top20": 0,
+      "outside_fraction": 0.0,
+      "mean_best_rank": 2.0,
+      "first_best_rank": 1
+    },
+    {
+      "id": "P03",
+      "question": "For a deployed classifier whose error population forms distinct clusters in the internal feature space, does assigning each query to the centroid of its nearest error cluster and evaluating only that cluster's linear discriminant provide better false-positive removal at lower per-query cost than a single global discriminant or an OR-rule that evaluates all cluster discriminants simultaneously?",
+      "target_ids": [
+        "arxiv:1910.00445",
+        "arxiv:2106.15416"
+      ],
+      "target_count": 2,
+      "bm25_ranks": [
+        1,
+        2
+      ],
+      "lsa_ranks": [
+        91,
+        151
+      ],
+      "optimistic_best_ranks": [
+        1,
+        2
+      ],
+      "outside_both_top20": 0,
+      "outside_fraction": 0.0,
+      "mean_best_rank": 1.5,
+      "first_best_rank": 1
+    },
+    {
+      "id": "N02",
+      "question": "For a uniform or logarithmic quantizer applied to neural network weights drawn from a known continuous distribution, how can the expected mean squared quantization error be analytically decomposed into a rounding term that depends on the step size (integrating over values within the representable range) and a clipping term that depends on the range boundary (integrating over values outside it), and how does optimizing the clipping threshold against the finite amplitude of the weight distribution determine the residual error and its dependence on that amplitude?",
+      "target_ids": [
+        "arxiv:2102.07444"
+      ],
+      "target_count": 1,
+      "bm25_ranks": [
+        1
+      ],
+      "lsa_ranks": [
+        18
+      ],
+      "optimistic_best_ranks": [
+        1
+      ],
+      "outside_both_top20": 0,
+      "outside_fraction": 0.0,
+      "mean_best_rank": 1.0,
+      "first_best_rank": 1
+    },
+    {
+      "id": "N05",
+      "question": "How can a binary metal trace mask be propagated through multiple resolution levels of a sinogram inpainting network to enable accurate restoration of corrupted projection bins for implants of arbitrary shape and size, while maintaining geometric continuity at the mask boundary?",
+      "target_ids": [
+        "arxiv:1907.00273",
+        "arxiv:1907.00294"
+      ],
+      "target_count": 2,
+      "bm25_ranks": [
+        1,
+        3
+      ],
+      "lsa_ranks": [
+        2,
+        1
+      ],
+      "optimistic_best_ranks": [
+        1,
+        1
+      ],
+      "outside_both_top20": 0,
+      "outside_fraction": 0.0,
+      "mean_best_rank": 1.0,
+      "first_best_rank": 1
+    },
+    {
+      "id": "N12",
+      "question": "How can a lightweight attention module capture informative dependencies along both the spatial and channel dimensions of a convolutional feature map within a single plug-and-play block, by partitioning channels into groups, computing parallel per-group spatial and channel attention weight maps, and restoring cross-group information flow through a channel shuffle, while preserving the input and output tensor shape for direct insertion into ResNet-style backbones?",
+      "target_ids": [
+        "arxiv:2102.00240",
+        "arxiv:2106.08382"
+      ],
+      "target_count": 2,
+      "bm25_ranks": [
+        1,
+        3
+      ],
+      "lsa_ranks": [
+        3,
+        1
+      ],
+      "optimistic_best_ranks": [
+        1,
+        1
+      ],
+      "outside_both_top20": 0,
+      "outside_fraction": 0.0,
+      "mean_best_rank": 1.0,
+      "first_best_rank": 1
+    },
+    {
+      "id": "N20",
+      "question": "How does inserting a depth-wise convolution over the 2D spatial grid of tokens at the expanded intermediate dimension within the feed-forward sublayer of vision transformers affect image classification accuracy, and how do design choices such as network-depth placement, post-convolution non-linearity, and hidden-dimension expansion ratio modulate the benefit?",
+      "target_ids": [
+        "arxiv:2104.05707"
+      ],
+      "target_count": 1,
+      "bm25_ranks": [
+        1
+      ],
+      "lsa_ranks": [
+        3
+      ],
+      "optimistic_best_ranks": [
+        1
+      ],
+      "outside_both_top20": 0,
+      "outside_fraction": 0.0,
+      "mean_best_rank": 1.0,
+      "first_best_rank": 1
+    },
+    {
+      "id": "N27",
+      "question": "In a deep stack of self-attention layers where repeated weighted averaging drives the representation matrix toward rank 1, how does the position-wise non-linear feed-forward transformation resist this collapse, and what is the role of its Lipschitz constant in determining the rate at which token distinguishability is preserved or lost as depth increases?",
+      "target_ids": [
+        "arxiv:2103.03404"
+      ],
+      "target_count": 1,
+      "bm25_ranks": [
+        1
+      ],
+      "lsa_ranks": [
+        35
+      ],
+      "optimistic_best_ranks": [
+        1
+      ],
+      "outside_both_top20": 0,
+      "outside_fraction": 0.0,
+      "mean_best_rank": 1.0,
+      "first_best_rank": 1
+    }
+  ]
+}
