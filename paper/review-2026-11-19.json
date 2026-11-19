@@ -1,0 +1,23 @@
+{
+  "version": "review-2026-11-19",
+  "git_tag": "review-2026-11-19",
+  "source": "paper/main.tex",
+  "pdf": "output/pdf/article-review-2026-11-19.pdf",
+  "pages": 9,
+  "pdf_sha256": "75a63711602b662f5bcd3b6e7370633575c688703cf4145898fee5a7a661deaf",
+  "inputs_sha256": {
+    "paper/main.tex": "5fd04215270c945b0355be5e54fc995b19e293a626f9fcdadc3310a5ed675b12",
+    "paper/references.bib": "3d1779d1020cd429b45670c1ff5fe48b960d8c455a14eb5a96339585b2eda23d",
+    "paper/neurips_2025.sty": "67a960f35da6fecb5a0ce0202fa400459f4c8bb6c294f1a3fdd82fbbd39244c2",
+    "paper/figures/lexical-gap-body_clean.png": "efb2f4c7087dfc10dba0cc6ead11b43bc0ff801da049888a7239a8fc7f76fafd",
+    "paper/figures/lexical-gap-title_abstract.png": "2612717dad03e0751b8ed80b430135ede8df079598abfa5e04ab128881a345da",
+    "paper/figures/lsa-complexity.png": "26005cb3241835e47405fd051b164941c762b1125304194e6321dd2eb46116f1",
+    "paper/figures/search-target-coverage.png": "45cf612129835dd0534bea3039f8ddc4056e34f4d6763f4ac748342e9de30311"
+  },
+  "compiler": "Tectonic 0.17.0",
+  "verification": [
+    "All nine pages rendered and visually inspected",
+    "Fonts embedded",
+    "No missing reference markers or placeholder text observed"
+  ]
+}

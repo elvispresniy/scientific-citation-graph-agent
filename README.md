@@ -24,6 +24,8 @@
 
 ## Статья и результаты
 
+- [PDF для рецензирования — версия от 19 ноября 2026](output/pdf/article-review-2026-11-19.pdf)
+- [Версия и контрольные суммы](paper/review-2026-11-19.json)
 - [Исходник статьи](paper/main.tex)
 - [Результаты и состав опубликованных данных](research/results/README.md)
 - [Таблица исходных и описательных вопросов](research/factory-e2e/question-status-20261115/questions-status.md)

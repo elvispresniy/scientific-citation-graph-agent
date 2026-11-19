@@ -1043,6 +1043,7 @@
 \fi
 \usepackage[english,russian]{babel}
 \usepackage{hyperref}
+\hypersetup{hidelinks}
 \usepackage{url}
 \usepackage{booktabs}
 \usepackage{nicefrac}
@@ -1183,9 +1184,9 @@ LitSearch использует контексты цитирования и за
 \caption{Выход генерации с завершённой проверкой. Положительные пары «вопрос --- статья» определены моделью-судьёй и посчитаны до удаления повторов. Различные тексты определены после нормализации регистра и пробелов.}
 \label{tab:generated-questions}
 \small
-\begin{tabular}{p{0.33\linewidth}rrp{0.22\linewidth}}
+\begin{tabular}{lrrr}
 \toprule
-Серия & Записи & Различные тексты & Положительные пары \\
+Серия & Записи & Различные тексты & \shortstack{Положительные\\пары} \\
 \midrule
 Начальная & 5 & 5 & 24 \\
 Сквозная & 28 & 28 & 62 \\
